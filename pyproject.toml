@@ -1,0 +1,19 @@
+[project]
+name = "iso-pulse-platform"
+version = "0.1.0"
+description = "LangGraph agent layer for ISO-PULSE Mevzuat Radar"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["config*", "schemas*", "nodes*", "mocks*"]
