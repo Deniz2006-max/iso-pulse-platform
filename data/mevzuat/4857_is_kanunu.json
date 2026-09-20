@@ -1,0 +1,1108 @@
+{
+  "documents": [
+    {
+      "document_id": "law:4857",
+      "title": "İş Kanunu",
+      "canonical_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4857.pdf",
+      "current_version_id": "law:4857:sha256:bcf00c7480f59b4a",
+      "included_provisions": [
+        {
+          "provision_id": "law:4857:article:1",
+          "label": "Madde 1",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 1 - Bu Kanunun amacı işverenler ile bir iş sözleşmesine dayanarak çalıştırılan \nişçilerin çalışma şartları ve çalışma ortamına ilişkin hak ve sorumluluklarını düzenlemektir. \nBu Kanun, 4 üncü Maddedeki istisnalar dışında kalan bütün işyerlerine, bu işyerlerinin \nişverenleri ile işveren vekillerine ve işçilerine faaliyet konularına bakılmaksızın uygulanır. \nİşyerleri, işverenler, işveren vekilleri ve işçiler, 3 üncü maddedeki bildirim gününe \nbakılmaksızın bu Kanun hükümleri ile bağlı olurlar. \n \nTanımlar",
+          "normalized_hash": "b2f01902acab1fd8"
+        },
+        {
+          "provision_id": "law:4857:article:2",
+          "label": "Madde 2",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 2 - Bir iş sözleşmesine dayanarak çalışan gerçek kişiye işçi, işçi çalıştıran \ngerçek veya tüzel kişiye yahut tüzel kişiliği olmayan kurum ve kuruluşlara işveren, işçi ile \nişveren arasında kurulan ilişkiye iş ilişkisi denir. İşveren tarafından mal veya hizmet üretmek \namacıyla maddî olan ve olmayan unsurlar ile işçinin birlikte örgütlendiği birime işyeri denir. \nİşverenin işyerinde ürettiği mal veya hizmet ile nitelik yönünden bağlılığı bulunan ve \naynı yönetim altında örgütlenen yerler (işyerine bağlı yerler) ile dinlenme, çocuk emzirme, \nyemek, uyku, yıkanma, muayene ve bakım, beden ve meslekî eğitim ve avlu gibi diğer \neklentiler ve araçlar da işyerinden sayılır. \nİşyeri, işyerine bağlı yerler, eklentiler ve araçlar ile oluşturulan iş organizasyonu \nkapsamında bir bütündür. \n(Ek fıkra: 23/7/2010-6009/48 md.; Mülga dördüncü fıkra: 20/6/2012-6331/37 md.) \nİşveren adına hareket eden ve işin, işyerinin ve işletmenin yönetiminde görev alan \nkimselere işveren vekili denir. İşveren vekilinin bu sıfatla işçilere karşı işlem ve \nyükümlülüklerinden doğrudan işveren sorumludur. \nBu Kanunda işveren için öngörülen her çeşit sorumluluk ve zorunluluklar işveren \nvekilleri hakkında da uygulanır. İşveren vekilliği sıfatı, işçilere tanınan hak ve yükümlülükleri \nortadan kaldırmaz. \nBir işverenden, işyerinde yürüttüğü mal veya hizmet üretimine ilişkin yardımcı işlerinde \nveya asıl işin bir bölümünde işletmenin ve işin gereği ile teknolojik nedenlerle uzmanlık \ngerektiren işlerde iş alan ve bu iş için görevlendirdiği işçilerini sadece bu işyerinde aldığı işte \nçalıştıran diğer işveren ile iş aldığı işveren arasında kurulan ilişkiye asıl işveren-alt işveren \nilişkisi denir. Bu ilişkide asıl işveren, alt işverenin işçilerine karşı o işyeri ile ilgili olarak bu \nKanundan, iş sözleşmesinden veya alt işverenin taraf olduğu toplu iş sözleşmesinden doğan \nyükümlülüklerinden alt işveren ile birlikte sorumludur. \n\nAsıl işverenin işçilerinin alt işveren tarafından işe alınarak çalıştırılmaya devam \nettirilmesi suretiyle hakları kısıtlanamaz veya daha önce o işyerinde çalıştırılan kimse ile alt \nişveren ilişkisi kurulamaz. Aksi halde ve genel olarak asıl işveren alt işveren ilişkisinin \nmuvazaalı işleme dayandığı kabul edilerek alt işverenin işçileri başlangıçtan itibaren asıl \nişverenin işçisi sayılarak işlem görürler. İşletmenin ve işin gereği ile teknolojik nedenlerle \nuzmanlık gerektiren işler dışında asıl iş bölünerek alt işverenlere verilemez. \n(Ek fıkra: 1/7/2006-5538/18 md.) Kanuna veya Cumhurbaşkanlığı kararnamesine \ndayanılarak kurulan kamu kurum ve kuruluşları ile bunların doğrudan veya dolaylı olarak \nsermayesinin en az yüzde ellisine sahip oldukları ortaklıklarda, 4734 sayılı Kamu İhale \nKanunu veya diğer kanun hükümleri çerçevesinde, hizmet alımı amacıyla yapılan sözleşmeler \ngereğince, yüklenici aracılığıyla çalıştırılanlar, bu şekilde çalışmış olmalarına dayanarak;1 \na) Bu kurum, kuruluş ve ortaklıklara ait kadro veya pozisyonlara atanmaya, \nb) Bu kurum, kuruluş ve ortaklıklara ait işyerlerinin kadro veya pozisyonlarında \nçalışanlar için toplu iş sözleşmesi, personel kanunları veya ilgili diğer mevzuat hükümlerine \ngöre belirlenen her türlü malî haklar ile sosyal yardımlardan yararlanmaya, \nhak kazanamazlar. \n(Ek fıkra: 1/7/2006-5538/18 md.) Sekizinci fıkrada belirtilen işyerlerinde yükleniciler \ndışında kalan işverenler tarafından çalıştırılanlar ile bu işyerlerinin tâbi oldukları ihale \nmevzuatı çerçevesinde kendi nam ve hesabına sözleşme yaparak üstlendiği ihale konusu işte \ndoğrudan kendileri çalışanlar da aynı hükümlere tâbidir. Sekizinci fıkrada belirtilen kurum, \nkuruluş veya ortaklıkların sermayesine katıldıkları ortaklıkların kadro veya pozisyonlarında \nçalışan işçilerin, ortak durumundaki kamu kurum, kuruluş veya ortaklıkların kadro veya \npozisyonlarına atanma ya da bu kurum, kuruluş veya ortaklıklarda geçerli olan malî haklar ile \nsosyal yardımlardan yararlanma talepleri hakkında da sekizinci fıkra hükümleri uygulanır. \nHizmet alımına dayanak teşkil edecek sözleşme ve şartnamelere; \na) İşe alınacak kişilerin belirlenmesi ve işten çıkarma yetkisinin kamu kurum, \nkuruluşları ve ortaklıklarına bırakılması, \nb) Hizmet alım sözleşmeleri çerçevesinde ya da geçici işçi olarak aynı iş yerinde daha \nönce çalışmış olanların çalıştırılmasına devam olunması, \nyönünde hükümler konulamaz. \n \nİşyerini bildirme",
+          "normalized_hash": "283ea50cfba1deeb"
+        },
+        {
+          "provision_id": "law:4857:article:3",
+          "label": "Madde 3",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 3 - Bu Kanunun kapsamına giren nitelikte bir işyerini kuran, her ne suretle \nolursa olsun devralan, çalışma konusunu kısmen veya tamamen değiştiren veya herhangi bir \nsebeple faaliyetine son veren ve işyerini kapatan işveren, işyerinin unvan ve adresini, çalıştırılan \nişçi sayısını, çalışma konusunu, işin başlama veya bitme gününü, kendi adını ve soyadını yahut \nunvanını, adresini, varsa işveren vekili veya vekillerinin adı, soyadı ve adreslerini bir ay içinde \nbölge müdürlüğüne bildirmek zorundadır. \n \n1 2/7/2018 tarihli ve 700 sayılı KHK’nin 145 inci maddesiyle, bu fıkrada yer alan “kanunun verdiği \nyetkiye” ibaresi “Cumhurbaşkanlığı kararnamesine” şeklinde değiştirilmiştir. \n\n(Değişik ikinci fıkra: 15/5/2008-5763/1 md.) Bu Kanunun 2 nci maddesinin altıncı \nfıkrasına göre iş alan alt işveren; kendi işyerinin tescili için asıl işverenden aldığı yazılı alt \nişverenlik sözleşmesi ve gerekli belgelerle birlikte, birinci fıkra hükmüne göre bildirim \nyapmakla yükümlüdür. Bölge müdürlüğünce tescili yapılan bu işyerine ait belgeler \ngerektiğinde iş müfettişlerince incelenir. İnceleme sonucunda muvazaalı işlemin tespiti \nhalinde, bu tespite ilişkin gerekçeli müfettiş raporu işverenlere tebliğ edilir. Bu rapora karşı \ntebliğ tarihinden itibaren otuz iş günü içinde işverenlerce yetkili iş mahkemesine itiraz \nedilebilir. (Değişik beşinci cümle: 16/9/2014-6552/1 md.) İtiraz üzerine görülecek olan dava \nbasit yargılama usulüne göre dört ay içinde sonuçlandırılır. Mahkemece verilen kararın \ntemyizi hâlinde Yargıtay altı ay içinde kesin olarak karar verir. Kamu idarelerince bu \nraporlara karşı yetkili iş mahkemelerine itiraz edilmesi ve mahkeme kararlarına karşı diğer \nkanun yollarına başvurulması zorunludur. Rapora otuz iş günü içinde itiraz edilmemiş veya \nmahkeme muvazaalı işlemin tespitini onamış ise tescil işlemi iptal edilir ve alt işverenin \nişçileri başlangıçtan itibaren asıl işverenin işçileri sayılır.23 \n(Ek fıkra:11/6/2003-4884/10 md.) Ancak, şirketlerin tescil kayıtları ise ticaret sicili \nmemurluklarının gönderdiği belgeler üzerinden yapılır ve bu belgeler ilgili ticaret sicili \nmemurluğunca bir ay içinde Çalışma ve Sosyal Güvenlik Bakanlığı ilgili bölge müdürlüklerine \ngönderilir. \n(Ek fıkra: 15/5/2008-5763/1 md.) Asıl işveren-alt işveren ilişkisinin kurulması, \nbildirimi ve işyerinin tescili ile yapılacak sözleşmede bulunması gerekli diğer hususlara ilişkin \nusul ve esaslar, Çalışma ve Sosyal Güvenlik Bakanlığı tarafından çıkarılacak yönetmelikle \nbelirlenir. \n \nİstisnalar",
+          "normalized_hash": "bf1f0e3400b1db55"
+        },
+        {
+          "provision_id": "law:4857:article:4",
+          "label": "Madde 4",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 4 -Aşağıda belirtilen işlerde ve iş ilişkilerinde bu Kanun hükümleri \nuygulanmaz; \na) Deniz ve hava taşıma işlerinde, \nb) 50'den az işçi çalıştırılan (50 dahil) tarım ve orman işlerinin yapıldığı işyerlerinde \nveya işletmelerinde, \nc) Aile ekonomisi sınırları içinde kalan tarımla ilgili her çeşit yapı işleri, \nd) Bir ailenin üyeleri ve 3 üncü dereceye kadar (3 üncü derece dahil) hısımları \narasında dışardan başka biri katılmayarak evlerde ve el sanatlarının yapıldığı işlerde, \ne) Ev hizmetlerinde, \nf) (…)4 çıraklar hakkında, \ng) Sporcular hakkında, \n \n2 10/9/2014 tarihli ve 6552 sayılı Kanunun 1 inci maddesiyle, bu fıkrada yer alan “altı iş günü” \nibareleri “otuz iş günü” şeklinde değiştirilmiştir. \n3 10/9/2014 tarihli ve 6552 sayılı Kanunun 1 inci maddesiyle, bu fıkranın beşinci cümlesinin \ndeğiştirilmesi hüküm altına alınmış olmakla birlikte, iki cümle şeklindeki düzenleme yerine işlenmiştir. \n4 20/6/2012 tarihli ve 6331 sayılı Kanunun 37 nci maddesiyle, bu bentte yer alan “İş sağlığı ve \ngüvenliği hükümleri saklı kalmak üzere” ibaresi madde metninden çıkarılmıştır. \n\nh) Rehabilite edilenler hakkında, \nı) 507 sayılı Esnaf ve Sanatkârlar Kanununun 2 nci maddesinin tarifine uygun üç \nkişinin çalıştığı işyerlerinde. \nŞu kadar ki; \na) Kıyılarda veya liman ve iskelelerde gemilerden karaya ve karadan gemilere yapılan \nyükleme ve boşaltma işleri, \nb) Havacılığın bütün yer tesislerinde yürütülen işler, \nc) Tarım sanatları ile tarım aletleri, makine ve parçalarının yapıldığı atölye ve \nfabrikalarda görülen işler, \nd) Tarım işletmelerinde yapılan yapı işleri, \ne) Halkın faydalanmasına açık veya işyerinin eklentisi durumunda olan park ve bahçe \nişleri, \nf) Deniz İş Kanunu kapsamına girmeyen ve tarım işlerinden sayılmayan, denizlerde \nçalışan su ürünleri üreticileri ile ilgili işler, \nBu Kanun hükümlerine tabidir. \n \nEşit davranma ilkesi",
+          "normalized_hash": "968336a541b398b5"
+        },
+        {
+          "provision_id": "law:4857:article:5",
+          "label": "Madde 5",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 5 – (Ek: 6/2/2014-6518/57 md.) İş ilişkisinde dil, ırk, renk, cinsiyet, \nengellilik, siyasal düşünce, felsefî inanç, din ve mezhep ve benzeri sebeplere dayalı ayrım \nyapılamaz. \nİşveren, esaslı sebepler olmadıkça tam süreli çalışan işçi karşısında kısmî süreli çalışan \nişçiye, belirsiz süreli çalışan işçi karşısında belirli süreli çalışan işçiye farklı işlem yapamaz. \nİşveren, biyolojik veya işin niteliğine ilişkin sebepler zorunlu kılmadıkça, bir işçiye, iş \nsözleşmesinin yapılmasında, şartlarının oluşturulmasında, uygulanmasında ve sona \nermesinde, cinsiyet veya gebelik nedeniyle doğrudan veya dolaylı farklı işlem yapamaz. \nAynı veya eşit değerde bir iş için cinsiyet nedeniyle daha düşük ücret kararlaştırılamaz. \nİşçinin cinsiyeti nedeniyle özel koruyucu hükümlerin uygulanması, daha düşük bir \nücretin uygulanmasını haklı kılmaz. \nİş ilişkisinde veya sona ermesinde yukarıdaki fıkra hükümlerine aykırı davranıldığında \nişçi, dört aya kadar ücreti tutarındaki uygun bir tazminattan başka yoksun bırakıldığı haklarını \nda talep edebilir. 2821 sayılı Sendikalar Kanununun 31 inci maddesi hükümleri saklıdır. \n20 nci madde hükümleri saklı kalmak üzere işverenin yukarıdaki fıkra hükümlerine \naykırı davrandığını işçi ispat etmekle yükümlüdür. Ancak, işçi bir ihlalin varlığı ihtimalini \ngüçlü bir biçimde gösteren bir durumu ortaya koyduğunda, işveren böyle bir ihlalin mevcut \nolmadığını ispat etmekle yükümlü olur. \n \nİşyerinin veya bir bölümünün devri",
+          "normalized_hash": "935276b8950a5d31"
+        },
+        {
+          "provision_id": "law:4857:article:6",
+          "label": "Madde 6",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 6 - İşyeri veya işyerinin bir bölümü hukukî bir işleme dayalı olarak başka \nbirine devredildiğinde, devir tarihinde işyerinde veya bir bölümünde mevcut olan iş \nsözleşmeleri bütün hak ve borçları ile birlikte devralana geçer. \nDevralan işveren, işçinin hizmet süresinin esas alındığı haklarda, işçinin devreden \n\nişveren yanında işe başladığı tarihe göre işlem yapmakla yükümlüdür. \nYukarıdaki hükümlere göre devir halinde, devirden önce doğmuş olan ve devir \ntarihinde ödenmesi gereken borçlardan devreden ve devralan işveren birlikte sorumludurlar. \nAncak bu yükümlülüklerden devreden işverenin sorumluluğu devir tarihinden itibaren iki yıl \nile sınırlıdır. \nTüzel kişiliğin birleşme veya katılma ya da türünün değişmesiyle sona erme halinde \nbirlikte sorumluluk hükümleri uygulanmaz. \nDevreden veya devralan işveren iş sözleşmesini sırf işyerinin veya işyerinin bir \nbölümünün devrinden dolayı feshedemez ve devir işçi yönünden fesih için haklı sebep \noluşturmaz. Devreden veya devralan işverenin ekonomik ve teknolojik sebeplerin yahut iş \norganizasyonu değişikliğinin gerekli kıldığı fesih hakları veya işçi ve işverenlerin haklı \nsebeplerden derhal fesih hakları saklıdır. \nYukarıdaki hükümler, iflas dolayısıyla malvarlığının tasfiyesi sonucu işyerinin veya \nbir bölümünün başkasına devri halinde uygulanmaz. \n \nGeçici iş ilişkisi",
+          "normalized_hash": "82b44f2015f51be0"
+        },
+        {
+          "provision_id": "law:4857:article:7",
+          "label": "Madde 7",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 7 - (Değişik: 6/5/2016-6715/1 md.) \nGeçici iş ilişkisi, özel istihdam bürosu aracılığıyla ya da holding bünyesi içinde veya \naynı şirketler topluluğuna bağlı başka bir işyerinde görevlendirme yapılmak suretiyle \nkurulabilir. \nÖzel istihdam bürosu aracılığıyla geçici iş ilişkisi, Türkiye İş Kurumunca izin verilen \nözel istihdam bürosunun bir işverenle geçici işçi sağlama sözleşmesi yaparak bir işçisini \ngeçici olarak bu işverene devri ile; \na) Bu Kanunun 13 üncü maddesinin beşinci fıkrası ile 74 üncü maddesinde belirtilen \nhâllerde, işçinin askerlik hizmeti hâlinde ve iş sözleşmesinin askıda kaldığı diğer hâllerde, \nb) Mevsimlik tarım işlerinde, \nc) Ev hizmetlerinde, \nd) İşletmenin günlük işlerinden sayılmayan ve aralıklı olarak gördürülen işlerde, \ne) İş sağlığı ve güvenliği bakımından acil olan işlerde veya üretimi önemli ölçüde \netkileyen zorlayıcı nedenlerin ortaya çıkması hâlinde, \nf) İşletmenin ortalama mal ve hizmet üretim kapasitesinin geçici iş ilişkisi kurulmasını \ngerektirecek ölçüde ve öngörülemeyen şekilde artması hâlinde, \ng) Mevsimlik işler hariç dönemsellik arz eden iş artışları hâlinde, \nkurulabilir. \nGeçici işçi sağlama sözleşmesi ikinci fıkranın (a) bendinde sayılan hâllerin devamı \nsüresince, (b) ve (c) bentlerinde sayılan hâllerde süre sınırı olmaksızın, diğer bentlerde sayılan \nhâllerde ise en fazla dört ay süreyle kurulabilir. Yapılan bu sözleşme ikinci fıkranın (g) bendi \nhariç toplam sekiz ayı geçmemek üzere en fazla iki defa yenilenebilir. Geçici işçi çalıştıran \nişveren, belirtilen sürenin sonunda aynı iş için altı ay geçmedikçe yeniden geçici işçi \nçalıştıramaz. \nBu Kanunun 29 uncu maddesi kapsamında toplu işçi çıkarılan işyerlerinde sekiz ay \n\nsüresince, kamu kurum ve kuruluşlarında ve yer altında maden çıkarılan işyerlerinde bu \nmaddenin ikinci fıkrası kapsamında geçici iş ilişkisi kurulamaz. \nGeçici işçi çalıştıran işveren, grev ve lokavtın uygulanması sırasında 18/10/2012 \ntarihli ve 6356 sayılı Sendikalar ve Toplu İş Sözleşmesi Kanununun 65 inci maddesi \nhükümleri saklı kalmak kaydıyla geçici iş ilişkisiyle işçi çalıştıramaz. \nİkinci fıkranın (f) bendi kapsamında geçici iş ilişkisi ile çalıştırılan işçi sayısı, işyerinde \nçalıştırılan işçi sayısının dörtte birini geçemez. Ancak, on ve daha az işçi çalıştırılan işyerlerinde \nbeş işçiye kadar geçici iş ilişkisi kurulabilir. İşçi sayısının tespitinde, kısmi süreli iş \nsözleşmesine göre çalışanlar, çalışma süreleri dikkate alınarak tam süreli çalışmaya \ndönüştürülür. Geçici işçi sağlama sözleşmesi ile çalışan işçi, 30 uncu maddenin uygulanmasında \nözel istihdam bürosu ve geçici işçi çalıştıran işverenin işçi sayısına dâhil edilmez. \nGeçici işçi çalıştıran işveren, iş sözleşmesi feshedilen işçisini fesih tarihinden itibaren \naltı ay geçmeden geçici iş ilişkisi kapsamında çalıştıramaz. \nGeçici işçi, geçici işçi çalıştıran işverenden özel istihdam bürosunun hizmet bedeline \nmahsup edilmek üzere avans veya borç alamaz. \nGeçici işçi çalıştıran işveren; \na) İşin gereği ve geçici işçi sağlama sözleşmesine uygun olarak geçici işçisine talimat \nverme yetkisine sahiptir. \nb) İşyerindeki açık iş pozisyonlarını geçici işçisine bildirmek ve Türkiye İş Kurumu \ntarafından istenecek belgeleri belirlenen sürelerle saklamakla yükümlüdür. \nc) Geçici işçinin iş kazası ve meslek hastalığı hâllerini özel istihdam bürosuna derhâl, \n31/5/2006 tarihli ve 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanununun 13 \nüncü ve 14 üncü maddelerine göre ilgili mercilere bildirmekle yükümlüdür. \nd) Geçici işçileri çalıştıkları dönemlerde, işyerindeki sosyal hizmetlerden eşit muamele \nilkesince yararlandırır. Geçici işçiler, çalışmadıkları dönemlerde ise özel istihdam \nbürosundaki eğitim ve çocuk bakım hizmetlerinden yararlandırılır. \ne) İşyerindeki geçici işçilerin istihdam durumuna ilişkin bilgileri varsa işyeri sendika \ntemsilcisine bildirmekle yükümlüdür. \nf) 20/6/2012 tarihli ve 6331 sayılı İş Sağlığı ve Güvenliği Kanununun 17 nci \nmaddesinin altıncı fıkrasında öngörülen eğitimleri vermekle ve iş sağlığı ve güvenliği \naçısından gereken tedbirleri almakla, geçici işçi de bu eğitimlere katılmakla yükümlüdür. \nGeçici işçinin, geçici işçiyi çalıştıran işverenin işyerindeki çalışma süresince temel \nçalışma koşulları, bu işçilerin aynı işveren tarafından aynı iş için doğrudan istihdamı hâlinde \nsağlanacak koşulların altında olamaz. \nGeçici iş ilişkisinde işveren özel istihdam bürosudur. Özel istihdam bürosu aracılığıyla \ngeçici iş ilişkisi, geçici işçi ile iş sözleşmesi, geçici işçi çalıştıran işveren ile geçici işçi \nsağlama sözleşmesi yapmak suretiyle yazılı olarak kurulur. Özel istihdam bürosu ile geçici \nişçi çalıştıran işveren arasında yapılacak geçici işçi sağlama sözleşmesinde; sözleşmenin \nbaşlangıç ve bitiş tarihi, işin niteliği, özel istihdam bürosunun hizmet bedeli, varsa geçici işçi \n\nçalıştıran işverenin ve özel istihdam bürosunun özel yükümlülükleri yer alır. Geçici işçinin, \nTürkiye İş Kurumundan veya bir başka özel istihdam bürosundan hizmet almasını ya da iş \ngörme edimini yerine getirdikten sonra geçici işçi olarak çalıştığı işveren veya farklı bir \nişverenin işyerinde çalışmasını engelleyen hükümler konulamaz. Geçici işçi ile yapılacak iş \nsözleşmesinde, işçinin ne kadar süre içerisinde işe çağrılmazsa haklı nedenle iş sözleşmesini \nfeshedebileceği belirtilir. Bu süre üç ayı geçemez. \nİkinci fıkranın (f) bendi kapsamında kurulan geçici iş ilişkisinde, geçici işçi çalıştıran \nişveren işyerinde bir ayın üzerinde çalışan geçici işçilerin ücretlerinin ödenip ödenmediğini \nçalıştığı süre boyunca her ay kontrol etmekle, özel istihdam bürosu ise ücretin ödendiğini \ngösteren belgeleri aylık olarak geçici işçi çalıştıran işverene ibraz etmekle yükümlüdür. \nGeçici işçi çalıştıran işveren, ödenmeyen ücretler mevcut ise bunlar ödenene kadar özel \nistihdam bürosunun alacağını ödemeyerek, özel istihdam bürosunun alacağından mahsup \netmek kaydıyla geçici işçilerin en çok üç aya kadar olan ücretlerini doğrudan işçilerin banka \nhesabına yatırır. Ücreti ödenmeyen işçiler ve ödenmeyen ücret tutarları geçici işçi çalıştıran \nişveren tarafından çalışma ve iş kurumu il müdürlüğüne bildirilir. \nSözleşmede belirtilen sürenin dolmasına rağmen geçici iş ilişkisinin devam etmesi \nhâlinde, geçici işçi çalıştıran işveren ile işçi arasında sözleşmenin sona erme tarihinden \nitibaren belirsiz süreli iş sözleşmesi kurulmuş sayılır. Bu durumda özel istihdam bürosu \nişçinin geçici iş ilişkisinden kaynaklanan ücretinden, işçiyi gözetme borcundan ve sosyal \nsigorta primlerinden sözleşme süresiyle sınırlı olmak üzere sorumludur. \nGeçici işçi, işyerine ve işe ilişkin olmak kaydıyla kusuru ile neden olduğu zarardan, \ngeçici işçi çalıştıran işverene karşı sorumludur. \nİşverenin, devir sırasında yazılı rızasını almak suretiyle bir işçisini, holding bünyesi \niçinde veya aynı şirketler topluluğuna bağlı başka bir işyerinde iş görme edimini yerine \ngetirmek üzere geçici olarak devretmesi hâlinde de geçici iş ilişkisi kurulmuş olur. Bu fıkra \nkapsamında geçici iş ilişkisi, yazılı olarak altı ayı geçmemek üzere kurulabilir ve en fazla iki \ndefa yenilenebilir. İşçisini geçici olarak devreden işverenin ücret ödeme yükümlülüğü devam \neder. Geçici iş ilişkisi kurulan işveren, işçinin kendisinde çalıştığı sürede ödenmeyen \nücretinden, işçiyi gözetme borcundan ve sosyal sigorta primlerinden, devreden işveren ile \nbirlikte sorumludur. Dördüncü, beşinci, onuncu ve on dördüncü fıkralar ve dokuzuncu \nfıkranın (a) ve (f) bentleri ile (d) bendinin birinci cümlesinde düzenlenen hak ve \nyükümlülükler bu fıkraya göre kurulan geçici iş ilişkisinde de uygulanır. \n \nİKİNCİ BÖLÜM \nİş Sözleşmesi, Türleri ve Feshi \nTanım ve şekil",
+          "normalized_hash": "de86bfa0b0342e7d"
+        },
+        {
+          "provision_id": "law:4857:article:8",
+          "label": "Madde 8",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 8 - İş sözleşmesi, bir tarafın (işçi) bağımlı olarak iş görmeyi, diğer tarafın \n(işveren) da ücret ödemeyi üstlenmesinden oluşan sözleşmedir. İş sözleşmesi, Kanunda aksi \nbelirtilmedikçe, özel bir şekle tâbi değildir. \nSüresi bir yıl ve daha fazla olan iş sözleşmelerinin yazılı şekilde yapılması zorunludur. \n\nBu belgeler damga vergisi ve her çeşit resim ve harçtan muaftır. \nYazılı sözleşme yapılmayan hallerde işveren işçiye en geç iki ay içinde genel ve özel \nçalışma koşullarını, günlük ya da haftalık çalışma süresini, temel ücreti ve varsa ücret \neklerini, ücret ödeme dönemini, süresi belirli ise sözleşmenin süresini, fesih halinde tarafların \nuymak zorunda oldukları hükümleri gösteren yazılı bir belge vermekle yükümlüdür. Süresi bir \nayı geçmeyen belirli süreli iş sözleşmelerinde bu fıkra hükmü uygulanmaz. İş sözleşmesi iki \naylık süre dolmadan sona ermiş ise, bu bilgilerin en geç sona erme tarihinde işçiye yazılı \nolarak verilmesi zorunludur. \n \nTürü ve çalışma biçimlerini belirleme serbestisi",
+          "normalized_hash": "6031c0a26d78f94d"
+        },
+        {
+          "provision_id": "law:4857:article:9",
+          "label": "Madde 9",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 9 - Taraflar iş sözleşmesini, Kanun hükümleriyle getirilen sınırlamalar saklı \nkalmak koşuluyla, ihtiyaçlarına uygun türde düzenleyebilirler. \nİş sözleşmeleri belirli veya belirsiz süreli yapılır. Bu sözleşmeler çalışma biçimleri \nbakımından tam süreli veya kısmî süreli yahut deneme süreli ya da diğer türde oluşturulabilir. \n \nSürekli ve süreksiz işlerdeki iş sözleşmeleri",
+          "normalized_hash": "2dccbf6afa615ee7"
+        },
+        {
+          "provision_id": "law:4857:article:10",
+          "label": "Madde 10",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 10 - Nitelikleri bakımından en çok otuz iş günü süren işlere süreksiz iş, \nbundan fazla devam edenlere sürekli iş denir. \nBu Kanunun 3, 8, 12, 13, 14, 15, 17, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 53, 54, 55, 56, \n57, 58, 59, 75, 80 ve geçici 6 ncı maddeleri süreksiz işlerde yapılan iş sözleşmelerinde \nuygulanmaz. Süreksiz işlerde, bu maddelerde düzenlenen konularda Borçlar Kanunu hükümleri \nuygulanır. \n \nBelirli ve belirsiz süreli iş sözleşmesi",
+          "normalized_hash": "eb53d1f6a6331071"
+        },
+        {
+          "provision_id": "law:4857:article:11",
+          "label": "Madde 11",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 11 - İş ilişkisinin bir süreye bağlı olarak yapılmadığı halde sözleşme belirsiz \nsüreli sayılır. Belirli süreli işlerde veya belli bir işin tamamlanması veya belirli bir olgunun \nortaya çıkması gibi objektif koşullara bağlı olarak işveren ile işçi arasında yazılı şekilde \nyapılan iş sözleşmesi belirli süreli iş sözleşmesidir. \nBelirli süreli iş sözleşmesi, esaslı bir neden olmadıkça, birden fazla üst üste (zincirleme) \nyapılamaz. Aksi halde iş sözleşmesi başlangıçtan itibaren belirsiz süreli kabul edilir. \nEsaslı nedene dayalı zincirleme iş sözleşmeleri, belirli süreli olma özelliğini korurlar. \n \nBelirli ve belirsiz süreli iş sözleşmesi ayırımın sınırları",
+          "normalized_hash": "84b909521d0e6e13"
+        },
+        {
+          "provision_id": "law:4857:article:12",
+          "label": "Madde 12",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 12 - Belirli süreli iş sözleşmesi ile çalıştırılan işçi, ayırımı haklı kılan bir neden \nolmadıkça, salt iş sözleşmesinin süreli olmasından dolayı belirsiz süreli iş sözleşmesiyle \nçalıştırılan emsal işçiye göre farklı işleme tâbi tutulamaz. \nBelirli süreli iş sözleşmesi ile çalışan işçiye, belirli bir zaman ölçüt alınarak ödenecek \n\nücret ve paraya ilişkin bölünebilir menfaatler, işçinin çalıştığı süreye orantılı olarak verilir. \nHerhangi bir çalışma şartından yararlanmak için aynı işyeri veya işletmede geçirilen kıdem \narandığında belirli süreli iş sözleşmesine göre çalışan işçi için farklı kıdem uygulanmasını \nhaklı gösteren bir neden olmadıkça, belirsiz süreli iş sözleşmesi ile çalışan emsal işçi \nhakkında esas alınan kıdem uygulanır. \nEmsal işçi, işyerinde aynı veya benzeri işte belirsiz süreli iş sözleşmesiyle çalıştırılan \nişçidir. İşyerinde böyle bir işçi bulunmadığı takdirde, o işkolunda şartlara uygun bir işyerinde \naynı veya benzer işi üstlenen belirsiz süreli iş sözleşmesiyle çalıştırılan işçi dikkate alınır. \n \nKısmî süreli ve tam süreli iş sözleşmesi",
+          "normalized_hash": "7086ae65ff9df5eb"
+        },
+        {
+          "provision_id": "law:4857:article:13",
+          "label": "Madde 13",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 13 - İşçinin normal haftalık çalışma süresinin, tam süreli iş sözleşmesiyle \nçalışan emsal işçiye göre önemli ölçüde daha az belirlenmesi durumunda sözleşme kısmî \nsüreli iş sözleşmesidir. \nKısmî süreli iş sözleşmesi ile çalıştırılan işçi, ayırımı haklı kılan bir neden olmadıkça, \nsalt iş sözleşmesinin kısmî süreli olmasından dolayı tam süreli emsal işçiye göre farklı işleme \ntâbi tutulamaz. Kısmî süreli çalışan işçinin ücret ve paraya ilişkin bölünebilir menfaatleri, tam \nsüreli emsal işçiye göre çalıştığı süreye orantılı olarak ödenir. \nEmsal işçi, işyerinde aynı veya benzeri işte tam süreli çalıştırılan işçidir. İşyerinde \nböyle bir işçi bulunmadığı takdirde, o işkolunda şartlara uygun işyerinde aynı veya benzer işi \nüstlenen tam süreli iş sözleşmesiyle çalıştırılan işçi esas alınır. \nİşyerinde çalışan işçilerin, niteliklerine uygun açık yer bulunduğunda kısmî süreliden \ntam süreliye veya tam süreliden kısmî süreliye geçirilme istekleri işverence dikkate alınır ve \nboş yerler zamanında duyurulur. \n(Ek fıkra: 29/1/2016-6663/21 md.) Bu kanunun 74 üncü maddesinde öngörülen izinlerin \nbitiminden sonra mecburi ilköğretim çağının başladığı tarihi takip eden ay başına kadar bu \nmaddeye göre ebeveynlerden biri kısmi süreli çalışma talebinde bulunabilir. Bu talep işveren \ntarafından karşılanır ve geçerli fesih nedeni sayılmaz. Bu fıkra kapsamında kısmi süreli çalışmaya \nbaşlayan işçi, aynı çocuk için bir daha bu haktan faydalanmamak üzere tam zamanlı çalışmaya \ndönebilir. Kısmi süreli çalışmaya geçen işçinin tam zamanlı çalışmaya başlaması durumunda \nyerine işe alınan işçinin iş sözleşmesi kendiliğinden sona erer. Bu haktan faydalanmak veya tam \nzamanlı çalışmaya geri dönmek isteyen işçi işverene bunu en az bir ay önce yazılı olarak bildirir. \nEbeveynlerden birinin çalışmaması hâlinde, çalışan eş kısmi süreli çalışma talebinde bulunamaz. \nÜç yaşını doldurmamış bir çocuğu eşiyle birlikte veya münferiden evlat edinenler de çocuğun \nfiilen teslim edildiği tarihten itibaren bu haktan faydalanır. \n(Ek fıkra: 29/1/2016-6663/21 md.) Beşinci fıkra kapsamında hangi sektör veya \nişlerde kısmi çalışma yapılabileceği ile uygulamaya ilişkin usul ve esaslar Çalışma ve Sosyal \nGüvenlik Bakanlığınca çıkarılacak yönetmelikle belirlenir. \n \n\nÇağrı üzerine çalışma ve uzaktan çalışma5",
+          "normalized_hash": "aabb12489a4ba050"
+        },
+        {
+          "provision_id": "law:4857:article:14",
+          "label": "Madde 14",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 14 - Yazılı sözleşme ile işçinin yapmayı üstlendiği işle ilgili olarak kendisine \nihtiyaç duyulması halinde iş görme ediminin yerine getirileceğinin kararlaştırıldığı iş ilişkisi, \nçağrı üzerine çalışmaya dayalı kısmi süreli bir iş sözleşmesidir. \nHafta, ay veya yıl gibi bir zaman dilimi içinde işçinin ne kadar süreyle çalışacağını \ntaraflar belirlemedikleri takdirde, haftalık çalışma süresi yirmi saat kararlaştırılmış sayılır. \nÇağrı üzerine çalıştırılmak için belirlenen sürede işçi çalıştırılsın veya çalıştırılmasın ücrete \nhak kazanır. \nİşçiden iş görme borcunu yerine getirmesini çağrı yoluyla talep hakkına sahip olan \nişveren, bu çağrıyı, aksi kararlaştırılmadıkça, işçinin çalışacağı zamandan en az dört gün önce \nyapmak zorundadır. Süreye uygun çağrı üzerine işçi iş görme edimini yerine getirmekle \nyükümlüdür. Sözleşmede günlük çalışma süresi kararlaştırılmamış ise, işveren her çağrıda \nişçiyi günde en az dört saat üst üste çalıştırmak zorundadır. \n(Ek fıkra: 6/5/2016-6715/2 md.) Uzaktan çalışma; işçinin, işveren tarafından \noluşturulan iş organizasyonu kapsamında iş görme edimini evinde ya da teknolojik iletişim \naraçları ile işyeri dışında yerine getirmesi esasına dayalı ve yazılı olarak kurulan iş ilişkisidir. \n(Ek fıkra: 6/5/2016-6715/2 md.) Dördüncü fıkraya göre yapılacak iş sözleşmesinde; \nişin tanımı, yapılma şekli, işin süresi ve yeri, ücret ve ücretin ödenmesine ilişkin hususlar, \nişveren tarafından sağlanan ekipman ve bunların korunmasına ilişkin yükümlülükler, \nişverenin işçiyle iletişim kurması ile genel ve özel çalışma şartlarına ilişkin hükümler yer alır. \n(Ek fıkra: 6/5/2016-6715/2 md.) Uzaktan çalışmada işçiler, esaslı neden olmadıkça \nsalt iş sözleşmesinin niteliğinden ötürü emsal işçiye göre farklı işleme tabi tutulamaz. İşveren, \nuzaktan çalışma ilişkisiyle iş verdiği çalışanın yaptığı işin niteliğini dikkate alarak iş sağlığı \nve güvenliği önlemleri hususunda çalışanı bilgilendirmek, gerekli eğitimi vermek, sağlık \ngözetimini sağlamak ve sağladığı ekipmanla ilgili gerekli iş güvenliği tedbirlerini almakla \nyükümlüdür. \n(Ek fıkra: 6/5/2016-6715/2 md.) Uzaktan çalışmanın usul ve esasları, işin niteliği \ndikkate alınarak hangi işlerde uzaktan çalışmanın yapılamayacağı, verilerin korunması ve \npaylaşılmasına ilişkin işletme kurallarının uygulanması ile diğer hususlar Çalışma ve Sosyal \nGüvenlik Bakanlığı tarafından çıkarılan yönetmelikle belirlenir. \n \nDeneme süreli iş sözleşmesi",
+          "normalized_hash": "6c22decf75c9322c"
+        },
+        {
+          "provision_id": "law:4857:article:15",
+          "label": "Madde 15",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 15 - Taraflarca iş sözleşmesine bir deneme kaydı konulduğunda, bunun süresi \nen çok iki ay olabilir. Ancak deneme süresi toplu iş sözleşmeleriyle dört aya kadar uzatılabilir. \nDeneme süresi içinde taraflar iş sözleşmesini bildirim süresine gerek olmaksızın ve \ntazminatsız feshedebilir. İşçinin çalıştığı günler için ücret ve diğer hakları saklıdır. \n \n \n5 6/5/2016 tarih ve 6715 sayılı Kanınun 2 nci maddesiyle bu madde başlığı “Çağrı üzerine çalışma” \niken metne işlendiği şekilde değiştirilmiştir. \n\nTakım sözleşmesi ile oluşturulan iş sözleşmeleri",
+          "normalized_hash": "9d4a96870f302b2e"
+        },
+        {
+          "provision_id": "law:4857:article:16",
+          "label": "Madde 16",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 16 - Birden çok işçinin meydana getirdiği bir takımı temsilen bu işçilerden \nbirinin, takım kılavuzu sıfatıyla işverenle yaptığı sözleşmeye takım sözleşmesi denir. \nTakım sözleşmesinin, oluşturulacak iş sözleşmeleri için hangi süre kararlaştırılmış \nolursa olsun, yazılı yapılması gerekir. Sözleşmede her işçinin kimliği ve alacağı ücret ayrı ayrı \ngösterilir. \nTakım sözleşmesinde isimleri yazılı işçilerden her birinin işe başlamasıyla, o işçi ile \nişveren arasında takım sözleşmesinde belirlenen şartlarla bir iş sözleşmesi yapılmış sayılır. \nAncak, takım sözleşmesi hakkında Borçlar Kanununun 110 uncu maddesi hükmü de \nuygulanır. \nİşe başlamasıyla iş sözleşmesi kurulan işçilere ücretlerini işveren veya işveren vekili \nher birine ayrı ayrı ödemek zorundadır. Takım kılavuzu için, takıma dahil işçilerin \nücretlerinden işe aracılık veya benzeri bir nedenle kesinti yapılamaz. \n \nSüreli fesih",
+          "normalized_hash": "7f2485b564964aba"
+        },
+        {
+          "provision_id": "law:4857:article:17",
+          "label": "Madde 17",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 17 - Belirsiz süreli iş sözleşmelerinin feshinden önce durumun diğer tarafa \nbildirilmesi gerekir. \nİş sözleşmeleri; \na) İşi altı aydan az sürmüş olan işçi için, bildirimin diğer tarafa yapılmasından \nbaşlayarak iki hafta sonra, \nb) İşi altı aydan birbuçuk yıla kadar sürmüş olan işçi için, bildirimin diğer tarafa \nyapılmasından başlayarak dört hafta sonra, \nc) İşi birbuçuk yıldan üç yıla kadar sürmüş olan işçi için, bildirimin diğer tarafa \nyapılmasından başlayarak altı hafta sonra, \nd) İşi üç yıldan fazla sürmüş işçi için, bildirim yapılmasından başlayarak sekiz hafta \nsonra, \nfeshedilmiş sayılır. \nBu süreler asgari olup sözleşmeler ile artırılabilir. \nBildirim şartına uymayan taraf, bildirim süresine ilişkin ücret tutarında tazminat \nödemek zorundadır. \nİşveren bildirim süresine ait ücreti peşin vermek suretiyle iş sözleşmesini feshedebilir. \nİşverenin bildirim şartına uymaması veya bildirim süresine ait ücreti peşin ödeyerek \nsözleşmeyi feshetmesi, bu Kanunun 18, 19, 20 ve 21 inci maddesi hükümlerinin \nuygulanmasına engel olmaz. 18 inci maddenin birinci fıkrası uyarınca bu Kanunun 18, 19, 20 \nve 21 inci maddelerinin uygulanma alanı dışında kalan işçilerin iş sözleşmesinin, fesih \nhakkının kötüye kullanılarak sona erdirildiği durumlarda işçiye bildirim süresinin üç katı \ntutarında tazminat ödenir. Fesih için bildirim şartına da uyulmaması ayrıca dördüncü fıkra \nuyarınca tazminat ödenmesini gerektirir. \n\nBu maddeye göre ödenecek tazminatlar ile bildirim sürelerine ait peşin ödenecek \nücretin hesabında 32 nci maddenin birinci fıkrasında yazılan ücrete ek olarak işçiye sağlanmış \npara veya para ile ölçülmesi mümkün sözleşme ve Kanundan doğan menfaatler de göz önünde \ntutulur. \n \nFeshin geçerli sebebe dayandırılması",
+          "normalized_hash": "b871eccf986ea97b"
+        },
+        {
+          "provision_id": "law:4857:article:18",
+          "label": "Madde 18",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 18 - Otuz veya daha fazla işçi çalıştıran işyerlerinde en az altı aylık kıdemi \nolan işçinin belirsiz süreli iş sözleşmesini fesheden işveren, işçinin yeterliliğinden veya \ndavranışlarından ya da işletmenin, işyerinin veya işin gereklerinden kaynaklanan geçerli bir \nsebebe dayanmak zorundadır. (Ek cümle: 10/9/2014-6552/2 md.) Yer altı işlerinde çalışan \nişçilerde kıdem şartı aranmaz. \nAltı aylık kıdem hesabında bu Kanunun 66 ncı maddesindeki süreler dikkate alınır. \nÖzellikle aşağıdaki hususlar fesih için geçerli bir sebep oluşturmaz: \na) Sendika üyeliği veya çalışma saatleri dışında veya işverenin rızası ile çalışma \nsaatleri içinde sendikal faaliyetlere katılmak. \nb) İşyeri sendika temsilciliği yapmak. \nc) Mevzuattan veya sözleşmeden doğan haklarını takip veya yükümlülüklerini yerine \ngetirmek için işveren aleyhine idari veya adli makamlara başvurmak veya bu hususta \nbaşlatılmış sürece katılmak.6 \nd) Irk, renk, cinsiyet, medeni hal, aile yükümlülükleri, hamilelik, doğum, din, siyasi \ngörüş ve benzeri nedenler. \ne) 74 üncü maddede öngörülen ve kadın işçilerin çalıştırılmasının yasak olduğu \nsürelerde işe gelmemek. \nf) Hastalık veya kaza nedeniyle 25 inci maddenin (I) numaralı bendinin (b) alt \nbendinde öngörülen bekleme süresinde işe geçici devamsızlık. \nİşçinin altı aylık kıdemi, aynı işverenin bir veya değişik işyerlerinde geçen süreler \nbirleştirilerek hesap edilir. İşverenin aynı işkolunda birden fazla işyerinin bulunması halinde, \nişyerinde çalışan işçi sayısı, bu işyerlerinde çalışan toplam işçi sayısına göre belirlenir. \nİşletmenin bütününü sevk ve idare eden işveren vekili ve yardımcıları ile işyerinin \nbütününü sevk ve idare eden ve işçiyi işe alma ve işten çıkarma yetkisi bulunan işveren \nvekilleri hakkında bu madde, 19 ve 21 inci maddeler ile 25 inci maddenin son fıkrası \nuygulanmaz. \n \nSözleşmenin feshinde usul",
+          "normalized_hash": "a2f22f0cf59ac435"
+        },
+        {
+          "provision_id": "law:4857:article:19",
+          "label": "Madde 19",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 19 - İşveren fesih bildirimini yazılı olarak yapmak ve fesih sebebini açık ve \nkesin bir şekilde belirtmek zorundadır. \n \n6 18/2/2009 tarihli ve 5838 sayılı Kanunun 32 nci maddesiyle; bu bentte yer alan “Mevzuattan veya \nsözleşmeden doğan haklarını takip” ibaresinden sonra gelmek üzere “veya yükümlülüklerini yerine \ngetirmek” ibaresi eklenmiştir. \n\nHakkındaki iddialara karşı savunmasını almadan bir işçinin belirsiz süreli iş \nsözleşmesi, o işçinin davranışı veya verimi ile ilgili nedenlerle feshedilemez. Ancak, işverenin \n25 inci maddenin (II) numaralı bendi şartlarına uygun fesih hakkı saklıdır. \n \nFesih bildirimine itiraz ve usulü",
+          "normalized_hash": "97f1506ed4af5859"
+        },
+        {
+          "provision_id": "law:4857:article:20",
+          "label": "Madde 20",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 20 – (Değişik birinci fıkra: 12/10/2017-7036/11 md.) İş sözleşmesi \nfeshedilen işçi, fesih bildiriminde sebep gösterilmediği veya gösterilen sebebin geçerli bir \nsebep olmadığı iddiası ile fesih bildiriminin tebliği tarihinden itibaren bir ay içinde işe iade \ntalebiyle, İş Mahkemeleri Kanunu hükümleri uyarınca arabulucuya başvurmak zorundadır. \nArabuluculuk faaliyeti sonunda anlaşmaya varılamaması hâlinde, son tutanağın düzenlendiği \ntarihten itibaren, iki hafta içinde iş mahkemesinde dava açılabilir. Taraflar anlaşırlarsa \nuyuşmazlık aynı sürede iş mahkemesi yerine özel hakeme de götürülebilir. Arabulucuya \nbaşvurmaksızın doğrudan dava açılması sebebiyle davanın usulden reddi hâlinde ret kararı \ntaraflara resen tebliğ edilir. Kesinleşen ret kararının da resen tebliğinden itibaren iki hafta \niçinde arabulucuya başvurulabilir. \nFeshin geçerli bir sebebe dayandığını ispat yükümlülüğü işverene aittir. İşçi, feshin \nbaşka bir sebebe dayandığını iddia ettiği takdirde, bu iddiasını ispatla yükümlüdür. \n(Değişik üçüncü fıkra: 12/10/2017-7036/11 md.) Dava ivedilikle sonuçlandırılır. \nMahkemece verilen karar hakkında istinaf yoluna başvurulması hâlinde, bölge adliye \nmahkemesi ivedilikle ve kesin olarak karar verir. \n(İptal dördüncü fıkra: Anayasa Mahkemesinin 19/10/2005 tarihli ve E.:2003/66, \nK.:2005/72 sayılı Kararı ile.) \n \nGeçersiz sebeple yapılan feshin sonuçları",
+          "normalized_hash": "104dd37c9582c7d4"
+        },
+        {
+          "provision_id": "law:4857:article:21",
+          "label": "Madde 21",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 21 - İşverence geçerli sebep gösterilmediği veya gösterilen sebebin geçerli \nolmadığı mahkemece veya özel hakem tarafından tespit edilerek feshin geçersizliğine karar \nverildiğinde, işveren, işçiyi bir ay içinde işe başlatmak zorundadır. İşçiyi başvurusu üzerine \nişveren bir ay içinde işe başlatmaz ise, işçiye en az dört aylık ve en çok sekiz aylık ücreti \ntutarında tazminat ödemekle yükümlü olur. \nMahkeme veya özel hakem feshin geçersizliğine karar verdiğinde, işçinin işe \nbaşlatılmaması halinde ödenecek tazminat miktarını da belirler. \nKararın kesinleşmesine kadar çalıştırılmadığı süre için işçiye en çok dört aya kadar \ndoğmuş bulunan ücret ve diğer hakları ödenir. \n(Ek fıkra: 12/10/2017-7036/12 md.) Mahkeme veya özel hakem, ikinci fıkrada \ndüzenlenen tazminat ile üçüncü fıkrada düzenlenen ücret ve diğer hakları, dava tarihindeki \nücreti esas alarak parasal olarak belirler. \nİşçi işe başlatılırsa, peşin olarak ödenen bildirim süresine ait ücret ile kıdem tazminatı, \nyukarıdaki fıkra hükümlerine göre yapılacak ödemeden mahsup edilir. İşe başlatılmayan \nişçiye bildirim süresi verilmemiş veya bildirim süresine ait ücret peşin ödenmemişse, bu \nsürelere ait ücret tutarı ayrıca ödenir. \n\nİşçi kesinleşen mahkeme veya özel hakem kararının tebliğinden itibaren on işgünü \niçinde işe başlamak için işverene başvuruda bulunmak zorundadır. İşçi bu süre içinde \nbaşvuruda bulunmaz ise, işverence yapılmış olan fesih geçerli bir fesih sayılır ve işveren \nsadece bunun hukuki sonuçları ile sorumlu olur. \n(Ek fıkra: 12/10/2017-7036/12 md.) Arabuluculuk faaliyeti sonunda tarafların, işçinin \nişe başlatılması konusunda anlaşmaları hâlinde; \na) İşe başlatma tarihini, \nb) Üçüncü fıkrada düzenlenen ücret ve diğer hakların parasal miktarını, \nc) İşçinin işe başlatılmaması durumunda ikinci fıkrada düzenlenen tazminatın parasal \nmiktarını, \nbelirlemeleri zorunludur. Aksi takdirde anlaşma sağlanamamış sayılır ve son tutanak \nbuna göre düzenlenir. İşçinin kararlaştırılan tarihte işe başlamaması hâlinde fesih geçerli hâle \ngelir ve işveren sadece bunun hukuki sonuçları ile sorumlu olur. \nBu maddenin birinci, ikinci ve üçüncü fıkra hükümleri sözleşmeler ile hiçbir suretle \ndeğiştirilemez; aksi yönde sözleşme hükümleri geçersizdir. \n \nÇalışma koşullarında değişiklik ve iş sözleşmesinin feshi",
+          "normalized_hash": "6fa6e08567e07490"
+        },
+        {
+          "provision_id": "law:4857:article:22",
+          "label": "Madde 22",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 22 - İşveren, iş sözleşmesiyle veya iş sözleşmesinin eki niteliğindeki personel \nyönetmeliği ve benzeri kaynaklar ya da işyeri uygulamasıyla oluşan çalışma koşullarında \nesaslı bir değişikliği ancak durumu işçiye yazılı olarak bildirmek suretiyle yapabilir. Bu şekle \nuygun olarak yapılmayan ve işçi tarafından altı işgünü içinde yazılı olarak kabul edilmeyen \ndeğişiklikler işçiyi bağlamaz. İşçi değişiklik önerisini bu süre içinde kabul etmezse, işveren \ndeğişikliğin geçerli bir nedene dayandığını veya fesih için başka bir geçerli nedenin \nbulunduğunu yazılı olarak açıklamak ve bildirim süresine uymak suretiyle iş sözleşmesini \nfeshedebilir. İşçi bu durumda 17 ila 21 inci madde hükümlerine göre dava açabilir. \nTaraflar aralarında anlaşarak çalışma koşullarını her zaman değiştirebilir. Çalışma \nkoşullarında değişiklik geçmişe etkili olarak yürürlüğe konulamaz. \n \nYeni işverenin sorumluluğu",
+          "normalized_hash": "82bb3af4f753c91d"
+        },
+        {
+          "provision_id": "law:4857:article:23",
+          "label": "Madde 23",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 23 - Süresi belirli olan veya olmayan sürekli iş sözleşmesi ile bir işverenin işine \ngirmiş olan işçi, sözleşme süresinin bitmesinden önce yahut bildirim süresine uymaksızın işini \nbırakıp başka bir işverenin işine girerse sözleşmenin bu suretle feshinden ötürü, işçinin \nsorumluluğu yanında, ayrıca yeni işveren de aşağıdaki hallerde birlikte sorumludur: \na) İşçinin bu davranışına, yeni işe girdiği işveren sebep olmuşsa. \nb) Yeni işveren, işçinin bu davranışını bilerek onu işe almışsa. \nc) Yeni işveren işçinin bu davranışını öğrendikten sonra dahi onu çalıştırmaya devam \nederse. \n \n\nİşçinin haklı nedenle derhal fesih hakkı",
+          "normalized_hash": "b4217a875cb48eec"
+        },
+        {
+          "provision_id": "law:4857:article:24",
+          "label": "Madde 24",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 24 - Süresi belirli olsun veya olmasın işçi, aşağıda yazılı hallerde iş \nsözleşmesini sürenin bitiminden önce veya bildirim süresini beklemeksizin feshedebilir: \nI. Sağlık sebepleri: \na) İş sözleşmesinin konusu olan işin yapılması işin niteliğinden doğan bir sebeple \nişçinin sağlığı veya yaşayışı için tehlikeli olursa. \nb) İşçinin sürekli olarak yakından ve doğrudan buluşup görüştüğü işveren yahut başka \nbir işçi bulaşıcı veya işçinin işi ile bağdaşmayan bir hastalığa tutulursa. \nII. Ahlak ve iyiniyet kurallarına uymayan haller ve benzerleri: \na) İşveren iş sözleşmesi yapıldığı sırada bu sözleşmenin esaslı noktalarından biri \nhakkında yanlış vasıflar veya şartlar göstermek yahut gerçeğe uygun olmayan bilgiler vermek \nveya sözler söylemek suretiyle işçiyi yanıltırsa. \nb) İşveren işçinin veya ailesi üyelerinden birinin şeref ve namusuna dokunacak şekilde \nsözler söyler, davranışlarda bulunursa veya işçiye cinsel tacizde bulunursa. \nc) İşveren işçiye veya ailesi üyelerinden birine karşı sataşmada bulunur veya gözdağı \nverirse, yahut işçiyi veya ailesi üyelerinden birini kanuna karşı davranışa özendirir, kışkırtır, \nsürükler, yahut işçiye ve ailesi üyelerinden birine karşı hapsi gerektiren bir suç işlerse yahut \nişçi hakkında şeref ve haysiyet kırıcı asılsız ağır isnad veya ithamlarda bulunursa. \nd) İşçinin diğer bir işçi veya üçüncü kişiler tarafından işyerinde cinsel tacize uğraması \nve bu durumu işverene bildirmesine rağmen gerekli önlemler alınmazsa. \ne) İşveren tarafından işçinin ücreti kanun hükümleri veya sözleşme şartlarına uygun \nolarak hesap edilmez veya ödenmezse, \nf) Ücretin parça başına veya iş tutarı üzerinden ödenmesi kararlaştırılıp da işveren \ntarafından işçiye yapabileceği sayı ve tutardan az iş verildiği hallerde, aradaki ücret farkı \nzaman esasına göre ödenerek işçinin eksik aldığı ücret karşılanmazsa, yahut çalışma şartları \nuygulanmazsa. \nIII. Zorlayıcı sebepler: \nİşçinin çalıştığı işyerinde bir haftadan fazla süre ile işin durmasını gerektirecek \nzorlayıcı sebepler ortaya çıkarsa. \n \nİşverenin haklı nedenle derhal fesih hakkı",
+          "normalized_hash": "55eeb3ce63c58fac"
+        },
+        {
+          "provision_id": "law:4857:article:25",
+          "label": "Madde 25",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 25 - Süresi belirli olsun veya olmasın işveren, aşağıda yazılı hallerde iş \nsözleşmesini sürenin bitiminden önce veya bildirim süresini beklemeksizin feshedebilir: \nI- Sağlık sebepleri: \na) İşçinin kendi kastından veya derli toplu olmayan yaşayışından yahut içkiye \ndüşkünlüğünden doğacak bir hastalığa yakalanması veya engelli hâle gelmesi durumunda, bu \nsebeple doğacak devamsızlığın ardı ardına üç iş günü veya bir ayda beş iş gününden fazla \nsürmesi.7 \n \n7 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu alt bentte yer alan “veya sakatlığa \nuğraması halinde” ibaresi “yakalanması veya engelli hâle gelmesi durumunda” şeklinde değiştirilmiştir. \n\nb) İşçinin tutulduğu hastalığın tedavi edilemeyecek nitelikte olduğu ve işyerinde \nçalışmasında sakınca bulunduğunun Sağlık Kurulunca saptanması durumunda. \n(a) alt bendinde sayılan sebepler dışında işçinin hastalık, kaza, doğum ve gebelik gibi \nhallerde işveren için iş sözleşmesini bildirimsiz fesih hakkı; belirtilen hallerin işçinin \nişyerindeki çalışma süresine göre 17 nci maddedeki bildirim sürelerini altı hafta aşmasından \nsonra doğar. Doğum ve gebelik hallerinde bu süre 74 üncü maddedeki sürenin bitiminde \nbaşlar. Ancak işçinin iş sözleşmesinin askıda kalması nedeniyle işine gidemediği süreler için \nücret işlemez. \nII- Ahlak ve iyi niyet kurallarına uymayan haller ve benzerleri: \na) İş sözleşmesi yapıldığı sırada bu sözleşmenin esaslı noktalarından biri için gerekli \nvasıflar veya şartlar kendisinde bulunmadığı halde bunların kendisinde bulunduğunu ileri sürerek, \nyahut gerçeğe uygun olmayan bilgiler veya sözler söyleyerek işçinin işvereni yanıltması. \nb) İşçinin, işveren yahut bunların aile üyelerinden birinin şeref ve namusuna \ndokunacak sözler sarfetmesi veya davranışlarda bulunması, yahut işveren hakkında şeref ve \nhaysiyet kırıcı asılsız ihbar ve isnadlarda bulunması. \nc) İşçinin işverenin başka bir işçisine cinsel tacizde bulunması. \nd) İşçinin işverene yahut onun ailesi üyelerinden birine yahut işverenin başka işçisine \nsataşması, işyerine sarhoş yahut uyuşturucu madde almış olarak gelmesi ya da işyerinde bu \nmaddeleri kullanması.8 \ne) İşçinin, işverenin güvenini kötüye kullanmak, hırsızlık yapmak, işverenin meslek \nsırlarını ortaya atmak gibi doğruluk ve bağlılığa uymayan davranışlarda bulunması. \nf) İşçinin, işyerinde, yedi günden fazla hapisle cezalandırılan ve cezası ertelenmeyen \nbir suç işlemesi. \ng) İşçinin işverenden izin almaksızın veya haklı bir sebebe dayanmaksızın ardı ardına \niki işgünü veya bir ay içinde iki defa herhangi bir tatil gününden sonraki iş günü, yahut bir \nayda üç işgünü işine devam etmemesi. \nh) İşçinin yapmakla ödevli bulunduğu görevleri kendisine hatırlatıldığı halde yapmamakta \nısrar etmesi. \nı) İşçinin kendi isteği veya savsaması yüzünden işin güvenliğini tehlikeye düşürmesi, \nişyerinin malı olan veya malı olmayıp da eli altında bulunan makineleri, tesisatı veya başka \neşya ve maddeleri otuz günlük ücretinin tutarıyla ödeyemeyecek derecede hasara ve kayba \nuğratması. \nIII- Zorlayıcı sebepler: \nİşçiyi işyerinde bir haftadan fazla süre ile çalışmaktan alıkoyan zorlayıcı bir sebebin \nortaya çıkması. \nIV- İşçinin gözaltına alınması veya tutuklanması halinde devamsızlığın 17 nci maddedeki \nbildirim süresini aşması. \n \n8 20/6/2012 tarihli ve 6331 sayılı Kanunun 32 nci maddesiyle, bu alt bentte yer alan “veya 84 üncü \nmaddeye aykırı hareket etmesi” ibaresi “, işyerine sarhoş yahut uyuşturucu madde almış olarak \ngelmesi ya da işyerinde bu maddeleri kullanması” şeklinde değiştirilmiştir. \n\nİşçi feshin yukarıdaki bentlerde öngörülen sebeplere uygun olmadığı iddiası ile 18, 20 ve \n21 inci madde hükümleri çerçevesinde yargı yoluna başvurabilir. \n \nDerhal fesih hakkını kullanma süresi",
+          "normalized_hash": "b0b567f0bf7aad9a"
+        },
+        {
+          "provision_id": "law:4857:article:26",
+          "label": "Madde 26",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 26 - 24 ve 25 inci maddelerde gösterilen ahlak ve iyiniyet kurallarına uymayan \nhallere dayanarak işçi veya işveren için tanınmış olan sözleşmeyi fesih yetkisi, iki taraftan \nbirinin bu çeşit davranışlarda bulunduğunu diğer tarafın öğrendiği günden başlayarak altı iş \ngünü geçtikten ve her halde fiilin gerçekleşmesinden itibaren bir yıl sonra kullanılamaz. \nAncak işçinin olayda maddi çıkar sağlaması halinde bir yıllık süre uygulanmaz. \nBu haller sebebiyle işçi yahut işverenden iş sözleşmesini yukarıdaki fıkrada öngörülen \nsüre içinde feshedenlerin diğer taraftan tazminat hakları saklıdır. \n \nYeni iş arama izni",
+          "normalized_hash": "126799acb68a71c5"
+        },
+        {
+          "provision_id": "law:4857:article:27",
+          "label": "Madde 27",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 27- Bildirim süreleri içinde işveren, işçiye yeni bir iş bulması için gerekli olan \niş arama iznini iş saatleri içinde ve ücret kesintisi yapmadan vermeye mecburdur. İş arama \nizninin süresi günde iki saatten az olamaz ve işçi isterse iş arama izin saatlerini birleştirerek \ntoplu kullanabilir. Ancak iş arama iznini toplu kullanmak isteyen işçi, bunu işten ayrılacağı \ngünden evvelki günlere rastlatmak ve bu durumu işverene bildirmek zorundadır. \nİşveren yeni iş arama iznini vermez veya eksik kullandırırsa o süreye ilişkin ücret \nişçiye ödenir. \nİşveren, iş arama izni esnasında işçiyi çalıştırır ise işçinin izin kullanarak bir çalışma \nkarşılığı olmaksızın alacağı ücrete ilaveten, çalıştırdığı sürenin ücretini yüzde yüz zamlı öder. \n \nÇalışma belgesi",
+          "normalized_hash": "f9dcdb6ebd333196"
+        },
+        {
+          "provision_id": "law:4857:article:28",
+          "label": "Madde 28",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 28 - İşten ayrılan işçiye, işveren tarafından işinin çeşidinin ne olduğunu ve \nsüresini gösteren bir belge verilir. \nBelgenin vaktinde verilmemesinden veya belgede doğru olmayan bilgiler bulunmasından \nzarar gören işçi veyahut işçiyi işine alan yeni işveren eski işverenden tazminat isteyebilir. \nBu belgeler her türlü resim ve harçtan muaftır. \n \nToplu işçi çıkarma",
+          "normalized_hash": "3108b0e78d490647"
+        },
+        {
+          "provision_id": "law:4857:article:29",
+          "label": "Madde 29",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 29 - İşveren; ekonomik, teknolojik, yapısal ve benzeri işletme, işyeri veya işin \ngerekleri sonucu toplu işçi çıkarmak istediğinde, bunu en az otuz gün önceden bir yazı ile, \nişyeri sendika temsilcilerine, ilgili bölge müdürlüğüne ve Türkiye İş Kurumuna bildirir. \nİşyerinde çalışan işçi sayısı: \na) 20 ile 100 işçi arasında ise, en az 10 işçinin, \nb) 101 ile 300 işçi arasında ise, en az yüzde on oranında işçinin, \nc) 301 ve daha fazla ise, en az 30 işçinin, \nİşine 17 nci madde uyarınca ve bir aylık süre içinde aynı tarihte veya farklı tarihlerde \nson verilmesi toplu işçi çıkarma sayılır. \n\nBirinci fıkra uyarınca yapılacak bildirimde işçi çıkarmanın sebepleri, bundan \netkilenecek işçi sayısı ve grupları ile işe son verme işlemlerinin hangi zaman diliminde \ngerçekleşeceğine ilişkin bilgilerin bulunması zorunludur. \nBildirimden sonra işyeri sendika temsilcileri ile işveren arasında yapılacak \ngörüşmelerde, toplu işçi çıkarmanın önlenmesi ya da çıkarılacak işçi sayısının azaltılması \nyahut çıkarmanın işçiler açısından olumsuz etkilerinin en aza indirilmesi konuları ele alınır. \nGörüşmelerin sonunda, toplantının yapıldığını gösteren bir belge düzenlenir. \nFesih bildirimleri, işverenin toplu işçi çıkarma isteğini bölge müdürlüğüne bildirmesinden \notuz gün sonra hüküm doğurur. \nİşyerinin bütünüyle kapatılarak kesin ve devamlı suretle faaliyete son verilmesi \nhalinde, işveren sadece durumu en az otuz gün önceden ilgili bölge müdürlüğüne ve Türkiye \nİş Kurumuna bildirmek ve işyerinde ilan etmekle yükümlüdür. İşveren toplu işçi çıkarmanın \nkesinleşmesinden itibaren altı ay içinde aynı nitelikteki iş için yeniden işçi almak istediği \ntakdirde nitelikleri uygun olanları tercihen işe çağırır. \nMevsim ve kampanya işlerinde çalışan işçilerin işten çıkarılmaları hakkında, işten \nçıkarma bu işlerin niteliğine bağlı olarak yapılıyorsa, toplu işçi çıkarmaya ilişkin hükümler \nuygulanmaz. \nİşveren toplu işçi çıkarılmasına ilişkin hükümleri 18, 19, 20 ve 21 inci madde \nhükümlerinin uygulanmasını engellemek amacıyla kullanamaz; aksi halde işçi bu maddelere \ngöre dava açabilir. \n \nEngelli ve eski hükümlü çalıştırma zorunluluğu910",
+          "normalized_hash": "73b22f7d3c31a96f"
+        },
+        {
+          "provision_id": "law:4857:article:30",
+          "label": "Madde 30",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 30 – (Değişik : 15/5/2008-5763/2 md.) \nİşverenler, elli veya daha fazla işçi çalıştırdıkları özel sektör işyerlerinde yüzde üç \nengelli, kamu işyerlerinde ise yüzde dört engelli ve yüzde iki eski hükümlü işçiyi veya \n21/6/1927 tarihli ve 1111 sayılı Askerlik Kanunu veya 16/6/1927 tarihli ve 1076 sayılı Yedek \nSubaylar ve Yedek Askeri Memurlar Kanunu kapsamına giren ve askerlik hizmetini yaparken \n12/4/1991 tarihli ve 3713 sayılı Terörle Mücadele Kanununun 21 inci maddesinde sayılan \nterör olaylarının sebep ve tesiri sonucu malul sayılmayacak şekilde yaralananları meslek, \nbeden ve ruhi durumlarına uygun işlerde çalıştırmakla yükümlüdürler. Aynı il sınırları içinde \nbirden fazla işyeri bulunan işverenin bu kapsamda çalıştırmakla yükümlü olduğu işçi sayısı, \ntoplam işçi sayısına göre hesaplanır.11 \n \n9 15/5/2008 tarihli ve 5763 sayılı Kanunun 2 nci maddesiyle bu madde başlığı “Özürlü, eski hükümlü \nve terör mağduru çalıştırma zorunluluğu” iken, metne işlendiği şekilde değiştirilmiştir. \n10 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu maddenin başlığında yer alan \n“Özürlü” ibaresi “Engelli”, birinci fıkrasında yer alan “özürlü” ibareleri “engelli”, ikinci fıkrasında \nyer alan “sakatlananlara” ibaresi “engelli hâle gelenlere”, dördüncü fıkrasında yer alan “özürlü” \nibaresi “engelli”, altıncı fıkrasında yer alan “özürlü” ibareleri “engelli”, yedinci fıkrasında yer alan \n“özürlülerin”, “özürlünün”, “Özürlü” ve “özürlüyü” ibareleri sırasıyla “engellilerin”, “engellinin”, \n“Engelli” ve “engelliyi” şeklinde değiştirilmiştir. \n11 4/7/2012 tarihli ve 6353 sayılı Kanunun 79 uncu maddesiyle, bu fıkrada yer alan “eski hükümlü \nişçiyi” ibaresinden sonra gelmek üzere “veya 21/6/1927 tarihli ve 1111 sayılı Askerlik Kanunu veya \n16/6/1927 tarihli ve 1076 sayılı Yedek Subaylar ve Yedek Askeri Memurlar Kanunu kapsamına giren \nve askerlik hizmetini yaparken 12/4/1991 tarihli ve 3713 sayılı Terörle Mücadele Kanununun 21 inci \n\nBu kapsamda çalıştırılacak işçi sayısının tespitinde belirli ve belirsiz süreli iş \nsözleşmesine göre çalıştırılan işçiler esas alınır. Kısmi süreli iş sözleşmesine göre çalışanlar, \nçalışma süreleri dikkate alınarak tam süreli çalışmaya dönüştürülür. Oranın hesaplanmasında \nyarıma kadar kesirler dikkate alınmaz, yarım ve daha fazla olanlar tama dönüştürülür. \nİşyerinin işçisi iken engelli hâle gelenlere öncelik tanınır. \nİşverenler çalıştırmakla yükümlü oldukları işçileri Türkiye İş Kurumu aracılığı ile \nsağlarlar. Bu kapsamda çalıştırılacak işçilerin nitelikleri, hangi işlerde çalıştırılabilecekleri, \nbunların işyerlerinde genel hükümler dışında bağlı olacakları özel çalışma ile mesleğe \nyöneltilmeleri, mesleki yönden işverence nasıl işe alınacakları, Aile ve Sosyal Politikalar \nBakanlığının görüşü alınarak Çalışma ve Sosyal Güvenlik Bakanlığınca çıkarılacak yönetmelikle \ndüzenlenir.12 \nYer altı ve su altı işlerinde engelli işçi çalıştırılamaz ve yukarıdaki hükümler uyarınca \nişyerlerindeki işçi sayısının tespitinde yer altı ve su altı işlerinde çalışanlar hesaba katılmaz. \nBir işyerinden malulen ayrılmak zorunda kalıp da sonradan maluliyeti ortadan kalkan \nişçiler eski işyerlerinde tekrar işe alınmalarını istedikleri takdirde, işveren bunları eski işleri \nveya benzeri işlerde boş yer varsa derhal, yoksa boşalacak ilk işe başka isteklilere tercih \nederek, o andaki şartlarla işe almak zorundadır. Aranan şartlar bulunduğu halde işveren iş \nsözleşmesi yapma yükümlülüğünü yerine getirmezse, işe alınma isteğinde bulunan eski işçiye \naltı aylık ücret tutarında tazminat öder. \nÖzel sektör işverenlerince bu madde kapsamında çalıştırılan 17/7/1964 tarihli ve 506 \nsayılı Sosyal Sigortalar Kanununa tabi engelli sigortalılar ile 1/7/2005 tarihli ve 5378 sayılı \nKanunun 14 üncü maddesinde belirtilen korumalı işyerlerinde çalıştırılan engelli \nsigortalıların, aynı Kanunun 72 nci ve 73 üncü maddelerinde sayılan ve 78 inci maddesiyle \nbelirlenen prime esas kazanç alt sınırı üzerinden hesaplanan sigorta primine ait işveren \nhisselerinin tamamı, kontenjan fazlası engelli çalıştıran, yükümlü olmadıkları halde engelli \nçalıştıran işverenlerin bu şekilde çalıştırdıkları her bir engelli için prime esas kazanç alt sınırı \nüzerinden hesaplanan sigorta primine ait işveren hisselerinin tamamı Hazinece karşılanır. \nİşveren hissesine ait primlerin Hazinece karşılanabilmesi için işverenlerin çalıştırdıkları \nsigortalılarla ilgili olarak 506 sayılı Kanun uyarınca aylık prim ve hizmet belgelerinin yasal \nsüresi içerisinde Sosyal Güvenlik Kurumuna verilmesi ve sigortalıların tamamına ait sigorta \nprimlerinin sigortalı hissesine isabet eden tutarı ile Hazinece karşılanmayan işveren hissesine \nait tutarın ödenmiş olması şarttır. Bu fıkraya göre işveren tarafından ödenmesi gereken \nprimlerin geç ödenmesi halinde, Hazinece Sosyal Güvenlik Kurumuna yapılacak ödemenin \ngecikmesinden kaynaklanan gecikme zammı, işverenden tahsil edilir. Hazinece karşılanan \nprim tutarları gelir ve kurumlar vergisi uygulamalarında gider veya maliyet unsuru olarak \n \nmaddesinde sayılan terör olaylarının sebep ve tesiri sonucu malul sayılmayacak şekilde \nyaralananları” ibaresi eklenmiştir. \n12 6/2/2014 tarihli ve 6518 sayılı Kanunun 58 inci maddesiyle bu fıkrada yer alan “nasıl işe alınacakları,” \nibaresinden sonra gelmek üzere “Aile ve Sosyal Politikalar Bakanlığının görüşü alınarak” ibaresi \neklenmiştir. \n\ndikkate alınmaz. (Ek cümle: 31/7/2008-5797/10 md.) Bu fıkrada düzenlenen teşvik, kamu \nidareleri hariç 506 sayılı Kanun kapsamındaki sigortalılara ilişkin matrah ve oranlar üzerinden \nolmak üzere, 506 sayılı Kanunun geçici 20 nci maddesi kapsamındaki sandıkların statülerine \ntabi personeli için de uygulanır. Bu fıkranın uygulanmasına ilişkin usul ve esaslar Maliye \nBakanlığı ile Çalışma ve Sosyal Güvenlik Bakanlığı ve Hazine Müsteşarlığı tarafından \nmüştereken belirlenir.13 \n(Değişik yedinci fıkra: 11/10/2011-KHK-665/28 md.) Bu maddeye aykırılık \nhallerinde 101 inci madde uyarınca tahsil edilecek cezalar, engellilerin ve eski hükümlülerin \nkendi işini kurmaları, engellinin iş bulmasını sağlayacak destek teknolojileri, engellinin işe \nyerleştirilmesi, işe ve işyerine uyumunun sağlanması ve bu gibi projelerde kullanılır. Tahsil \nedilen cezaların kullanımına ilişkin hususlar, Türkiye İş Kurumunun koordinatörlüğünde, \nÇalışma ve Sosyal Güvenlik Bakanlığı Çalışma Genel Müdürlüğü ile İş Sağlığı ve Güvenliği \nGenel Müdürlüğü, Aile ve Sosyal Politikalar Bakanlığı Engelli ve Yaşlı Hizmetleri Genel \nMüdürlüğü, Adalet Bakanlığı Ceza ve Tevkif Evleri Genel Müdürlüğü, en çok işçi ve işvereni \ntemsil eden üst kuruluşların ve en çok engelliyi temsil eden üst kuruluşun birer temsilcisinden \noluşan komisyon tarafından karara bağlanır. Komisyonun çalışma usul ve esasları Çalışma ve \nSosyal Güvenlik Bakanlığınca çıkarılan yönetmelikle düzenlenir. \nEski hükümlü çalıştırılmasında, kanunlardaki kamu güvenliği ile ilgili hizmetlere \nilişkin özel hükümler saklıdır. \n \nAskerlik ve kanundan doğan çalışma",
+          "normalized_hash": "761262df82fccb61"
+        },
+        {
+          "provision_id": "law:4857:article:31",
+          "label": "Madde 31",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 31 - Muvazzaf askerlik ödevi dışında manevra veya herhangi bir sebeple silah \naltına alınan veyahut herhangi bir kanundan doğan çalışma ödevi yüzünden işinden ayrılan \nişçinin iş sözleşmesi işinden ayrıldığı günden başlayarak iki ay sonra işverence feshedilmiş \nsayılır. \nİşçinin bu haktan faydalanabilmesi için o işte en az bir yıl çalışmış olması şarttır. Bir \nyıldan çok çalışmaya karşılık her fazla yıl için, ayrıca iki gün eklenir. Şu kadar ki bu sürenin \ntamamı doksan günü geçemez. \nİş sözleşmesinin feshedilmiş sayılabilmesi için beklenilmesi gereken süre içinde işçinin \nücreti işlemez. Ancak özel kanunların bu husustaki hükümleri saklıdır. Bu süre içinde iş \nsözleşmesinin Kanundan doğan başka bir sebebe dayanılarak işveren veya işçi tarafından \nfeshedildiği öteki tarafa bildirilmiş olsa bile, fesih için Kanunun gösterdiği süre bu sürenin \nbitiminden sonra işlemeye başlar. Ancak iş sözleşmesi belirli süreli olarak yapılmış ve sözleşme \nyukarıda yazılı süre içinde kendiliğinden sona eriyorsa bu madde hükümleri uygulanmaz. \nHerhangi bir askeri ve kanuni ödev dolayısıyla işinden ayrılan işçiler bu ödevin sona \nermesinden başlayarak iki ay içinde işe girmek istedikleri takdirde işveren bunları eski işleri \nveya benzeri işlerde boş yer varsa derhal, yoksa boşalacak ilk işe başka isteklilere tercih \n \n13 6/2/2014 tarihli ve 6518 sayılı Kanunun 58 inci maddesiyle bu fıkrada yer alan “yüzde ellisi” \nibaresi “tamamı” şeklinde değiştirilmiştir. \n\nederek, o andaki şartlarla işe almak zorundadır. Aranan şartlar bulunduğu halde işveren iş \nsözleşmesi yapma yükümlülüğünü yerine getirmezse, işe alınma isteğinde bulunan eski işçiye \nüç aylık ücret tutarında tazminat öder. \n \nÜÇÜNCÜ BÖLÜM \nÜcret \nÜcret ve ücretin ödenmesi",
+          "normalized_hash": "358c6c672fba4de8"
+        },
+        {
+          "provision_id": "law:4857:article:32",
+          "label": "Madde 32",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 32 - Genel anlamda ücret bir kimseye bir iş karşılığında işveren veya üçüncü \nkişiler tarafından sağlanan ve para ile ödenen tutardır. \n(Değişik ikinci fıkra : 17/4/2008-5754/85 md.) Ücret, prim, ikramiye ve bu \nnitelikteki her çeşit istihkak kural olarak, Türk parası ile işyerinde veya özel olarak açılan bir \nbanka hesabına ödenir. Ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkak, yabancı para \nolarak kararlaştırılmış ise ödeme günündeki rayice göre Türk parası ile ödeme yapılabilir. \nÇalıştırılan işçilerin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakının özel olarak \naçılan banka hesabına yatırılmak suretiyle ödenmesi hususunda; tabi olduğu vergi \nmükellefiyeti türü, işletme büyüklüğü, çalıştırdığı işçi sayısı, işyerinin bulunduğu il ve benzeri \ngibi unsurları dikkate alarak işverenleri veya üçüncü kişileri zorunlu tutmaya, banka hesabına \nyatırılacak ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakının, brüt ya da kanuni \nkesintiler düşüldükten sonra kalan net miktar üzerinden olup olmayacağını belirlemeye \nÇalışma ve Sosyal Güvenlik Bakanlığı, Maliye Bakanlığı ve Hazine Müsteşarlığından \nsorumlu Devlet Bakanlığı müştereken yetkilidir. Çalıştırdığı işçilerin ücret, prim, ikramiye ve \nbu nitelikteki her çeşit istihkakını özel olarak açılan banka hesapları vasıtasıyla ödeme \nzorunluluğuna tabi tutulan işverenler veya üçüncü kişiler, işçilerinin ücret, prim, ikramiye ve \nbu nitelikteki her çeşit istihkaklarını özel olarak açılan banka hesapları dışında ödeyemezler. \n(Ek fıkra : 17/4/2008-5754/85 md.) İşçinin ücret, prim, ikramiye ve bu nitelikteki her \nçeşit istihkakının özel olarak açılan banka hesaplarına yatırılmak suretiyle ödenmesine ilişkin \ndiğer usûl ve esaslar anılan bakanlıklarca müştereken çıkarılacak yönetmelikle düzenlenir. \nEmre muharrer senetle (bono ile), kuponla veya yurtta geçerli parayı temsil ettiği iddia \nolunan bir senetle veya diğer herhangi bir şekilde ücret ödemesi yapılamaz. \nÜcret en geç ayda bir ödenir. İş sözleşmeleri veya toplu iş sözleşmeleri ile ödeme \nsüresi bir haftaya kadar indirilebilir. \nİş sözleşmelerinin sona ermesinde, işçinin ücreti ile sözleşme ve Kanundan doğan para \nile ölçülmesi mümkün menfaatlerinin tam olarak ödenmesi zorunludur. \nMeyhane ve benzeri eğlence yerleri ve perakende mal satan dükkan ve mağazalarda, \nburalarda çalışanlar hariç, ücret ödemesi yapılamaz. \nÜcret alacaklarında zamanaşımı süresi beş yıldır. \n \nİşverenin ödeme aczine düşmesi",
+          "normalized_hash": "a80ea33b868da1aa"
+        },
+        {
+          "provision_id": "law:4857:article:33",
+          "label": "Madde 33",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 33 – (Mülga : 15/5/2008-5763/37 md.) \n\n \nÜcretin gününde ödenmemesi",
+          "normalized_hash": "19eb18d609f7e0de"
+        },
+        {
+          "provision_id": "law:4857:article:34",
+          "label": "Madde 34",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 34 - Ücreti ödeme gününden itibaren yirmi gün içinde mücbir bir neden \ndışında ödenmeyen işçi, iş görme borcunu yerine getirmekten kaçınabilir. Bu nedenle kişisel \nkararlarına dayanarak iş görme borcunu yerine getirmemeleri sayısal olarak toplu bir nitelik \nkazansa dahi grev olarak nitelendirilemez. Gününde ödenmeyen ücretler için mevduata \nuygulanan en yüksek faiz oranı uygulanır. \nBu işçilerin bu nedenle iş akitleri çalışmadıkları için feshedilemez ve yerine yeni işçi \nalınamaz, bu işler başkalarına yaptırılamaz. \n \nÜcretin saklı kısmı",
+          "normalized_hash": "93ca2480d9dc9733"
+        },
+        {
+          "provision_id": "law:4857:article:35",
+          "label": "Madde 35",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 35 - İşçilerin aylık ücretlerinin dörtte birinden fazlası haczedilemez veya \nbaşkasına devir ve temlik olunamaz. Ancak, işçinin bakmak zorunda olduğu aile üyeleri için \nhakim tarafından takdir edilecek miktar bu paraya dahil değildir. Nafaka borcu alacaklılarının \nhakları saklıdır. \n \nKamu makamlarının ve asıl işverenlerin hakedişlerinden ücreti kesme yükümlülüğü",
+          "normalized_hash": "26626982a7b42ba5"
+        },
+        {
+          "provision_id": "law:4857:article:36",
+          "label": "Madde 36",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 36 - Genel ve katma bütçeli dairelerle mahalli idareler veya kamu iktisadi \nteşebbüsleri yahut özel kanuna veya Cumhurbaşkanlığı kararnamesine dayanılarak kurulan \nbanka ve kuruluşlar; asıl işverenler müteahhide verdikleri her türlü bina, köprü, hat ve yol \ninşası gibi yapım ve onarım işlerinde çalışan işçilerden müteahhit veya taşeronlarca ücretleri \nödenmeyenlerin bulunup bulunmadığının kontrolü, ya da ücreti ödenmeyen işçinin başvurusu \nüzerine, ücretleri ödenmeyen varsa müteahhitten veya taşeronlardan istenecek bordrolara göre \nbu ücretleri bunların hakedişlerinden öderler.14 \nBunun için hakediş ödeneceği ilgili idare tarafından işyerinde şantiye şefliği işyeri ilân \ntahtası veya işçilerin toplu bulunduğu yerler gibi işçilerin görebileceği yerlere yazılı ilân asılmak \nsuretiyle duyurulur. Ücret alacağı olan işçilerin her hakediş dönemi için olan ücret alacaklarının \nüç aylık tutarından fazlası hakkında adı geçen idarelere herhangi bir sorumluluk düşmez. \nAnılan müteahhitlerin bu işverenlerdeki her çeşit teminat ve hakedişleri üzerinde \nyapılacak her türlü devir ve el değiştirme işlemleri veya haciz ve icra takibi bu işte çalışan \nişçilerin ücret alacaklarını karşılayacak kısım ayrıldıktan sonra, kalan kısım üzerinde hüküm \nifade eder. \nBir işverenin üçüncü kişiye karşı olan borçlarından dolayı işyerinde bulunan tesisat, \nmalzeme, ham, yarı işlenmiş ve tam işlenmiş mallar ve başka kıymetler üzerinde yapılacak \nhaciz ve icra takibi, bu işyerinde çalışan işçilerin icra kararının alındığı tarihten önceki üç \naylık dönem içindeki ücret alacaklarını karşılayacak kısım ayrıldıktan sonra, kalan kısım \nüzerinde hüküm ifade eder. \n(Değişik beşinci fıkra: 10/9/2014-6552/3 md.) İşverenler, alt işverene iş vermeleri \n \n14 2/7/2018 tarihli ve 700 sayılı KHK’nin 145 inci maddesiyle, bu fıkrada yer alan “özel kanunla \nverilmiş yetkiye” ibaresi “Cumhurbaşkanlığı kararnamesine” şeklinde değiştirilmiştir. \n\nhâlinde, bunların işçilerinin ücretlerinin ödenip ödenmediğini işçinin başvurusu üzerine veya \naylık olarak resen kontrol etmekle ve varsa ödenmeyen ücretleri hak edişlerinden keserek \nişçilerin banka hesabına yatırmakla yükümlüdür. \n \nÜcret hesap pusulası",
+          "normalized_hash": "c7a356d014741cf6"
+        },
+        {
+          "provision_id": "law:4857:article:37",
+          "label": "Madde 37",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 37 - İşveren işyerinde veya bankaya yaptığı ödemelerde işçiye ücret hesabını \ngösterir imzalı veya işyerinin özel işaretini taşıyan bir pusula vermek zorundadır. \nBu pusulada ödemenin günü ve ilişkin olduğu dönem ile fazla çalışma, hafta tatili, \nbayram ve genel tatil ücretleri gibi asıl ücrete yapılan her çeşit eklemeler tutarının ve vergi, \nsigorta primi, avans mahsubu, nafaka ve icra gibi her çeşit kesintilerin ayrı ayrı gösterilmesi \ngerekir. \nBu işlemler damga vergisi ve her çeşit resim ve harçtan muaftır. \n \nÜcret kesme cezası",
+          "normalized_hash": "6ff2d5e54b292bb3"
+        },
+        {
+          "provision_id": "law:4857:article:38",
+          "label": "Madde 38",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 38 - İşveren toplu sözleşme veya iş sözleşmelerinde gösterilmiş olan sebepler \ndışında işçiye ücret kesme cezası veremez. \nİşçi ücretlerinden ceza olarak yapılacak kesintilerin işçiye derhal sebepleriyle beraber \nbildirilmesi gerekir. İşçi ücretlerinden bu yolda yapılacak kesintiler bir ayda iki gündelikten \nveya parça başına yahut yapılan iş miktarına göre verilen ücretlerde işçinin iki günlük \nkazancından fazla olamaz. \nBu paralar işçilerin eğitimi ve sosyal hizmetleri için kullanılıp harcanmak üzere \nÇalışma ve Sosyal Güvenlik Bakanlığı hesabına Bakanlıkça belirtilecek Türkiye'de kurulu \nbulunan ve mevduat kabul etme yetkisini haiz bankalardan birine, kesildiği tarihten itibaren \nbir ay içinde yatırılır. Her işveren işyerinde bu paraların ayrı bir hesabını tutmaya mecburdur. \nBirikmiş bulunan ceza paralarının nerelere ve ne kadar verileceği Çalışma ve Sosyal Güvenlik \nBakanının başkanlık edeceği ve işçi temsilcilerinin de katılacağı bir kurul tarafından karara \nbağlanır. Bu kurulun kimlerden teşekkül edeceği, nasıl ve hangi esaslara göre çalışacağı \nçıkarılacak bir yönetmelikte gösterilir. \n \nAsgari ücret",
+          "normalized_hash": "1cc8315d5cdc684a"
+        },
+        {
+          "provision_id": "law:4857:article:39",
+          "label": "Madde 39",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 39 - İş sözleşmesi ile çalışan ve bu Kanunun kapsamında olan veya olmayan \nher türlü işçinin ekonomik ve sosyal durumlarının düzenlenmesi için Çalışma ve Sosyal \nGüvenlik Bakanlığınca Asgari Ücret Tespit Komisyonu aracılığı ile ücretlerin asgari sınırları \nen geç iki yılda bir belirlenir. \n(Mülga ikinci fıkra: 2/7/2018-KHK/700/145 md.) \nKomisyon kararları kesindir. Kararlar Resmi Gazetede yayımlanarak yürürlüğe girer. \nKomisyonun toplanma ve çalışma şekli, asgari ücretlerin tespiti sırasında uygulanacak \nesaslar ile başkan, üye ve raportörlere verilecek huzur hakları Maliye Bakanlığı ve Çalışma ve \nSosyal Güvenlik Bakanlığının birlikte hazırlayacakları yönetmelikte belirtilir. \nAsgari Ücret Tespit Komisyonunun sekretarya hizmetleri, Çalışma ve Sosyal Güvenlik \n\nBakanlığı tarafından yerine getirilir. \n \nYarım ücret",
+          "normalized_hash": "4c5be7ec4fa3e713"
+        },
+        {
+          "provision_id": "law:4857:article:40",
+          "label": "Madde 40",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 40 - 24 ve 25 inci maddelerin (III) numaralı bentlerinde gösterilen zorlayıcı \nsebepler dolayısıyla çalışamayan veya çalıştırılmayan işçiye bu bekleme süresi içinde bir \nhaftaya kadar her gün için yarım ücret ödenir. \n \nFazla çalışma ücreti",
+          "normalized_hash": "e881d9d5e73d9269"
+        },
+        {
+          "provision_id": "law:4857:article:41",
+          "label": "Madde 41",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 41 - Ülkenin genel yararları yahut işin niteliği veya üretimin artırılması gibi \nnedenlerle fazla çalışma yapılabilir. Fazla çalışma, Kanunda yazılı koşullar çerçevesinde, \nhaftalık kırkbeş saati aşan çalışmalardır. 63 üncü madde hükmüne göre denkleştirme esasının \nuygulandığı hallerde, işçinin haftalık ortalama çalışma süresi, normal haftalık iş süresini \naşmamak koşulu ile, bazı haftalarda toplam kırkbeş saati aşsa dahi bu çalışmalar fazla çalışma \nsayılmaz. \nHer bir saat fazla çalışma için verilecek ücret normal çalışma ücretinin saat başına \ndüşen miktarının yüzde elli yükseltilmesi suretiyle ödenir. \nHaftalık çalışma süresinin sözleşmelerle kırkbeş saatin altında belirlendiği durumlarda \nyukarıda belirtilen esaslar dahilinde uygulanan ortalama haftalık çalışma süresini aşan ve \nkırkbeş saate kadar yapılan çalışmalar fazla sürelerle çalışmalardır. Fazla sürelerle \nçalışmalarda, her bir saat fazla çalışma için verilecek ücret normal çalışma ücretinin saat \nbaşına düşen miktarının yüzde yirmibeş yükseltilmesiyle ödenir. \nFazla çalışma veya fazla sürelerle çalışma yapan işçi isterse, bu çalışmalar karşılığı \nzamlı ücret yerine, fazla çalıştığı her saat karşılığında bir saat otuz dakikayı, fazla sürelerle \nçalıştığı her saat karşılığında bir saat onbeş dakikayı serbest zaman olarak kullanabilir. \nİşçi hak ettiği serbest zamanı altı ay zarfında, çalışma süreleri içinde ve ücretinde bir \nkesinti olmadan kullanır. \n63 üncü maddenin son fıkrasında yazılı sağlık nedenlerine dayanan kısa veya sınırlı \nsüreli işlerde ve 69 uncu maddede belirtilen gece çalışmasında fazla çalışma yapılamaz. \nFazla saatlerle çalışmak için işçinin onayının alınması gerekir. \nFazla çalışma süresinin toplamı bir yılda ikiyüzyetmiş saatten fazla olamaz. \n(Ek fıkra: 10/9/2014-6552/4 md.) Bu Kanunun 42 nci ve 43 üncü maddelerinde \nsayılan hâller dışında yer altında maden işlerinde çalışan işçilere fazla çalışma yaptırılamaz. \n(Ek fıkra: 10/9/2014-6552/4 md.) Yer altında maden işlerinde çalışan işçilere, bu \nKanunun 42 nci ve 43 üncü maddelerinde sayılan hâllerde haftalık otuz yedi buçuk saati aşan \nher bir saat fazla çalışma için verilecek ücret, normal çalışma ücretinin saat başına düşen \nmiktarının yüzde yüzden az olmamak üzere arttırılması suretiyle ödenir.15 \n \n15 4/4/2015 tarihli ve 6645 sayılı Kanunun 34 üncü maddesiyle, bu fıkrada yer alan “haftalık otuz altı \nsaati aşan” ibaresi “haftalık otuz yedi buçuk saati aşan” şeklinde değiştirilmiştir. \n\nFazla çalışma ve fazla sürelerle çalışmaların ne şekilde uygulanacağı çıkarılacak \nyönetmelikte gösterilir. \n \nZorunlu nedenlerle fazla çalışma",
+          "normalized_hash": "b4d3bdfc8a50c2bc"
+        },
+        {
+          "provision_id": "law:4857:article:42",
+          "label": "Madde 42",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 42 - Gerek bir arıza sırasında, gerek bir arızanın mümkün görülmesi halinde \nyahut makineler veya araç ve gereç için hemen yapılması gerekli acele işlerde, yahut zorlayıcı \nsebeplerin ortaya çıkmasında, işyerinin normal çalışmasını sağlayacak dereceyi aşmamak \nkoşulu ile işçilerin hepsi veya bir kısmına fazla çalışma yaptırılabilir. Bu durumda fazla \nçalışma yapan işçilere uygun bir dinlenme süresi verilmesi zorunludur. \nŞu kadar ki, zorunlu sebeplerle yapılan fazla çalışmalar için 41 inci maddenin birinci, \nikinci ve üçüncü fıkraları hükümleri uygulanır. \n \nOlağanüstü hallerde fazla çalışma",
+          "normalized_hash": "526a3901842b1ad7"
+        },
+        {
+          "provision_id": "law:4857:article:43",
+          "label": "Madde 43",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 43 - Seferberlik sırasında ve bu süreyi aşmamak şartıyla yurt savunmasının \ngereklerini karşılayan işyerlerinde fazla çalışmaya lüzum görülürse işlerin çeşidine ve \nihtiyacın derecesine göre Cumhurbaşkanı günlük çalışma süresini, işçinin en çok çalışma \ngücüne çıkarabilir.16 \nBu suretle fazla çalıştırılan işçiler için verilecek ücret hakkında 41 inci maddenin \nbirinci, ikinci ve üçüncü fıkraları hükümleri uygulanır. \n \nUlusal bayram ve genel tatil günlerinde çalışma",
+          "normalized_hash": "ce270123f053fd35"
+        },
+        {
+          "provision_id": "law:4857:article:44",
+          "label": "Madde 44",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 44 - Ulusal bayram ve genel tatil günlerinde işyerlerinde çalışılıp \nçalışılmayacağı toplu iş sözleşmesi veya iş sözleşmeleri ile kararlaştırılır. Sözleşmelerde \nhüküm bulunmaması halinde söz konusu günlerde çalışılması için işçinin onayı gereklidir. \nBu günlere ait ücretler 47 nci maddeye göre ödenir. \n \nSaklı haklar",
+          "normalized_hash": "a31b543ad9bcc352"
+        },
+        {
+          "provision_id": "law:4857:article:45",
+          "label": "Madde 45",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 45 - Toplu iş sözleşmesi veya iş sözleşmelerine hafta tatili, ulusal bayram ve \ngenel tatillerde işçilere tanınan haklara, ücretli izinlere ve yüzde usulü ile çalışan işçilerin bu \nKanunla tanınan haklarına aykırı hükümler konulamaz. \nBu hususlarda işçilere daha elverişli hak ve menfaatler sağlayan kanun, toplu iş \nsözleşmesi, iş sözleşmesi veya gelenekten doğan kazanılmış haklar saklıdır. \n \n16 2/7/2018 tarihli ve 700 sayılı KHK’nin 145 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” \nibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir. \n\nHafta tatili ücreti",
+          "normalized_hash": "4f7f7a5ea1682524"
+        },
+        {
+          "provision_id": "law:4857:article:46",
+          "label": "Madde 46",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 46 - Bu Kanun kapsamına giren işyerlerinde, işçilere tatil gününden önce 63 \nüncü maddeye göre belirlenen iş günlerinde çalışmış olmaları koşulu ile yedi günlük bir \nzaman dilimi içinde kesintisiz en az yirmidört saat dinlenme (hafta tatili) verilir. (Ek \ncümleler:10/7/2025-7553/9 md.) Ancak Kültür ve Turizm Bakanlığı tarafından turizm \nişletmesi belgesi verilen konaklama tesislerinde çalışan işçilerin bu fıkra kapsamında hak \nkazandığı hafta tatili, işçinin yazılı talebi veya onayı ile hak kazandığı günü takip eden dört \ngün içinde kullandırılabilir. Bu halde işçinin hak kazandığı hafta tatilinde yaptığı çalışmaların \ngünlük normal çalışma süresi kadarlık kısmı fazla çalışmanın hesabında dikkate alınmaz. İşçi \nverdiği onayı otuz gün önceden işverene yazılı olarak bildirimde bulunmak kaydıyla geri \nalabilir. \nÇalışılmayan hafta tatili günü için işveren tarafından bir iş karşılığı olmaksızın o \ngünün ücreti tam olarak ödenir. \nŞu kadar ki; \na) Çalışmadığı halde kanunen çalışma süresinden sayılan zamanlar ile günlük ücret \nödenen veya ödenmeyen kanundan veya sözleşmeden doğan tatil günleri, \nb) (Değişik: 4/4/2015-6645/35 md.) Ek 2 nci maddede sayılan izin süreleri, \nc) Bir haftalık süre içinde kalmak üzere işveren tarafından verilen diğer izinlerle \nhekim raporuyla verilen hastalık ve dinlenme izinleri, \nÇalışılmış günler gibi hesaba katılır. \nZorlayıcı ve ekonomik bir sebep olmadan işyerindeki çalışmanın haftanın bir veya \nbirkaç gününde işveren tarafından tatil edilmesi halinde haftanın çalışılmayan günleri ücretli \nhafta tatiline hak kazanmak için çalışılmış sayılır. \nBir işyerinde işin bir haftadan fazla bir süre ile tatil edilmesini gerektiren zorlayıcı \nsebepler ortaya çıktığı zaman, 24 ve 25 inci maddelerin (III) numaralı bentlerinde gösterilen \nzorlayıcı sebeplerden ötürü çalışılmayan günler için işçilere ödenen yarım ücret hafta tatili \ngünü için de ödenir. \nYüzde usulünün uygulandığı işyerlerinde hafta tatili ücreti işverence işçiye ödenir. \n \nGenel tatil ücreti",
+          "normalized_hash": "9882f1e6be0287fb"
+        },
+        {
+          "provision_id": "law:4857:article:47",
+          "label": "Madde 47",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 47 - Bu Kanun kapsamına giren işyerlerinde çalışan işçilere, kanunlarda ulusal \nbayram ve genel tatil günü olarak kabul edilen günlerde çalışmazlarsa, bir iş karşılığı \nolmaksızın o günün ücretleri tam olarak, tatil yapmayarak çalışırlarsa ayrıca çalışılan her gün \niçin bir günlük ücreti ödenir. \nYüzde usulünün uygulandığı işyerlerinde işçilerin ulusal bayram ve genel tatil \nücretleri işverence işçiye ödenir. \n \nGeçici iş göremezlik",
+          "normalized_hash": "0db6ab66e707d3d2"
+        },
+        {
+          "provision_id": "law:4857:article:48",
+          "label": "Madde 48",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 48 - İşçilere geçici iş göremezlik ödeneği verilmesi gerektiği zamanlarda \ngeçici iş göremezlik süresine rastlayan ulusal bayram, genel tatil ve hafta tatilleri, ödeme \nyapılan kurum veya sandıklar tarafından geçici iş göremezlik ölçüsü üzerinden ödenir. \nHastalık nedeni ile çalışılmayan günlerde Sosyal Sigortalar Kurumu tarafından ödenen \n\ngeçici iş göremezlik ödeneği aylık ücretli işçilerin ücretlerinden mahsup edilir. \n \nÜcret şekillerine göre tatil ücreti",
+          "normalized_hash": "dcf0fc6b3c8f4804"
+        },
+        {
+          "provision_id": "law:4857:article:49",
+          "label": "Madde 49",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 49 - İşçinin tatil günü ücreti çalıştığı günlere göre bir güne düşen ücretidir. \nParça başına, akort, götürü veya yüzde usulü ile çalışan işçilerin tatil günü ücreti, \nödeme döneminde kazandığı ücretin aynı süre içinde çalıştığı günlere bölünmesi suretiyle \nhesaplanır. \nSaat ücreti ile çalışan işçilerin tatil günü ücreti saat ücretinin yedibuçuk katıdır. \nHasta, izinli veya sair sebeplerle mazeretli olduğu hallerde dahi aylığı tam olarak \nödenen aylık ücretli işçilere 46, 47 ve 48 inci maddenin birinci fıkrası hükümleri uygulanmaz. \nAncak bunlardan ulusal bayram ve genel tatil günlerinde çalışanlara ayrıca çalıştığı her gün \niçin bir günlük ücreti ödenir. \n \nTatil ücretine girmeyen kısımlar",
+          "normalized_hash": "5b2a7e53b655cc6d"
+        },
+        {
+          "provision_id": "law:4857:article:50",
+          "label": "Madde 50",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 50 - Fazla çalışma karşılığı olarak alınan ücretler, primler, işyerinin temelli \nişçisi olarak normal çalışma saatleri dışında hazırlama, tamamlama, temizleme işlerinde \nçalışan işçilerin bu işler için aldıkları ücretler ve sosyal yardımlar, ulusal bayram, hafta tatili \nve genel tatil günleri için verilen ücretlerin tespitinde hesaba katılmaz. \n \nYüzdelerin ödenmesi",
+          "normalized_hash": "960846621488d386"
+        },
+        {
+          "provision_id": "law:4857:article:51",
+          "label": "Madde 51",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 51 - Otel, lokanta, eğlence yerleri ve benzeri yerler ile içki verilen ve hemen \norada yenilip içilmesi için çeşitli yiyecek satan yerlerden \"yüzde\" usulünün uygulandığı \nmüesseselerde işveren tarafından servis karşılığı veya başka isimlerle müşterilerin hesap \npusulalarına \"yüzde\" eklenerek veya ayrı şekillerde alınan paralarla kendi isteği ile müşteri \ntarafından işverene bırakılan yahut da onun kontrolü altında bir araya toplanan paraları \nişveren işyerinde çalışan tüm işçilere eksiksiz olarak ödemek zorundadır. \nİşveren veya işveren vekili yukarıdaki fıkrada sözü edilen paraların kendisi tarafından \nalındığında eksiksiz olarak işçilere dağıtıldığını belgelemekle yükümlüdür. \nYüzdelerden toplanan paraların o işyerinde çalışan işçiler arasında yapılan işlerin \nniteliğine göre, hangi esaslar ve oranlar çerçevesinde dağıtılacağı Çalışma ve Sosyal Güvenlik \nBakanlığınca hazırlanacak bir yönetmelikle gösterilir. \n \nYüzdelerin belgelenmesi",
+          "normalized_hash": "acb96856975c2f0a"
+        },
+        {
+          "provision_id": "law:4857:article:52",
+          "label": "Madde 52",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 52 - Yüzde usulünün uygulandığı işyerlerinde işveren, her hesap pusulasının \ngenel toplamını gösteren bir belgeyi işçilerin kendi aralarından seçecekleri bir temsilciye \nvermekle yükümlüdür. Bu belgelerin şekli ve uygulama usulleri iş sözleşmelerinde veya toplu \niş sözleşmelerinde gösterilir. \n \nYıllık ücretli izin hakkı ve izin süreleri",
+          "normalized_hash": "9ad0ae903328db98"
+        },
+        {
+          "provision_id": "law:4857:article:53",
+          "label": "Madde 53",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 53 - İşyerinde işe başladığı günden itibaren, deneme süresi de içinde olmak \n\nüzere, en az bir yıl çalışmış olan işçilere yıllık ücretli izin verilir. \nYıllık ücretli izin hakkından vazgeçilemez. \nNiteliklerinden ötürü bir yıldan az süren mevsimlik veya kampanya işlerinde çalışanlara \nbu Kanunun yıllık ücretli izinlere ilişkin hükümleri uygulanmaz. \nİşçilere verilecek yıllık ücretli izin süresi, hizmet süresi; \na) Bir yıldan beş yıla kadar (beş yıl dahil) olanlara ondört günden, \nb) Beş yıldan fazla onbeş yıldan az olanlara yirmi günden, \nc) Onbeş yıl (dahil) ve daha fazla olanlara yirmialtı günden, \nAz olamaz. (Ek cümle: 10/9/2014-6552/5 md.) Yer altı işlerinde çalışan işçilerin \nyıllık ücretli izin süreleri dörder gün arttırılarak uygulanır. \nAncak onsekiz ve daha küçük yaştaki işçilerle elli ve daha yukarı yaştaki işçilere \nverilecek yıllık ücretli izin süresi yirmi günden az olamaz. \nYıllık izin süreleri iş sözleşmeleri ve toplu iş sözleşmeleri ile artırılabilir. \n \nYıllık ücretli izne hak kazanma ve izni kullanma dönemi",
+          "normalized_hash": "1348926c5e849217"
+        },
+        {
+          "provision_id": "law:4857:article:54",
+          "label": "Madde 54",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 54 - Yıllık ücretli izine hak kazanmak için gerekli sürenin hesabında işçilerin, \naynı işverenin bir veya çeşitli işyerlerinde çalıştıkları süreler birleştirilerek göz önüne alınır. \nŞu kadar ki, bir işverenin bu Kanun kapsamına giren işyerinde çalışmakta olan işçilerin aynı \nişverenin işyerlerinde bu Kanun kapsamına girmeksizin geçirmiş bulundukları süreler de \nhesaba katılır. \nBir yıllık süre içinde 55 inci maddede sayılan haller dışındaki sebeplerle işçinin \ndevamının kesilmesi halinde bu boşlukları karşılayacak kadar hizmet süresi eklenir ve bu \nsuretle işçinin izin hakkını elde etmesi için gereken bir yıllık hizmet süresinin bitiş tarihi \ngelecek hizmet yılına aktarılır. \nİşçinin gelecek izin hakları için geçmesi gereken bir yıllık hizmet süresi, bir önceki \nizin hakkının doğduğu günden başlayarak gelecek hizmet yılına doğru ve yukarıdaki fıkra ve \n55 inci madde hükümleri gereğince hesaplanır. \nİşçi yukarıdaki fıkralar ve 55 inci madde hükümlerine göre hesaplanacak her hizmet \nyılına karşılık, yıllık iznini gelecek hizmet yılı içinde kullanır. \nAynı bakanlığa bağlı işyerleri ile aynı bakanlığa bağlı tüzel kişilerin işyerlerinde geçen \nsüreler ve kamu iktisadi teşebbüsleri yahut özel kanuna veya Cumhurbaşkanlığı kararnamesine \ndayanılarak kurulan banka ve kuruluşlar veya bunlara bağlı işyerlerinde geçen süreler, işçinin \nyıllık ücretli izin hakkının hesaplanmasında göz önünde bulundurulur.17 \n \nYıllık izin bakımından çalışılmış gibi sayılan haller",
+          "normalized_hash": "4be50cbe3cebe9ca"
+        },
+        {
+          "provision_id": "law:4857:article:55",
+          "label": "Madde 55",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 55 - Aşağıdaki süreler yıllık ücretli izin hakkının hesabında çalışılmış gibi \nsayılır: \na) İşçinin uğradığı kaza veya tutulduğu hastalıktan ötürü işine gidemediği günler \n(Ancak, 25 inci maddenin (I) numaralı bendinin (b) alt bendinde öngörülen süreden fazlası \n \n17 2/7/2018 tarihli ve 700 sayılı KHK’nin 145 inci maddesiyle, bu fıkrada yer alan “özel kanunla \nverilmiş yetkiye” ibaresi “Cumhurbaşkanlığı kararnamesine” şeklinde değiştirilmiştir. \n\nsayılmaz.). \nb) Kadın işçilerin 74 üncü madde gereğince doğumdan önce ve sonra çalıştırılmadıkları \ngünler. \nc) İşçinin muvazzaf askerlik hizmeti dışında manevra veya herhangi bir kanundan \ndolayı ödevlendirilmesi sırasında işine gidemediği günler (Bu sürenin yılda 90 günden fazlası \nsayılmaz.). \nd) Çalışmakta olduğu işyerinde zorlayıcı sebepler yüzünden işin aralıksız bir haftadan \nçok tatil edilmesi sonucu olarak işçinin çalışmadan geçirdiği zamanın onbeş günü (işçinin \nyeniden işe başlaması şartıyla). \ne) 66 ncı maddede sözü geçen zamanlar. \nf) Hafta tatili, ulusal bayram, genel tatil günleri. \ng) 3153 sayılı Kanuna dayanılarak çıkarılan yönetmeliğe göre röntgen muayenehanelerinde \nçalışanlara pazardan başka verilmesi gereken yarım günlük izinler.18 \nh) İşçilerin arabuluculuk toplantılarına katılmaları, hakem kurullarında bulunmaları, \nbu kurullarda işçi temsilciliği görevlerini yapmaları, çalışma hayatı ile ilgili mevzuata göre \nkurulan meclis, kurul, komisyon ve toplantılara yahut işçilik konuları ile ilgili uluslararası \nkuruluşların konferans, kongre veya kurullarına işçi veya sendika temsilcisi olarak katılması \nsebebiyle işlerine devam edemedikleri günler. \nı) (Değişik: 4/4/2015-6645/35 md.) Ek 2 nci maddede sayılan izin süreleri, \nj) İşveren tarafından verilen diğer izinler ile 65 inci maddedeki kısa çalışma süreleri. \nk) Bu Kanunun uygulanması sonucu olarak işçiye verilmiş bulunan yıllık ücretli izin \nsüresi. \n \nYıllık ücretli iznin uygulanması",
+          "normalized_hash": "2250632e3c90d202"
+        },
+        {
+          "provision_id": "law:4857:article:56",
+          "label": "Madde 56",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 56 - Yıllık ücretli izin işveren tarafından bölünemez. \nBu iznin 53 üncü maddede gösterilen süreler içinde işveren tarafından sürekli bir \nşekilde verilmesi zorunludur. \n(Değişik üçüncü fıkra: 14/4/2016-6704/16 md.) Ancak, 53 üncü maddede öngörülen \nizin süreleri, tarafların anlaşması ile bir bölümü on günden aşağı olmamak üzere bölümler \nhâlinde kullanılabilir. \nİşveren tarafından yıl içinde verilmiş bulunan diğer ücretli ve ücretsiz izinler veya \ndinlenme ve hastalık izinleri yıllık izne mahsup edilemez. \nYıllık ücretli izin günlerinin hesabında izin süresine rastlayan ulusal bayram, hafta \ntatili ve genel tatil günleri izin süresinden sayılmaz. \nYıllık ücretli izinleri işyerinin kurulu bulunduğu yerden başka bir yerde geçirecek \nolanlara istemde bulunmaları ve bu hususu belgelemeleri koşulu ile gidiş ve dönüşlerinde \nyolda geçecek süreleri karşılamak üzere işveren toplam dört güne kadar ücretsiz izin vermek \nzorundadır. İşveren, işyerinde çalışan işçilerin yıllık ücretli izinlerini gösterir izin kayıt \nbelgesi tutmak zorundadır. \n \n18 2/7/2018 tarihli ve 700 sayılı KHK’nin 145 inci maddesiyle, bu bentte yer alan “tüzüğe” ibaresi \n“yönetmeliğe” şeklinde değiştirilmiştir. \n\n(Ek fıkra: 10/9/2014-6552/6 md.) Alt işveren işçilerinden, alt işvereni değiştiği hâlde \naynı işyerinde çalışmaya devam edenlerin yıllık ücretli izin süresi, aynı işyerinde çalıştıkları \nsüreler dikkate alınarak hesaplanır. Asıl işveren, alt işveren tarafından çalıştırılan işçilerin hak \nkazandıkları yıllık ücretli izin sürelerinin kullanılıp kullanılmadığını kontrol etmek ve ilgili \nyıl içinde kullanılmasını sağlamakla, alt işveren ise altıncı fıkraya göre tutmak zorunda \nolduğu izin kayıt belgesinin bir örneğini asıl işverene vermekle yükümlüdür. \n\nYıllık izin ücreti",
+          "normalized_hash": "c4ad34af27082130"
+        },
+        {
+          "provision_id": "law:4857:article:57",
+          "label": "Madde 57",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 57 - İşveren, yıllık ücretli iznini kullanan her işçiye, yıllık izin dönemine \nilişkin ücretini ilgili işçinin izine başlamasından önce peşin olarak ödemek veya avans olarak \nvermek zorundadır. \nBu ücretin hesabında 50 nci madde hükmü uygulanır. \nGünlük, haftalık veya aylık olarak belirli bir ücrete dayanmayıp da akort, komisyon \nücreti, kâra katılma ve yüzde usulü ücret gibi belirli olmayan süre ve tutar üzerinden ücret \nalan işçinin izin süresi için verilecek ücret, son bir yıllık süre içinde kazandığı ücretin fiili \nolarak çalıştığı günlere bölünmesi suretiyle bulunacak ortalama üzerinden hesaplanır. \nAncak, son bir yıl içinde işçi ücretine zam yapıldığı takdirde, izin ücreti işçinin izine \nçıktığı ayın başı ile zammın yapıldığı tarih arasında alınan ücretin aynı süre içinde çalışılan \ngünlere bölünmesi suretiyle hesaplanır. \nYüzde usulünün uygulandığı yerlerde bu ücret, yüzdelerden toplanan para dışında \nişveren tarafından ödenir. \nYıllık ücretli izin süresine rastlayan hafta tatili, ulusal bayram ve genel tatil ücretleri \nayrıca ödenir. \n \nİzinde çalışma yasağı",
+          "normalized_hash": "30481f74cbdddb70"
+        },
+        {
+          "provision_id": "law:4857:article:58",
+          "label": "Madde 58",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 58 - Yıllık ücretli iznini kullanmakta olan işçinin izin süresi içinde ücret \nkarşılığı bir işte çalıştığı anlaşılırsa, bu izin süresi içinde kendisine ödenen ücret işveren \ntarafından geri alınabilir. \n \nSözleşmenin sona ermesinde izin ücreti",
+          "normalized_hash": "96dc2a300e996d15"
+        },
+        {
+          "provision_id": "law:4857:article:59",
+          "label": "Madde 59",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 59 - İş sözleşmesinin, herhangi bir nedenle sona ermesi halinde işçinin hak \nkazanıp da kullanmadığı yıllık izin sürelerine ait ücreti, sözleşmenin sona erdiği tarihteki \nücreti üzerinden kendisine veya hak sahiplerine ödenir. Bu ücrete ilişkin zamanaşımı iş \nsözleşmesinin sona erdiği tarihten itibaren başlar. \nİşveren tarafından iş sözleşmesinin feshedilmesi halinde 17 nci maddede belirtilen \nbildirim süresiyle, 27 nci madde gereğince işçiye verilmesi zorunlu yeni iş arama izinleri \nyıllık ücretli izin süreleri ile iç içe giremez. \n \nİzinlere ilişkin düzenlemeler",
+          "normalized_hash": "20f837b16552fe7a"
+        },
+        {
+          "provision_id": "law:4857:article:60",
+          "label": "Madde 60",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 60 - Yıllık ücretli izinlerin, yürütülen işlerin niteliğine göre yıl boyunca hangi \ndönemlerde kullanılacağı, izinlerin ne suretle ve kimler tarafından verileceği veya sıraya bağlı \ntutulacağı, yıllık izninin faydalı olması için işveren tarafından alınması gereken tedbirler ve \nizinlerin kullanılması konusuna ilişkin usuller ve işverence tutulması zorunlu kayıtların şekli \nÇalışma ve Sosyal Güvenlik Bakanlığı tarafından hazırlanacak bir yönetmelikle gösterilir. \n \n\nSigorta primleri",
+          "normalized_hash": "82db767e69f90e65"
+        },
+        {
+          "provision_id": "law:4857:article:61",
+          "label": "Madde 61",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 61 - Sigortalılara yıllık ücretli izin süresi için ödenecek ücretler üzerinden iş \nkazaları ile meslek hastalıkları primleri hariç, diğer sigorta primlerinin, 506 sayılı Sosyal Sigortalar \nKanunundaki esaslar çerçevesinde işçi ve işverenler yönünden ödenmesine devam olunur. \n \nÜcretten indirim yapılamayacak haller",
+          "normalized_hash": "b56a770a2fa0c36c"
+        },
+        {
+          "provision_id": "law:4857:article:62",
+          "label": "Madde 62",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 62 - Her türlü işte uygulanmakta olan çalışma sürelerinin yasal olarak daha \naşağı sınırlara indirilmesi veya işverene düşen yasal bir yükümlülüğün yerine getirilmesi \nnedeniyle ya da bu Kanun hükümlerinden herhangi birinin uygulanması sonucuna dayanılarak \nişçi ücretlerinden her ne şekilde olursa olsun eksiltme yapılamaz. \n \nDÖRDÜNCÜ BÖLÜM \nİşin Düzenlenmesi \nÇalışma süresi",
+          "normalized_hash": "dfc5865cac341285"
+        },
+        {
+          "provision_id": "law:4857:article:63",
+          "label": "Madde 63",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 63 - Genel bakımdan çalışma süresi haftada en çok kırkbeş saattir. Aksi \nkararlaştırılmamışsa bu süre, işyerlerinde haftanın çalışılan günlerine eşit ölçüde bölünerek \nuygulanır. (Ek cümle: 10/9/2014-6552/7 md.; Değişik cümle: 4/4/2015-6645/36 md.) Yer \naltı maden işlerinde çalışan işçilerin çalışma süresi; günde en çok yedi buçuk, haftada en çok \notuz yedi buçuk saattir. \nTarafların anlaşması ile haftalık normal çalışma süresi, işyerlerinde haftanın çalışılan \ngünlerine, günde onbir saati aşmamak koşulu ile farklı şekilde dağıtılabilir. Bu halde, iki aylık \nsüre içinde işçinin haftalık ortalama çalışma süresi, normal haftalık çalışma süresini aşamaz. \nDenkleştirme süresi toplu iş sözleşmeleri ile dört aya kadar artırılabilir. (Ek cümle: 6/5/20166715/3 md.) Turizm sektöründe dört aylık süre içinde işçinin haftalık ortalama çalışma süresi, \nnormal haftalık çalışma süresini aşamaz; denkleştirme süresi toplu iş sözleşmeleri ile altı aya \nkadar artırılabilir. \nÇalışma sürelerinin yukarıdaki esaslar çerçevesinde uygulama şekilleri, Çalışma ve \nSosyal Güvenlik Bakanlığı tarafından hazırlanacak bir yönetmelikle düzenlenir. \n(Mülga dördüncü fıkra: 20/6/2012-6331/37 md.) \n \nTelafi çalışması",
+          "normalized_hash": "2f00c68389b09b18"
+        },
+        {
+          "provision_id": "law:4857:article:64",
+          "label": "Madde 64",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 64 - Zorunlu nedenlerle işin durması, ulusal bayram ve genel tatillerden önce \nveya sonra işyerinin tatil edilmesi veya benzer nedenlerle işyerinde normal çalışma sürelerinin \nönemli ölçüde altında çalışılması veya tamamen tatil edilmesi ya da işçinin talebi ile kendisine \nizin verilmesi hallerinde, işveren dört ay içinde çalışılmayan süreler için telafi çalışması \nyaptırabilir. (Ek cümle:25/3/2020-7226/43 md.) Cumhurbaşkanı bu süreyi iki katına kadar \nartırmaya yetkilidir. Bu çalışmalar fazla çalışma veya fazla sürelerle çalışma sayılmaz.19 \nTelafi çalışmaları, günlük en çok çalışma süresini aşmamak koşulu ile günde üç \nsaatten fazla olamaz. Tatil günlerinde telafi çalışması yaptırılamaz. \n \n19 25/3/2020 tarihli ve 7226 sayılı Kanunun 43 üncü maddesiyle bu fıkrada yer alan “iki” ibaresi \n“dört” şeklinde değiştirilmiştir. \n\n \nKısa çalışma ve kısa çalışma ödeneği",
+          "normalized_hash": "775a5455f3d643e2"
+        },
+        {
+          "provision_id": "law:4857:article:65",
+          "label": "Madde 65",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 65 – (Mülga: 15/5/2008-5763/37 md.) \n \nÇalışma süresinden sayılan haller",
+          "normalized_hash": "0135bdac94a8cf73"
+        },
+        {
+          "provision_id": "law:4857:article:66",
+          "label": "Madde 66",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 66 - Aşağıdaki süreler işçinin günlük çalışma sürelerinden sayılır: \na) Madenlerde, taşocaklarında yahut her ne şekilde olursa olsun yeraltında veya su \naltında çalışılacak işlerde işçilerin kuyulara, dehlizlere veya asıl çalışma yerlerine inmeleri \nveya girmeleri ve bu yerlerden çıkmaları için gereken süreler. \nb) İşçilerin işveren tarafından işyerlerinden başka bir yerde çalıştırılmak üzere \ngönderilmeleri halinde yolda geçen süreler. \nc) İşçinin işinde ve her an iş görmeye hazır bir halde bulunmakla beraber çalıştırılmaksızın \nve çıkacak işi bekleyerek boş geçirdiği süreler. \nd) İşçinin işveren tarafından başka bir yere gönderilmesi veya işveren evinde veya \nbürosunda yahut işverenle ilgili herhangi bir yerde meşgul edilmesi suretiyle asıl işini \nyapmaksızın geçirdiği süreler. \ne) Çocuk emziren kadın işçilerin çocuklarına süt vermeleri için belirtilecek süreler. \nf) Demiryolları, karayolları ve köprülerin yapılması, korunması ya da onarım ve tadili \ngibi, işçilerin yerleşim yerlerinden uzak bir mesafede bulunan işyerlerine hep birlikte getirilip \ngötürülmeleri gereken her türlü işlerde bunların toplu ve düzenli bir şekilde götürülüp \ngetirilmeleri esnasında geçen süreler. \nİşin niteliğinden doğmayıp da işveren tarafından sırf sosyal yardım amacıyla işyerine \ngötürülüp getirilme esnasında araçlarda geçen süre çalışma süresinden sayılmaz. \n \nGünlük çalışmanın başlama ve bitiş saatleri",
+          "normalized_hash": "a1794050fbaf44e9"
+        },
+        {
+          "provision_id": "law:4857:article:67",
+          "label": "Madde 67",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 67 - Günlük çalışmanın başlama ve bitiş saatleri ile dinlenme saatleri işyerlerinde \nişçilere duyurulur. \nİşin niteliğine göre işin başlama ve bitiş saatleri işçiler için farklı şekilde düzenlenebilir. \n \nAra dinlenmesi",
+          "normalized_hash": "6d384c40d7508518"
+        },
+        {
+          "provision_id": "law:4857:article:68",
+          "label": "Madde 68",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 68 - Günlük çalışma süresinin ortalama bir zamanında o yerin gelenekleri ve \nişin gereğine göre ayarlanmak suretiyle işçilere; \na) Dört saat veya daha kısa süreli işlerde onbeş dakika, \nb) Dört saatten fazla ve yedibuçuk saate kadar (yedibuçuk saat dahil) süreli işlerde \nyarım saat, \nc) Yedibuçuk saatten fazla süreli işlerde bir saat, \nara dinlenmesi verilir. \nBu dinlenme süreleri en az olup aralıksız verilir. \nAncak bu süreler, iklim, mevsim, o yerdeki gelenekler ve işin niteliği göz önünde \n\ntutularak sözleşmeler ile aralı olarak kullandırılabilir. \nDinlenmeler bir işyerinde işçilere aynı veya değişik saatlerde kullandırılabilir. \nAra dinlenmeleri çalışma süresinden sayılmaz. \n \nGece süresi ve gece çalışmaları",
+          "normalized_hash": "98669ac11ab1f412"
+        },
+        {
+          "provision_id": "law:4857:article:69",
+          "label": "Madde 69",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 69 - Çalışma hayatında \"gece\" en geç saat 20.00'de başlayarak en erken saat \n06.00'ya kadar geçen ve her halde en fazla onbir saat süren dönemdir. \nBazı işlerin niteliğine ve gereğine göre yahut yurdun bazı bölgelerinin özellikleri \nbakımından, çalışma hayatına ilişkin \"gece\" başlangıcının daha geriye alınması veya yaz ve \nkış saatlerinin ayarlanması, yahut gün döneminin başlama ve bitme saatlerinin belirtilmesi \nsuretiyle birinci fıkradaki hükmün uygulama şekillerini tespit etmek yahut bazı gece \nçalışmalarına herhangi bir oranda fazla ücret ödenmesi usulünü koymak veyahut gece \nişletilmelerinde ekonomik bir zorunluluk bulunmayan işyerlerinde işçilerin gece çalışmalarını \nyasak etmek üzere yönetmelikler çıkartılabilir. \nİşçilerin gece çalışmaları yedibuçuk saati geçemez. (Ek cümle: 4/4/2015-6645/37 md.) \nAncak, turizm, özel güvenlik, sağlık hizmeti ve 30/5/2013 tarihli ve 6491 sayılı Türk Petrol \nKanunu uyarınca petrol araştırma, arama ve sondaj faaliyetleri kapsamında yürütülen işlerde \nişçinin yazılı onayının alınması şartıyla yedi buçuk saatin üzerinde gece çalışması \nyaptırılabilir.20 \n(Mülga dördüncü fıkra: 20/6/2012-6331/37 md.) \n(Mülga beşinci fıkra: 20/6/2012-6331/37 md.) \n(Mülga altıncı fıkra: 20/6/2012-6331/37 md.) \nGece ve gündüz işletilen ve nöbetleşe işçi postaları kullanılan işlerde, bir çalışma \nhaftası gece çalıştırılan işçilerin, ondan sonra gelen ikinci çalışma haftası gündüz \nçalıştırılmaları suretiyle postalar sıraya konur. Gece ve gündüz postalarında iki haftalık \nnöbetleşme esası da uygulanabilir. \nPostası değiştirilecek işçi kesintisiz en az onbir saat dinlendirilmeden diğer postada \nçalıştırılamaz. \n \nHazırlama, tamamlama ve temizleme işleri",
+          "normalized_hash": "44aee8f75932afd0"
+        },
+        {
+          "provision_id": "law:4857:article:70",
+          "label": "Madde 70",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 70 - Genel olarak bir işyerinde belirli çalışma saatlerinden önce veya sonra \ngerekli olan hazırlama veya tamamlama yahut temizleme işlerinde çalışan işçiler için işin \ndüzenlenmesi ile ilgili hükümlerden hangilerinin uygulanmayacağı yahut ne gibi değişik \nşartlar ve usullerle uygulanacağı Çalışma ve Sosyal Güvenlik Bakanlığı tarafından \nhazırlanacak bir yönetmelikte gösterilir. \n \nÇalıştırma yaşı ve çocukları çalıştırma yasağı",
+          "normalized_hash": "190ed09efc4edf2d"
+        },
+        {
+          "provision_id": "law:4857:article:71",
+          "label": "Madde 71",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 71 – (Değişik birinci fıkra: 4/4/2015-6645/38 md.) On beş yaşını \n \n20 22/12/2022 tarihli ve 7429 sayılı Kanunun 4 üncü maddesiyle bu fıkrada yer alan “ve sağlık \nhizmeti” ibaresi “, sağlık hizmeti ve 30/5/2013 tarihli ve 6491 sayılı Türk Petrol Kanunu uyarınca \npetrol araştırma, arama ve sondaj faaliyetleri kapsamında” şeklinde değiştirilmiştir. \n\ndoldurmamış çocukların çalıştırılması yasaktır. Ancak, on dört yaşını doldurmuş ve zorunlu \nilköğretim çağını tamamlamış olan çocuklar; bedensel, zihinsel, sosyal ve ahlaki \ngelişmelerine ve eğitime devam edenlerin okullarına devamına engel olmayacak hafif işlerde \nçalıştırılabilirler. On dört yaşını doldurmamış çocuklar ise bedensel, zihinsel, sosyal ve ahlaki \ngelişmelerine ve eğitime devam edenlerin okullarına devamına engel olmayacak sanat, kültür \nve reklam faaliyetlerinde yazılı sözleşme yapmak ve her bir faaliyet için ayrı izin almak \nşartıyla çalıştırılabilirler. \nÇocuk ve genç işçilerin işe yerleştirilmelerinde ve çalıştırılabilecekleri işlerde \ngüvenlik, sağlık, bedensel, zihinsel ve psikolojik gelişmeleri, kişisel yatkınlık ve yetenekleri \ndikkate alınır. Çocuğun gördüğü iş onun okula gitmesine, mesleki eğitiminin devamına engel \nolamaz, onun derslerini düzenli bir şekilde izlemesine zarar veremez. \nOnsekiz yaşını doldurmamış çocuk ve genç işçiler bakımından yasak olan işler ile \nonbeş yaşını tamamlamış, ancak onsekiz yaşını tamamlamamış genç işçilerin çalışmasına izin \nverilecek işler, on dört yaşını doldurmuş ve zorunlu ilköğretim çağını tamamlamış çocukların \nçalıştırılabilecekleri hafif işler, onaltı yaşını doldurmuş fakat onsekiz yaşını bitirmemiş genç \nişçilerin hangi çeşit işlerde çalıştırılabilecekleri ve çalışma koşulları Çalışma ve Sosyal \nGüvenlik Bakanlığı tarafından altı ay içinde çıkarılacak bir yönetmelikle belirlenir.2122 \n(Değişik dördüncü fıkra: 4/4/2015-6645/38 md.) Zorunlu ilköğretim çağını \ntamamlamış ve örgün eğitime devam etmeyen çocukların çalışma saatleri günde yedi ve \nhaftada otuz beş saatten; sanat, kültür ve reklam faaliyetlerinde çalışanların ise günde beş ve \nhaftada otuz saatten fazla olamaz. Bu süre, on beş yaşını tamamlamış çocuklar için günde \nsekiz ve haftada kırk saate kadar artırılabilir. \nOkul öncesi çocuklar ile okula devam eden çocukların eğitim dönemindeki çalışma \nsüreleri, eğitim saatleri dışında olmak üzere, en fazla günde iki saat ve haftada on saat olabilir. \nOkulun kapalı olduğu dönemlerde çalışma süreleri yukarıda dördüncü fıkrada öngörülen \nsüreleri aşamaz.23 \n(Ek fıkra: 4/4/2015-6645/38 md.) Sanat, kültür ve reklam faaliyetlerinin kapsamı, bu \nfaaliyetlerde çalışacak çocuklara çalışma izni verilmesi, yaş grupları ve faaliyet türlerine göre \nçalışma ve dinlenme süreleri ile çalışma ortamı ve şartları, ücretin ödenmesine ilişkin usul ve \nesaslar ile diğer hususlar Aile ve Sosyal Politikalar Bakanlığı, Kültür ve Turizm Bakanlığı, \nSağlık Bakanlığı, Millî Eğitim Bakanlığı ile Radyo ve Televizyon Üst Kurulunun görüşleri \nalınarak Çalışma ve Sosyal Güvenlik Bakanlığı tarafından çıkarılacak yönetmelikle belirlenir. \n \nYer ve su altında çalıştırma yasağı \n \n21 20/6/2012 tarihli ve 6331 sayılı Kanunun 32 nci maddesiyle, bu fıkrada yer alan “hafif işler” \nibaresinden sonra gelmek üzere “, onaltı yaşını doldurmuş fakat onsekiz yaşını bitirmemiş genç \nişçilerin hangi çeşit işlerde çalıştırılabilecekleri” ibaresi eklenmiştir. \n22 4/4/2015 tarihli ve 6645 sayılı Kanunun 38 inci maddesiyle, bu fıkrada yer alan “ondört yaşını \nbitirmiş ve ilk öğretimini tamamlamış” ibaresi “on dört yaşını doldurmuş ve zorunlu ilköğretim çağını \ntamamlamış” şeklinde değiştirilmiştir. \n23 4/4/2015 tarihli ve 6645 sayılı Kanunun 38 inci maddesiyle, bu fıkrada yer alan “Okula devam \neden” ibaresi “Okul öncesi çocuklar ile okula devam eden” şeklinde ve “birinci” ibaresi “dördüncü” \nşeklinde değiştirilmiştir.",
+          "normalized_hash": "e4c1a7407518ff0c"
+        },
+        {
+          "provision_id": "law:4857:article:72",
+          "label": "Madde 72",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 72 - Maden ocakları ile kablo döşemesi, kanalizasyon ve tünel inşaatı gibi yer \naltında veya su altında çalışılacak işlerde onsekiz yaşını doldurmamış erkek ve her yaştaki \nkadınların çalıştırılması yasaktır. \n \nGece çalıştırma yasağı",
+          "normalized_hash": "169f6a79495e66cc"
+        },
+        {
+          "provision_id": "law:4857:article:73",
+          "label": "Madde 73",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 73 - Sanayie ait işlerde onsekiz yaşını doldurmamış çocuk ve genç işçilerin \ngece çalıştırılması yasaktır. \nOnsekiz yaşını doldurmuş kadın işçilerin gece postalarında çalıştırılmasına ilişkin usul \nve esaslar Sağlık Bakanlığının görüşü alınarak Çalışma ve Sosyal Güvenlik Bakanlığınca \nhazırlanacak bir yönetmelikte gösterilir. \n \nAnalık halinde çalışma ve süt izni",
+          "normalized_hash": "b4dd95f7f64a3a89"
+        },
+        {
+          "provision_id": "law:4857:article:74",
+          "label": "Madde 74",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 74 - Kadın işçilerin doğumdan önce sekiz ve doğumdan sonra onaltı hafta \nolmak üzere toplam yirmidört haftalık süre için çalıştırılmamaları esastır. Çoğul gebelik \nhalinde doğumdan önce çalıştırılmayacak sekiz haftalık süreye iki hafta süre eklenir. Ancak, \nsağlık durumu uygun olduğu takdirde, doktorun onayı ile kadın işçi isterse doğumdan önceki \niki haftaya kadar işyerinde çalışabilir. Bu durumda, kadın işçinin çalıştığı süreler doğum \nsonrası sürelere eklenir. (Ek cümle: 13/2/2011-6111/76 md.) Kadın işçinin erken doğum \nyapması halinde ise doğumdan önce kullanamadığı çalıştırılmayacak süreler, doğum sonrası \nsürelere eklenmek suretiyle kullandırılır. (Ek cümleler: 29/1/2016-6663/22 md.) Doğumda \nveya doğum sonrasında annenin ölümü hâlinde, doğum sonrası kullanılamayan süreler babaya \nkullandırılır. Üç yaşını doldurmamış çocuğu evlat edinen eşlerden birine veya evlat edinene \nçocuğun aileye fiilen teslim edildiği tarihten itibaren sekiz hafta analık hâli izni kullandırılır. \n(Ek cümle:22/4/2026-7578/15 md.) Bir veya daha fazla çocuğa eşiyle birlikte veya münferit \nolarak koruyucu aile olan işçiye, çocuğun teslim edildiği tarihten sonra isteği üzerine on gün \nücretsiz izin verilir.24 \n(Ek fıkra: 29/1/2016-6663/22 md.) Birinci fıkra uyarınca kullanılan doğum sonrası \nanalık hâli izninin bitiminden itibaren çocuğunun bakımı ve yetiştirilmesi amacıyla ve \nçocuğun hayatta olması kaydıyla kadın işçi ile üç yaşını doldurmamış çocuğu evlat edinen \nkadın veya erkek işçilere istekleri hâlinde birinci doğumda altmış gün, ikinci doğumda yüz \nyirmi gün, sonraki doğumlarda ise yüz seksen gün süreyle haftalık çalışma süresinin yarısı \nkadar ücretsiz izin verilir. Çoğul doğum hâlinde bu sürelere otuzar gün eklenir. Çocuğun \nengelli doğması hâlinde bu süre üç yüz altmış gün olarak uygulanır. Bu fıkra hükümlerinden \nyararlanılan süre içerisinde süt iznine ilişkin hükümler uygulanmaz. \nYukarıda öngörülen süreler işçinin sağlık durumuna ve işin özelliğine göre doğumdan \nönce ve sonra gerekirse artırılabilir. Bu süreler hekim raporu ile belirtilir. \nHamilelik süresince kadın işçiye periyodik kontroller için ücretli izin verilir. \n \n24 22/4/2026 tarihli ve 7578 sayılı Kanunun 15 inci maddesiyle birinci fıkranın birinci cümlesinde yer \nalan “doğumdan sonra sekiz” ibaresi “doğumdan sonra onaltı” şeklinde, “toplam onaltı” ibaresi \n“toplam yirmidört” şeklinde, üçüncü cümlesinde yer alan “üç” ibaresi “iki” şeklinde değiştirilmiştir. \n\nHekim raporu ile gerekli görüldüğü takdirde, hamile kadın işçi sağlığına uygun daha \nhafif işlerde çalıştırılır. Bu halde işçinin ücretinde bir indirim yapılmaz. \nİsteği halinde kadın işçiye, yirmidört haftalık sürenin tamamlanmasından veya çoğul \ngebelik halinde yirmialtı haftalık süreden sonra altı aya kadar ücretsiz izin verilir. (Ek cümle: \n29/1/2016-6663/22 md.) Bu izin, üç yaşını doldurmamış çocuğu evlat edinme hâlinde eşlerden \nbirine veya evlat edinene verilir. Bu süre, yıllık ücretli izin hakkının hesabında dikkate \nalınmaz.25 \nKadın işçilere bir yaşından küçük çocuklarını emzirmeleri için günde toplam birbuçuk \nsaat süt izni verilir. Bu sürenin hangi saatler arasında ve kaça bölünerek kulllanılacağını işçi \nkendisi belirler. Bu süre günlük çalışma süresinden sayılır. \n(Ek fıkra: 29/1/2016-6663/22 md.) Bu madde hükümleri iş sözleşmesi ile çalışan ve \nbu Kanunun kapsamında olan veya olmayan her türlü işçi için uygulanır. \n \nİşçi özlük dosyası",
+          "normalized_hash": "50af4bb2a044435d"
+        },
+        {
+          "provision_id": "law:4857:article:75",
+          "label": "Madde 75",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 75 - İşveren çalıştırdığı her işçi için bir özlük dosyası düzenler. İşveren bu \ndosyada, işçinin kimlik bilgilerinin yanında, bu Kanun ve diğer kanunlar uyarınca düzenlemek \nzorunda olduğu her türlü belge ve kayıtları saklamak ve bunları istendiği zaman yetkili memur \nve mercilere göstermek zorundadır. \nİşveren, işçi hakkında edindiği bilgileri dürüstlük kuralları ve hukuka uygun olarak \nkullanmak ve gizli kalmasında işçinin haklı çıkarı bulunan bilgileri açıklamamakla yükümlüdür. \n \nYönetmelikler",
+          "normalized_hash": "e50a4408494418db"
+        },
+        {
+          "provision_id": "law:4857:article:76",
+          "label": "Madde 76",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 76 - Nitelikleri gereği günlük ve haftalık çalışma sürelerinin 63 üncü maddede \nöngörüldüğü şekilde uygulanması mümkün olmayan iş ve işyerlerinde çalışma sürelerinin günlük \nyasal çalışma süresini aşmayacak şekilde ve en çok altı aya kadar denkleştirme süresi tanınarak \nuygulanmasını sağlayacak usuller Çalışma ve Sosyal Güvenlik Bakanlığınca hazırlanacak \nyönetmeliklerle düzenlenir. \nNitelikleri dolayısıyla devamlı çalıştıkları için durmaksızın birbiri ardına işçi postaları \nçalıştırılarak işletilen yahut nöbetleşe işçi postaları ile yapılan işlerde, çalışma sürelerine, hafta \ntatillerine ve gece çalışmalarına ve çalışma ortasındaki zorunlu dinlenmelere dair özel usul ve \nesaslar Çalışma ve Sosyal Güvenlik Bakanlığınca hazırlanacak yönetmeliklerle düzenlenir. \n \nBEŞİNCİ BÖLÜM \nİş Sağlığı ve Güvenliği \nİşverenlerin ve işçilerin yükümlülükleri",
+          "normalized_hash": "c7f4a1f9af888aea"
+        },
+        {
+          "provision_id": "law:4857:article:77",
+          "label": "Madde 77",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 77 – (Mülga: 20/6/2012-6331/37 md.) \n \n \n25 22/4/2026 tarihli ve 7578 sayılı Kanunun 15 inci maddesiyle bu fıkranın birinci cümlesinde yer alan \n“onaltı” ibaresi “yirmidört” şeklinde ve “onsekiz” ibaresi “yirmialtı” şeklinde değiştirilmiştir. \n\nİş sağlığı ve güvenliği yönetmelikleri26",
+          "normalized_hash": "2a8273a202160da4"
+        },
+        {
+          "provision_id": "law:4857:article:78",
+          "label": "Madde 78",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 78 – (Mülga: 20/6/2012-6331/37 md.) \n \nİşin durdurulması veya işyerinin kapatılması",
+          "normalized_hash": "eb12089d2aa9524e"
+        },
+        {
+          "provision_id": "law:4857:article:79",
+          "label": "Madde 79",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 79 - (Mülga: 20/6/2012-6331/37 md.) \n \nİş sağlığı ve güvenliği kurulu",
+          "normalized_hash": "fbecbca69c690e92"
+        },
+        {
+          "provision_id": "law:4857:article:80",
+          "label": "Madde 80",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 80 - (Mülga: 20/6/2012-6331/37 md.) \n \nİş sağlığı ve güvenliği hizmetleri27",
+          "normalized_hash": "24e0bd58fc28917f"
+        },
+        {
+          "provision_id": "law:4857:article:81",
+          "label": "Madde 81",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 81 – (Mülga: 20/6/2012-6331/37 md.) \n \nİş güvenliği ile görevli mühendis veya teknik elemanlar",
+          "normalized_hash": "41021107d02c24ee"
+        },
+        {
+          "provision_id": "law:4857:article:82",
+          "label": "Madde 82",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 82 – (Mülga: 15/5/2008-5763/37 md.) \n \nİşçilerin hakları",
+          "normalized_hash": "6a9742d4853ce952"
+        },
+        {
+          "provision_id": "law:4857:article:83",
+          "label": "Madde 83",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 83 - (Mülga: 20/6/2012-6331/37 md.) \n \nİçki veya uyuşturucu madde kullanma yasağı",
+          "normalized_hash": "ac67d904c9ec38d0"
+        },
+        {
+          "provision_id": "law:4857:article:84",
+          "label": "Madde 84",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 84 - (Mülga: 20/6/2012-6331/37 md.) \n \nAğır ve tehlikeli işler",
+          "normalized_hash": "b6e3259395514ecb"
+        },
+        {
+          "provision_id": "law:4857:article:85",
+          "label": "Madde 85",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 85 - (Mülga: 20/6/2012-6331/37 md.) \n \nAğır ve tehlikeli işlerde rapor",
+          "normalized_hash": "c572cc1151f10f1a"
+        },
+        {
+          "provision_id": "law:4857:article:86",
+          "label": "Madde 86",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 86 - (Mülga: 20/6/2012-6331/37 md.) \n \nOn sekiz yaşından küçük işçiler için rapor",
+          "normalized_hash": "14a2f270fe2e5437"
+        },
+        {
+          "provision_id": "law:4857:article:87",
+          "label": "Madde 87",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 87 (Mülga: 20/6/2012-6331/37 md.) \n \nGebe veya çocuk emziren kadınlar için yönetmelik",
+          "normalized_hash": "01531c8cdb46a45c"
+        },
+        {
+          "provision_id": "law:4857:article:88",
+          "label": "Madde 88",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 88 – (Mülga: 20/6/2012-6331/37 md.) \n \nÇeşitli yönetmelikler",
+          "normalized_hash": "bcff6b32f38063af"
+        },
+        {
+          "provision_id": "law:4857:article:89",
+          "label": "Madde 89",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 89 - (Mülga: 20/6/2012-6331/37 md.) \n \nALTINCI BÖLÜM \n \n26 15/5/2008 tarihli ve 5763 sayılı Kanunun 3 üncü maddesiyle bu madde başlığı \" Sağlık ve güvenlik \ntüzük ve yönetmelikleri“ iken, metne işlendiği şekilde değiştirilmiştir. \n27 15/5/2008 tarihli ve 5763 sayılı Kanunun 4 üncü maddesiyle bu madde başlığı “İşyeri hekimleri” \niken, metne işlendiği şekilde değiştirilmiştir. \n\nİş ve İşçi Bulma \nİş ve işçi bulmaya aracılık",
+          "normalized_hash": "46263b3eb218c4e0"
+        },
+        {
+          "provision_id": "law:4857:article:90",
+          "label": "Madde 90",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 90 - İş arayanların elverişli oldukları işlere yerleştirilmeleri ve çeşitli işler için \nuygun işçiler bulunmasına aracılık görevi, Türkiye İş Kurumu ve bu hususta izin verilen özel \nistihdam bürolarınca yerine getirilir. \n \nYEDİNCİ BÖLÜM \nÇalışma Hayatının Denetimi ve Teftişi \nDevletin yetkisi",
+          "normalized_hash": "bf04682b31bb48dd"
+        },
+        {
+          "provision_id": "law:4857:article:91",
+          "label": "Madde 91",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 91 - Devlet, çalışma hayatı ile ilgili mevzuatın uygulanmasını izler, denetler \nve teftiş eder. Bu ödev Çalışma ve Sosyal Güvenlik Bakanlığına bağlı ihtiyaca yetecek sayı ve \nözellikte teftiş ve denetlemeye yetkili iş müfettişlerince yapılır. \n(Ek fıkra: 13/2/2011-6111/77 md.; Değişik fıkra: 12/10/2017-7036/13 md.) İşçilerin \nkanundan, iş ve toplu iş sözleşmesinden doğan bireysel alacaklarına ilişkin başvuruları üzerine, \niş sözleşmesinin devam etmesi kaydıyla birinci fıkra hükmü uyarınca işlem yapılabilir. \nAskeri işyerleriyle yurt güvenliği için gerekli maddeler üretilen işyerlerinin denetim ve \nteftişi konusu ve sonuçlarına ait işlemler Milli Savunma Bakanlığı ile Çalışma ve Sosyal \nGüvenlik Bakanlığınca birlikte hazırlanacak yönetmeliğe göre yürütülür. \n \nYetkili makam ve memurlar28",
+          "normalized_hash": "509ff06f6941b2fe"
+        },
+        {
+          "provision_id": "law:4857:article:92",
+          "label": "Madde 92",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 92 - 91 inci madde hükmünün uygulanması için iş hayatının izlenmesi, \ndenetlenmesi ve teftişiyle ödevli olan iş müfettişleri, işyerlerini ve eklentilerini, işin \nyürütülmesi tarzını ve ilgili belgeleri, araç ve gereçleri, cihaz ve makineleri, ham ve işlenmiş \nmaddelerle, iş için gerekli olan malzemeyi 93 üncü maddede yazılı esaslara uyarak gerektiği \nzamanlarda ve işçilerin yaşamına, sağlığına, güvenliğine, eğitimine, dinlenmesine veya oturup \nyatmasına ilişkin tesis ve tertipleri her zaman görmek, araştırmak ve incelemek ve bu Kanunla \nsuç sayılan eylemlere rastladığı zaman bu hususta Cumhurbaşkanınca çıkarılan yönetmelikte \naçıklanan şekillerde bu halleri önlemek yetkisine sahiptirler.29 \n(Değişik ikinci fıkra: 13/2/2011-6111/78 md.) Teftiş, denetleme ve incelemeler \nsırasında işverenler, işçiler ve bu işle ilgili görülen başka kişiler izleme, denetleme ve teftişle \ngörevli iş müfettişleri (…)28 tarafından çağrıldıkları zaman gelmek, ifade ve bilgi vermek, \ngerekli olan belge ve delilleri getirip göstermek ve vermek; iş müfettişlerinin birinci fıkrada \nyazılı görevlerini yapmaları için kendilerine her çeşit kolaylığı göstermek, bu yoldaki \nisteklerini geciktirmeksizin yerine getirmekle yükümlüdürler. \n(Değişik üçüncü fıkra: 13/2/2011-6111/78 md.) Çalışma hayatını izleme, denetleme ve \n \n28 12/10/2017 tarihli ve 7036 sayılı Kanunun 14 üncü maddesiyle, bu maddenin ikinci fıkrasında yer alan \n“ve işçi şikayetlerini inceleyen bölge müdürlüğü memurları” ibaresi ile üçüncü fıkrasında yer alan “ile işçi \nşikayetlerini incelemekle görevli bölge müdürlüğü memurları” ibaresi madde metninden çıkarılmıştır. \n29 2/7/2018 tarihli ve 700 sayılı KHK’nin 145 inci maddesiyle, bu fıkrada yer alan “Çalışma ve Sosyal \nGüvenlik Bakanlığı tarafından çıkarılacak İş Teftişi Tüzüğünde” ibaresi “Cumhurbaşkanınca çıkarılan \nyönetmelikte” şeklinde değiştirilmiştir. \n\nteftişe yetkili iş müfettişleri (…)28 tarafından tutulan tutanaklar aksi kanıtlanıncaya kadar \ngeçerlidir. İş müfettişleri tarafından düzenlenen raporların ve tutulan tutanakların işçi \nalacaklarına ilişkin kısımlarına karşı taraflarca otuz gün içerisinde yetkili iş mahkemesine itiraz \nedilebilir. İş mahkemesinin kararına karşı taraflarca 5521 sayılı Kanunun 8 inci maddesine göre \nkanun yoluna başvurulabilir. Kanun yoluna başvurulması iş mahkemesince hüküm altına alınan \nişçi alacağının tahsiline engel teşkil etmez. \n \nYetkili memurların ödevi",
+          "normalized_hash": "e1347ca1ad45a9e5"
+        },
+        {
+          "provision_id": "law:4857:article:93",
+          "label": "Madde 93",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 93 - İş hayatını izleme, denetleme ve teftiş yetkisi olan iş müfettişleri \ngörevlerini yaparlarken işin normal gidişini ve işyerinin işlemesini, inceledikleri konunun \nniteliğine göre mümkün olduğu kadar aksatmamak, durdurmamak ve güçleştirmemekle ve \nresmi işlemlerin yürütülüp sonuçlandırılması için, açıklanması gerekmedikçe, işverenin ve \nişyerinin meslek sırları ve şartları, ekonomik ve ticari hal ve durumları hakkında gördükleri ve \nöğrendikleri hususları tamamen gizli tutmak ve kendileri tarafından bilgileri ve ifadeleri \nalınan yahut kendilerine başvuran veya ihbarda bulunan işçilerin ve başka kişilerin isimlerini \nve kimliklerini açıklamamakla yükümlüdürler. \n \nMuafiyet",
+          "normalized_hash": "767c8b897d4b877d"
+        },
+        {
+          "provision_id": "law:4857:article:94",
+          "label": "Madde 94",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 94 - İşçi ve işverenlerle bunların meslek kuruluşları tarafından kendilerini \nilgilendiren ve iş hayatına ilişkin işlerde Çalışma ve Sosyal Güvenlik Bakanlığına yazı ile \nbaşvurma halinde bu dilekçeler ve bunlarla ilgili tutanak, evrak, defter ve işlemler damga \nvergisi ve her çeşit resim ve harçtan muaftır. \n \nDiğer merciler tarafından yapılan teftişler",
+          "normalized_hash": "9a8def6be1fd3bc6"
+        },
+        {
+          "provision_id": "law:4857:article:95",
+          "label": "Madde 95",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 95 – (Mülga: 20/6/2012-6331/37 md.) \n \nİşçi ve işverenin sorumluluğu",
+          "normalized_hash": "5e7abe27a02e0ada"
+        },
+        {
+          "provision_id": "law:4857:article:96",
+          "label": "Madde 96",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 96 - İş denetimi ve teftişine yetkili iş müfettişleri tarafından ifade ve \nbilgilerine başvurulan işçilere, işverenlerin gerek doğrudan doğruya ve gerek dolayısıyla \ntelkinlerde bulunmaları, işçileri gerçeği saklamaya yahut değiştirmeye sevk veya herhangi bir \nsuretle zorlamaları veyahut işçilerin ilgili makamlara başvurmaları, haber ve ifade vermeleri \nüzerine, bunlara karşı kötü davranışlarda bulunmaları yasaktır. \nİşçilerin çalıştıkları veya ayrıldıkları işyerleriyle işverenleri hakkında gerçeğe uygun \nolmayan haberler vererek gereksiz işlemlerle uğraştırılmaları veya işverenleri haksız yere \nkötü duruma düşürmeye kalkışmaları ve iş müfettişlerince kendilerinden sorulan hususlar için \ndoğru olmayan cevaplar vererek denetim ve teftişin yapılmasını güçleştirmek veya yanlış bir \nsonuca vardırmak gibi kötü niyetli davranışlarda bulunmaları yasaktır. \n \nZabıtanın yardımı",
+          "normalized_hash": "bfa09ac6e04f1804"
+        },
+        {
+          "provision_id": "law:4857:article:97",
+          "label": "Madde 97",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 97 - Bu Kanun hükümlerinin tam ve gerektiği gibi uygulanabilmesi için \nişyerlerini teftiş ve denetlemeye yetkili iş müfettişlerinin gerekli görmeleri ve istemeleri \n\nhalinde, zabıta kuvvetleri, bu iş müfettişlerinin görevlerini iyi bir şekilde yapabilmelerini \nsağlamak üzere her türlü yardımda bulunmakla yükümlüdürler. \n \nSEKİZİNCİ BÖLÜM \nİdari Ceza Hükümleri \nİşyerini bildirme yükümlülüğüne aykırılık",
+          "normalized_hash": "bda6a67d566dfdc3"
+        },
+        {
+          "provision_id": "law:4857:article:98",
+          "label": "Madde 98",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 98 - (Değişik birinci fıkra: 15/5/2008-5763/8 md.) Bu Kanunun 3 üncü \nmaddesinin birinci ve ikinci fıkralarındaki işyeri bildirme yükümlülüğüne aykırı davranan \nişveren veya işveren vekiline, çalıştırılan her işçi için yüz Yeni Türk Lirası, (…)30 3 üncü \nmaddesinin ikinci fıkrasındaki işyerini muvazaalı olarak bildiren asıl işveren ile alt işveren \nveya vekillerine ayrı ayrı on bin Yeni Türk Lirası idari para cezası verilir. \nBu para cezasının kesinleşmesinden sonra bildirim yükümlülüğüne aykırılığın sürmesi \nhalinde takip eden her ay için aynı miktar ceza uygulanır. \n \nGenel hükümlere aykırılık",
+          "normalized_hash": "8baf30a87c22eee5"
+        },
+        {
+          "provision_id": "law:4857:article:99",
+          "label": "Madde 99",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 99 – (Değişik: 6/5/2016-6715/4 md.) \nBu Kanunun; \na) 5 inci maddesinde öngörülen ilke ve yükümlülüklere aykırı davranan işveren veya \nişveren vekiline bu durumdaki her işçi için yüz elli Türk lirası, \nb) 7 nci maddesinde öngörülen ilke ve yükümlülüklere aykırı olarak geçici işçi \nçalıştıran işveren veya işveren vekiline bu durumdaki her işçi için iki yüz elli Türk lirası, \nc) 8 inci maddesinin son fıkrasındaki belgeyi işçiye vermeyen, 14 üncü maddesi \nhükümlerine aykırı davranan işveren veya işveren vekiline bu durumdaki her işçi için yüz elli \nTürk lirası, \nd) 28 inci maddesine aykırı olarak çalışma belgesi düzenleme yükümlülüğüne aykırı \ndavranan veya bu belgeye gerçeğe aykırı bilgi yazan işveren veya işveren vekiline bu durumdaki \nher işçi için yüz elli Türk lirası, \nidari para cezası verilir. \n7 nci maddenin ikinci fıkrasının (f) bendine aykırı olarak davranan işveren veya işveren \nvekiline ise birinci fıkranın (b) bendinde belirtilen para cezası dört katı artırılarak uygulanır. \n \nToplu işçi çıkarma ile ilgili hükümlere aykırılık",
+          "normalized_hash": "84912e591bae76d7"
+        },
+        {
+          "provision_id": "law:4857:article:100",
+          "label": "Madde 100",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 100 - Bu Kanunun 29 uncu maddesindeki hükümlere aykırı olarak işçi çıkaran \nişveren veya işveren vekiline işten çıkardığı her işçi için dörtyüzelli Türk Lirası idari para \ncezası verilir.31 \n \n \n30 20/6/2012 tarihli ve 6331 sayılı Kanunun 37 nci maddesiyle, bu fıkrada yer alan alan “85 inci \nmadde kapsamındaki işyerlerinde ise çalıştırılan her işçi için bin Yeni Türk Lirası,” ibaresi madde \nmetninden çıkartılmıştır. \n31 17/1/2012 tarihli ve 6270 sayılı Kanunun 17 nci maddesi ile bu fıkrada yer alan “ikiyüz milyon lira \npara cezası” ibaresi “dörtyüzelli Türk Lirası idari para cezası” şeklinde değiştirilmiştir. \n\nEngelli ve eski hükümlü çalıştırma zorunluluğuna aykırılık32",
+          "normalized_hash": "010e3e04de1d0add"
+        },
+        {
+          "provision_id": "law:4857:article:101",
+          "label": "Madde 101",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 101 - Bu Kanunun 30 uncu maddesindeki hükümlere aykırı olarak engelli ve \neski hükümlü çalıştırmayan işveren veya işveren vekiline çalıştırmadığı her engelli ve eski \nhükümlü ve çalıştırmadığı her ay için binyediyüz Türk Lirası idari para cezası verilir. Kamu \nkuruluşları da bu para cezasından hiçbir şekilde muaf tutulamaz.33 \n \nÜcret ile ilgili hükümlere aykırılık34",
+          "normalized_hash": "f85e2499cb6bafc7"
+        },
+        {
+          "provision_id": "law:4857:article:102",
+          "label": "Madde 102",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 102 - Bu Kanunun; \na) (Değişik: 17/4/2008-5754/85 md.) 32 nci maddesinde belirtilen ücret ile işçinin bu \nKanundan veya toplu iş sözleşmesinden veya iş sözleşmesinden doğan ücret ödemelerini süresi \niçinde kasden ödemeyen veya eksik ödeyen, 39 uncu maddesinde belirtilen komisyonun \nbelirlediği asgari ücreti işçiye ödemeyen veya noksan ödeyen, ücret, prim, ikramiye ve bu \nnitelikteki her çeşit istihkakını zorunlu tutulduğu halde özel olarak açılan banka hesabına \nödemeyen işveren, işveren vekili ve üçüncü kişiye bu durumda olan her işçi ve her ay için \nyüzyirmibeş Türk Lirası idari para cezası , \nb) 37 nci maddesine aykırı olarak ücrete ilişkin hesap pusulası düzenlemeyen veya işçi \nücretlerinden 38 inci maddeye aykırı olarak ücret kesme cezası veren veya yaptığı ücret \nkesintisinin sebebini ve hesabını bildirmeyen 52 nci maddedeki belgeyi vermeyen işveren \nveya işveren vekiline dörtyüzelli Türk Lirası idari para cezası, \nc) 41 inci maddesinde belirtilen fazla çalışmalara ilişkin ücreti ödemeyen, işçiye hak \nettiği serbest zamanı altı ay zarfında kullandırmayan, fazla saatlerde yapılacak çalışmalar için \nişçinin onayını almayan işveren veya işveren vekiline, bu durumda olan her işçi için ikiyüzyirmi \nTürk Lirası idari para cezası, \nverilir. \n \nYıllık ücretli izin hükümlerine aykırılık",
+          "normalized_hash": "b204d05d2d9626a2"
+        },
+        {
+          "provision_id": "law:4857:article:103",
+          "label": "Madde 103",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 103 - Yıllık ücretli izni bu Kanunun 56 ncı maddesine aykırı olarak bölen veya \nizin ücretini 57 nci maddenin üç ve dördüncü fıkralarında belirtilen usule aykırı olarak ödeyen \nveya eksik ödeyen veya 59 uncu maddedeki hak edilmiş izni kullanmadan iş sözleşmesinin \nsona ermesi halinde bu izne ait ücreti ödemeyen veya 60 ıncı maddede belirtilen yönetmeliğin \nesas ve usullerine aykırı olarak izin kullandırmayan veya eksik kullandıran işveren veya \nişveren vekiline bu durumda olan her işçi için ikiyüzyirmi Türk Lirası idari para cezası \n \n32 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu madde başlığında yer alan “Özürlü” \nibaresi “Engelli”, birinci fıkrasında yer alan “özürlü” ibareleri “engelli” şeklinde değiştirilmiştir. \n33 17/1/2012 tarihli ve 6270 sayılı Kanunun 17 nci maddesi ile bu fıkrada yer alan “yediyüzelli milyon \nlira para cezası” ibaresi “binyediyüz Türk Lirası idari para cezası” şeklinde değiştirilmiştir. \n34 17/1/2012 tarihli ve 6270 sayılı Kanunun 17 nci maddesi ile bu maddenin birinci fıkrasının (a) \nbendinde yer alan “yüz Yeni Türk Lirası” ibaresi “yüzyirmibeş Türk Lirası” şeklinde, (b) bendinde yer \nalan “ikiyüz milyon lira para cezası” ibaresi “dörtyüzelli Türk Lirası idari para cezası” şeklinde, (c) \nbendinde yer alan “yüz milyon lira para cezası” ibaresi “ikiyüzyirmi Türk Lirası idari para cezası” \nşeklinde değiştirilmiştir. \n\nverilir.35 \n \nİşin düzenlenmesine ilişkin hükümlere aykırılık36",
+          "normalized_hash": "ba9d775fafef8003"
+        },
+        {
+          "provision_id": "law:4857:article:104",
+          "label": "Madde 104",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 104 - Bu Kanunun 63 üncü maddesinde ve bu maddede belirtilen yönetmelikte \nbelirlenen çalışma sürelerine aykırı olarak işçilerini çalıştıran veya 68 inci maddesindeki ara \ndinlenmelerini bu maddeye göre uygulamayan veya işçileri 69 uncu maddesine aykırı olarak \ngeceleri yedibuçuk saatten fazla çalıştıran; gece ve gündüz postalarını değiştirmeyen, 71 inci \nmaddesi hükmüne ve bu maddenin son fıkrasında anılan yönetmelik hükümlerine aykırı \nhareket eden, 72 nci maddesi hükümlerine aykırı olarak bu maddede belirtilen yerlerde \nonsekiz yaşını doldurmamış erkek çocukları ve gençleri ve her yaştaki kadınları çalıştıran, 73 \nüncü maddesine aykırı olarak çocuk ve genç işçileri gece çalıştıran veya aynı maddede anılan \nyönetmelik hükümlerine aykırı hareket eden 74 üncü maddesindeki hükme aykırı olarak \ndoğumdan önceki ve sonraki sürelerde gebe veya doğum yapmış kadınları çalıştıran veya \nücretsiz izin vermeyen, 75 inci maddesindeki işçi özlük dosyalarını düzenlemeyen, 76 ncı \nmaddesinde belirtilen yönetmelik hükümlerine uymayan işveren veya işveren vekiline \nbinikiyüz Türk Lirası idari para cezası verilir.37 \n64 üncü (…)38 maddede öngörülen hükümlere aykırı davranan işveren veya işveren \nvekiline bu durumda olan her işçi için ikiyüzyirmi Türk Lirası idari para cezası verilir. \n \nİş sağlığı ve güvenliği ile ilgili hükümlere aykırılık",
+          "normalized_hash": "3d1e18adf003632a"
+        },
+        {
+          "provision_id": "law:4857:article:105",
+          "label": "Madde 105",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 105 – (Mülga: 20/6/2012-6331/37 md.) \n \nİş ve işçi bulma hükümlerine aykırılık",
+          "normalized_hash": "6659c3173d45911d"
+        },
+        {
+          "provision_id": "law:4857:article:106",
+          "label": "Madde 106",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 106 - Bu Kanunun 90 ıncı maddesinde öngörülen izni almadan faaliyet gösteren \nişverene bir milyar lira para cezası verilir. \n \nİş hayatının denetim ve teftişi ile ilgili hükümlere aykırılık",
+          "normalized_hash": "99bdc59e02320b83"
+        },
+        {
+          "provision_id": "law:4857:article:107",
+          "label": "Madde 107",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 107 – (Değişik: 23/1/2008-5728/500 md.) \nBu Kanunun; \na) 92 nci maddesinin ikinci fıkrasındaki yükümlülüklerini yerine getirmeyen, \nb) 96 ncı maddesindeki yasaklara uymayan, \n \n35 17/1/2012 tarihli ve 6270 sayılı Kanunun 17 nci maddesi ile bu fıkrada yer alan “yüz milyon lira para \ncezası” ibaresi “ikiyüzyirmi Türk Lirası idari para cezası” şeklinde değiştirilmiştir. \n36 17/1/2012 tarihli ve 6270 sayılı Kanunun 17 nci maddesi ile bu maddenin birinci fıkrasında yer “beşyüz \nmilyon lira para cezası” ibaresi “binikiyüz Türk Lirası idari para cezası” şeklinde, ikinci fıkrasında yer \nalan “yüzmilyon lira para cezası” ibaresi “ikiyüzyirmi Türk Lirası idari para cezası”şeklinde \ndeğiştirilmiştir. \n37 4/4/2015 tarihli ve 6645 sayılı Kanunun 39 uncu maddesiyle, bu fıkrada yer alan “71 inci maddesi \nhükmüne” ibaresinden sonra gelmek üzere “ve bu maddenin son fıkrasında anılan yönetmelik \nhükümlerine” ibaresi eklenmiştir. \n38 4/4/2015 tarihli ve 6645 sayılı Kanunun 35 inci maddesiyle, bu fıkrada yer alan “ve 65 inci” ibaresi \nmadde metninden çıkarılmıştır. \n\nişveren veya işveren vekiline sekizbin Türk Lirası idarî para cezası verilir. \nİş müfettişlerinin bu Kanundan veya diğer kanunlardan doğan her çeşit teftiş, \ndenetleme yetki ve görevleri gereğince görevlerinin yerine getirilmesi sırasında, görevlerini \nyapma ve sonuçlandırmaya engel olan kimselere, fiil suç oluşturmadığı takdirde, sekizbin \nTürk Lirası idarî para cezası verilir. \n \nİdari para cezalarının uygulanmasına ilişkin hususlar",
+          "normalized_hash": "721a8678dd05819a"
+        },
+        {
+          "provision_id": "law:4857:article:108",
+          "label": "Madde 108",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 108 – (Değişik:10/7/2025-7553/10 md.) \nBu Kanunda öngörülen idari para cezaları, gerekçesi belirtilmek suretiyle Çalışma ve \nİş Kurumu il müdürünce verilir. 101 inci ve 106 ncı maddeler uyarınca birden fazla ilde işyeri \nbulunan işverenlere uygulanacak idari para cezaları işyerlerinin merkezinin bulunduğu \nyerdeki Çalışma ve İş Kurumu il müdürünce verilir. 101 inci ve 106 ncı maddelere göre \nverilen idari para cezaları genel hükümlere göre tahsil edilir. 106 ncı maddeye göre verilecek \nidari para cezası için 25/6/2003 tarihli ve 4904 sayılı Türkiye İş Kurumu ile İlgili Bazı \nDüzenlemeler Hakkında Kanunun 20 nci maddesindeki tutarlar esas alınır. \n \nDOKUZUNCU BÖLÜM \nÇeşitli, Geçici ve Son Hükümler \nYazılı veya elektronik bildirim",
+          "normalized_hash": "8e69d9d8094e23d3"
+        },
+        {
+          "provision_id": "law:4857:article:109",
+          "label": "Madde 109",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 109 – (Başlığı ile Birlikte Değişik:20/7/2025-7555/23 md.) \nBu Kanunda öngörülen bildirimlerin ilgiliye yazılı olarak ve imza karşılığında veya \nişçinin yazılı kabulü şartıyla elektronik iletilerin, gönderimi ve teslimatı da dâhil olmak üzere \nkullanımına ilişkin olarak hukuki delil sağlayan, elektronik postanın nitelikli şekli olan kayıtlı \nelektronik posta (KEP) hesabı üzerinden gönderilmek suretiyle yapılması gerekir. İş \nsözleşmesinin feshi sonucunu doğuracak bildirimler her hâlde yazılı yapılır. Yazılı bildirim \nyapılan kişi bunu imzalamazsa, durum o yerde tutanakla tespit edilir. Ancak, 11/2/1959 tarihli \nve 7201 sayılı Tebligat Kanunu kapsamına giren tebligat anılan Kanun hükümlerine göre \nyapılır. \nKEP sisteminin kullanılmasına ilişkin maliyetler işveren tarafından karşılanır. Bu \nmaddede belirtilen elektronik bildirimler KEP sistemi ile ilgili mevzuat hükümleri \nçerçevesinde yapılır. \n \nKonut kapıcılarının özel çalışma koşulları",
+          "normalized_hash": "757735429190a930"
+        },
+        {
+          "provision_id": "law:4857:article:110",
+          "label": "Madde 110",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 110 - Konut kapıcılarının hizmetlerinin kapsam ve niteliği ile çalışma süreleri, \nhafta tatili, ulusal bayram ve genel tatil günleri, yıllık ücretli izin hakları ve kapıcı konutları \nile ilgili hususların düzenlenmesinde uygulanacak değişik şekil ve esaslar Çalışma ve Sosyal \nGüvenlik Bakanlığınca hazırlanacak bir yönetmelikle düzenlenir. \n \nSanayi, ticaret, tarım ve orman işleri",
+          "normalized_hash": "29214fb0e7b48bc5"
+        },
+        {
+          "provision_id": "law:4857:article:111",
+          "label": "Madde 111",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 111 – (Değişik: 15/5/2008-5763/11 md.) \n\nBu Kanunun uygulanması bakımından; sanayiden, ticaretten, tarım ve orman \nişlerinden sayılacak işlerin esasları aşağıda belirtilmiştir. \nSanayiden sayılacak işlerin esasları şunlardır: \na) Her türlü madenleri arama ve topraktan çıkarma, taş, kum ve kireç ocakları. \nb) Ham, yarı ve tam yapılmış maddelerin işlenmesi, temizlenmesi, şeklinin değiştirilmesi, \nsüslenmesi, satış için hazırlanması. \nc) Her türlü kurma, onarma, sökme, dağıtma ve yıkma. \nd) Bina yapılması ve onarımı, değiştirilmesi, bozulması, yıkılması ve bunlara yardımcı \nher türlü sınai yapım. \ne) Yol, demiryolu, tramvay yolu, liman, kanal, baraj, havaalanı, dalgakıran, tünel, \nköprü, lağım ve kuyuların yapılması ve onarımı, batıkların çıkarılması ve bataklık kurutma. \nf) Elektrik ve her çeşit muharrik kuvvetlerin elde edilmesi, değiştirilmesi, taşınması, \nkurma ve dağıtma. \ng) Su ve gaz tesisatı kurma ve işletmesi. \nh) Telefon, telgraf, telsiz, radyo ve televizyon kurma. \ni) Gemi ve vapur yapımı, onarımı, değiştirilmesi ve bozup dağıtma. \nj) Eşyanın istasyon, antrepo, iskele, limanlar ve havaalanlarında yükletilmesi, boşaltılması. \nk) Basımevleri. \nTicaretten sayılacak işlerin esasları şunlardır: \na) Ham, yarı ve tam yapılmış her çeşit bitkisel, hayvani veya sınai ürün ve malların \nalımı ve satımı. \nb) Bankacılık ve finans sektörü ile ilgili işlerle, sigortacılık, komisyonculuk, depoculuk, \nambarcılık, antrepoculuk. \nc) Su ürünleri alımı ve satımı. \nd) Karada, göl ve akarsularda insan veya eşya ve hayvan taşıma. \nTarım ve orman işlerinden sayılacak işlerin esasları şunlardır: \na) Her çeşit meyveli ve meyvesiz bitkiler; çay, pamuk, tütün, elyaflı bitkiler; \nturunçgiller; pirinç, baklagiller; ağaç, ağaççık, omca, tohum, fide, fidan; sebze ve tarla \nürünleri; yem ve süt bitkilerinin yetiştirilmesi, üretimi, ıslahı, araştırılması, bunlarla ilgili her \ntürlü toprak işleri, ekim, dikim, aşı, budama, sulama, gübreleme, hasat, harman, devşirme, \ntemizleme, hazırlama ve ayırma işleri, hastalık ve zararlılarla mücadele, toprak ıslahı, çayır, \nmera, toprak ve su korunması. \nb) Ormanların korunması, planlanması (amenajman), yetiştirilmesi, işletilmesi, \nsınırlandırılması çalışmaları, bunlara ait alt yapı çalışmaları ile tohum toplama, fidanlık, \nağaçlandırma, erozyon kontrolü, etüt proje ve rehabilitasyonu, ormancılık araştırma ile milli \npark, orman içi dinlenme yerleri ve kent ormanlarının kurulması, bakım ve geliştirilmesi. \nc) Her türlü iş ve gelir hayvanlarının (arı, ipek böceği ve benzerleri dahil) \nyetiştirilmesi, üretimi, ıslahı ve bunlarla ilgili bakım, güdüm, terbiye, kırkım, sağım ve \nürünlerinin elde edilmesi, toplanması, saklanması ile bu hayvanların hastalık ve asalaklarıyla \n\nmücadele. \nd) 854 sayılı Deniz İş Kanununun hükümleri saklı kalmak kaydıyla, kara ve su avcılığı \nve üreticiliği ile bu yoldan elde edilen ürünlerin saklanması ve taşınması. \nYukarıda sayılan esaslar doğrultusunda bir işin bu Kanunun uygulanması bakımından \nsanayi, ticaret, tarım ve orman işlerinden hangisinin kapsamında sayılacağı; Sanayi ve \nTicaret, Çevre ve Orman ile Tarım ve Köyişleri bakanlıklarının görüşleri alınarak, Çalışma ve \nSosyal Güvenlik Bakanlığınca altı ay içinde çıkarılacak bir yönetmelikle düzenlenir. \n \nBazı kamu kurum ve kuruluşlarında çalışanların kıdem tazminatı",
+          "normalized_hash": "546952de7d1e01d5"
+        },
+        {
+          "provision_id": "law:4857:article:112",
+          "label": "Madde 112",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 112 - Kanuna veya kanunun verdiği yetkiye dayanılarak kurulan kurum ve \nkuruluşların haklarında bu Kanun ve 854, 5953, 5434 sayılı kanunların hükümleri \nuygulanmayan personeli ile kamu kuruluşlarında sözleşmeli olarak istihdam edilenlere mevzuat \nveya sözleşmelerine göre kıdem tazminatı niteliğinde yapılan ödemeler kıdem tazminatı sayılır. \n(Ek fıkra: 10/9/2014-6552/8 md.) 4/1/2002 tarihli ve 4734 sayılı Kamu İhale \nKanununun 62 nci maddesinin birinci fıkrasının (e) bendi kapsamında alt işverenler tarafından \nçalıştırılan işçilerin kıdem tazminatları; \na) Alt işverenlerinin değişip değişmediğine bakılmaksızın aralıksız olarak aynı kamu \nkurum veya kuruluşuna ait işyerlerinde çalışmış olanların bu şekilde çalışmış oldukları \nsürelere ilişkin kıdem tazminatına esas hizmet süreleri, aynı kamu kurum veya kuruluşuna ait \nişyerlerinde geçen toplam çalışma süreleri esas alınarak tespit olunur. Bunlardan son alt \nişverenleri ile yapılmış olan iş sözleşmeleri 1475 sayılı İş Kanununun 14 üncü maddesine \ngöre kıdem tazminatı ödenmesini gerektirecek şekilde sona ermiş olanların kıdem tazminatları \nilgili kamu kurum veya kuruluşları tarafından, \nb) Aynı alt işveren tarafından ve aynı iş sözleşmesi çerçevesinde farklı kamu kurum \nveya kuruluşlarında çalıştırılmış olan işçilerden iş sözleşmeleri 1475 sayılı İş Kanununun 14 \nüncü maddesine göre kıdem tazminatı ödenmesini gerektirecek şekilde sona ermiş olanlara, \n4734 sayılı Kanunun 62 nci maddesinin birinci fıkrasının (e) bendi kapsamında farklı kamu \nkurum ve kuruluşuna ait işyerlerinde geçen hizmet sürelerinin toplamı esas alınarak \nçalıştırıldığı son kamu kurum veya kuruluşu tarafından, \nişçinin banka hesabına yatırılmak suretiyle ödenir. \n(Ek fıkra: 10/9/2014-6552/8 md.) Alt işveren ile yapmış olduğu iş sözleşmesi sona \nermediği gibi, alt işveren tarafından 4734 sayılı Kanun kapsamında bulunan idarelere ait \nişyerleri dışında bir işyerinde çalıştırılmaya devam olunan ve bu şekilde çalıştırıldığı sırada iş \nsözleşmesi kıdem tazminatı ödenmesini gerektirecek şekilde sona eren işçinin kıdem \ntazminatı, işçinin yazılı talebi hâlinde, kıdem tazminatının söz konusu kamu kurum veya \nkuruluşlarına ait işyerlerinde geçen süreye ilişkin kısmı, kamu kurum veya kuruluşuna ait \nçalıştığı son işyerindeki ücretinin yılları itibarıyla asgari ücret artış oranları dikkate alınarak \ngüncellenmiş miktarı üzerinden hesaplanmak suretiyle son kamu kurum veya kuruluşu \ntarafından işçinin banka hesabına yatırılmak suretiyle ödenir. Bu şekilde hesaplanarak ödenen \n\nkıdem tazminatı tutarının, iş sözleşmesinin sona erdiği tarihteki ücreti üzerinden aynı süreler \ndikkate alınarak hesaplanacak kıdem tazminatı tutarından daha düşük olması hâlinde, işçinin \naradaki farkı alt işverenden talep hakkı saklıdır. \n(Ek fıkra: 10/9/2014-6552/8 md.) İkinci fıkranın (b) bendi veya üçüncü fıkra \nuyarınca farklı kamu kurum veya kuruluşlarına ait işyerlerinde geçen hizmet sürelerinin \ntoplamı üzerinden kıdem tazminatı ödenmesi hâlinde, kıdem tazminatı ödemesini \ngerçekleştiren son kamu kurum veya kuruluşu, ödenen kıdem tazminatı tutarının diğer kamu \nkurum veya kuruluşlarında geçen hizmet süresine ilişkin kısmını ilgili kamu kurum veya \nkuruluşundan tahsil eder. Ancak, merkezi yönetim kapsamındaki kamu idareleri arasında bu \nfıkra hükümlerine göre bir tahsil işlemi yapılmaz. \n(Ek fıkra: 10/9/2014-6552/8 md.) Kıdem tazminatı tutarı, 4734 sayılı Kanunun ek 8 \ninci maddesinin birinci fıkrasının (a) bendi kapsamında belirtilen işyerlerinde kıdem tazminatı \nile ilgili açılacak bütçe tertibinden, (b) bendi kapsamında belirtilen işyerlerinde ise hizmet \nalımı gider kaleminden, ödeneğin yetip yetmediğine bakılmaksızın ödenir. \n(Ek fıkra:21/2/2019-7166/11 md.) (İptal altıncı fıkra: Anayasa Mahkemesinin \n19/9/2019 tarihli ve E.:2019/42, K.:2019/73 sayılı Kararı ile.) \n(Ek fıkra: 10/9/2014-6552/8 md.) Bu madde kapsamında alt işverenler yanında \nçalışan işçilerin bu işyerlerinde geçen hizmet süresinin hesabı, alt işverenden ve alt işveren \nişçisinden istenecek belgeler ve ödeme süreci ile ilgili diğer usul ve esaslar Maliye Bakanlığı \nve Kamu İhale Kurumunun görüşleri alınarak Çalışma ve Sosyal Güvenlik Bakanlığınca \nçıkarılan yönetmelikle belirlenir. \n(Ek fıkra: 4/4/2015-6645/40 md.) 5/1/2002 tarihli ve 4735 sayılı Kamu İhale \nSözleşmeleri Kanunu ile 4/6/1985 tarihli ve 3213 sayılı Maden Kanunu kapsamında rödövans \nsözleşmeleri çerçevesinde yer altı maden işletmeciliği yapan şirketlere ve ortaklarına ait \nmalların Tasarruf Mevduatı Sigorta Fonu tarafından el koyma veya takip yoluyla satışından \nelde edilen gelirler, öncelikle bu sözleşmeler kapsamında söz konusu şirketlerde çalışmış olan \nişçilerden, iş sözleşmeleri kıdem tazminatını hak edecek şekilde sona ermiş olanların kıdem \nve ihbar tazminatları ile izin, fazla çalışma ve diğer ücret alacaklarının ödenmesinde \nkullanılır. Bu ödemeler Tasarruf Mevduatı Sigorta Fonu tarafından ilgililerin hesaplarına \nyatırılmak suretiyle gerçekleştirilir. Ödemeye esas bilgi ve belgeler, işçinin son çalıştığı \nişvereni tarafından Tasarruf Mevduatı Sigorta Fonuna teslim edilir. \n \nBazı işlerde çalışanların ücretlerinin güvencesi",
+          "normalized_hash": "67aa2ea9acf0246c"
+        },
+        {
+          "provision_id": "law:4857:article:113",
+          "label": "Madde 113",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 113 - Bu Kanunun 4 üncü maddesinin birinci fıkrasının (b) ve (ı) bentlerinde \nsayılan işyerlerinde çalışan işçiler hakkında 32, 35, 37, 38 inci madde hükümleri uygulanır. \nBu maddelere aykırılık hallerinde ilgililer hakkında ilgili ceza hükümleri uygulanır. \n \nÜçlü Danışma Kurulu",
+          "normalized_hash": "cf814f9a64245d66"
+        },
+        {
+          "provision_id": "law:4857:article:114",
+          "label": "Madde 114",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 114 - Çalışma barışının ve endüstri ilişkilerinin geliştirilmesinde, çalışma \nhayatıyla ilgili mevzuat çalışmalarının ve uygulamalarının izlenmesi amacıyla; Hükümet ile \nişveren, kamu görevlileri ve işçi sendikaları konfederasyonları arasında etkin danışmayı \nsağlamak üzere, üçlü temsile dayalı istişari mahiyette bir danışma kurulu oluşturulur. \nKurulun çalışma usul ve esasları çıkarılacak bir yönetmelikle düzenlenir. \n \nKantin açılması",
+          "normalized_hash": "339521846cce3fff"
+        },
+        {
+          "provision_id": "law:4857:article:115",
+          "label": "Madde 115",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 115 - İşyerlerinde, yüzelli ve daha fazla işçi çalıştırılması halinde, işçilerin ve \nailelerinin gerekli ihtiyaçlarının karşılanması amacıyla işçiler tarafından kurulacak tüketim \nkooperatiflerine işverenlerce yer tahsisi yapılabilir.",
+          "normalized_hash": "48a067d1b3e4d3c2"
+        },
+        {
+          "provision_id": "law:4857:article:116",
+          "label": "Madde 116",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 116 - (13.6.1952 tarihli ve 5953 sayılı Basın Mesleğinde Çalışanlarla \nÇalıştıranlar Arasındaki Münasebetlerin Tanzimi Hakkında Kanun ile ilgili olup yerine \nişlenmiştir.)",
+          "normalized_hash": "11e55cdf0fc7d3f3"
+        },
+        {
+          "provision_id": "law:4857:article:117",
+          "label": "Madde 117",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 117 - (5.5.1983 tarihli ve 2821 sayılı Sendikalar Kanunu ile ilgili olup \nyerine işlenmiştir.)",
+          "normalized_hash": "f3cc54daf6a2162e"
+        },
+        {
+          "provision_id": "law:4857:article:118",
+          "label": "Madde 118",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 118 - (5.5.1983 tarihli ve 2821 sayılı Sendikalar Kanunu ile ilgili olup \nyerine işlenmiştir.) \n \nYönetmelikler",
+          "normalized_hash": "712e079fb221112a"
+        },
+        {
+          "provision_id": "law:4857:article:119",
+          "label": "Madde 119",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 119 - Bu Kanunda öngörülen yönetmelikler Kanunun yayımı tarihinden \nitibaren altı ay içerisinde çıkartılır. \n \nYürürlükten kaldırılan hükümler",
+          "normalized_hash": "c246598eaad95478"
+        },
+        {
+          "provision_id": "law:4857:article:120",
+          "label": "Madde 120",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "Madde 120 – 25.8.1971 tarihli ve 1475 sayılı İş Kanununun 14 üncü maddesi hariç \ndiğer maddeleri yürürlükten kaldırılmıştır. \n \nKorumalı işyerlerinde çalışan engellilerin ücretleri",
+          "normalized_hash": "6ee37931d2f1ee3b"
+        },
+        {
+          "provision_id": "law:4857:ek-madde:1",
+          "label": "Ek Madde 1",
+          "madde_turu": "ek",
+          "mulga": false,
+          "text": "Ek Madde 1 – (Ek: 6/2/2014-6518/59 md.) \nKorumalı işyerlerinde çalıştırılan ve iş gücü piyasasına kazandırılmaları güç olan \nzihinsel veya ruhsal engellilere işverenlerince zamanında ödenmiş olan ücretlerinin; \na) Korumalı işyerlerinde çalışan her engelli için 1/7/1976 tarihli ve 2022 sayılı 65 Yaşını \nDoldurmuş Muhtaç, Güçsüz ve Kimsesiz Türk Vatandaşlarına Aylık Bağlanması Hakkında \nKanunun 2 nci maddesinin birinci fıkrasının (a) bendi gereğince ödenen aylık tutarı kadarı, \nb) 29/1/2004 tarihli ve 5084 sayılı Yatırımların ve İstihdamın Teşviki ile Bazı Kanunlarda \nDeğişiklik Yapılması Hakkında Kanunun 2 nci maddesi kapsamındaki illerde kurulmuş bulunan \n\nkorumalı işyerlerinde çalışan her engelli için ilaveten (a) bendi ile belirlenen tutarın yüzde yirmisi, \nc) Korumalı işyeri statüsü almak için ilgili mevzuatla çalıştırılması zorunlu olan \nsayıdan daha fazla engelli çalıştıran işyerlerinde, zorunlu sayının üstünde çalıştırılan her \nengelli için ilaveten (a) bendi ile belirlenen tutarın yüzde yirmisi, \nbu ücretlere ilişkin yasal yükümlülüklerin de tam ve zamanında karşılanmış olması \nkaydıyla, Hazine tarafından işverene ödenir. \nBirinci fıkrada belirlenen ücret kısımlarının ödenmesine ilişkin usul ve esaslar, Maliye \nBakanlığı ile Çalışma ve Sosyal Güvenlik Bakanlığı ve Hazine Müsteşarlığının uygun görüşü \nalınmak suretiyle Aile ve Sosyal Politikalar Bakanlığı tarafından çıkarılan yönetmelikle \nbelirlenir. \n \nMazeret izni",
+          "normalized_hash": "e7e499080a2fbe48"
+        },
+        {
+          "provision_id": "law:4857:ek-madde:2",
+          "label": "Ek Madde 2",
+          "madde_turu": "ek",
+          "mulga": false,
+          "text": "Ek Madde 2 – (Ek: 4/4/2015-6645/35 md.) \nİşçiye; evlenmesi veya evlat edinmesi ya da ana veya babasının, eşinin, kardeşinin, \nçocuğunun ölümü hâlinde üç gün, eşinin doğum yapması hâlinde ise on gün ücretli izin \nverilir.39 \nİşçilerin en az yüzde yetmiş oranında engelli veya süreğen hastalığı olan çocuğunun \ntedavisinde, hastalık raporuna dayalı olarak ve çalışan ebeveynden sadece biri tarafından \nkullanılması kaydıyla, bir yıl içinde toptan veya bölümler hâlinde on güne kadar ücretli izin \nverilir. \n \nZamanaşımı süresi",
+          "normalized_hash": "88d5fa42933c0798"
+        },
+        {
+          "provision_id": "law:4857:ek-madde:3",
+          "label": "Ek Madde 3",
+          "madde_turu": "ek",
+          "mulga": false,
+          "text": "Ek Madde 3- (Ek: 12/10/2017-7036/15 md.) \nİş sözleşmesinden kaynaklanmak kaydıyla hangi kanuna tabi olursa olsun, yıllık izin \nücreti ve aşağıda belirtilen tazminatların zamanaşımı süresi beş yıldır. \na) Kıdem tazminatı. \nb) İş sözleşmesinin bildirim şartına uyulmaksızın feshinden kaynaklanan tazminat. \nc) Kötüniyet tazminatı. \nd) İş sözleşmesinin eşit davranma ilkesine uyulmaksızın feshinden kaynaklanan tazminat.",
+          "normalized_hash": "ff6001316ef77ce1"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:1",
+          "label": "Geçici Madde 1",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 1 - Diğer mevzuatta 1475 sayılı İş Kanununa yapılan atıflar bu Kanuna \nyapılmış sayılır. \nBu Kanunun 120 nci maddesi ile yürürlükte bırakılan 1475 sayılı İş Kanununun 14 \nüncü maddesinin birinci fıkrasının 1 inci ve 2 nci bendi ile onbirinci fıkrasında, anılan \nKanunun 16, 17 ve 26 ncı maddelerine yapılan atıflar, bu Kanunun 24, 25 ve 32 nci \nmaddelerine yapılmış sayılır. \n \n \n39 22/4/2026 tarihli ve 7578 sayılı Kanunun 16 ncı maddesiyle bu fıkrada yer alan “beş” ibaresi “on” \nşeklinde değiştirilmiştir.",
+          "normalized_hash": "a4d8a5916160ae0b"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:2",
+          "label": "Geçici Madde 2",
+          "madde_turu": "gecici",
+          "mulga": true,
+          "text": "Geçici Madde 2 - (Mülga: 20/6/2012-6331/37 md.)",
+          "normalized_hash": "ece52fb949147fb5"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:3",
+          "label": "Geçici Madde 3",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 3 - 1475 sayılı Kanuna göre alınmış bulunan asgari ücret kararı, bu \nKanunun 39 uncu Maddesine göre tespit yapılıncaya kadar yürürlükte kalır.",
+          "normalized_hash": "d0bdf950de84c411"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:4",
+          "label": "Geçici Madde 4",
+          "madde_turu": "gecici",
+          "mulga": true,
+          "text": "Geçici Madde 4 - Mülga 3008 sayılı İş Kanununun 13 üncü maddesi hükümleri \nhaklarında uygulanmayanlar için, bu Kanunun geçici 6 ncı maddesinde sözü edilen kıdem \ntazminatı hakkı 12.8.1967 tarihinden itibaren başlar. \nİlk defa bu Kanun kapsamına girenlerin kıdem tazminatı hakları bu Kanunun \nyürürlüğe girdiği tarihten itibaren başlar.",
+          "normalized_hash": "2099df92e08c1932"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:5",
+          "label": "Geçici Madde 5",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 5 - 1475 sayılı Kanunun 25 inci maddesi ile 3713 sayılı Kanunun ek 1 \ninci maddesinin (B) fıkrasında yer alan oranlar, bu Kanunun 30 uncu maddesi uyarınca \nBakanlar Kurulu tarafından yeniden belirleninceye kadar geçerlidir.",
+          "normalized_hash": "c785e4ecaa574126"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:6",
+          "label": "Geçici Madde 6",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 6 - Kıdem tazminatı için bir kıdem tazminatı fonu kurulur. Kıdem \ntazminatı fonuna ilişkin Kanunun yürürlüğe gireceği tarihe kadar işçilerin kıdemleri için 1475 \nsayılı İş Kanununun 14 üncü maddesi hükümlerine göre kıdem tazminatı hakları saklıdır.",
+          "normalized_hash": "f032efb600a8354b"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:7",
+          "label": "Geçici Madde 7",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 7 - (Ek: 6/5/2016-6715/5 md.) \nBu maddeyi ihdas eden Kanunun yayımı tarihinden önce 7 nci maddenin birinci fıkrası \nuyarınca bir işçinin yapmakta olduğu işe benzer işlerde çalıştırılması koşuluyla başka bir \nişverene iş görme edimini yerine getirmek üzere geçici olarak devredilmesi suretiyle \nkurulmuş bulunan geçici iş ilişkileri, sözleşmelerinin süresince devam eder.",
+          "normalized_hash": "e0f17638b0b28cc7"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:8",
+          "label": "Geçici Madde 8",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 8- (Ek: 12/10/2017-7036/16 md.) \nEk 3 üncü madde, bu maddenin yürürlüğe girdiği tarihten sonra sona eren iş \nsözleşmelerinden kaynaklanan yıllık izin ücreti ve tazminatlar hakkında uygulanır. \nEk 3 üncü maddede belirtilen yıllık izin ücreti ve tazminatlar için bu maddenin \nyürürlüğe girmesinden önce işlemeye başlamış bulunan zamanaşımı süreleri, değişiklikten \nönceki hükümlere tabi olmaya devam eder. Ancak, zamanaşımı süresinin henüz dolmamış \nkısmı, ek 3 üncü maddede öngörülen süreden uzun ise, ek 3 üncü maddede öngörülen sürenin \ngeçmesiyle zamanaşımı süresi dolmuş olur.",
+          "normalized_hash": "61edd7ce14e91fa8"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:9",
+          "label": "Geçici Madde 9",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 9- (Ek:21/2/2019-7166/12 md.) \n(İptal birinci cümle: Anayasa Mahkemesinin 19/9/2019 tarihli ve E.:2019/42, \nK.:2019/73 sayılı Kararı ile.) İcra takiplerinde rücu edilmeyecek kısma ilişkin olarak harç \nalınmaksızın düşme kararı verilir, takip giderleri ile vekâlet ücreti taraflar üzerinde bırakılır. \nAncak, bu kapsamda alt işverene rücu edilerek takip ve tahsil edilmiş olan tutarlar, alt \nişverenler lehine hiçbir şekilde alacak hakkı doğurmaz ve tahsil edilmiş tutarlar iade edilmez.",
+          "normalized_hash": "c78acdda2271a0c8"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:10",
+          "label": "Geçici Madde 10",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 10 – (Ek:16/4/2020-7244/9 md.)4041 \nBu Kanunun kapsamında olup olmadığına bakılmaksızın her türlü iş veya hizmet \nsözleşmesi, bu maddenin yürürlüğe girdiği tarihten itibaren üç ay süreyle 25 inci maddenin \nbirinci fıkrasının (II) numaralı bendinde ve diğer kanunların ilgili hükümlerinde yer alan \nahlak ve iyi niyet kurallarına uymayan haller ve benzeri sebepler, belirli süreli iş veya hizmet \nsözleşmelerinde sürenin sona ermesi, işyerinin herhangi bir sebeple kapanması ve faaliyetinin \nsona ermesi, ilgili mevzuatına göre yapılan her türlü hizmet alımları ile yapım işlerinde işin \nsona ermesi halleri dışında işveren tarafından feshedilemez. \nBu maddenin yürürlüğe girdiği tarihten itibaren üç aylık süreyi geçmemek üzere \nişveren işçiyi tamamen veya kısmen ücretsiz izne ayırabilir. Bu madde kapsamında ücretsiz \nizne ayrılmak, işçiye haklı nedene dayanarak sözleşmeyi fesih hakkı vermez. \nBu madde hükümlerine aykırı olarak iş sözleşmesini fesheden işveren veya işveren \nvekiline, sözleşmesi feshedilen her işçi için fiilin işlendiği tarihteki aylık brüt asgari ücret \ntutarında idari para cezası verilir. \nCumhurbaşkanı birinci ve ikinci fıkrada yer alan üç aylık süreleri her defasında en \nfazla üçer aylık sürelerle 30/6/2021 tarihine kadar uzatmaya yetkilidir.",
+          "normalized_hash": "383961201c1faf14"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:11",
+          "label": "Geçici Madde 11",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 11 – (Ek:23/7/2020-7252/6 md.) \nManisa ili Soma ilçesinde Türkiye Kömür İşletmeleri Kurumunun taraf olduğu 3213 \nsayılı Kanun kapsamında imzalanmış rödovans sözleşmeleri kapsamında yer alan Işıklar, \nAtabacası ve Geventepe ocaklarında çalışan ve (…)42 kıdem tazminatına hak kazanacak \nşekilde hizmet akdi sona erdirilen işçilerden kıdem tazminatını ve/veya iş sözleşmesinin \nbildirim şartına uyulmaksızın feshinden kaynaklanan tazminatını alamayanların bu \ntazminatları, bu maddenin yürürlük tarihinden itibaren iki ay içinde Kuruma müracaat \netmeleri halinde müracaat tarihinden itibaren altı ay içinde Kurum tarafından ödenir. Yapılan \nödeme nedeniyle Kurum, rödovans sözleşmesinin tarafı olan ilgili şirketler ile bu şirketlerden \ntahsil edilemeyen veya tahsil edilemeyeceği anlaşılan tutar için kıdem tazminatına hak \n \n40 9/3/2021 tarihli ve 31418 sayılı Resmî Gazete’de yayımlanan 3592 sayılı Cumhurbaşkanı Kararı ile \nbu maddenin birinci ve ikinci fıkralarında belirtilen sürelerin 17/3/2021 tarihinden itibaren iki ay \nuzatılmasına karar verilmiştir. Daha sonra 30/4/2021 tarihli ve 31470 sayılı Resmî Gazete’de \nyayımlanan 3930 sayılı Cumhurbaşkanı Kararı ile bu maddenin birinci ve ikinci fıkralarında belirtilen \nsürelerin 17/5/2021 tarihinden itibaren 30/6/2021 tarihine kadar uzatılmasına karar verilmiştir. \n41 23/7/2020 tarihli ve 7252 sayılı Kanunun 5 inci maddesiyle, birinci fıkraya “haller ve benzeri \nsebepler” ibaresinden sonra gelmek üzere “, belirli süreli iş veya hizmet sözleşmelerinde sürenin sona \nermesi, işyerinin herhangi bir sebeple kapanması ve faaliyetinin sona ermesi, ilgili mevzuatına göre \nyapılan her türlü hizmet alımları ile yapım işlerinde işin sona ermesi halleri” ibaresi eklenmiş ve \ndördüncü fıkrada yer alan “altı aya” ibaresi “her defasında en fazla üçer aylık sürelerle 30/6/2021 \ntarihine” şeklinde değiştirilmiştir. \n42 Anayasa Mahkemesinin 8/11/2023 tarihli ve E.: 2020/75; K.: 2023/188 sayılı Kararı ile bu fıkranın \nbirinci cümlesinde yer alan “…13/5/2014 tarihinde meydana gelen maden ocağı kazası sonrasında…” \nibaresi iptal edilmiştir. \n\nkazanılacak şekilde iş sözleşmelerinin sona erdiği tarihten bu maddenin yürürlüğe girdiği \ntarihe kadar görev yapmış yönetim kurulu üyelerine rücu eder.",
+          "normalized_hash": "5696dee9184595d1"
+        },
+        {
+          "provision_id": "law:4857:gecici-madde:12",
+          "label": "Geçici Madde 12",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 12- (Ek:23/1/2026-7573/6 md.) \n10/9/2014 tarihli ve 6552 sayılı İş Kanunu ile Bazı Kanun ve Kanun Hükmünde \nKararnamelerde Değişiklik Yapılması ile Bazı Alacakların Yeniden Yapılandırılmasına Dair \nKanunun 8 inci maddesinin yürürlüğe girdiği 11/9/2014 ile 15/10/2019 tarihi arasında (bu \ntarihler dahil) 4734 sayılı Kanunun 62 nci maddesinin birinci fıkrasının (e) bendi uyarınca \nimzalanan ihale sözleşmeleri kapsamında alt işverenler tarafından çalıştırılan işçilere kamu \nkurum \nve \nkuruluşları \ntarafından \nyapılan \nkıdem \ntazminatı \nödemelerinden \nalt \nişverenlere rücuya konu tutarların söz konusu ihale sözleşmeleri kapsamında geçen kısmının \ntahsilinden vazgeçilir. \nBu maddenin yürürlüğe girdiği tarih itibarıyla birinci fıkra kapsamında kamu kurum \nveya kuruluşları tarafından alt işverene rücu edilmek üzere yürütülen davalarda, birinci fıkra \nuyarınca tahsilinden vazgeçilen kısım için ihtilafın esası hakkında karar verilmesine yer \nolmadığına hükmedilir, yargılama gideri ve vekâlet ücreti taraflar üzerinde bırakılır. İcra \ntakiplerinde tahsilinden vazgeçilen kısma ilişkin olarak harç alınmaksızın düşme kararı verilir, \ntakip giderleri ile vekâlet ücreti taraflar üzerinde bırakılır. Ancak, bu kapsamda alt \nişverene rücu edilerek takip ve tahsil edilmiş olan tutarlar, alt işverenler lehine hiçbir şekilde \nalacak hakkı doğurmaz ve tahsil edilmiş tutarlar iade edilmez. \n \nYürürlük",
+          "normalized_hash": "d28e908b24322774"
+        },
+        {
+          "provision_id": "law:4857:article:121",
+          "label": "Madde 121",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 121 - Bu Kanun yayımı tarihinde yürürlüğe girer. \n \nYürütme",
+          "normalized_hash": "8b2b535393b01a0c"
+        },
+        {
+          "provision_id": "law:4857:article:122",
+          "label": "Madde 122",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 122 - Bu Kanun hükümlerini Bakanlar Kurulu yürütür. \n \n \n4857 SAYILI KANUNA",
+          "normalized_hash": "48627d8a9bc0c0b1"
+        }
+      ]
+    }
+  ]
+}

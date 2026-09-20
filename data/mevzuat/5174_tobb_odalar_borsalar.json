@@ -1,0 +1,1012 @@
+{
+  "documents": [
+    {
+      "document_id": "law:5174",
+      "title": "Türkiye Odalar ve Borsalar Birliği ile Odalar ve Borsalar Kanunu",
+      "canonical_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5174.pdf",
+      "current_version_id": "law:5174:sha256:763acf1ac18dca87",
+      "included_provisions": [
+        {
+          "provision_id": "law:5174:article:1",
+          "label": "Madde 1",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 1- Bu Kanunun amacı; ticaret ve sanayi odaları, ticaret odaları, sanayi odaları, \ndeniz ticaret odaları, ticaret borsaları ile Türkiye Odalar ve Borsalar Birliğinin kuruluş ve \nişleyişine ilişkin esasları düzenlemektir. \n \nKapsam",
+          "normalized_hash": "1b01555ab759aeac"
+        },
+        {
+          "provision_id": "law:5174:article:2",
+          "label": "Madde 2",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 2- Bu Kanun; ticaret ve sanayi odaları, ticaret odaları, sanayi odaları, deniz \nticaret odaları, ticaret borsaları ile Türkiye Odalar ve Borsalar Birliğinin kuruluşlarına, \norganlarının nitelikleri ve seçim usulleri ile organlık vasfını yitirme hâl ve usullerine, görev \nve yetkileri ile çalışma usullerine, üyeleri ile olan karşılıklı hak ve yükümlülüklerine, gelir ve \nharcamaları ile bütçelerine ilişkin esasları kapsar. \n \nTanımlar",
+          "normalized_hash": "6a127a53971fc193"
+        },
+        {
+          "provision_id": "law:5174:article:3",
+          "label": "Madde 3",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 3- Bu Kanunun uygulanmasında; \na) Bakanlık: Sanayi ve Ticaret Bakanlığını, \nb) Oda: Ticaret ve sanayi odası, ticaret odası, sanayi odası ve deniz ticaret odasını, \nc) Borsa: Ticaret borsası ve ürün ihtisas borsası unvanını taşıyan ürün borsalarını, \nd) Birlik: Türkiye Odalar ve Borsalar Birliğini, \ne) Personel: Oda, borsa ve Birlikte çalışanları, \nifade eder. \n \nİKİNCİ KISIM \nOdalar \n \nBİRİNCİ BÖLÜM \nOdalara İlişkin Genel Esaslar \nOdalar",
+          "normalized_hash": "455276d02184dde5"
+        },
+        {
+          "provision_id": "law:5174:article:4",
+          "label": "Madde 4",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 4- Odalar; üyelerinin müşterek ihtiyaçlarını karşılamak, meslekî faaliyetlerini \nkolaylaştırmak, \nmesleğin \ngenel \nmenfaatlere \nuygun \nolarak \ngelişmesini \nsağlamak, \nmensuplarının birbirleri ve halk ile olan ilişkilerinde dürüstlüğü ve güveni hâkim kılmak \n\nüzere meslekî disiplin, ahlâk ve dayanışmayı korumak ve bu Kanunda yazılı hizmetler ile \nmevzuatla odalara verilen görevleri yerine getirmek amacıyla kurulan, tüzel kişiliğe sahip \nkamu kurumu niteliğinde meslek kuruluşlarıdır. \n \nOdaların kurulması",
+          "normalized_hash": "411bbc41bf8b9d98"
+        },
+        {
+          "provision_id": "law:5174:article:5",
+          "label": "Madde 5",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 5- Odalar illerde, Birliğin olumlu görüşü üzerine Bakanlığın kararı ile kurulur. \nBir ilde oda kurulabilmesi için ticaret siciline kayıtlı ve bu Kanunda belirtilen \nnitelikleri haiz en az bin tacir ve/veya sanayici veya deniz ticareti ile iştigal edenlerin Birliğe \nyazılı başvuruda bulunması zorunludur. \nMüstakil sanayi odası kurulabilmesi için o ilde faaliyet gösteren sanayicilerin \nyarısından fazlasının yazılı talebi şarttır. \nMevcut ticaret ve sanayi odasından ayrılan sanayicilerin, Kanunda öngörülen usul ve \nesaslara uygun olmak kaydıyla, müstakil sanayi odası kurması halinde, o ildeki ticaret ve \nsanayi odası, ticaret odası adını alır. \nMevcut ticaret ve sanayi odasının ayrı odalar halinde kurulmasıyla, ticaret ve sanayi \nodasına bir önceki yıl sanayiciler tarafından ödenmiş olan yıllık ve munzam aidat tutarlarının \nyarısı, sanayi odasının organ seçimlerinin kesinleşmesinden itibaren üç ay içinde yeni kurulan \nsanayi odasına devredilir. \nCoğrafi bölge odaları kurulabilmesi; bölge illerindeki toplam üye sayısının yarısından \nfazlasının, Birliğe yazılı müracaatı veya il oda meclislerinin ayrı ayrı üye tam sayısının üçte \nikisinin kararıyla ve Birliğin olumlu görüşü üzerine Bakanlığın kararı ile gerçekleşir. \nTezgâh, cihaz, makine gibi muharrik kuvvet kullanarak ham madde, yarı ve tam \nmamulleri, özellik, içerik, bileşim veya şeklini kısmen veya tamamen değiştirmek amacıyla \nişleyerek, seri halde veya standart olarak yeni bir ürün üretmek suretiyle katma değer \noluşturan işyerleri ile yer altı kaynaklarının çıkarılıp işlendiği yerleri işletenler ve bilişim \nteknolojisi ve yazılım üretenler en az on işçi çalıştırmak şartıyla bu Kanunun uygulanması \nbakımından sanayici sayılır. \nAncak; \na) Seri halinde hazır elbise üretmeyen terziler, fabrika halinde işletilmeyen fırınlar, \nlokantacı, elbise temizleyici ve benzerleriyle mamullerini toptan satmayıp perakende olarak \ndoğrudan doğruya tüketiciye satan kunduracı, şekerci, tatlıcı gibi işletmeler, \nb) Şehir, kasaba ve köylerdeki su temizleme, arıtma, süzme ve dağıtma tesisleri, \nc) İşlemek üzere, üretimleri nev’inden hariçten ham madde almamaları şartıyla, \narazide ekim, dikim, bakım ve yetiştirme yollarıyla bitki, hayvan veya hayvan mahsullerinin, \nbizzat yetiştiricileri tarafından işlenip değerlendirilmesi işlerine tahsis edilen yerler, \nd) Üniversiteler, meslek liseleri ve benzeri okulların üretim yapan atölye ve \nlâboratuvarları, meslek kursları ve cezaevlerindeki atölyeler gibi öğretim ve eğitim amacıyla \nişletilen yerler, \ne) Doğrudan doğruya Milli Savunma Bakanlığı teşkilâtına bağlı olarak çalıştırılan \naskerî sanayi müesseseleri, \n\nSanayici sayılmazlar. \nDeniz ticaret odası kurmak için, ticaret siciline kayıtlı gerçek ve tüzel kişilerden; \na) Gemi sahipleri, donatanlar ve donatma iştirakleri, gemi işletenler, \nb) Gemi acenteleri, \nc) Gemi alım satım, navlun komisyoncuları, forvarderler, \nd) Stivedor ve puantaj firmaları, \ne) Gemi klas müesseseleri, deniz sigorta müesseseleri ve acenteleri ile deniz ekspertiz \nkuruluşları ve sürveyörleri, \nf) Deniz malzemesi, kumanyacılar ve deniz sanayi malzemesi alım satımı yapan \nfirmalar, gemi akaryakıt ikmal ve sağlama işiyle uğraşan firmalar, \ng) Marina ve liman işletme firmaları, \nh) Balıkçılıkla ilgili gemi işleten firmalar, \nı) Yat turizmi, balıkçı gemiciliği, kafes balıkçılığı, denizaltı su hizmetleri, gezinti \ntekneleri, kruvaziyer turizmi, dip kaynakları ve deniz kumcuları, denizde atık ve çevre \ntemizliği ile uğraşan firmalar, gemi ve yat inşa ve yan sanayi firmaları, su üstü ve su altı deniz \nsporları ile uğraşan firmalar, \nBaşvuruda bulunabilirler. Ancak, başvuru sahiplerinin en az yüzde onunun gemi sahibi \nolması gerekir. \n \nOdaların kuruluş ve çalışma alanları",
+          "normalized_hash": "8c0482868fca9c00"
+        },
+        {
+          "provision_id": "law:5174:article:6",
+          "label": "Madde 6",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 6- Odaların kuruluş ve çalışma alanları, il sınırlarıdır. Kuruluş ve çalışma \nalanları içinde aynı unvanda başka bir oda kurulamaz. \nOdaların çalışma alanları, çevre illeri de kapsayacak şekilde ve o illerde ilgili oda \nkuruluncaya kadar geçerli olmak üzere, Birlik Yönetim Kurulu tarafından genişletilebilir veya \ndaraltılabilir. \n \nOda şubeleri",
+          "normalized_hash": "54eb45dcb7c8acf4"
+        },
+        {
+          "provision_id": "law:5174:article:7",
+          "label": "Madde 7",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 7- İlçenin bulunduğu ilde kurulu oda nev’inden olmak şartıyla, bir ilçede \nfaaliyet gösteren tacir ve/veya sanayici sayısı bini aştığı takdirde ticaret ve sanayi odası şubesi \nveya ticaret odası şubesi, faaliyet gösteren sanayici sayısı ikiyüzelliyi aştığı takdirde sanayi \nodası şubesi; faaliyet gösteren deniz taciri sayısı yüzü aştığı takdirde deniz ticaret odası \nşubesi, ilgili oda yönetim kurulunun teklifi ve meclislerinin kararı ile kurulur. \nBölge odaları kapsadıkları illerde şube kurabilirler. Bölge odasının kurulması ile \nkurucu il odaları şube haline dönüşür. İlçe odaları, meclislerinin üye tam sayısının üçte \nikisinin kararıyla il odasının şubesine dönüşebilirler. \nŞubelerde, o ilçede faaliyet gösteren tacir veya sanayici üyeler arasından yargı \ngözetiminde yapılacak seçimle en az on kişilik meclis oluşturulur. Meclis üyeleri kendi \naralarından bir başkan ile bir başkan yardımcısı ve beş kişiden oluşan yönetim kurulu \nüyelerini seçer. Aynı sayıda yedek üyeler seçilir. Yönetim, kendi arasından bir şube başkanı \nve başkan yardımcısı ile bir sayman belirler. \nOdalar, yönetim kurulunun teklifi ve meclislerinin onayıyla bazı yetkilerini şube \nmeclisine devredebilir. \n\nŞubelerin kuruluş ve işleyişi, bütçeleri, odaların görevlerinden hangilerinin şubeler \ntarafından yerine getirileceği ve diğer hususlara ilişkin usul ve esaslar Birlikçe hazırlanacak \nyönetmelikle düzenlenir. \n \nOda temsilcilikleri",
+          "normalized_hash": "1d058ffce1e0d654"
+        },
+        {
+          "provision_id": "law:5174:article:8",
+          "label": "Madde 8",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 8- Oda şubesi bulunmayan ilçelerde, beldelerde ve endüstri bölgeleri ile \norganize sanayi bölgelerinde oda yönetim kurulunun teklifi ve meclis kararı ile oda temsilciliği \nkurulabilir. \nOda temsilciliği, faaliyet gösteren ve oda yönetim kurulu kararı ile belirlenen bir üye \nveya oda personeli tarafından yerine getirilir. Oda temsilcisine yardımcı olmak üzere ihtiyaç \nduyulacak personel, yetkileri belirlenerek oda yönetim kurulu tarafından atanır. \nOda temsilcilerine verilecek görev ve yetkiler, Birlikçe hazırlanacak yönetmelikle \ndüzenlenir. \nOdalar, çalışma alanları dışındaki yerlerde şube, temsilcilik ve benzeri birimler açamazlar. \n \nOdalara kayıt zorunluluğu",
+          "normalized_hash": "8c36cfdf56e02f9b"
+        },
+        {
+          "provision_id": "law:5174:article:9",
+          "label": "Madde 9",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 9- Ticaret siciline kayıtlı tacirler ve 5 inci maddeye göre sanayici ve deniz taciri \nsıfatını haiz tüm gerçek ve tüzel kişiler ile bunların şubeleri ve fabrikaları, bulundukları yerdeki \nodaya kaydolmak zorundadırlar. Meslek gruplarına göre yapılacak üye kayıtları, elektronik \nortamda Bakanlık ve Birlik bünyesinde düzenlenen ortak veri tabanında güncel olarak tutulur. \nBir merkeze bağlı olduğu halde, ister merkezin bulunduğu odanın, ister başka odanın \nçalışma alanı içinde olan müstakil sermayesi ve müstakil muhasebesi bulunan ve/veya \nmuhasebesi merkezde tutulduğu ve müstakil sermayesi bulunmadığı halde kendi başına sınaî \nfaaliyet ve ticarî muamele yapan yerler ve satış mağazaları bu Kanunun uygulanması \nbakımından şube sayılır. \nSanayi odası kurulan illerde sanayiciler, sanayi odasına kaydolmakla ticaret odasına \nkaydolma yükümlülüğünü de yerine getirmiş olurlar. Sanayi işletmesi sahiplerinin, sınaî \nnitelikli işlerinin gereği olarak meşgul oldukları ticaret işleri bunların sanayici vasfını ortadan \nkaldırmaz; bunlar isterlerse ticaret odasına da kaydolabilirler. \nSanayiciler, kendi sanayi ürünlerini satmak üzere birden fazla satış yeri açtıkları \ntakdirde, fazlası için satış yerlerinin bulunduğu ticaret ve sanayi veya ticaret odasına da \nkaydolmak zorunda oldukları gibi; kendi sanayi ürünlerinin satışı dışında başka ticarî işlerle \nuğraştıkları takdirde, ticaret ve sanayi veya ticaret odasına da kaydolmakla yükümlüdürler. \nSermayesinin tamamı Devlete ve özel idarelere veya belediyelere veya bunların \nortaklığına ait olan iktisadî müesseselerle bunların şubeleri, özel kanun, Cumhurbaşkanlığı \nkararnamesi veya sözleşme ile kurulmuş olup, Devletin ve özel idarelerin veya belediyenin \niştiraki bulunan tüzel kişiliği haiz müesseseler veya bunların şubeleri ve fabrikaları, \nbulundukları ildeki odalara kaydolmak zorundadırlar.1 \n \n1 2/7/2018 tarihli ve 700 sayılı KHK’nin 152 nci maddesiyle, bu fıkrada yer alan “özel kanun” ibaresi \n“özel kanun, Cumhurbaşkanlığı kararnamesi” şeklinde değiştirilmiştir. \n\nTicaret siciline kayıtlı gerçek ve tüzel kişilerden 5 inci maddede belirtilen deniz \ntacirleri ile beşinci fıkra hükmünde belirtilenlerden deniz ticaretiyle uğraşanlar, bulundukları \nildeki deniz ticaret odasına kaydolmak zorundadırlar. Bu kapsamda sayılanlar, deniz ticaret \nodasına kaydolmakla diğer odalara kaydolma yükümlülüğünü de yerine getirmiş sayılırlar. \nAncak, bu kapsamdakiler, deniz ticaret odasına kaydolmasını gerektiren faaliyetler dışında \nbaşka işlerle de uğraştığı takdirde, ayrıca ilgili odaya da kaydolmak zorundadır. \nOdalara kaydı zorunlu olan gerçek ve tüzel kişilerle bunların şubeleri, kamu kurumu \nniteliğindeki başka meslek kuruluşlarına, birlik ve teşekküllere üye olmaya ve aidat ödemeye \nmecbur tutulamaz. \nBu maddede düzenlenen kayıt zorunluluğunu bir ay içinde yerine getirmeyenler, \nodalar tarafından re’sen kaydedilir ve durum kendilerine tebliğ edilir. \n \nDeğişikliklerin bildirilmesi",
+          "normalized_hash": "a3751e12b3d65b14"
+        },
+        {
+          "provision_id": "law:5174:article:10",
+          "label": "Madde 10",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 10- Odalara kayıt zorunluluğu bulunanlar, durumlarında meydana gelen ve \nTürk Ticaret Kanununa göre tescil ve ilânı gereken her türlü değişikliği, gerçekleşmesinden \nitibaren bir ay içinde, kayıtlı oldukları odalara bildirmek zorundadır. Ticaret siciline tescili \nzorunlu olup da yasal şekil ve sürede tescil ettirilmemiş olan bir hususu haber alan ilgili oda, \nbu yasal zorunluluğu yerine getirmeyenlerin durumlarını gerekli sicil değişikliklerinin \nyapılması için ilgili ticaret sicil memurluğuna bildirir. Ticaret sicil memurluğu, bu bildirim \nüzerine gerekli işlemleri yapmakla yükümlüdür. \nVergi mükellefiyetinin terkin edildiği tespit edilen veya içinde bulunulan yıldan önceki iki \nyıldan itibaren adresleri ve durumları tespit edilemeyen ya da bu süre zarfında aidat ödemeyen \nüyelerin isimleri, oda yönetim kurulu kararıyla, meslek grupları ve seçmen listelerinden silinir; \naidat tahakkukları durdurulur. Bu fıkra hükmünün gereğinin her yılın ocak ayı içinde yerine \ngetirilmesinden oda yönetim kurulu sorumludur. 2 \n(Değişik cümle:26/1/2023-7435/5 md.) İkinci fıkrada anılan oda yönetim kurulu \nkararını takip eden yılbaşından itibaren iki yıl içinde, ilgilinin üyesi bulunduğu odaya \nmüracaatla adres ve durumunu bildirmemesi ve vergi mükellefiyetinin bulunmaması halinde, \noda yönetim kurulunun teklifi ve meclis kararıyla oda kaydı silinir ve durum ticaret sicili \nmüdürlüğüne bildirilir. (Mülga cümle:26/1/2023-7435/5 md.) Bu süre içerisinde durumunu \nbildiren üyelerin aidat tahakkukları başlatılır. Ancak bu durumda olanlar tüm aidat borçlarını \nödemedikçe seçmen listelerine tekrar kaydedilemezler. \nTicaret sicilinden re’sen veya işin bırakılması halinde üyenin talebi üzerine kayıt \nsilinmesine ilişkin ilânlar Türkiye Ticaret Sicili Gazetesinde ücretsiz olarak yayımlanır. \nSanayici vasfını yitirdikleri, başvuru üzerine veya re’sen tespit olunan sanayi odası \nüyelerinin sanayi odasından kayıtları silinir. Ancak bunlardan ticaret odasına kayıtlı \nolmayanların ticarî faaliyetlerinin devam etmesi halinde durum, re’sen kayıtlarının yapılması \niçin ilgili ticaret odasına bildirilir. \nTicaret odasına kayıtlı iken sonradan sanayicilik vasfını kazanan üyelerin tacirlik sıfatı \n \n2 26/1/2023 tarihli ve 7435 sayılı Kanunun 5 inci maddesiyle bu fıkrada yer alan “İçinde bulunulan” ibaresi \n“Vergi mükellefiyetinin terkin edildiği tespit edilen veya içinde bulunulan” şeklinde, fıkrada yer alan “tespit \nedilemeyenler ile” ibaresi “tespit edilemeyen ya da” şeklinde değiştirilmiştir. \n\ndevam ediyorsa, kaydı silinmeden; etmiyorsa, kaydı re’sen silinerek, sanayi odasına üye kaydı \nyapılmak üzere durum değişikliğine ilişkin bildirim ticaret odasınca en geç otuz gün içinde \nilgili sanayi odasına bildirilir. \n \nOdalarda ehliyet, temsil ve imza yetkisi",
+          "normalized_hash": "a28e1dc00e2f557f"
+        },
+        {
+          "provision_id": "law:5174:article:11",
+          "label": "Madde 11",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 11- Odalar, taşınır ve taşınmaz mal almaya, satmaya, inşa, ifraz, tevhit ve \nrehin etmeye, ödünç para almaya, kamulaştırma yapmaya, sosyal faaliyetleri desteklemeye, \nözendirmeye, bağış ve yardımlarda bulunmaya, okul ve derslik yapmaya, burs vermeye, bu \nKanun hükümleri çerçevesinde şirket ve vakıf kurmaya veya kurulu şirketlere ortak olmaya \nve benzeri hukukî işlemler yapmaya yetkilidirler. \nOdanın hukukî temsilcisi yönetim kurulu başkanıdır. \nOdayı, yönetim kurulu başkanı ile en az bir yönetim kurulu üyesinin veya genel \nsekreterin ortak imzaları bağlar. \n \nOdaların görevleri",
+          "normalized_hash": "9fc16ac9b921fd19"
+        },
+        {
+          "provision_id": "law:5174:article:12",
+          "label": "Madde 12",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 12- Odaların görevleri şunlardır: \na) Meslek ahlâkını, disiplini ve dayanışmayı korumak ve geliştirmek, ticaret ve \nsanayinin kamu yararına uygun olarak gelişmesine çalışmak. \nb) Ticaret ve sanayiyi ilgilendiren bilgi ve haberleri derleyerek ilgililere ulaştırmak, \nilgili kanunlar çerçevesinde resmî makamlarca istenecek bilgileri vermek ve özellikle \nüyelerinin mesleklerini icrada ihtiyaç duyabilecekleri her çeşit bilgiyi, başvuruları durumunda \nkendilerine vermek veya bunların elde edilmesini kolaylaştırmak, elektronik ticaret ve internet \nağları konusunda üyelerine yol gösterecek girişimlerde bulunmak, bu konularda gerekli alt \nyapıyı kurmak ve işletmek. \nc) Ticaret ve sanayiye ait her türlü incelemeleri yapmak, bölgeleri içindeki iktisadî, \nticarî ve sınaî faaliyetlere ait endeks ve istatistikleri tutmak, başlıca maddelerin piyasa \nfiyatlarını takip ve kaydetmek ve bunları uygun vasıtalarla yaymak. \nd) 26 ncı maddedeki belgeleri düzenlemek ve onaylamak. \ne) Meslek faaliyetlerine ait konularda resmî makamlara teklif, dilek ve başvurularda \nbulunmak; üyelerinin tamamının veya bir kesiminin meslekî menfaati olduğu takdirde meclis \nkararı ile bu üyeleri adına veya kendi adına dava açmak. \nf) Çalışma alanları içindeki ticarî ve sınaî örf, adet ve teamülleri tespit etmek, \nBakanlığın onayına sunmak ve ilân etmek. \ng) Üyeleri tarafından uyulması zorunlu meslekî karar almak. \nh) Yurt içi ve yurt dışı fuar ve sergilere katılmak. \nı) Gerektiğinde 507 sayılı Esnaf ve Küçük Sanatkârlar Kanununun 125 inci \nmaddesinde sayılan mal ve hizmetlerin azamî fiyat tarifelerini, kendi üyeleri için, Bakanlıkça \nçıkarılacak yönetmeliğe uygun olarak tespit etmek ve onaylamak. \nj) Deniz ticaretinin kamu yararına, millî ulaştırma ve deniz ticareti politikasına uygun \nşekilde gelişmesine çalışmak. \nk) Millî ve milletlerarası deniz ticaretine ait incelemeler yapmak ve bu konudaki \n\nbilgileri sağlamak, Türkiye limanları arası ve yurt dışı navlun, acente komisyonu ve ücretleri \nile liman masrafları gibi bilgileri toplamak ve bunları mümkün olan vasıtalarla en seri şekilde \nyaymak, dünya deniz ticaretindeki en son gelişmeleri izlemek, istatistikler tutmak ve bunları \nilgililere duyurmak. \nl) Deniz ticaretine ait ticarî örf, teamül ve uygulamaları tespit ve ilân etmek, navlun \nanlaşmaları, konişmento ve benzeri evraka ait tip formları hazırlamak. \nm) Yabancı gemi sahip ve donatanları ile denizcilikle ilgili müesseselere Türkiye \nlimanlarının imkânları, çalışma şekilleri, tarifeleri ve liman masrafları hakkında bilgi vermek \nve onlardan benzeri bilgileri sağlamak. \nn) Deniz ticareti ile ilgili milletlerarası kuruluşlara üye olmak ve delege bulundurmak. \no) İlgililerin talebi üzerine deniz ticareti ile ilgili ihtilaflarda hakemlik yapmak. \np) Deniz acenteliği hizmet ücret tarifelerini hazırlamak ve Bakanlığın onayına sunmak. \nr) Sair mevzuatın verdiği görevlerle, ilgili kanunlar çerçevesinde Birlik ve Bakanlıkça \nverilecek görevleri yapmak. \ns) Birliğin belirlediği standartlara göre üye kayıtlarını tutmak ve üyelik aidatlarına \nilişkin belgeleri saklamak ve bunları Birliğe talep halinde bildirmek. \nt) Mevzuatla bakanlıklara veya diğer kamu kurum ve kuruluşlarına verilen işlerin, bu \nKanunda belirtilen kuruluş amaçları ve görev alanı çerçevesinde odalara tevdii halinde bu \nişleri yürütmek. \nu) Üyelerinin ihtiyacı olan belgeleri vermek ve bunlara ilişkin gerekli hizmetleri yapmak. \nv) Yurt içi fuarlar konusunda yapılacak müracaatları değerlendirip Birliğe teklifte \nbulunmak. \ny) Üyeleri hakkındaki tüketici şikâyetlerini incelemek ve kuruluş amaçları doğrultusunda \ndiğer faaliyetlerde bulunmak. \nz) Ticaret ve sanayi odalarınca, odalar ayrı olan illerde ise sanayi odalarınca sanayiciler \niçin kapasite raporları düzenlemek. \nOdalar, bunlardan başka mevzuat hükümleri çerçevesinde; \na) Ticaret mallarının niteliklerinin belirlenmesine yönelik lâboratuvarlar kurmak veya \nbunlara iştirak etmek, uluslararası kalibrasyon, test ölçme lâboratuvarı kurmak veya iştirak \netmek, belgelendirme hizmetleri sunmak, \nb) Milli Eğitim Bakanlığının izin ve denetiminde ticaret, denizcilik ve sanayi ile ilgili \nkursları açmak, açılan kurslara yardımda bulunmak, yurt içinde ve dışında ihtiyaç duyulan \nalanlar için öğrenci okutmak ve stajyer bulundurmak; meslekî ve teknik eğitim ve öğretimi \ngeliştirme ve yönlendirme çalışmaları yapmak, kendi üyelerinin işyerleriyle sınırlı olmak \nüzere, 3308 sayılı Meslekî Eğitim Kanunu kapsamına alınmamış meslek dallarında bu \nuygulamaya ilişkin belgeleri düzenlemek, \nc) İlgililerin talebi halinde, ticarî ve sınaî ihtilaflarda hakem olmak, tahkim kurulları \noluşturmak, \nd) Açılmış veya açılacak olan sergiler, panayırlar, umumi mağazalar, depolar, müzeler \nve kütüphanelere katılmak, \ne) Yetkili bakanlıkça uygun görülen alanlarda sanayi siteleri, endüstri bölgeleri, \norganize sanayi bölgeleri, teknoloji geliştirme bölgeleri, teknoparklar, teknoloji merkezleri \n\nkurmak ve yönetmek; 3218 sayılı Serbest Bölgeler Kanunu çerçevesinde serbest bölge kurucu \nve işleticisi veya işleticisi olmak, antrepo işletmek ve fuar alanları, kongre merkezleri ile \nticaret merkezleri kurmak, işletmek veya kurulmuş olanlara iştirak etmek, \ngörevlerini de yaparlar. \n \nİKİNCİ BÖLÜM \nOda Organları, Oluşumları ve Görevleri \nOda organları",
+          "normalized_hash": "573871036f909495"
+        },
+        {
+          "provision_id": "law:5174:article:13",
+          "label": "Madde 13",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 13- Odanın organları şunlardır: \na) Meslek komiteleri. \nb) Meclis. \nc) Yönetim kurulu. \nd) Disiplin kurulu. \n \nOda meslek komiteleri",
+          "normalized_hash": "fba8160d850e54ea"
+        },
+        {
+          "provision_id": "law:5174:article:14",
+          "label": "Madde 14",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 14- Oda meslek komiteleri, meslek gruplarınca dört yıl için seçilecek beş veya \nyedi kişiden, üye sayısı onbini aşan odalarda beş, yedi, dokuz veya onbir kişiden oluşur. Asıl \nüyeler kadar da yedek üye seçilir. \nKomite kendi üyeleri arasından dört yıl için bir başkan ve bir başkan yardımcısı seçer. \nMeslek komitesi üyeliğine seçilen gerçek kişiler ile tüzel kişilerin gerçek kişi \ntemsilcileri, aynı faaliyet sınırları içinde bulunan odalar ve borsaların meslek komiteleri ile \n17.7.1964 tarihli ve 507 sayılı Kanuna göre kurulmuş odaların ancak birinde görev alabilirler. \nMesleklerin gruplandırılmasında uyulacak esaslar ile meslek komitelerinin üye sayılarının \ntespiti ve diğer hususlar Birlikçe hazırlanacak yönetmelikle düzenlenir. \n \nOda meslek komitelerinin görevleri",
+          "normalized_hash": "7b27e0cc486fd77d"
+        },
+        {
+          "provision_id": "law:5174:article:15",
+          "label": "Madde 15",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 15- Oda meslek komitelerinin görevleri şunlardır: \na) Meslekleri ile ilgili incelemeler yapmak, yararlı ve gerekli gördükleri tedbirleri \ngörüşülmek üzere yönetim kuruluna teklif etmek. \nb) Meslek komitesiyle ilgili olarak meclis gündeminde yer alan konularda başkan, \nbaşkan yardımcısı veya uygun görülen üyelerin, oy kullanmamak üzere meclis toplantısına \nkatılmasına karar vermek. \nc) Mesleklerine ait işler hakkında, meclis veya yönetim kurulu tarafından bilgi \nistenmesi halinde, bu konuda araştırma yapmak ve istemi cevaplandırmak. \nd) İlgili mevzuatla verilen diğer görevleri yerine getirmek. \n \nOda meclisi",
+          "normalized_hash": "11847557e50baa5f"
+        },
+        {
+          "provision_id": "law:5174:article:16",
+          "label": "Madde 16",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 16- Oda meclisi, meslek gruplarınca dört yıl için seçilecek üyelerden oluşur. \nMeslek komiteleri beş kişiden oluşan gruplarda ikişer, yedi kişiden oluşan gruplarda üçer, \ndokuz kişiden oluşan gruplarda dörder, onbir kişiden oluşan gruplarda beşer meclis üyesi \nseçilir. Ayrıca aynı sayıda yedek üye seçilir. \n\nMeclis, kendi üyeleri arasından dört yıl için başkan ile bir veya iki başkan yardımcısı \nseçer. \nMeclis üyeliğine seçilen gerçek kişiler ile tüzel kişilerin gerçek kişi temsilcileri, aynı \nfaaliyet alanında bulunan odalar ve borsaların meclisleri ile 17.7.1964 tarihli ve 507 sayılı \nKanuna göre kurulmuş odaların ancak birinde görev alabilirler. \nMeclis başkanı ve yardımcıları yönetim kurulu ve disiplin kurulu başkan ve üyeliğine \nseçilemezler. \n(İptal beşinci fıkra: Anayasa Mahkemesi’nin 10/1/2013 tarihli ve E.: 2012/128, \nK.: 2013/7 sayılı Kararı ile.) \n \nOda meclisinin görevleri",
+          "normalized_hash": "f1f41cf613838358"
+        },
+        {
+          "provision_id": "law:5174:article:17",
+          "label": "Madde 17",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 17- Oda meclisinin görevleri şunlardır: \na) Oda yönetim kurulu ve disiplin kurulu üyelerini seçmek. \nb) Kendi üyeleri arasından Birlik genel kurulu delegelerini seçmek. \nc) Yönetim kurulu tarafından yapılacak teklifleri inceleyip karara bağlamak. \nd) Uyulması zorunlu meslekî kararlar almak. \ne) Çalışma alanları içindeki ticarî ve sınaî örf, adet ve teamülleri tespit ve ilân etmek. \nf) Aylık mizanı ve aktarma taleplerini incelemek ve onaylamak. \ng) Üyeleri arasında veya üyelerin yapmış oldukları sözleşmede yer alması halinde bu \nsözleşmelerle ilgili olarak çıkan ihtilafları çözmek üzere tahkim müesseseleri kurmak, \nmahkemeler tarafından istenecek hakem ve bilirkişi listelerini onaylamak. \nh) Odaya kayıtlı üyeler hakkında disiplin kurulu tarafından teklif edilecek cezaları \nkarara bağlamak. \nı) Yıllık bütçe ve kesin hesapları onaylamak ve yönetim kurulunu ibra etmek, \nsorumluluğu görülenler hakkında takibat işlemlerini başlatmak. \nj) Taşınmaz mal almaya, satmaya, inşa, ifraz, tevhit ve rehin etmeye, ödünç para \nalmaya, kamulaştırma yapmaya, okul ve derslik yapmaya, bu Kanun hükümleri çerçevesinde \nşirket ve vakıf kurmaya veya kurulu şirketlere ortak olmaya karar vermek. \nk) Oda iç yönergesini kabul etmek ve Birliğin onayına sunmak. \nl) Yönetim kurulunca odaya kayıt zorunluluğuna veya üyelerin derecelerine ilişkin \nolarak verilecek kararlara karşı yapılan itirazları incelemek ve kesin karara bağlamak. \nm) Mesleklere ve sorunlara göre ihtisas komisyonları ve danışma kurulları kurmak. \nn) Yurt içi ve yurt dışı sınaî, ticarî ve ekonomik kuruluşlara üye olmak ve kongrelerine \ndelege göndermek. \no) Tahsili imkânsızlaşan alacakların takibinden vazgeçme veya ölen, ticareti terk eden \nve odaya olan aidat borçlarını, yangın, sel, deprem ve benzeri tabiî afetler gibi, iradesi dışında \nmeydana gelen mücbir sebeplerden dolayı ödeme güçlüğü içinde olan üyelerin aidat \nborçlarının ve gecikme zamlarının affı ve/veya yeniden yapılandırılmaları ile oda veya üyeler \nadına açılacak davalar konusunda yönetim kurulundan gelen teklifleri inceleyip karara \nbağlamak ve gerekli gördüğünde bu yetkisini yönetim kuruluna devretmek. \np) Oda çalışmalarına veya Türk ekonomik hayatına önemli hizmetler vermiş kimselere \nmeclisin üye tam sayısının üçte ikisinin kararıyla şeref üyeliği vermek. \n\nr) İlgili mevzuatla verilen diğer görevleri yerine getirmek. \n \nOda yönetim kurulu",
+          "normalized_hash": "4bac0f303d506999"
+        },
+        {
+          "provision_id": "law:5174:article:18",
+          "label": "Madde 18",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 18- Oda yönetim kurulu, dört yıl için seçilen, meclis üye sayısı yirmiden az \nolan odalarda beş; yirmi ile yirmidokuz arasında olanlarda yedi; otuz ile otuzdokuz arasında \nolanlarda dokuz; kırk ve daha fazla olanlarda onbir kişiden oluşur. \nMeclis kendi üyeleri arasından yönetim kurulunun başkanını, asıl ve yedek üyelerini \ntek liste halinde seçer. Yönetim kurulu, kendi üyeleri arasından dört yıl için bir veya iki \nbaşkan yardımcısı ve bir sayman üye seçer. \n(İptal üçüncü fıkra: Anayasa Mahkemesi’nin 10/1/2013 tarihli ve E.: 2012/128, \nK.: 2013/7 sayılı Kararı ile.) \nBir odanın yönetim kurulu başkanı ve üyeleri, aynı zamanda başka bir oda veya \nborsanın meclisinde de görev alamazlar. \nToplantı gündemi başkan veya yokluğunda yetkilendirdiği başkan yardımcısı \ntarafından belirlenir. Ayrıca yönetim kurulu üyelerinin en az üçte birinin başvurusu ile \ntoplantının başlamasına kadar, gündeme yeni madde eklenir. \n \nOda yönetim kurulunun görevleri",
+          "normalized_hash": "d422e601ee639596"
+        },
+        {
+          "provision_id": "law:5174:article:19",
+          "label": "Madde 19",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 19- Oda yönetim kurulunun görevleri şunlardır: \na) Mevzuat ve meclis kararları çerçevesinde oda işlerini yürütmek. \nb) Bütçeyi, kesin hesabı ve aktarma tekliflerini ve bunlara ilişkin raporları oda meclisine \nsunmak. \nc) Aylık hesap raporunu oda meclisinin incelemesi ve onayına sunmak. \nd) Oda personelinin işe alınmalarına ve görevlerine son verilmesine, yükselme ve \nnakillerine karar vermek. \ne) Disiplin kurulunun soruşturma yapmasına karar vermek, bu Kanun uyarınca verilen \ndisiplin ve para cezalarının uygulanmasını sağlamak. \nf) Hakem, bilirkişi ve eksper listelerini hazırlamak ve onaylanmak üzere meclise \nsunmak. \ng) Bu Kanunda ve ilgili mevzuatta öngörülen belgeleri tasdik etmek. \nh) Odanın bir yıl içindeki faaliyeti ve bölgesinin iktisadî ve sınaî durumu hakkında \nyıllık rapor hazırlayıp meclise sunmak. \nı) Hazırladığı oda iç yönergesini meclise sunmak. \nj) Ticaret ve sanayiye ait her türlü incelemeyi yapmak, çalışma alanı içindeki ticarî ve \nsınaî faaliyetlere ait endeks ve istatistikleri tutmak ve meclisçe belirlenen maddelerin piyasa \nfiyatlarını takip ve kaydetmek ve bunları uygun vasıtalarla ilân etmek. \nk) Oda personelinin disiplin işlerini bu Kanunda ve ilgili mevzuatta öngörülen esas ve \nusuller çerçevesinde karara bağlamak. \nl) Yüksek düzeyde vergi ödeyen, ihracat yapan, teknoloji geliştiren üyelerini \nödüllendirmek. \n\nm) Bütçede karşılığı bulunması kaydıyla sosyal faaliyetleri desteklemek ve özendirmek, \nbağış ve yardımlarda bulunmak, burs vermek, meclis onayı ile okul ve derslik yapmak. \nn) Hakem veya hakem heyeti seçmek. \no) Bu Kanunla ve sair mevzuatla odalara verilen ve özel olarak başka bir organa \nbırakılmayan diğer görevleri yerine getirmek. \n \nOda yönetim kurulunun yetkilerinin devri",
+          "normalized_hash": "73d9012a93c5ea1c"
+        },
+        {
+          "provision_id": "law:5174:article:20",
+          "label": "Madde 20",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 20- Oda yönetim kurulu, gerekli hallerde, yetkilerinden bir kısmını başkana, \nüyelerinden birine veya birkaçına yahut genel sekretere devredebilir. \n \nOda disiplin kurulu",
+          "normalized_hash": "c03f23e08aadf2a8"
+        },
+        {
+          "provision_id": "law:5174:article:21",
+          "label": "Madde 21",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 21- Oda disiplin kurulu, meclisçe odaya kayıtlı olanlar arasından dört yıl için \nseçilen altı asıl ve altı yedek üyeden oluşur. \nDisiplin kurulu, seçimden sonraki ilk toplantısında, üyeleri arasından bir başkan seçer. \nBaşkanın bulunmadığı zamanlarda, en yaşlı üye kurula başkanlık eder. \nDisiplin kurulu üyelerinde aranılacak şartlar, Birliğin uygun görüşü alınmak suretiyle \nBakanlıkça çıkarılacak yönetmelikle belirlenir. \n \nOda disiplin kurulunun görevleri",
+          "normalized_hash": "97f518e10f01f18b"
+        },
+        {
+          "provision_id": "law:5174:article:22",
+          "label": "Madde 22",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 22- Oda disiplin kurulunun görevleri şunlardır: \na) Odaya kayıtlı üyelerin disiplin soruşturmalarını bu Kanunda ve ilgili mevzuatta \nöngörülen usul ve esaslara uygun olarak yürütmek. \nb) Meclise, odaya kayıtlı üyeler hakkında disiplin ve para cezası verilmesini önermek. \n \nÜÇÜNCÜ BÖLÜM \nOda Gelirleri ve Bütçe \nOda gelirleri",
+          "normalized_hash": "6e3d8d5a01544811"
+        },
+        {
+          "provision_id": "law:5174:article:23",
+          "label": "Madde 23",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 23- Odaların gelirleri şunlardır: \na) Kayıt ücreti. \nb) Yıllık aidat. \nc) Munzam aidat. \nd) Yapılan hizmetler karşılığı alınan ücretler. \ne) Belge bedelleri. \nf) Yayın gelirleri. \ng) Bağış ve yardımlar. \nh) Para cezaları. \nı) İştirakler kârı. \nj) Gemilerden alınacak ücretler. \nk) Misil zamları. \n\nl) Menkul ve gayrimenkul sermaye iratları, şirket kârları ve döviz gelirleri. \nm) Tarife tasdik ücreti. \nn) Sair gelirler. \n \nOdalarda kayıt ücreti ve yıllık aidat",
+          "normalized_hash": "f8e58663bc77b58f"
+        },
+        {
+          "provision_id": "law:5174:article:24",
+          "label": "Madde 24",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 24- Üyeler odaya kaydı sırasında kayıt ücreti ve her yıl için yıllık aidat \nödemekle yükümlüdür. \nKayıt ücreti ile yıllık aidat, onaltı yaşından büyükler için uygulanan aylık asgarî \nücretin brüt tutarının yüzde onundan az, yarısından fazla olamaz. \nKayıt ücretinin alındığı yıl için ayrıca yıllık aidat alınmaz. Kayıt ücreti ve yıllık aidat \nmiktarları Birlikçe çıkarılacak yönetmelikle gösterilecek usullere göre belirlenecek dereceler \nüzerinden ve tarifelere göre tespit olunur. Tarifeler, oda yönetim kurulunun teklifi, meclisin \nonayı ile yürürlüğe girer. Birden fazla odaya kayıt zorunluluğunda olanlardan alınacak kayıt \nücreti ve yıllık aidat miktarı da yönetmelikte gösterilen usullere göre tespit edilir. \nDerecelerini durumlarına uygun bulmayanlar, yönetmelikte gösterilecek usullere göre \nve on gün içinde oda meclisine itiraz edebilirler. İtirazlar meclisçe karara bağlanıncaya kadar \nkayıt ücreti ve yıllık aidatın ihtilaflı kısmı tahsil olunmaz. \nYıllık aidat her yılın haziran ve ekim aylarında iki eşit taksitte ödenir. Yıl içinde \nkaydedilenlerin kayıt ücreti ile önceki yıldan itibaren geçerli olarak kaydedilmesi gerekenlerin \nkayıt ücretleri ve yıllık aidatları, durumun kendilerine tebliğ tarihinden itibaren bir ay içinde \nödenir. \nŞubelere kayıtlı olan üyeler, bu maddede belirlenen kayıt ücreti ve aidatların yarısı \nkadar ödeme yaparlar. \n \nMunzam aidat ve navlun hasılatından alınacak pay",
+          "normalized_hash": "1d0c21141b993a37"
+        },
+        {
+          "provision_id": "law:5174:article:25",
+          "label": "Madde 25",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 25- Odalarca her yıl için; gerçek kişi tacir ve sanayicilerin gelir vergisine \nilişkin beyannamelerinde gösterilen ticarî kazanç toplamı; tüzel kişi tacir ve sanayicilerin ise \nödeyecekleri kurumlar vergisine ilişkin beyannamelerinde gösterilen ticarî bilanço kârı \nüzerinden binde beş oranında munzam aidat tahsil olunur. \nBirden fazla odaya kayıtlı bulunanların munzam aidatı, üye tarafından ilgili odalara \neşit olarak paylaştırılmak suretiyle yatırılır. \nZarar eden üyeler, o yıl için munzam aidat ödemezler. \nÇalışma alanları içinde birden fazla şubesi bulunan üyelerin munzam aidatı, bütün \nşubelerden elde ettikleri gelir veya kurumlar vergisine matrah teşkil eden ticarî kazanç veya \nticarî bilanço kârı üzerinden hesaplanır. \nMüstakil bilançosu yapılan kurum ve müessese şubeleri ile fabrikalarının munzam \naidatı, şube veya fabrikanın bulunduğu yerin odasına ödenir. \nBir tüzel kişiliğin merkez, şube ve fabrikalarının değişik yerlerde olması, fakat \nbilançolarının merkezde tutulması halinde, munzam aidat merkez tarafından mahalli odaya \nödenir. Bu oda tahsil ettiği munzam aidatı diğer odalar arasında, izleyen takvim yılının ilk üç \n\nayı içinde eşit olarak paylaştırır. \nBütün bu hallerde bir müessesenin şubeleri ve fabrikaları ile birlikte ödeyeceği \nmunzam aidat, o yıl için belirlenmiş bulunan yıllık aidat tavanının yirmi katını geçemez. \nMunzam aidat haziran ve ekim aylarında iki eşit taksitte ödenir. Önceki yıldan itibaren \ngeçerli olarak kaydedilmesi gerekenlerin munzam aidatları ise, bu durumun kendilerine tebliğ \nedildiği yılın sonuna kadar ödenir. \nÜyeler, ticarî ve sınaî kazançlarına ait bilgileri ve bilançolarını talep üzerine odalara \nvermek zorundadırlar. Ayrıca odalar, 213 sayılı Vergi Usul Kanununun 5 inci maddesi hükmü \nçerçevesinde vergi dairelerinden bilgi isteyebilirler. Üye tarafından bilançonun verilmemesi \nve vergi dairesinden de sağlanamaması halinde, yıllık aidat tavanının üç katından az olmamak \nüzere, bir önceki yılın munzam aidatı geçici olarak aynen tahakkuk ettirilir. \nŞubelere kayıtlı üyeler, bu maddede belirlenen munzam aidatın yarısı kadar ödeme \nyaparlar. \nTürkiye limanlarında yük alan veya bu limanlara yük getiren ve Türkiye'de herhangi \nbir odaya kayıtlı olmayan yabancı bayraklı gemiler ile yabancı bir ülkede yerleşik gerçek veya \ntüzel kişi tacir tarafından işletilen Türk Bayraklı gemilerin Türk limanlarında yükleme ve \nboşaltmadan sağladıkları tüm navlun hasılatı üzerinden, kruvaziyer ve yolcu gemilerinde gros \ntonajı üzerinden uluslararası uygulama göz önüne alınmak suretiyle, binde beşi geçmemek ve \nyıllık munzam aidat tavanını aşmamak kaydıyla oda yönetim kurulunca teklif ve oda \nmeclisince tespit edilecek orana göre hesap edilecek meblağ, geminin limandan ayrıldığı \ntarihten itibaren on beş gün içinde, kendileri, temsilcileri veya acenteleri tarafından ilgili \nliman bölgesindeki deniz ticaret odasına veya bu oda teşkilâtının henüz kurulmadığı yerlerde, \nticaret veya ticaret ve sanayi odasına ödenir. \n \nOdalarda belge bedelleri ve ücretler",
+          "normalized_hash": "b856584be59c0e25"
+        },
+        {
+          "provision_id": "law:5174:article:26",
+          "label": "Madde 26",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 26- Odalarca verilen hizmetler ile onaylanan ve düzenlenen belgeler \nkarşılığında alınan ücretlerin oran ve miktarı, maktu ücretlerde yıllık aidat tavanını \ngeçmemek, nispî ücretlerde bu tavanı aşmamak ve binde beşten fazla olmamak kaydıyla oda \nyönetim kurullarının teklifi, meclislerin onayı ile yürürlüğe konulacak tarifelerle tespit olunur. \nOdalarca verilen hizmetin dışarıdan satın alınması halinde, satın alınan hizmetin bedeli de bu \ntavanın iki katını geçmemek üzere ücrete eklenerek ilgiliden tahsil edilir. \nOdalarca düzenlenecek veya onaylanacak belgeler ile verilecek hizmetler şunlardır: \na) Fatura suretlerinin onayı. \nb) Rayiç fiyatların onayı. \nc) Ticarî ve sınaî eşya numunelerinin vasıflarının onayı. \nd) Bilirkişi ve eksper raporları ile kapasite raporları. \ne) Kefaletname ve taahhütnamelerde yazılı imza sahiplerinin odalardaki sicil durumunu \ngösteren onay ve şerhler. \nf) Sınaî ve ticarî mahiyette belgeler. \ng) Ticarî kefalet onayları. \nh) Tahsis ve sarfiyat belgeleri. \nı) Kalite, yeterlik ve numune belgeleri. \n\nj) Yerli malı belgeleri. \nk) Kayıtlı üyelerin tatbik imzalarının onayı. \nl) Oda mensuplarına ait kayıt ve sicil suretleri ve üye kimlikleri. \nm) Ticarî itibar şahadetnamesi mahiyetinde olmamak üzere, üyelerinin gizli olmayan \nsicilleri hakkında yazılı veya sözlü sorulara cevaplar. \nn) 2918 sayılı Karayolları Trafik Kanununun 22 nci maddesi gereğince verilen iş \nmakineleri tescil belgesi. \no) TIR karneleri, ATA, A.TR ve EUR.1 dolaşım belgeleri, menşe şahadetnameleri ve \nEAN -UCC çizgi kod işlemleri, mal ve hizmetlerin uluslararası ticaretindeki beyanname, \nvesika ve benzeri belgeler. \np) Mücbir sebep belgeleri. \nr) Türkiye Ticaret Sicili Gazetesi suretleri. \ns) Türk veya yabancı bayraklı gemilere verilecek genel ve uluslararası sektörel hizmetler. \nt) Ticaret sicili hizmetleri. \nu) Ticarî ve sınaî mahiyette diğer her türlü belge ve bilgiler ile hizmetler. \nDeniz ticaret odasınca Türk ve yabancı bayraklı gemilerden hizmet veya onay karşılığı \nalınacak ücretlerin, hizmet veya onaydan itibaren en geç onbeş gün içinde ödenmesi gerekir. \n \nOdaların bütçesi",
+          "normalized_hash": "374ef693ced25d25"
+        },
+        {
+          "provision_id": "law:5174:article:27",
+          "label": "Madde 27",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 27- Odaların bütçeleri, Birlikçe hazırlanacak tipe ve tespit olunacak muhasebe \nusullerine uygun olarak, yönetim kurullarınca hazırlanır ve meclislerince onaylanır. \nBütçe, takvim yılına göre düzenlenir. \nBütçeden harcama, yönetim kurulu başkanı veya yetkilendireceği yardımcısı ve genel \nsekreterin veya sayman üyenin ortak imzası ile yapılır. Genel sekreterin bulunmadığı hallerde, \ngenel sekreter yerine sayman üyenin imzası aranır. \nYönetim kurulunun önerisi üzerine meclislerce saptanan miktar kadar harcama, sonradan \nyönetim kurulunun onayına sunulmak şartıyla, genel sekreter tarafından re’sen yapılabilir. \n \nÜÇÜNCÜ KISIM \nBorsalar \n \nBİRİNCİ BÖLÜM \nTicaret Borsalarına İlişkin Genel Esaslar \nTicaret borsaları",
+          "normalized_hash": "432f267ad36db1d7"
+        },
+        {
+          "provision_id": "law:5174:article:28",
+          "label": "Madde 28",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 28- Ticaret borsaları, bu Kanunda yazılı esaslar çerçevesinde borsaya dahil \nmaddelerin alım satımı ve borsada oluşan fiyatlarının tespit, tescil ve ilânı işleriyle meşgul \nolmak üzere kurulan kamu tüzel kişiliğine sahip kurumlardır. \nKambiyo ve kıymetli madenlerle ilgili borsalar bu Kanun kapsamı dışındadır. \n \nBorsanın kuruluşu",
+          "normalized_hash": "883cca038aa06015"
+        },
+        {
+          "provision_id": "law:5174:article:29",
+          "label": "Madde 29",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 29- Borsalar ticarî ihtiyaçların gerekli kıldığı illerde, Birliğin olumlu görüşü \nüzerine Bakanlıkça kurulur. \n\nÜlke, bölge ve uluslararası düzeyde faaliyet göstermek üzere özel nitelikli borsalar da \nkurulabilir. \nBölge borsaları kurulabilmesi; bölge illerindeki toplam üye sayısının yarısından \nfazlasının, Birliğe yazılı müracaatı veya borsa meclislerinin ayrı ayrı üye tam sayısının üçte \nikisinin kararı ve Birliğin olumlu görüşü üzerine Bakanlığın kararı ile gerçekleşir. Bölge \nborsasının kurulması ile kurucu borsalar şube haline dönüşür. \nÜlke ve bölge borsaları da, ticaret borsalarına ilişkin hükümlere tâbidir. \nBorsalar, Birliğin olumlu görüşü alınarak Bakanlık tarafından çıkarılacak yönetmelikle \nbelirlenecek borsacılık şartlarını esas alan ortak kriterler doğrultusunda, yapılacak hizmete \nuygun ve yeterli örgütlenme, alt yapı, donanım ve gerekli personeli sağlamak zorundadırlar. \nBorsaların niteliklerine göre sınıflandırılması, Birliğin olumlu görüşü alınarak Bakanlık \ntarafından çıkarılacak yönetmelikle düzenlenir. \nDışarıda yerleşik kişiler, uluslararası nitelikteki borsalarda işlem yapabilir. \n \nBorsaların çalışma alanları",
+          "normalized_hash": "00671d5905cb7c5f"
+        },
+        {
+          "provision_id": "law:5174:article:30",
+          "label": "Madde 30",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 30- Borsanın çalışma alanı, bulunduğu il sınırlarıdır. Bu çalışma alanı, çevre \nilleri de kapsayacak şekilde ve o illerde borsa kuruluncaya kadar geçerli olmak üzere, Birlik \nYönetim Kurulu tarafından genişletilebilir veya daraltılabilir. \n \nBorsa şubeleri",
+          "normalized_hash": "5f14141975863f00"
+        },
+        {
+          "provision_id": "law:5174:article:31",
+          "label": "Madde 31",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 31- Bölge ticaret borsaları kapsadıkları çalışma alanlarında şube kurabilirler. \nBorsalar, çalışma alanları içinde borsa meclisi kararıyla şubeler açabilirler. \nŞubelerin bulunduğu il ve ilçede faaliyet gösteren borsa üyeleri arasından yargı \ngözetiminde yapılacak seçimle en az on kişilik meclis oluşturulur. Meclis üyeleri kendi \naralarından bir başkan ile bir başkan yardımcısı ve beş kişiden oluşan yönetim kurulu \nüyelerini seçer. Aynı sayıda yedek üyeler seçilir. Yönetim kurulu, kendi arasından bir şube \nbaşkanı ve başkan yardımcısı ile bir sayman belirler. \nBorsalar, yönetim kurulunun teklifi ve meclislerinin onayı ile bazı yetkilerini şube \nmeclisine devredebilirler. \nBölge borsasının kurulması ile kurucu il borsaları şube haline dönüşür. İlçe borsaları, \nkendi meclislerinin üye tam sayısının üçte ikisinin kararıyla il borsasının şubesine \ndönüşebilirler. \nŞubelerin kuruluş ve işleyişi, bütçeleri, borsaların görevlerinden hangilerinin şubeler \ntarafından yerine getirileceği ve diğer hususlara ilişkin usul ve esaslar Birlikçe hazırlanacak \nyönetmelikle düzenlenir. \n \nBorsaya kayıt zorunluluğu",
+          "normalized_hash": "c4986a911f6455b8"
+        },
+        {
+          "provision_id": "law:5174:article:32",
+          "label": "Madde 32",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 32- Ticaret borsası kotasyonuna dahil maddelerin alım veya satımı ile \nuğraşanlar, bulundukları yerin borsasına kaydolmak zorundadırlar. Buna uymayanların \n\nkayıtları, borsaca re’sen yapılır ve kendilerine tebliğ edilir. Meslek gruplarına göre yapılacak \nbu üye kayıtları, elektronik ortamda Bakanlık ve Birlik bünyesinde düzenlenen ortak veri \ntabanında güncel olarak tutulur. \nBorsaya kayıt zorunluluğunda olanların durumlarında meydana gelen ve Türk Ticaret \nKanununa göre tescil ve ilânı gereken her türlü değişikliğin, gerçekleşmesinden itibaren bir ay \niçinde kayıtlı oldukları borsalara bildirilmesi gerekir. İlgili sicile tescili zorunlu olup da \nkanunî şekil ve sürede tescil ettirilmemiş olan bir hususu haber alan ilgili borsa, bu \nzorunluluğu yerine getirmeyenlerin durumlarını gerekli sicil değişikliklerinin yapılması için \nilgili sicil memurluğuna bildirir. Sicil memurluğu, bu bildirim üzerine gerekli işlemleri \nyapmakla yükümlüdür. \nMerkezî borsa çalışma alanı dışında bulunmakla beraber, borsa çalışma alanı içinde \nfaaliyet gösteren gerçek ve tüzel kişilerin, ticaret veya esnaf siciline tescil edilmiş ya da \nedilmemiş şube, irtibat bürosu, fabrika, temsilcilik, depo, alım satım yeri ve buna benzer \nünitelerinin de borsaya kaydolmaları gerekir. \nVergi mükellefiyetinin terkin edildiği tespit edilen veya içinde bulunulan yıldan önceki \nson iki yıldan itibaren adresleri ve durumları tespit edilemeyen ya da içinde bulunulan yıldan \nönceki son iki yılda, borsa maddeleri üzerine alım satımı bulunmayan üyelerin isimleri, borsa \nmeclisi kararıyla meslek grupları ve seçmen listelerinden silinir, aidat tahakkukları durdurulur \nve bunlar borsa hizmetlerinden yararlanamazlar.3 \nYukarıdaki fıkrada anılan borsa meclisi kararını takip eden yılbaşından itibaren iki yıl \niçinde, ilgilinin üyesi bulunduğu borsaya müracaatla adres ve durumunu bildirmemesi ve \nvergi mükellefiyetinin bulunmaması halinde, borsa yönetim kurulunun teklifi ve meclis \nkararıyla borsadan kaydı silinir. Bu süre içinde durumunu bildirenlerin aidat tahakkukları \nbaşlatılır. \nAncak \nbunlar \naidat \nborçlarını \nödemedikçe \nseçmen \nlistelerine \ntekrar \nkaydedilemezler.4 \nBorsaya dahil maddelerin üretici veya seri halde üretim yapmaksızın doğrudan tüketiciye \nsatış yapan imalatçıları, borsalara kaydolmaksızın dahi kendi mallarını borsada satabilirler. \n \nBorsada ehliyet, temsil ve imza yetkisi",
+          "normalized_hash": "0e870cb961c93196"
+        },
+        {
+          "provision_id": "law:5174:article:33",
+          "label": "Madde 33",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 33- Borsalar; taşınır ve taşınmaz mal almaya, satmaya, inşa, ifraz, tevhit ve \nrehin etmeye, ödünç para almaya, kamulaştırma yapmaya, sosyal faaliyetleri desteklemeye, \nözendirmeye, bağış ve yardımlarda bulunmaya, okul ve derslik yapmaya, burs vermeye, bu \nKanun hükümleri çerçevesinde şirket ve vakıf kurmaya veya kurulu şirketlere ortak olmaya \nve benzeri hukukî işlemler yapmaya yetkilidirler. \nBorsanın hukukî temsilcisi yönetim kurulu başkanıdır. \n \n3 26/1/2023 tarihli ve 7435 sayılı Kanunun 6 ncı maddesiyle bu fıkrada yer alan “İçinde bulunulan” ibaresi \n“Vergi mükellefiyetinin terkin edildiği tespit edilen veya içinde bulunulan” şeklinde, “tespit edilemeyen ve” \nibaresi “tespit edilemeyen ya da” şeklinde değiştirilmiştir. \n4 26/1/2023 tarihli ve 7435 sayılı Kanunun 6 ncı maddesiyle bu fıkranın birinci cümlesine “durumunu \nbildirmemesi” ibaresinden sonra gelmek üzere “ve vergi mükellefiyetinin bulunmaması” ibaresi eklenmiştir. \n\nBorsayı, yönetim kurulu başkanı ile en az bir yönetim kurulu üyesinin veya genel \nsekreterin ortak imzaları bağlar. \n \nBorsanın görevleri",
+          "normalized_hash": "11cdcf6eb1cb9a4c"
+        },
+        {
+          "provision_id": "law:5174:article:34",
+          "label": "Madde 34",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 34- Borsanın görevleri şunlardır: \na) Borsaya dahil maddelerin, borsada alım satımını tanzim ve tescil etmek. \nb) Borsaya dahil maddelerin borsada oluşan her günkü fiyatlarını usulü dairesinde \ntespit ve ilân etmek. \nc) Alıcı ve satıcının, teslim ve teslim alma ile ödeme bakımından yükümlülüklerini, \nmuamelelerin tasfiye şartlarını, fiyatlar üzerinde etkili şartları ve ihtilaf doğduğunda ihtiyari \ntahkim usullerini gösteren ve Birliğin onayıyla yürürlüğe girecek genel düzenlemeler yapmak. \nd) Yurt içi ve yurt dışı borsa ve piyasaları takip ederek fiyat haberleşmesi yapmak, \nelektronik ticaret ve internet ağları konusunda üyelerine yol göstermek. \ne) 51 inci maddedeki belgeleri düzenlemek ve onaylamak. \nf) Borsaya dahil maddelerin tiplerini ve vasıflarını tespit etmek üzere lâboratuvar ve \nteknik bürolar kurmak veya kurulmuşlara iştirak etmek. \ng) Bölgeleri içindeki borsaya ilişkin örf, adet ve teamülleri tespit etmek, Bakanlığın \nonayına sunmak ve ilân etmek. \nh) Borsa faaliyetlerine ait konularda ilgili resmî makamlara teklif, dilek ve \nbaşvurularda bulunmak; üyelerinin tamamı veya bir kesiminin menfaati olduğu takdirde bu \nüyeleri adına veya kendi adına dava açmak. \nı) Rekabeti bozucu etkileri olabilecek anlaşma, karar ve uyumlu eylem niteliğindeki \nuygulamaları izlemek ve tespiti halinde ilgili makamlara bildirmek. \nj) Mevzuatla bakanlıklara veya diğer kamu kurum ve kuruluşlarına verilen işlerin, bu \nKanunda belirtilen kuruluş amaçları ve görev alanı çerçevesinde borsalara tevdii halinde bu \nişleri yürütmek. \nk) Üyelerinin ihtiyacı olan belgeleri vermek ve bunlara ilişkin gerekli hizmetleri \nyapmak. \nl) Yurt içi fuarlar konusunda yapılacak müracaatları değerlendirip Birliğe teklifte \nbulunmak. \nm) Sair mevzuatın verdiği görevlerle, ilgili kanunlar çerçevesinde Birlik ve Bakanlıkça \nverilecek görevleri yapmak. \n \nİKİNCİ BÖLÜM \nBorsa Organları, Oluşumları ve Görevleri \nBorsa organları",
+          "normalized_hash": "704307ba48d26b03"
+        },
+        {
+          "provision_id": "law:5174:article:35",
+          "label": "Madde 35",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 35- Borsanın organları şunlardır: \na) Meslek komiteleri. \nb) Meclis. \n\nc) Yönetim kurulu. \nd) Disiplin kurulu. \n \nBorsa meslek komiteleri",
+          "normalized_hash": "6f7af646b30fe650"
+        },
+        {
+          "provision_id": "law:5174:article:36",
+          "label": "Madde 36",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 36- Borsa meslek komiteleri, meslek gruplarınca dört yıl için seçilecek beş \nveya yedi kişiden; üye sayısı onbini aşan borsalarda beş, yedi, dokuz veya onbir kişiden \noluşur. Asıl üyeler kadar da yedek üye seçilir. \nKomite, kendi üyeleri arasından dört yıl için bir başkan, bir başkan yardımcısı seçer. \nMeslek komitesi üyeliğine seçilen gerçek kişiler ile tüzel kişilerin gerçek kişi \ntemsilcileri, aynı faaliyet sınırları içinde bulunan odalar ve borsaların meslek komiteleri ile \n17.7.1964 tarihli ve 507 sayılı Kanuna göre kurulmuş odaların ancak birinde görev alabilirler. \nMesleklerin gruplandırılmasında uyulacak esaslar ile meslek komitelerinin üye \nsayılarının tespiti ile diğer hususlar Birlikçe hazırlanacak yönetmelikle düzenlenir. \n \nBorsa meslek komitelerinin görevleri",
+          "normalized_hash": "c75c9a8b7e604ff2"
+        },
+        {
+          "provision_id": "law:5174:article:37",
+          "label": "Madde 37",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 37- Borsa meslek komitelerinin görevleri şunlardır: \na) Konuları dahilinde incelemeler yapmak, faaliyet alanları için yararlı ve gerekli \ngördükleri tedbirleri, kararlaştırılmak üzere yönetim kuruluna teklif etmek. \nb) Meslek komitesiyle ilgili olarak meclis gündeminde yer alan konularda başkan, \nbaşkan yardımcısı veya uygun görülen üyelerin, oy kullanmamak üzere meclis toplantısına \nkatılmalarına karar vermek. \nc) Faaliyet alanlarına ilişkin olarak, meclis veya yönetim kurulu tarafından bilgi \nistenmesi halinde, bu konuda araştırma yapmak ve istemi cevaplandırmak. \nd) İlgili mevzuatla verilen diğer görevleri yerine getirmek. \n \nBorsa meclisi",
+          "normalized_hash": "edc8ef0e51f91a7b"
+        },
+        {
+          "provision_id": "law:5174:article:38",
+          "label": "Madde 38",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 38- Borsa meclisi, meslek gruplarınca dört yıl için seçilecek üyelerden oluşur. \nMeslek komiteleri beş kişiden oluşan gruplarda ikişer, yedi kişiden oluşan gruplarda üçer, \ndokuz kişiden oluşan gruplarda dörder, onbir kişiden oluşan gruplarda beşer meclis üyesi \nseçilir. Ayrıca aynı sayıda yedek üye seçilir. En az yedi meslek grubu kurulamayan borsalarda \nmeclisler borsaya kayıtlı olanların kendi aralarından seçecekleri ondört üye ile kurulur. Ayrıca \naynı sayıda yedek üye seçilir. Bu takdirde meslek komitelerinin görevleri meclislerce \nseçilecek ihtisas komisyonları tarafından yerine getirilir. \nMeclis, kendi üyeleri arasından dört yıl için bir başkan, bir veya iki başkan yardımcısı \nseçer. \nMeclis üyeliğine seçilen gerçek kişiler ile tüzel kişilerin gerçek kişi temsilcileri, aynı \nfaaliyet alanında bulunan odalar ve borsaların meclisleri ile 17.7.1964 tarihli ve 507 sayılı \nKanuna göre kurulmuş odaların ancak birinde görev alabilirler. \nMeclis başkan ve yardımcıları, yönetim ve disiplin kurulu başkanlığına ve üyeliğine \nseçilemezler. \n(İptal beşinci fıkra: Anayasa Mahkemesi’nin 10/1/2013 tarihli ve E.: 2012/128, \nK.: 2013/7 sayılı Kararı ile.) \n\nBorsa meclisinin görevleri",
+          "normalized_hash": "0da85808e53b794c"
+        },
+        {
+          "provision_id": "law:5174:article:39",
+          "label": "Madde 39",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 39- Borsa meclisinin görevleri şunlardır: \na) Borsa yönetim kurulu ve disiplin kurulu üyelerini seçmek. \nb) Kendi üyeleri arasından Birlik genel kurul delegelerini seçmek. \nc) Yönetim kurulu tarafından yapılacak teklifleri inceleyip karara bağlamak. \nd) Çalışma alanları içindeki örf, adet ve teamülleri tespit ve ilân etmek. \ne) Aylık mizanı ve aktarma taleplerini incelemek ve onaylamak. \nf) Borsada gerçekleştirilen işlemlerden veya üyelerin yapmış oldukları sözleşmede yer \nalması halinde bu sözleşmelerle ilgili olarak çıkan ihtilafları çözmekle görevli tahkim müesseseleri \noluşturmak. \ng) Borsa dışında yapılan işlemlerden doğabilecek ihtilafların çözümü için, mahkemeler \ntarafından istenecek bilirkişi listesini onaylamak. \nh) Borsa üyeleri hakkında disiplin kurulu tarafından teklif edilecek cezalara karar \nvermek. \nı) Yıllık bütçe ve kesin hesapları onaylamak ve yönetim kurulunu ibra etmek, \nsorumluluğu görülenler hakkında takibat işlemlerini başlatmak. \nj) Taşınmaz alımına, satımına, inşa, ifraz, tevhit ve rehnine ve ödünç para alınmasına, \nkamulaştırma yapılmasına ve bu Kanun hükümleri çerçevesinde şirketlere ortak olmaya karar \nvermek. \nk) Borsa iç yönergesini kabul etmek ve Birliğin onayına sunmak. \nl) Borsaya dahil maddelerden hangilerinin, daha sonra tescil ettirilmek şartıyla, borsa \nyerinin dışında alınıp satılabileceğini belirlemek ve bu şekilde alınıp satılacak maddelerin \notuz günü geçmemek kaydıyla tescil edilmesine ilişkin süreyi belirlemek. \nm) Yönetim kurulunca borsaya kayıt zorunluluğuna veya üyelerin derecelerine ilişkin \nolarak verilecek kararlara karşı yapılan itirazları incelemek ve kesin karara bağlamak. \nn) Mesleklere ve sorunlara göre ihtisas komisyonları kurmak. \no) Yurt içi ve dışı sınaî, ticarî ve ekonomik kuruluşlara üye olmak ve kongrelerine \ndelege göndermek. \np) Tahsili imkânsızlaşan alacakların takibinden vazgeçme veya ölen, ticareti terk eden \nve borsaya olan aidat borçlarını yangın, sel, deprem ve benzeri tabiî afetler gibi iradesi dışında \nmeydana gelen mücbir sebeplerden dolayı ödeme güçlüğü içinde olan üyelerin aidat anapara \nve gecikme zammı borçlarının affı ve/veya yeniden yapılandırılmaları ile borsa veya üyeler \nadına açılacak davalar konusunda yönetim kurulundan gelen teklifleri inceleyip karara \nbağlamak ve gerekli gördüğünde bu yetkisini yönetim kuruluna devretmek. \nr) Borsaya veya Türk ekonomi hayatına önemli hizmetler vermiş kimselere meclisin \nüye tam sayısının üçte ikisinin kararıyla şeref üyeliği vermek. \ns) İlgili mevzuatla verilen diğer görevleri yerine getirmek. \n \n\nBorsa yönetim kurulu",
+          "normalized_hash": "a2d39dc7094dacd9"
+        },
+        {
+          "provision_id": "law:5174:article:40",
+          "label": "Madde 40",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 40- Borsa yönetim kurulu, dört yıl için seçilen, meclis üye sayısı yirmiden az \nolan borsalarda beş; yirmi ile yirmidokuz arasında olanlarda yedi; otuz ile otuzdokuz arasında \nolanlarda dokuz; kırk ve daha fazla olanlarda onbir kişiden oluşur. \nMeclis kendi üyeleri arasından yönetim kurulunun başkanını, asıl ve yedek üyelerini \ntek liste halinde seçer. Yönetim kurulu, kendi üyeleri arasından dört yıl için bir veya iki \nbaşkan yardımcısı ve bir sayman üye seçer. \n(İptal üçüncü fıkra: Anayasa Mahkemesi’nin 10/1/2013 tarihli ve E.: 2012/128, \nK.: 2013/7 sayılı Kararı ile.) \nBir borsanın yönetim kurulu başkan veya üyeleri, aynı zamanda başka bir borsa veya \nodanın meclisinde görev alamaz. \nToplantı gündemi başkan veya yokluğunda yetkilendirdiği başkan yardımcısı \ntarafından belirlenir. Ayrıca yönetim kurulu üyelerinin en az üçte birinin başvurusu ile en geç \ntoplantının başlamasından önce, gündeme yeni madde eklenir. \n \nBorsa yönetim kurulunun görevleri",
+          "normalized_hash": "ff8e856e98a71592"
+        },
+        {
+          "provision_id": "law:5174:article:41",
+          "label": "Madde 41",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 41- Borsa yönetim kurulunun görevleri şunlardır: \na) Mevzuat ve meclis kararları çerçevesinde borsa işlerini yürütmek. \nb) Bütçeyi, kesin hesabı ve aktarma tekliflerini ve bunlara ilişkin raporları borsa \nmeclisine sunmak. \nc) Aylık hesap raporunu borsa meclisinin incelemesi ve onayına sunmak. \nd) Borsa personelinin işe alınmalarına ve görevlerine son verilmesine, yükselme ve \nnakillerine usulüne uygun olarak karar vermek. \ne) Borsa personelinin disiplin işlerini bu Kanunda ve ilgili mevzuatta düzenlenen esas \nve usuller çerçevesinde karara bağlamak. \nf) Disiplin kurulunun soruşturma yapmasına karar vermek. \ng) Bu Kanun uyarınca verilen disiplin ve para cezalarının uygulanmasını sağlamak. \nh) Borsada gerçekleştirilen işlemlerden doğacak ihtilafları çözmekle görevli hakem \nkurulunu belirlemek. \nı) Borsa dışında yapılan işlemlerden doğabilecek ihtilafların çözümü için, mahkemeler \ntarafından istenecek hakem ve bilirkişi listelerini hazırlamak ve onaylanmak üzere meclise sunmak. \nj) Bu Kanunda ve ilgili mevzuatta öngörülen belgeleri tasdik etmek. \nk) Borsanın bir yıl içindeki faaliyeti ve bölgesinin iktisadî durumu hakkında yıllık \nrapor hazırlayıp meclise sunmak. \nl) Hazırladığı iç yönergeyi meclise sunmak. \nm) Borsaya ait her türlü incelemeyi yapmak, endeks ve istatistikleri tutmak ve başlıca \nmaddelerin borsada oluşan fiyatlarını tespit etmek ve bunları uygun vasıtalarla ilân etmek. \nn) Yüksek düzeyde vergi ve tescil ücreti ödeyen, ihracat yapan, teknoloji geliştiren \nüyelerini ödüllendirmek. \n\no) Bütçede karşılığı bulunmak kaydıyla sosyal faaliyetleri desteklemek ve özendirmek, \nbağış ve yardımlarda bulunmak, burs vermek, meclis onayı ile okul ve derslik yapmak. \np) Bu Kanunla ve sair mevzuatla borsalara verilen ve özel olarak başka bir organa \nbırakılmayan diğer görevleri yerine getirmek. \n \nBorsa yönetim kurulunun yetkilerinin devri",
+          "normalized_hash": "ae988499cc531996"
+        },
+        {
+          "provision_id": "law:5174:article:42",
+          "label": "Madde 42",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 42- Borsa yönetim kurulu, gerekli hallerde, yetkilerinden bir kısmını başkana, \nüyelerinden birine veya birkaçına yahut genel sekretere devredebilir. \n \nBorsa disiplin kurulu",
+          "normalized_hash": "076761e2d3d38c4f"
+        },
+        {
+          "provision_id": "law:5174:article:43",
+          "label": "Madde 43",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 43- Borsa disiplin kurulu, meclisçe dört yıl için, borsaya kayıtlı olanlar \narasından seçilen altı asıl ve altı yedek üyeden oluşur. \nDisiplin kurulu, seçimden sonraki ilk toplantısında, üyeleri arasından bir başkan seçer. \nBaşkanın bulunmadığı zamanlarda, en yaşlı üye kurula başkanlık eder. \nDisiplin kurulu üyelerinde aranılacak şartlar, Birliğin uygun görüşü alınmak suretiyle \nBakanlıkça çıkarılacak yönetmelikle belirlenir. \n \nBorsa disiplin kurulunun görevleri",
+          "normalized_hash": "db39704ca6a4116f"
+        },
+        {
+          "provision_id": "law:5174:article:44",
+          "label": "Madde 44",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 44- Borsa disiplin kurulunun görevleri şunlardır: \na) Borsa üyelerinin disiplin soruşturmalarını bu Kanunda ve ilgili mevzuatta öngörülen \nusul ve esaslara uygun olarak yürütmek. \nb) Meclise, borsa üyeleri hakkında disiplin ve para cezası verilmesini önermek. \n \nÜÇÜNCÜ BÖLÜM \nBorsa İşlemleri \nBorsaya tâbi maddeler ve alım satımları",
+          "normalized_hash": "51d5f1ba218674fc"
+        },
+        {
+          "provision_id": "law:5174:article:45",
+          "label": "Madde 45",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 45- Ticaret borsalarında yeterli arz ve talebi bulunan, dayanıklı ve \nstoklanabilir nitelikteki misli mallar, numune veya tipler üzerinden toptan alınıp satılır. Tipi \ntespit edilmemiş olan mallarla misliyattan olup yerel ihtiyaçları karşılayan maddeler ile canlı \nveya kesilmiş hayvanlar da borsaya tâbi maddeler arasına alınabilir. \nDöviz ve kıymetli madenler bu Kanun kapsamı dışındadır. \nBorsa kurulan yerlerde, hangi malların borsada alım ve satımının zorunlu olduğu ve \nbunların en az miktarları, borsa meclisinin teklifi ve Birliğin uygun görüşü üzerine Bakanlıkça \nbelirlenir ve ilgili borsa tarafından yerinde ilân olunur. Bakanlık, değişen piyasa şartlarında, \nborsada yeterli arz ve talebi bulunmayan veya ticarî teamüllere göre borsalarda alım satıma \nkonu olmayan mallar ile sanayi tesislerinde işlem görerek mamul haline gelmiş nihai ürünleri, \ngenel olarak veya borsalar itibarıyla borsaya tâbi maddeler arasından çıkarabilir, ticaret \nborsalarının, bölge ticaret borsalarının ve ürün ihtisas borsalarının kotasyonunda yer alacak \nveya almayacak ürünleri ve borsaya tâbi maddelerin en az alım satım miktarlarını yeniden \n\nbelirleyebilir. Bakanlığın bu konudaki kararları da borsalar tarafından yerinde ilân edilir.5 \nBorsa çalışma alanı içinde borsaya tâbi maddelerin en az miktarlarının üzerinde kalan \nmiktarlarının alım ve satımının, belirlenen borsa yerinin dışında yapılması yasaktır. Bu \nmaddelerin, en geç muamele yapıldığı günü takip eden otuz gün içinde borsaya tescil \nettirilmesi şartı ile borsa yerinin dışında alınıp satılmasına meclisçe önceden karar verilebilir. \nAncak Birlik, borsalarca alınacak bu gibi istisnai kararları kısmen veya tamamen, geçici veya \nsürekli olarak yürürlükten kaldırabilir. \n \nBorsa işlemlerinin tescili",
+          "normalized_hash": "34e6bdc3a6bd9efd"
+        },
+        {
+          "provision_id": "law:5174:article:46",
+          "label": "Madde 46",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 46- Borsaya tâbi maddelerin en az miktarları üzerinde yapılan alım satım \nmuamelelerinin borsalara tescili zorunludur. Elektronik ticaret yoluyla yapılan satışlar da bu \nmadde kapsamındadır. \nBorsalarca gösterilen yerlerde yapılan işlemler aynı gün, borsa dışında alınıp \nsatılmasına müsaade edilen maddelere ait işlemler en geç otuz gün içinde tescil ettirilir. \nGeçerli bir neden olmaksızın belirtilen sürelerde tescil zorunluluğunun yerine getirilmemesi \ndurumunda, tescil ücreti yüzde elli fazlasıyla tahsil olunur. \nBorsaya tâbi olmamakla birlikte yeterli arz ve talebi bulunan, misli nitelikte tarımsal \nürünlerin alım satım işlemleri, alıcı veya satıcının talebine bağlı olarak borsaya tescil \nedilebilir. Borsaya tâbi maddelerle ilgili alivre ve vadeli alım satım işlemlerine ilişkin tip \nsözleşmeler ticaret borsalarınca hazırlanır. Buna göre düzenlenecek sözleşmeler ticaret \nborsalarına tescil ettirilir. Bu Kanun hükümlerine tâbi olarak düzenlenen sözleşme, ürün \nsenedi ve benzeri belgeler, 2499 sayılı Sermaye Piyasası Kanunu uyarınca düzenlenen vadeli \nişlem ve opsiyon sözleşmeleri gibi değerlendirilmez. Bu fıkranın uygulanmasına ilişkin \nesaslar Birlikçe çıkarılacak yönetmelikle düzenlenir. \nTescil yükümlülüğü aşağıdaki şekilde yerine getirilir: \na) Alıcı ve satıcının aynı borsanın çalışma alanı içinde bulunmaları halinde, işlem \nborsa örf ve adetlerine göre tespit olunan tarafça o borsaya tescil ettirilir ve tescil ücreti \nödenir. Tescil ile yükümlü olan tarafın yokluğu halinde, diğer taraf tescili yaptırmak ve \nücretini ödemekle yükümlüdür. \nb) Alıcı ve satıcıdan birinin borsanın çalışma alanı içinde, diğerinin dışında olması \nhalinde; \n1) İki tarafın bulunduğu yerde borsa mevcut ve mal her iki borsaya tâbi ise ve işlem de \nyazışma, telgraf, telefon, teleks ile yapılmış veya elektronik ortamda gerçekleştirilmişse, \nsözleşmenin kabul ile tamam olduğu yerdeki tarafça o yer borsasına tescil ettirilir ve ücreti ödenir. \nSözleşmenin nerede kabul ile tamam olduğu tespit edilemediği takdirde, işlem satıcının \nmerkezinin bulunduğu yerdeki borsaya, satıcı tarafından tescil ettirilir ve ücreti ödenir. \n2) Taraflardan birinin bulunduğu yerde borsa mevcut değil veya borsa mevcut \nolmasına rağmen, mal o borsaya dahil değil veya taraflardan biri yurt dışında ise, işlem diğer \n \n5 28/11/2017 tarihli ve 7061 sayılı Kanunun 79 uncu maddesi ile bu fıkranın ikinci cümlesinde yer \nalan “malları” ibaresi “mallar ile sanayi tesislerinde işlem görerek mamul haline gelmiş nihai \nürünleri” şeklinde değiştirilmiştir. \n\ntarafça kendi merkezinin bulunduğu yer borsasına tescil ettirilir ve ücreti ödenir. \nc) Borsaya kayıtlı üyeler, borsanın çalışma alanı dışında yaptıkları ve bu fıkrada \nbelirlenen tescil işlemleri dışında kalan alım veya satımları, kayıtlı bulundukları borsalara \ntescil ettirir ve ücretini öderler. \nd) Borsanın çalışma sınırları dışında alım satım yapan taraflardan biri tacir veya \nsanayici sıfatını haiz olmayan üretici ise, tescil zorunluluğu ve tescil ücretini ödeme \nyükümlülüğü tacir ve sanayici olan diğer tarafa aittir. Alım satım yapan tarafların her ikisi de \ntacir veya sanayici sıfatını haiz olmayan üretici ise, tescil zorunluluğu uygulanmaz. \nTescil ücretinin oranı, malın alım satım değeri üzerinden azamî binde ikidir ve bu \noranı borsa meclisi belirler. İşlem başına alınacak toplam tescil ücreti tavanı, yıllık aidat \ntavanının yüzde onundan az ve tamamından fazla olamaz. Ürün senedi tescil ücreti oranı ise \nalım satım değeri üzerinden en çok onbinde beştir. \nİhracatın tescilinden ücret alınmaz. \nBorsalar, üyelerinin alım satımlarının tamamını tescil ettirip ettirmediklerini denetlemeye \nyetkilidirler. Bu amaçla hâkim kararıyla üyelerinin ilgili defter ve evrakını inceleyebilirler. \nBu maddenin uygulanmasına ait usul ve esaslar, Birlik tarafından çıkarılacak bir \nyönetmelikle düzenlenir. \n \nBorsada alım satım yapanlar",
+          "normalized_hash": "87a1e8cfee7a5585"
+        },
+        {
+          "provision_id": "law:5174:article:47",
+          "label": "Madde 47",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 47- Kendi adına ve başkasının hesabına borsada alım satım yapanlara borsa \nkomisyoncusu; başkasının adına ve hesabına vekil sıfatıyla borsada alım satım yapanlara \nborsa ajanı; borsa alım satımlarında yalnız aracılık yapanlara borsa simsarı denir. Bunlar, \nborsaya dahil olmayan maddeler üzerinde borsa dışında işlem yapabilirler. \nBorsaya dahil maddeler üzerindeki spot piyasa işlemlerinde, borsaya kayıtlı olanların \nkendileri, borsaya kayıtlı olmayan üretici ve imalatçılarla birinci fıkrada yer alan aracılardan \nbaşkalarının borsada işlem ve faaliyette bulunmaları yasaktır. Borsa komisyoncusu, ajan veya \nsimsar olarak kayıtlı olmadığı halde borsaya dahil maddeler üzerinde, bunların yapabileceği \nişlemleri yapanlardan bu işleme ait tescil ücreti beş misli tahsil olunur. \nGerçek ve tüzel kişi tacir olarak borsadaki spot piyasada faaliyet gösterecek aracıların, \nbunlardan tüzel kişilerin kuruluş, görev ve yetkileri ile gerçek ve tüzel kişi aracılarda \naranılacak nitelikler, çalışma usul ve esasları, hakları, uymakla yükümlü bulundukları kurallar \nile bu kurallara aykırı eylemleri tespit olunan aracılara uygulanacak olan ve bu Kanunda \nöngörülen disiplin ve para cezaları ve aracılık faaliyetlerinin düzenlenmesine ilişkin diğer \nhususlar, Birlikçe hazırlanacak bir yönetmelikle düzenlenir. \nBorsa komisyoncusu, ajan ve simsarların aracılık ettikleri işlemlerden alacakları \nücretler, alım satım tutarının binde beşini ve yıllık aidat tavan ücretini geçmemek üzere, borsa \nmeclisince tespit edilir ve Birlikçe onaylanır. \n \nBorsa işlemlerine ilişkin yönetmelikler",
+          "normalized_hash": "aa64cd8f8ca5ff5b"
+        },
+        {
+          "provision_id": "law:5174:article:48",
+          "label": "Madde 48",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 48- Borsalarda alım satım işlemlerinin nasıl yapılacağı, yönetim kurullarınca \n\nhazırlanıp meclislerce onaylanacak yönetmeliklerde gösterilir. \nAlivre ve vadeli alım satım yapılan borsaların uygulayacakları usuller, Birlikçe \nhazırlanacak yönetmelikle belirlenir. \n \nDÖRDÜNCÜ BÖLÜM \nTicaret Borsalarının Gelirleri ve Bütçe \nBorsa gelirleri",
+          "normalized_hash": "4afd83ae324e15f6"
+        },
+        {
+          "provision_id": "law:5174:article:49",
+          "label": "Madde 49",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 49- Borsanın gelirleri şunlardır: \na) Kayıt ücreti. \nb) Yıllık aidat. \nc) Muamele tescil ücreti. \nd) Yapılan hizmetler karşılığı alınan ücretler. \ne) Belge bedelleri. \nf) Yayın gelirleri. \ng) Bağış ve yardımlar. \nh) Para cezaları. \nı) Misil zamları. \nj) Menkul, gayrimenkul sermaye iradı, şirket kârları ve döviz gelirleri. \nk) Sair gelirler. \n \nBorsaya kayıt ücreti ve yıllık aidat",
+          "normalized_hash": "38a65d77430e7ebe"
+        },
+        {
+          "provision_id": "law:5174:article:50",
+          "label": "Madde 50",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 50- Üyeler borsaya kayıt sırasında kayıt ücreti ve her yıl için yıllık aidat \nödemekle yükümlüdür. \nKayıt ücreti ile yıllık aidat, onaltı yaşından büyükler için uygulanan aylık asgarî \nücretin brüt tutarının yüzde onundan az, yarısından fazla olamaz. \nKayıt ücretinin alındığı yıl için ayrıca yıllık aidat alınmaz. Kayıt ücreti ve yıllık aidat \nmiktarları Birlikçe çıkarılacak yönetmelikle gösterilecek usullere göre belirlenecek dereceler \nüzerinden ve tarifelere göre tespit olunur. Tarifeler, borsa yönetim kurulunun teklifi ve \nmeclisin onayı ile yürürlüğe girer. \nDerecelerini durumlarına uygun bulmayanlar, yönetmelikte gösterilecek usullere göre \nve on gün içinde borsa meclisine itiraz edebilirler. İtirazlar meclisçe karara bağlanıncaya \nkadar kayıt ücreti ve yıllık aidatın ihtilaflı kısmı tahsil olunmaz. \nYıllık aidat her yılın haziran ve ekim aylarında iki eşit taksitte ödenir. Yıl içinde \nkaydedilenlerin kayıt ücreti ile önceki yıldan itibaren geçerli olarak kaydedilmesi gerekenlerin \nkayıt ücretleri ve yıllık aidatları, durumun kendilerine tebliği tarihinden itibaren bir ay içinde \nödenir. \nŞubelere kayıtlı üyeler, bu maddede belirlenen kayıt ücreti ve aidatların yarısı kadar \nödeme yaparlar. \n \nÜcretler ve belge bedelleri",
+          "normalized_hash": "73bc40fce0f823b7"
+        },
+        {
+          "provision_id": "law:5174:article:51",
+          "label": "Madde 51",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 51- Borsalarca verilen hizmetler ile onaylanan ve düzenlenen belgeler \n\nkarşılığında alınan ücretlerin oran ve miktarı, maktu ücretlerde yıllık aidat tavanını \ngeçmemek, nispî ücretlerde bu tavanı aşmamak ve binde beşten fazla olmamak kaydıyla borsa \nyönetim kurulunun teklifi ve meclisin onayı ile yürürlüğe konulacak tarifelerle tespit olunur. \nBorsaca verilen hizmetin dışarıdan satın alınması halinde, satın alınan hizmetin bedeli bu \ntavanın iki katını geçmemek üzere ücrete eklenerek ilgiliden tahsil edilir. \nBorsalarca düzenlenecek veya onaylanacak belgeler ile verilecek hizmetler şunlardır: \na) Eksper raporları. \nb) Analiz raporları. \nc) Borsaya dahil maddelerin fiyatlarına ilişkin belgeler. \nd) Makbuz senedi, varant ve malı temsil eden diğer senetler. \ne) Teamüller hakkında istenen belgeler. \nf) Fatura onayları. \ng) Borsaya kayıtlı olanların tatbik imzalarının onayı. \nh) Vadeli satış ve alivre sözleşmelerindeki imzaların onayı. \nı) Borsaya kayıtlı olanlara ait kayıt ve sicil suretleri. \nj) Borsaya dahil mallara ve borsa işlemlerine dair istenecek diğer belgeler. \nk) Borsaya dahil maddelerin ölçülmesi ve tartılması için gerekli tesisatı olan \nborsalarca bu konuda verilecek hizmetler. \nl) Gerekli tesisatı bulunan borsalarca verilecek depolama ve muhafaza hizmetleri. \nm) Yerli malı belgesi. \nn) Diğer hizmetler. \n \nBorsa bütçesi",
+          "normalized_hash": "b8872b180f22ba28"
+        },
+        {
+          "provision_id": "law:5174:article:52",
+          "label": "Madde 52",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 52- Borsa bütçesi, Birlikçe hazırlanacak tipe ve tespit olunacak muhasebe \nusullerine uygun olarak, yönetim kurulunca hazırlanır ve meclisçe onaylanır. \nBütçe, takvim yılına göre düzenlenir. \nBütçeden harcama, yönetim kurulu başkanı veya yetkilendirdiği yardımcısı ve genel \nsekreterin veya sayman üyenin ortak imzası ile yapılır. \nYönetim kurulunun önerisi üzerine meclisçe saptanan miktar kadar harcama, sonradan \nyönetim kurulunun onayına sunulmak şartıyla, genel sekreter tarafından re’sen yapılabilir. \n \nBEŞİNCİ BÖLÜM \nÜrün İhtisas Borsaları \nÜrün ihtisas borsaları",
+          "normalized_hash": "031ba07b2c42dc3b"
+        },
+        {
+          "provision_id": "law:5174:article:53",
+          "label": "Madde 53",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 53- (Değişik birinci fıkra: 6/12/2012-6362/143 md.) Ekonomik gereklilikler \ngözetilerek güven, serbest rekabet ve istikrar içinde, kotasyonundaki bir veya birden çok \nürünün arz ve talebini buluşturan; yürürlükteki ürün standartlarına göre tasnif edilmiş \nürünlerin, kendilerince organize edilen fiziki veya elektronik mekânlarda alım satımına \naracılık eden; ürünlerin gerek fiziki, gerekse ürünü temsilen lisanslı depo işletmelerince \nçıkarılan ürün senetleri ve alivre sözleşmelerin ticaretini yürütebilen; işlemlere ilişkin \n\ngüvenilir kayıt ve saklama imkânları bulunan; oluşan fiyatları, ürettiği bilgileri, diğer benzer \nve alternatif piyasaları izleyebilecek ve duyurabilecek bilgi işlem, teknik ve elektronik \ndonanım, kurumsal ve mali altyapıya sahip olan; faaliyet alanı ulusal veya uluslararası \nolabilen anonim şirket statüsünde ürün ihtisas borsaları Bakanlık ve Sermaye Piyasası \nKurulunun teklifi üzerine, Cumhurbaşkanı kararı ile kurulur. Ürün ihtisas borsaları \nkendilerinin ya da bünyelerindeki piyasaların işletilmesi ve/veya yönetilmesi için Sermaye \nPiyasası Kanunu hükümlerine tabi olan bir ya da birden fazla piyasa işleticisi ile anlaşma \nyapabilirler. Bu anlaşma, Bakanlık ve Sermaye Piyasası Kurulu onayı olmaksızın hüküm \nifade etmez. Verilen onay üzerine piyasa işleticileri borsa ile yapılan anlaşma çerçevesinde \nürün ihtisas borsasının sahip olduğu hakları kullanır ve Sermaye Piyasası Kanunu ve ilgili \nmevzuatta öngörülen yükümlülüklerinin yerine getirilmesini temin ederler.6 \nKuruluş izni alan şirkete, bu Kanun ve bu Kanuna dayanılarak çıkarılan yönetmelikler \nile öngörülen şartları taşıdığının tespiti halinde Bakanlıkça faaliyet izni verilir. Faaliyet izni \nalan şirket, ürün ihtisas borsası anonim şirketi unvanıyla faaliyet gösterir. \nTicaret borsaları, kurulmuş veya kurulacak ürün ihtisas borsalarına ortak olabilir veya \naralarındaki sözleşme uyarınca bunların acentesi olarak çalışabilirler. \nÜrün ihtisas borsalarının yönetim kurulunun bir üyeliği için Bakanlıkça atama yapılır. \nÜrün ihtisas borsaları ve ticaret borsaları, lisanslı depo işletmeciliği yapan şirketler \nkurabilir ve ortak olabilir. \n(Değişik altıncı fıkra:23/5/2024-7511/6 md.) Ürün senetleri ve alivre sözleşmelere \nilişkin işlemlerde; devir ile bedelin ödenmesi, alıcı ve satıcının diğer yükümlülüklerinin ürün \nihtisas borsalarında alım satımına aracılık edenlerce veya takas ve saklama hizmeti aldıkları \nkuruluşlarca yerine getirilmesi, alım satımın tescili ve alım satıma ilişkin diğer hususlar bu \nKanun ve ilgili mevzuat hükümlerine uygun olarak ürün ihtisas borsası tarafından yürütülür. \nÜrün ihtisas borsasının veya ürün ihtisas borsası tarafından takas merkezi olarak \nyetkilendirilen kuruluşun takas işlemlerinde mali sorumluluğu, tesis edecekleri limitler \ndâhilinde ve alınacak teminatlar ile garanti fonu varlıklarıyla sınırlıdır. Ürün ihtisas \nborsalarında gerçekleştirilen işlemlerden doğan yükümlülüklerin yerine getirilmesini \nsağlamak ve zararların tazmini için alınacak teminatların ve oluşturulabilecek garanti fonunun \nkuruluşu, işletimi, kullanımı ve katılımcılarına ilişkin usul ve esaslar Bakanlık tarafından \nçıkarılacak yönetmelikle belirlenir. Bu fıkrada düzenlenen teminatlar ve garanti fonundaki \nvarlıklar tevdi amaçları dışında kullanılamaz, üçüncü kişilere devredilemez, kamu alacakları \niçin olsa dahi haczedilemez, rehnedilemez, iflas masasına dâhil edilemez ve üzerlerine ihtiyati \ntedbir konulamaz.7 \nAlivre sözleşmeler, Türk Ticaret Kanununun 743 üncü maddesinde belirtilen cirosu \n \n6 2/7/2018 tarihli ve 700 sayılı KHK’nin 152 nci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” \nibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir. \n7 Anayasa Mahkemesinin 26/2/2026 tarihli ve E.: 2024/146; K.: 2026/50 sayılı Kararı ile bu fıkranın \nüçüncü cümlesi iptal edilmiştir. Kararın Resmî Gazete’de yayımlanmasından başlayarak dokuz ay \nsonra (14/2/2027) yürürlüğe gireceği hüküm altına alınmıştır. \n\nkabil olan diğer senetler gibi ciro edilebilir. Bu sözleşmelerde aranacak şartlar ile alivre alım \nsatımlarda aranacak usul ve esaslar, ilgili borsaca hazırlanıp, Birliğin görüşü alınarak \nBakanlıkça onaylanacak bir yönetmelikle düzenlenir. \nAlivre sözleşmeler ile lisanslı depolarca düzenlenen kıymetli evrak hükmündeki ürün \nsenetleri ve ürünü temsil eden benzer senetlerin alım satımı ve rehni gibi işlemlerin ürün \nihtisas borsalarında kontrolü ve tescili zorunludur. Ancak, kota edilerek ilgili ürün senedinin \nve alivre sözleşmelerin alınıp satıldığı bir ürün ihtisas borsası faaliyette bulunmuyorsa bunlar \nteknik, kurumsal ve malî alt yapısının yeterliliği tespit edilen ve Bakanlıktan izin alan ticaret \nborsalarında işlem görür. Borsada tescil gerçekleşmedikçe ürün mülkiyeti başkasına \ndevredilemez . \n(Mülga dokuzuncu fıkra: 6/12/2012-6362/143 md.) \nÜrün ihtisas borsalarının, bu Kanunda yazılı görevlerini yerine getirebilmek için yeterli \nalt yapı, sermaye ve ortaklık yapısı, üyelik, teknik donanım, uzman personel, organizasyon, \nhizmet birimleri, kayıt sistemi, diğer oda ve borsalarla ve Birlikle ilişkileri, temsilci ve delege \ngörevlendirmeleri, organlarda temsil edilmeleri, bunların kuruluş, faaliyet ve denetimlerine \nilişkin usul ve esaslar, Birliğin görüşü alınarak Bakanlıkça çıkarılacak yönetmelikle belirlenir. \nBakanlık, bu maddede belirtilen görev ve işlevleri yapacak ürün ihtisas borsalarının \ngüven, açıklık ve istikrar içinde faaliyet göstermesine, verecekleri hizmet ve karşılığında \nalacakları ücret ve komisyonlara ilişkin düzenlemeler yapmaya, mevzuata aykırılık veya kamu \nmenfaatinin korunması ya da olağan dışı menfi durumlarda uyarma, talimat verme, her türlü \ntedbiri alma, faaliyetlerinin bir veya birkaçını durdurma, faaliyet iznini askıya alma veya iptal \netme, mahkeme kararıyla yönetimine ve malvarlığına el koyma, tasfiyesini istemeye yetkilidir. \n(Ek fıkra: 6/12/2012-6362/143 md.) Makul bir ekonomik veya finansal gerekçeyle \naçıklanamayan, ürün ihtisas borsalarının güven, açıklık ve istikrar içinde çalışmasını bozacak \nnitelikteki eylemler bir suç oluşturmadığı takdirde piyasa bozucu eylem sayılır. Piyasa bozucu \neylemleri gerçekleştirenler hakkında Sermaye Piyasası Kanunu uyarınca idari para cezası \nuygulanır. \n(Ek fıkra: 6/12/2012-6362/143 md.) Ürün senetleri ve alivre sözleşmelerin ürün \nihtisas borsalarında alım satımına aracılık edilmesine, aracıların yetkilendirilmesi ile bu \nyetkinin askıya alınması ve iptaline, aracıların gözetim ve denetimine ve ürün senetleri ve \nalivre sözleşmeler üzerindeki aracılık hizmetlerine dair diğer işlemlere, müşterinin verdiği \nyetkiye bağlı olarak müşteri hesaplarındaki nakit alacak bakiyelerinin nemalandırılmasına \nilişkin usul ve esaslar Bakanlık ve Sermaye Piyasası Kurulunun birlikte çıkaracağı \nyönetmeliklerle düzenlenir.8 \n(Ek fıkra: 6/12/2012-6362/143 md.) Ürün senetleri ve alivre sözleşmeler üzerinde \ngerçekleştirilen işlemler üzerindeki gözetim ve denetim faaliyetleri Bakanlık ve Sermaye \nPiyasası Kurulunun müştereken çıkaracağı bir yönetmelikle düzenlenir. Bu faaliyetler \n \n8 23/5/2024 tarihli 7511 sayılı Kanunun 6 ncı maddesi ile bu fıkraya “diğer işlemlere” ibaresinden \nsonra gelmek üzere “, müşterinin verdiği yetkiye bağlı olarak müşteri hesaplarındaki nakit alacak \nbakiyelerinin nemalandırılmasına” ibaresi eklenmiştir. \n \n\nneticesinde ortaya çıkan hususlara ilişkin olarak alınacak tedbirler ve yapılacak işlemler, \nSermaye Piyasası Kanunu ve ilgili mevzuata tabidir. \n \nDÖRDÜNCÜ KISIM \nBirlik \n \nBİRİNCİ BÖLÜM \nGenel Esaslar \nTürkiye Odalar ve Borsalar Birliği",
+          "normalized_hash": "f9cdf1ac8871cc3f"
+        },
+        {
+          "provision_id": "law:5174:article:54",
+          "label": "Madde 54",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 54- Türkiye Odalar ve Borsalar Birliği, odalar ve borsalar arasındaki birlik ve \ndayanışmayı temin etmek, mesleğin genel menfaatlere uygun olarak gelişmesini sağlamak, \noda ve borsa mensuplarının meslekî faaliyetlerini kolaylaştırmak, bunların birbirleriyle ve \nhalk ile olan ilişkilerinde dürüstlüğü ve güveni hâkim kılmak üzere, meslek disiplinini ve \nahlâkını korumak, ülkenin kalkınması, ekonominin gelişmesi için gerekli çalışmaları yapmak \nve bu Kanunda belirtilen hizmetleri yerine getirmek amacıyla kurulan, tüzel kişiliğe sahip, \nkamu kurumu niteliğinde meslek üst kuruluşudur. \nBirliğin kısa adı TOBB’dur ve merkezi Ankara’dadır. \n\nBirlikte ehliyet, temsil ve imza yetkisi",
+          "normalized_hash": "f1bd679281b3a527"
+        },
+        {
+          "provision_id": "law:5174:article:55",
+          "label": "Madde 55",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 55- Birlik; taşınır ve taşınmaz mal almaya, satmaya, inşa, ifraz, tevhit ve \nrehnetmeye, kamulaştırma yapmaya, ödünç para almaya, sosyal yardımlarda bulunmaya, okul \nve derslik yapmaya, burs vermeye, bağış ve yardımlarda bulunmaya, sosyal faaliyetleri \ndestekleme ve özendirme yardımları yapmaya, bu Kanun hükümleri çerçevesinde şirket ve \nvakıf kurmaya veya kurulu şirketlere iştirak etmeye, derneklere ve kooperatiflere üye olmaya \nve benzeri hukukî işlemler yapmaya yetkilidir. \nBirliğin hukukî temsilcisi Birlik Başkanıdır. \nBirlik adına düzenlenen taahhütname, sözleşme, vekâletname gibi Birliği hukuken \nbağlayan hukukî işlemleri imzalamaya; kendilerine genel kurul veya yönetim kurulu \ntarafından verilen limitler dahilinde Birlik Başkanı veya Genel Sekreter münferiden, limitleri \naşan işlemlerde ise Birlik Başkanı ile Genel Sekreter müştereken yetkilidirler. Ayrıca bu \nişlemleri, yönetim kurulu tarafından yetkilendirilen bir üye ve genel sekreter müşterek \nimzaları ile yapmaya yetkilidirler. \n \nBirliğin görevleri",
+          "normalized_hash": "32b137160493feb6"
+        },
+        {
+          "provision_id": "law:5174:article:56",
+          "label": "Madde 56",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 56- Birliğin görevleri şunlardır: \na) Odaları ve borsaları güçlendirecek ve aralarında işbirliği ile uyumlu çalışma, gelişme \nimkânları sağlayacak karar ve tedbirleri almak ve gerekli teşkilâtı kurmak; sektör meclisi adı \naltında istişarî nitelikte üst kurullar oluşturmak; oda ve borsaların kanunî amaç ve görevlerini \nyerine getirmelerini sağlamak üzere, fikrî yardımda bulunmak; gerektiğinde oda ve borsaların \nçalışma ve işlemlerinin mevzuat esasları içinde yürütülmesini sağlamak amacıyla ilgili oda veya \nborsanın talebi üzerine gerekli incelemeleri yapmak ve önerilerde bulunmak. \nb) Oda ve borsa faaliyetlerinin ve sunulan hizmetlerin standardizasyonunu, muhasebe \nkayıtlarının ortak usullerde tutulmasını ve üyelere ilişkin bilgilerin Birlik merkezinde toplanmasını \nsağlamaya yönelik olarak gerekli elektronik alt yapıyı kurdurmak ve ticarî sırların korunmasını \ngözeterek işletimini sağlamak; oda ve borsalardan üyelik kayıtları ile aidatlara ilişkin bilgi ve belge \ntalep etmek, bu taleplerin yerine getirilmesini sağlamak ve gerekli denetimleri yapmak. \nc) Bu Kanunda Birlikçe çıkarılacağı belirtilen yönetmelikleri düzenlemek, oda ve \nborsaların iç yönergelerini onaylamak. \nd) Ülkenin iktisadî durumu hakkında raporlar hazırlamak, oda ve borsalarca bu konuda \nhazırlanan raporları incelemek ve değerlendirmek, Ekonomik ve Sosyal Konseyde ve benzeri \nkurum, kurul, komisyon ve kuruluşlarda ticaret ve sanayi kesimini temsil etmek. \ne) Yabancı ülkelerdeki oda, borsa ve benzeri ilgili organizasyonlar tarafından \ndüzenlenen raporları incelemek ve ülkemizi ilgilendiren kısımları derleyip yayınlamak; \ngelişen dünya koşullarında ulusal ticaret, sanayi ve hizmet sektörlerinin gelişmesine yönelik \nçalışmalar yapmak; Avrupa Birliği ve uluslararası kuruluşlarla olan ilişkilerde bu sektörlerin \nhaklarını gözetmek; Avrupa Birliği mevzuatı konusunda çalışmalar yapmak, oda ve borsaları \nbu konularda bilgilendirmek. \n\nf) Milletlerarası Ticaret Odası Türkiye Milli Komitesini kurmak ve faaliyetlerini \nyürütmek. \ng) Ulusal ve uluslararası toplantı ve kongreler düzenlemek, bunlara katılmak; oda ve \nborsalara yurt içi fuarlar konusunda yapılan ve Birliğe intikal ettirilen müracaatları inceleyip \nkarara bağlamak; fuar şirketlerine yurt içi fuar düzenleme yetki belgesi vermek; yabancı \nülkeler ticaret ve sanayi odalarının vekillik, mümessillik ve muhabirliğini kabul ve ifa etmek; \nBirliğin faaliyet alanı ile ilgili ulusal ve uluslararası kuruluşlara üye olmak veya bu tür \nkuruluşlar, iş konseyleri, ekonomik işbirliği komiteleri kurmak, uluslararası toplantılara \nkatılmak; yurt içinde ve yurt dışında ticaret merkezleri kurmak ve kurulmuş olanlara \nkatılmak; ekonomik ve sosyal sorunlarla ilgili etkinliklere katılmak; gerektiğinde bu tür \nfaaliyetleri teşvik etmek, maddî destekte bulunmak; yabancı ülke oda ve birlikleri ile işbirliği \nkomiteleri kurmak, bunlarla kapsamlı ve etkin işbirliği yapmak. \nh) Ülkemizdeki ve yabancı ülkelerdeki Türk veya Türk-yabancı ticaret, sanayi ve \ndeniz ticaret odalarına gerektiğinde yardımlar yapmak; gerektiğinde Bakanlığın izni ile yurt \niçinde ve yurt dışında temsilcilikler ve irtibat büroları kurmak. \nı) Tüketicinin korunması ve sağlıklı bir rekabet ortamının oluşturulması için gerekli \nönlemleri almak, mevzuat uyarınca Bakanlık ve bakanlıklar tarafından bu ve benzeri \nkonularda verilecek diğer görevleri yapmak ve gerekli teşkilâtı kurmak. \nj)Talepleri halinde oda ve borsaların üyeleri arasındaki ihtilafları hakem olarak \nçözmek üzere yüksek tahkim heyeti kurmak. \nk) Özel sektörün ekonomik politikalarını belirlemek; dünya ekonomisi ile \nentegrasyonu teminen gerekli dış ekonomik ilişkilerin tesisinde ilgili kamu kurum ve \nkuruluşlarına gerekli hallerde görüş vermek ve bu ilişkilerin yürütülmesinde yardımcı olmak. \nl) Sermaye piyasası, yatırımların teşviki ve yönlendirilmesi, ithalat -ihracat rejimi \nkararları, ithalatta haksız rekabetin önlenmesi ve vergi ile ilgili konularda resmî mercilere \ngörüş bildirmek, önerilerde bulunmak, gerektiğinde bu konularla ilgili toplantılara katılmak; \nküçük ve orta ölçekli işletmeleri pazarlama, finansman, araştırma-geliştirme çalışmalarında \nteşvik etmek. \nm) Bakanlığın gözetimi ve denetiminde Türk Ticaret Kanununun 37 nci maddesinde \nbelirtilen Türkiye Ticaret Sicili Gazetesini çıkarmak. \nn) Yeni oda ve borsa kurulması, mevcut oda ve borsaların çalışma alanlarının \ngenişletilmesi ya da daraltılması, mevcut oda ve borsaların dağılması ile kayıt ücretleri, \naidatlar ve alınacak ücretlere ilişkin konularda bu Kanunla verilen görevleri yapmak. \no) Belirli madde bazında büyük miktarda işlem hacmine sahip ve salon satış usulüyle \nçalışan borsaların teknik olarak güçlendirilmeleri ile yurt içi ve yurt dışı borsalar arasındaki \niletişimi sağlamak üzere, gelişen teknolojinin sunduğu imkânlardan da yararlanarak, \nçalışmalar yapmak ve gerekli tedbirleri almak. \np) İthal malların fiyatları ile ilgili uyuşmazlık halinde, talep eden kuruluşa konuya \nilişkin teknik bilgi sağlamak. \n\nr) Odalarca düzenlenecek kapasite raporları ve benzeri belgeleri incelemek ve onaylamak. \ns) İlgili mevzuat uyarınca, organize sanayi bölgeleri, endüstri bölgeleri, teknoloji \ngeliştirme bölgeleri, teknoloji merkezleri, teknopark kurulmasına yardımcı olmak, kurulmuş \nveya kurulacak olanlara katılmak. \nt) Yurt içinde ve uluslararası ticarî anlaşmazlıklarda görev alacak tahkim kurumlarını ve \nuygulanacak tahkim şartlarını oluşturmak, tahkim konusunda odalarca yapılacak çalışmaları \ndesteklemek. \nu) Ticaret ve sanayi kesimi ve faaliyetleri konusundaki bürokratik engellerin \nkaldırılması, özelleştirmenin hızlandırılması, yatırım teşviklerinde yatırım konusu ve yerinin \nbelirlenmesi, ülkenin sanayi, ticaret, tarım, turizm ve hizmet sektörlerinin envanterinin \nçıkarılması konularında çalışmalar yapmak; ticaret ve sanayinin bünyesi ile işletme \nbüyüklükleri, işçi sayıları konularında istatistiki bilgiler derlemek ve yayınlamak; elektronik \nticareti geliştirmeye yönelik çalışmalar yapmak, gerekli araştırma birimlerini kurmak, sayısal \nsertifika verilmesi ve internet alan adı tahsisi konusunda önerilerde bulunmak. \nv) Bakanlık tarafından mevzuat çerçevesinde verilecek görevleri yapmak, ülke \nekonomisinin geliştirilmesi ve yönlendirilmesi amacıyla resmî mercilere görüş bildirmek ve \nöneride bulunmak. \ny) Uluslararası anlaşmalar gereği, elektronik ortam dahil TIR ve ATA karneleri, \nmenşe şahadetnameleri, dolaşım belge ve sertifikalarının basımı, dağıtımı ve uygulamalarına \nilişkin hizmetler ile EAN -UCC çizgi kod sistemine ilişkin çalışmaları yürütmek. \nz) Sanayinin ihtiyaç duyduğu nitelikli iş gücünün yetişmesini sağlamak amacıyla \nüniversiteler, yüksekokullar, meslekî ve teknik eğitim kurumları kurmak, kurulmuş bulunanlara \niştirak etmek, işbirliği yapmak; ilgili kuruluşlarla işbirliği halinde görev tanımları yapmak, bu \ngörev tanımlarına uygun öğretim programları hazırlanması ve uygulanmasını teşvik etmek; \nodalarca sürdürülen çıraklık ve meslekî eğitim hizmetlerinin uyumlu yürütülmesini teminen \nuygulamalara rehberlik etmek; oda ve borsaların yönetici ve personeline yönelik hizmet içi eğitim \nprogramları hazırlamak, uygulamak, bu amaçlarla gerektiğinde bir meslekî eğitim merkezi \nkurulmasını sağlamak. \nBirlik, bu Kanunda belirtilen kuruluş amaçları ve görev alanı çerçevesinde kendisine \ntevdii halinde, mevzuatla bakanlıklara veya kamu kurum ve kuruluşlarına verilen görevleri de \nyerine getirir. \n \nSektör meclisleri",
+          "normalized_hash": "888759e1c2af37e1"
+        },
+        {
+          "provision_id": "law:5174:article:57",
+          "label": "Madde 57",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 57- Birlik Yönetim Kurulu, istişarî nitelikte olmak, sektörel gelişmeyi teşvik \netmek, sorunları incelemek ve önlemleri tespit etmek amacıyla turizm, ulaştırma, \nmüteahhitlik, sanayi bölgeleri, teknoloji bölgeleri, serbest bölgeler gibi gerekli gördüğü \nsektörlerde o sektörün Türkiye sektör meclisini oluşturur. \nBu meclisler, mesleğinde itibar ve tecrübe sahibi oda ve borsa mensupları ile ihtisas \nsahipleri arasından Birlik Yönetim Kurulunca seçilen en çok kırk kişiden oluşur. Meclis \nüyeleri kendi arasından bir başkan ve bir başkan yardımcısı seçer. \n\nSektör meclislerinin kuruluş ve işleyişi ile faaliyetlerine ilişkin usul ve esaslar, Birlik \ntarafından hazırlanıp Bakanlıkça onaylanacak yönetmelikle belirlenir. \n(Ek fıkra: 3/6/2007-5684/38 md.) Sigorta acenteleri için oluşturulacak sektör \nmeclisiyle ilgili Sigortacılık Kanunundaki hükümler saklıdır. \n \nTürk-yabancı veya yabancı-Türk odalar ile Dış Ekonomik İlişkiler Kurulu",
+          "normalized_hash": "f93b3780aa63350a"
+        },
+        {
+          "provision_id": "law:5174:article:58",
+          "label": "Madde 58",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 58- Türkiye ile diğer ülkeler arasında ekonomik ve ticarî ilişkilerin \ngeliştirilmesine yardımcı olmak amacıyla Dışişleri Bakanlığının görüşü alınarak, tek taraflı \nveya çok taraflı Türk-yabancı veya yabancı-Türk ticaret, sanayi ve deniz ticaret odası adı ile \nkurulacak dernekler için Birliğin izni aranır. Müşterek odaların, izlenme ve denetlenme \nesasları, Birlik Yönetim Kurulunun teklifi ve Bakanlık tarafından çıkarılacak yönetmelikle \ntespit olunur. Bu odalardan yurt dışında kurulmuş olanların faaliyetlerinin izlenmesi, yurt \niçindekilerin çalışmalarının denetlenmesi ve izlenmesi, Birlik tarafından yapılır. Bu şekilde \nkurulan dernekler, bu maddede yer alan hükümler dışında, genel hükümlere tâbidir. \nBirinci fıkra uyarınca kurulan dernekler dışındaki tüzel kişiler, ticaret, sanayi ve deniz \nticaret odası adını kullanamazlar. \n(Mülga: 10/9/2014-6552/144 md.) \n(Mülga: 10/9/2014-6552/144 md.) \n(Mülga: 10/9/2014-6552/144 md.) \n \nYüksek İstişare Kurulu",
+          "normalized_hash": "76efc76eb4f6d367"
+        },
+        {
+          "provision_id": "law:5174:article:59",
+          "label": "Madde 59",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 59- Yüksek İstişare Kurulu; Birlik Başkanı, başkan yardımcıları, konsey \nbaşkanları ve şeref üyelerinden oluşan istişarî bir kuruldur. \nBirlik başkanlığı yapmış olanlar Kurulun doğal üyesi sayılırlar. Ayrıca, Birlik \nYönetim Kurulunca ülke ekonomisine üstün hizmetleri bulunanlar arasından da şeref üyeleri \nbelirlenebilir. \nBirlik Başkanı aynı zamanda Kurul başkanıdır. Kurul üyeleri, kendi üyeleri arasından \niki başkan yardımcısı seçer. Kurulun görevleri ve çalışma esasları Birlik Yönetim Kurulunca \nbelirlenir. \n \nİKİNCİ BÖLÜM \nBirlik Organları, Oluşumları ve Görevleri \nBirliğin organları",
+          "normalized_hash": "0b6bf8d0ed2b4332"
+        },
+        {
+          "provision_id": "law:5174:article:60",
+          "label": "Madde 60",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 60- Birliğin organları şunlardır: \na) Genel Kurul. \nb) Oda ve Borsa Konseyleri. \nc) Yönetim Kurulu. \nd) Yüksek Disiplin Kurulu. \n \n\nGenel Kurul",
+          "normalized_hash": "69a424f5f0d4fa55"
+        },
+        {
+          "provision_id": "law:5174:article:61",
+          "label": "Madde 61",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 61- Genel Kurul, oda ve borsa meclislerinin kendi üyeleri arasından dört yıl \niçin seçecekleri delegelerden oluşur. \nGenel Kurulda her oda ve borsa en az bir delege ile temsil edilir. Bu delege oda ve \nborsa yönetim kurulu başkanıdır. İlave delegelerin belirlenmesinde seçmen listelerinde yer \nalan üye sayısı ile oda ve borsaların Birliğe fiilen ödedikleri aidatlar esas alınır. \nOda ve borsalardan üye sayısı, ikibinden beşbine kadar olanlar bir; beşbinden onbine \nkadar olanlar iki; onbinden otuzbine kadar olanlar üç; otuzbinden ellibine kadar olanlar dört; \nellibinden fazla olanlar beş ilave delege seçerler. Üye sayısı ellibini aşan oda ve borsalar, beş \nilave delegeye ek olarak ellibinin üzerindeki her fazla ellibin üye için ayrıca bir ilave delege \nseçerler. \nAyrıca, odalar ve borsalar, seçimin yapıldığı yıl hariç son dört yılda Birliğe fiilen \nödedikleri aidatların ortalaması esas alınarak, onaltı yaşından büyükler için seçimin yapıldığı \nyıldan önceki yıl geçerli olan aylık brüt asgarî ücretin her yirmibeş katı tutarı için bir ilave \ndelege seçerler. Ancak, bu şekilde belirlenecek ilave delege sayısı yirmiyi geçemez. \nSeçilen delege sayısı kadar da yedek delege seçilir. \nDelegelerin oda ve borsalardan çıkması, çıkarılması, ölümleri, istifaları veya meclis \nüyeliklerinden ayrılmaları hallerinde yerlerine yedek üyeler, aldıkları oy sayısına göre Genel \nKurula katılırlar. \nDelegelerin Genel Kurula katılma masrafları temsil ettikleri oda veya borsa tarafından \nkarşılanır. \n(Değişik sekizinci fıkra:24/6/2026-7587/22 md.) Genel Kurul, her yılın mayıs ayının \nsonuna kadar toplanır. Genel Kurul toplantısının yeri, günü, saati ve gündemi en az otuz gün \nöncesinden Türkiye Ticaret Sicili Gazetesinde ilan edilir ve Genel Kurul toplantısı tarihine \nkadar yayımda kalacak şekilde Birlik resmî internet sitesinde duyurulur. \nOda ve borsa meclislerinin görevlerine son verilerek yerlerine yeniden seçim \nyapılması durumunda, Genel Kurula gönderilecek delegeler yeniden seçilir. \n \nGenel Kurulun görevleri",
+          "normalized_hash": "b46eb03273d29330"
+        },
+        {
+          "provision_id": "law:5174:article:62",
+          "label": "Madde 62",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 62- Genel Kurulun görevleri şunlardır:9 \na) Birlik Başkanını, Yönetim Kurulu ve Yüksek Disiplin Kurulu üyeleri ile yedeklerini \nseçmek. \nb) İlgili delegelerce kendi aralarından oda ve borsa konseylerinin üyelerini seçmek. \nc) Muhasebe ve muamelat yönetmelikleriyle, odalar ve borsalar tarafından hazırlanan \nhakem ve bilirkişi listelerinin düzenlenmesine ilişkin usul ve esasları gösteren yönetmelikleri \nonaylamak. \nd) Ülkenin iktisadî durumu hakkında yönetim kurulunca hazırlanacak raporları \n \n9 26/1/2023 tarihli ve 7435 sayılı Kanunun 7 nci maddesiyle bu fıkraya (k) bendinden sonra gelmek üzere (l) \nbendi eklenmiş ve diğer bent buna göre teselsül ettirilmiştir. \n\nincelemek ve onaylamak. \ne) Birlik Genel Sekreterliği ve Genel Kurulun çalışma esaslarına ilişkin yönetmelikleri \nonaylamak. \nf) Odalar ve borsalar arasında işbirliği kurmak ve bunların gelişimi için gerekli tedbir \nve kararları almak. \ng) Borsalarca yapılan genel düzenlemeleri onaylamak. \nh) Oda ve borsaların bütçelerinin tiplerini ve bütçelerin düzenleme usullerini belirlemek. \nı) Gerekli gördüğü hallerde komisyonlar kurmak ve seçeceği komisyon marifetiyle \nBirlik hesaplarını denetlemek. \nj) Birlik bütçesini incelemek ve karara bağlamak. \nk) Ülke ekonomisine ve Birliğe üstün hizmetleri bulunanları Yönetim Kurulunun \nteklifi ile şeref üyesi olarak seçmek. \n1) (Ek:26/1/2023-7435/7 md.) Toplam tutarı brüt asgari ücretin yüzde ellisini \ngeçmeyen ve zamanaşımı süresinin dolmasına bir yıldan az kalan aidat borçları ve ferîlerine \nyönelik oda ve borsa meclislerince terkin kararı verilebilecek üst sınırı belirlemek. \nm) Mevzuatla verilen diğer görevleri yerine getirmek. \n \nOda ve borsa konseyleri",
+          "normalized_hash": "38114ec498773622"
+        },
+        {
+          "provision_id": "law:5174:article:63",
+          "label": "Madde 63",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 63- Genel Kurulda, ilgili delegelerce kendi aralarından dört yıl için ve her biri \notuz üyeden oluşan ticaret ve sanayi odası konseyi, ticaret odası konseyi, sanayi odası \nkonseyi, deniz ticaret odası konseyi ve borsa konseyi olmak üzere beş ayrı konsey seçilir. \nAyrıca, her konsey için asıl üye sayısı kadar yedek üye seçilir. Ancak, konsey üye sayısı, \nGenel Kurulda temsil edilen ilgili delege sayısının yarısını geçemez. \nHer konsey, kendi üyeleri arasından dört yıl için bir başkan ve bir başkan yardımcısı \nseçer. \nKonsey başkanları, kendi aralarından ilk bir yıl için Genel Kurul Başkanını seçerler. \nİzleyenyıllarda konsey başkanları en yaşlı olandan başlamak üzere sırasıyla Genel Kurul \nBaşkanı olurlar. Diğer konsey başkanları da genel kurul başkan yardımcısı sıfatıyla Genel \nKurul Divanını teşkil ederler. \nKonseyler, yılda iki defadan az olmamak üzere, konsey başkanının teklifi ve Birlik \nBaşkanının oluru üzerine Birlik merkezinde toplanır. Ayrıca, konseyler Birlik Başkanının talebi \nüzerine Genel Kurul Başkanının davetiyle öngörülen gündemi görüşmek üzere müşterek olarak \ntoplanır. \nKonseylerin başkan ve üyelerinin toplantılara katılma masrafları Birlik tarafından \nkarşılanır. \n(İptal altıncı fıkra: Anayasa Mahkemesi’nin 10/1/2013 tarihli ve E.: 2012/128, K.: \n2013/7 sayılı Kararı ile.) \n \nOda ve borsa konseylerinin görevleri",
+          "normalized_hash": "223a9a9c3958ed47"
+        },
+        {
+          "provision_id": "law:5174:article:64",
+          "label": "Madde 64",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 64- Oda ve borsa konseylerinin görevleri şunlardır: \n\na) Konsey başkan ve başkan yardımcılarını seçmek. \nb) Oda ve borsalardan gelen konuları görüşüp teklif ve görüş şeklinde yönetim \nkuruluna sunmak. \nc) İktisadî raporları, mevzuat değişikliklerine ilişkin kararları gözden geçirmek, temsil \nettikleri kesimin ekonomik sorunları hakkında incelemeler yapmak. \nd) Oda veya borsaların koordinasyon ve gelişimlerini gözetmek. \ne) İlgili toplantılarda ve protokolde konseyi, başkan veya başkan yardımcısı ile temsil \netmek. \nf) Mevzuatla verilen diğer görevleri yerine getirmek. \n \nBirlik Yönetim Kurulu",
+          "normalized_hash": "e788173899e6da91"
+        },
+        {
+          "provision_id": "law:5174:article:65",
+          "label": "Madde 65",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 65- Birlik Yönetim Kurulu, dört yıl için seçilen, başkan dahil yirmibir üyeden \noluşur.10 \nGenel Kurul tarafından delegeler arasından seçilen Birlik Başkanı, aynı zamanda \nYönetim Kurulu Başkanıdır. \nYönetim Kurulunun yirmi asıl ve aynı sayıda yedek üyesi, Genel Kurulca delegeler \narasından seçilir. Yönetim Kurulunda, her oda ve borsa grubundan en az bir temsilci bulunur.11 \nYönetim Kurulu kendi üyeleri arasından dört yıl için her bir oda grubunu ve borsaları \ntemsilen beş başkan yardımcısı ve bir sayman üye seçer. \nYönetim Kurulu ayda bir defadan az olmamak üzere, Birlik Başkanının veya \nyokluğunda Birlik Başkanının yetkilendirdiği başkan yardımcısının çağrısı üzerine toplanır. \nToplantı gündemi Birlik Başkanı veya yokluğunda yetkilendirdiği başkan yardımcısı \ntarafından belirlenir. Ayrıca, Yönetim Kurulu üyelerinin en az üçte birinin toplantı başlayana \nkadar yapacağı başvuru ile gündeme yeni madde eklenir. Birlik Başkanı tarafından \nyetkilendirilen başkan yardımcısı, başkanın yokluğunda başkan vekili olarak görev yapar. \nBirlik Başkanı aynı zamanda mensubu olduğu oda veya borsanın yönetim kurulu \nbaşkan veya üyeliği ile meclis başkanlığı görevlerini yapamaz. \n(İptal yedinci fıkra: Anayasa Mahkemesi’nin 10/1/2013 tarihli ve E.: 2012/128, \nK.: 2013/7 sayılı Kararı ile.) \n \nBirlik Yönetim Kurulunun görevleri",
+          "normalized_hash": "c709d6810e4819a1"
+        },
+        {
+          "provision_id": "law:5174:article:66",
+          "label": "Madde 66",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 66- Birlik Yönetim Kurulunun görevleri şunlardır: \na) Odalar ve borsalar arasında çıkacak ihtilafları çözmek. \nb) Muhasebe ve muamelatta birlik ve beraberlik sağlamak üzere yönetmelikler \nhazırlamak ve Genel Kurula sunmak. \nc) Ülkenin iktisadî durumu hakkında rapor hazırlamak ve Genel Kurulun onayına sunmak. \n \n10 16/5/2018 tarihli ve 7144 sayılı Kanunun 13 üncü maddesiyle bu fıkrada yer alan “onbeş” ibaresi \n“yirmibir” olarak değiştirilmiştir. \n11 16/5/2018 tarihli ve 7144 sayılı Kanunun 13 üncü maddesiyle bu fıkrada yer alan “ondört” ibaresi \n“yirmi” olarak değiştirilmiştir. \n\nd) Yabancı ülkelerdeki ticaret ve sanayi odaları ile borsalar tarafından yapılan \nyayınları izlemek ve Türkiye ile ilgili olanlardan üyeleri ve gerektiğinde resmî makamları \nhaberdar etmek. \ne) Uluslararası sergi, fuar ve kongrelere katılmak, yabancı ülkelerdeki oda ve \nborsaların vekillik, mümessillik veya muhabirliğini kabul ve ifa etmek, ulusal ve uluslararası \nmeslekî teşekküller kurmak, uluslararası meslekî toplantılara katılacak üyeleri seçmek. \nf) Bütçe dahilinde harcama yapmak. \ng) Oda ve borsaların Birlik aidatlarını süresi içinde yatırmalarını sağlamak ve bu \nkonuda gerekli denetimleri yapmak. \nh) Birlik Genel Sekreterliği yönetmeliğini hazırlamak ve Genel Kurula sunmak. \nı) Bu Kanunda Birlikçe çıkarılacağı öngörülen yönetmelikleri hazırlamak ve Bakanlığın \nonayına sunmak. \nj) İlgili kanunlar çerçevesinde bakanlıklarca istenen bilgileri vermek. \nk) Bir yıllık faaliyetler hakkında Genel Kurula rapor vermek. \nl) İktisadî konularda kongreler ve benzeri toplantılar düzenlemek. \nm) Yıllık bütçeyi hazırlamak ve Genel Kurula sunmak. \nn) Talepleri halinde oda ve borsaların üyeleri arasındaki ihtilafları hakem olarak \nçözmek üzere yüksek tahkim heyeti kurmak. \no) Bu Kanunla ve sair mevzuatla Birliğe verilen ve özel olarak başka bir organa \nbırakılmayan diğer görevleri yerine getirmek. \n \nBirlik Yönetim Kurulunun yetkilerinin devri",
+          "normalized_hash": "57e1937b46b4bd8f"
+        },
+        {
+          "provision_id": "law:5174:article:67",
+          "label": "Madde 67",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 67- Yönetim Kurulu, gerekli hallerde, yetkilerinden bir kısmını Birlik Başkanına, \nYönetim Kurulu üyelerinden birine veya birkaçına ya da Genel Sekretere devredebilir. \n \nYüksek Disiplin Kurulu",
+          "normalized_hash": "dc2bbf2627185bc3"
+        },
+        {
+          "provision_id": "law:5174:article:68",
+          "label": "Madde 68",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 68- Yüksek Disiplin Kurulu, delegeler arasından Genel Kurulca dört yıl için \nseçilen altı üyeden oluşur. Aynı sayıda yedek üye seçilir. \nYüksek Disiplin Kurulu, seçimden sonraki ilk toplantısında üyeleri arasından bir \nbaşkan seçer. Başkanın bulunmadığı zamanlarda, en yaşlı üye Kurula başkanlık eder. \nÜyelerden biri raportör olarak tayin edilir. Raportör üye karar oylamasına katılamaz. \nYüksek Disiplin Kurulu, Birlik Başkanının çağrısı üzerine de toplanır. \n \nYüksek Disiplin Kurulunun görevleri",
+          "normalized_hash": "e42c442b415a04e9"
+        },
+        {
+          "provision_id": "law:5174:article:69",
+          "label": "Madde 69",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 69- Yüksek Disiplin Kurulunun görevleri şunlardır: \na) Oda ve borsa meclislerinin disiplin cezalarına ilişkin kararları ile oda ve borsa \nyönetim kurullarının soruşturma açılmamasına ilişkin kararlarına karşı yapılacak itirazları \nkarara bağlamak. \n\nb) Mevzuatla verilen diğer görevleri yerine getirmek. \n \nÜÇÜNCÜ BÖLÜM \nBirliğin Gelirleri \nBirlik aidatı",
+          "normalized_hash": "119a804ee14b6b4f"
+        },
+        {
+          "provision_id": "law:5174:article:70",
+          "label": "Madde 70",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 70- Odalar ve borsalar her yıl tahsil edilen gelirlerinin yüzde sekizini aidat olarak, \nBirlik Yönetim Kurulunun belirleyeceği bankalardan birine Birlik adına yatırmak zorundadırlar. \nBirlik aidatları bir önceki yıl fiili geliri üzerinden hesap edilerek, izleyen yılın temmuz \nve aralık aylarında eşit iki taksitte yatırılır. \nFiili gelire; 23 üncü ve 49 uncu maddelerde sayılan bütün gelirler ile menkul ve \ngayrimenkul sermaye iratları, şirket kârları ve döviz gelirleri dahildir. \n \nBirlikçe alınacak ücretler",
+          "normalized_hash": "04f7087589d89c3c"
+        },
+        {
+          "provision_id": "law:5174:article:71",
+          "label": "Madde 71",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 71- Birlikçe, belgelerin onaylanması ve hizmetlerin verilmesi karşılığında \nalınan ücretlerin oran ve miktarı, tahkim gelirleri hariç olmak üzere, maktu ücretlerde onaltı \nyaşından büyüklere uygulanan asgarî ücretin brüt tutarının üç katından, nispî ücretlerde de bu \ntavanı aşmamak kaydıyla binde beşten fazla olamaz. Bu oran ve miktarlar, Yönetim Kurulu \ntarafından kararlaştırılacak tarifelerle tespit olunur. \nBirlikçe onaylanacak ve verilecek belgeler ve hizmetler şunlardır: \na) Kapasite raporları. \nb) Faturalar, menşe şahadetnameleri, A.TR ve EUR. 1 dolaşım belgeleri ve sertifikaları. \nc) Türkiye Ticaret Sicili Gazetesi hizmetleri. \nd) Kalite belgeleri. \ne) TIR ve ATA karneleri ile EAN-UCC çizgi kod sistemine ilişkin hizmetler. \nf) Tahkim hizmetleri. \ng) Fuar düzenleme yetki belgeleri. \nh) Ticarî ve sınaî mahiyette diğer her türlü belge ve bilgi ile hizmetler. \nTürkiye Ticaret Sicili Gazetesinde yayımlanacak ilân ücretleri, Türkiye Ticaret Sicili \nGazetesi Komitesinin teklifi ve Bakanlığın onayı ile yürürlüğe girecek bir tarife ile belirlenir. \nTürkiye Ticaret Sicili Gazetesinin çıkarılmasına ilişkin esasları tespit, yayım işlerini \nsevk ve idare etmek ve Bakanlık ile Birlik arasındaki çalışmaları koordine etmek üzere; İç \nTicaret Genel Müdürü başkanlığında, İç Ticaret Genel Müdürlüğünde görevli en fazla üç \ngenel müdür yardımcısı ile Birlik Genel Sekreteri, ilgili genel sekreter yardımcısı ve gazete \nmüdüründen oluşan bir Komite kurulur.12 \nKomitenin çalışma usul ve esasları ile Komite üyelerinin gazete gelirlerinden \nkarşılanacak huzur hakları, Komite toplantılarına ilişkin giderler ve bu konu ile ilgili diğer \n \n12 4/11/2021 tarihli ve 7341 sayılı Kanunun 9 uncu maddesiyle bu fıkrada yer alan alan “Bakanlık \nMüsteşarının başkanlığında, ilgili müsteşar yardımcısı, İç Ticaret Genel Müdürü veya \ngörevlendireceği yardımcısı,” ibaresi “İç Ticaret Genel Müdürü başkanlığında, İç Ticaret Genel \nMüdürlüğünde görevli en fazla üç genel müdür yardımcısı ile” şeklinde değiştirilmiştir. \n\nhususlar Birliğin olumlu görüşü alınarak Bakanlıkça çıkarılacak bir yönetmelikle düzenlenir. \nHuzur haklarının net aylık miktarı brüt asgarî ücret tutarını geçemez. \n \nGelirler ve bütçe",
+          "normalized_hash": "79e156d230011d37"
+        },
+        {
+          "provision_id": "law:5174:article:72",
+          "label": "Madde 72",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 72- Birliğin gelirleri; aidatlar, hizmetler karşılığı alınacak ücretler, bağış ve \nyardımlar, yayın gelirleri ve diğer gelirlerden oluşur. \nBirlik bütçesi, Yönetim Kurulunca yıllık olarak hazırlanır ve Genel Kurulca kararlaştırılır. \nBütçeden harcama, Birlik Başkanı veya yetkilendirdiği başkan yardımcısı ve Genel \nSekreterin veya sayman üyenin ortak imzası ile yapılır. \nYönetim Kurulunun önerisi üzerine Genel Kurulca saptanan miktar kadar harcama, \nsonradan yönetim kurulunun onayına sunulmak şartıyla, Birlik Başkanı tarafından re’sen \nyapılabilir. \nAyrıca, Birlik Başkanı için belirlenen miktardan fazla olmamak üzere, Yönetim \nKurulu tarafından belirlenen miktarda harcama, sonradan Yönetim Kurulunun onayına \nsunulmak şartıyla Genel Sekreter tarafından re’sen yapılabilir. \n \nBEŞİNCİ KISIM \nMüşterek Hükümler \n \nBİRİNCİ BÖLÜM \nPersonel \nOda, borsa ve Birlik personeli",
+          "normalized_hash": "ad4444391d0049d3"
+        },
+        {
+          "provision_id": "law:5174:article:73",
+          "label": "Madde 73",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 73- Oda, borsa, Birlik ve bunların kurduğu teşekküllerde istihdam edilenler bu \nKanunda yer alan hükümler dışında 4857 sayılı İş Kanununa tâbidir. \n \nOda ve borsa genel sekreteri",
+          "normalized_hash": "9f59202010a01ca2"
+        },
+        {
+          "provision_id": "law:5174:article:74",
+          "label": "Madde 74",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 74- Odalar ve borsaların işlerini yürütmek üzere bir genel sekreter görevlendirilir. \nGenel sekreterin aşağıda belirtilen nitelikleri haiz olması gerekir: \na) Türk vatandaşı olmak. \nb) (Mülga: 23/1/2008 – 5728/578 md.) \nc) Askerlikle ilişiği bulunmamak. \nd) (Değişik: 30/7/2008 – 5795/2 md.) Türk Ceza Kanununun 53 üncü maddesinde \nbelirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı beş yıl veya daha fazla \nsüreyle ya da devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine \nkarşı suçlar, (…)13 zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye \nkullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan \nkaynaklanan malvarlığı değerlerini aklama, kaçakçılık, vergi kaçakçılığı, haksız mal edinme \nsuçlarından hapis cezasına mahkûm olmamak. \ne) Görevini devamlı yapmasına engel olabilecek hastalığı, zihinsel veya bedensel engeli \n \n13 Anayasa Mahkemesi’nin 25/2/2010 tarihli ve E.: 2008/17, K.: 2010/44 sayılı Kararı ile bu bentte \nyer alan “… milli savunmaya karşı suçlar, devlet sırlarına karşı suçlar ve casusluk, … ” ibaresi iptal \nedilmiştir. \n\nbulunmamak.14 \nf) Mühendislik, iktisat, işletme, maliye, hukuk ve kamu yönetimi gibi alanlarda en az \ndört yıllık yüksek öğrenim kurumu mezunu olmak. \ng) Kamuda veya özel sektörde en az beş yıl iş tecrübesine sahip olmak. \nGenel sekreter ve yardımcıları yönetim kurulu kararıyla atanır. Genel sekreter \nyardımcılarında da genel sekreterde aranan koşullar aranır. \nGenel sekreter, yönetim kurulunun izni ile harcama yetkisi dahil görev ve yetkilerinden bir \nbölümünü her faaliyet yılının başında yeniden tespit edilmek üzere yardımcılarına devredebilir. \nGenel sekreter, oda ve borsa personelinin disiplin ve sicil amiridir. Genel sekreter, \nmeclis ile yönetim kurulu toplantılarına ait tutanakları düzenler, odanın veya borsanın iç \nçalışmalarıyla yazı işlerini düzenler ve yönetir, oda veya borsa personeline gerekli emir ve \ntalimatları verir ve çalışmalarını denetler, yönetim kurulu veya başkanı tarafından verilen \ndiğer görevleri yerine getirir. \n \nBirlik Genel Sekreteri",
+          "normalized_hash": "34c0d21a86321fbf"
+        },
+        {
+          "provision_id": "law:5174:article:75",
+          "label": "Madde 75",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 75- Yönetim Kurulunca, Birliğin işlerini yürütmek üzere, oda ve borsa genel \nsekreterleri için aranan nitelikleri haiz ve asgarî bir yabancı lisanı çok iyi derecede bilen bir \nGenel Sekreter atanır. Gerektiğinde yönetim kurulu bir veya daha fazla genel sekreter \nyardımcısı atayabilir. Genel sekreter yardımcılarında da Genel Sekreter için aranan nitelikler \naranır. \nGenel Sekreter, yönetim kurulunun izni ile harcama yetkisi dahil görev ve yetkilerinden bir \nbölümünü her faaliyet yılının başında yeniden tespit edilmek üzere yardımcılarına devredebilir. \nGenel Sekreter, Birlik personelinin disiplin ve sicil amiridir. Genel Sekreter, Yönetim \nKurulu toplantılarına ait tutanakları düzenler, Birliğin iç çalışmalarıyla yazı işlerini düzenler \nve yönetir, Birlik personeline gerekli emir ve talimatları verir ve çalışmalarını denetler, \nYönetim Kurulu ve Birlik Başkanı tarafından verilen diğer görevleri yerine getirir. \n \nCezai takibat",
+          "normalized_hash": "422735abb26f13f1"
+        },
+        {
+          "provision_id": "law:5174:article:76",
+          "label": "Madde 76",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 76- (Değişik: 23/1/2008 – 5728/539 md.) \nOdalar, borsalar ve Birliğin organ üyeleri ile personeli, görevlerini yerine getirirken \ngörevleriyle ilgili suç teşkil eden fiil ve hareketlerinden, bu kuruluşların paralarıyla para \nhükmündeki evrak, senet ve sair varlıkları ile muhasebe ve muamelata ilişkin her çeşit defter \nve evrak ile ilgili olarak işledikleri suçlardan dolayı kamu görevlisi olarak cezalandırılırlar. \n \nİKİNCİ BÖLÜM \nMalî Hükümler \nTahsilat \n \n14 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu bentte yer alan “vücut veya akıl \nhastalığı veya vücut sakatlığı ile özürlü bulunmamak” ibaresi “hastalığı, zihinsel veya bedensel engeli \nbulunmamak” şeklinde değiştirilmiştir.",
+          "normalized_hash": "c65c6eb5479cdf27"
+        },
+        {
+          "provision_id": "law:5174:article:77",
+          "label": "Madde 77",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 77- Süresinde ödenmeyen kayıt ücretleri, yıllık aidat, munzam aidat, navlun \nhâsılatından alınacak oda payları, borsa tescil ücreti ve Birlik aidatına 6183 sayılı Amme \nAlacaklarının Tahsil Usulü Hakkında Kanun uyarınca günlük gecikme zammı tahakkuk \nettirilir. \nKayıt ücretleri, yıllık aidat, munzam aidat, navlun hasılatından alınacak oda payları ve \nBirlik aidatı ile borsa tescil ücreti ve bunlara ait kesinleşen gecikme zamları ile para \ncezalarının tahsiline ilişkin olarak oda, borsa ve Birlik Yönetim Kurulunca verilen kararlar \nilâm hükmünde olup, icra dairelerince yerine getirilir. \nKayıt ücretleri, yıllık aidat, munzam aidat, navlun hasılatından alınacak oda payları ve \nBirlik aidatı ile borsa tescil ücreti ve bunlara ait kesinleşen gecikme zamları ile para \ncezalarının tahsil zamanaşımı süresi beş yıldır. \n \nBütçelerden ayrılacak paylar",
+          "normalized_hash": "f57a5cbf87959503"
+        },
+        {
+          "provision_id": "law:5174:article:78",
+          "label": "Madde 78",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 78- Odalar, borsalar ve Birlikçe hazırlanan bütçelerde; \na) (…)15 Türkiye Odalar, Borsalar ve Birlik Personeli Sigorta ve Emekli Sandığı \nVakfına ödenmek üzere yüzde üç oranında,15 \nb) Bakanlık iç ticaret hizmetlerini geliştirmek üzere her yıl yüzde biri geçmemek üzere, \nPay ayrılır. (Ek cümle:25/10/2023-7464/19 md.) Türkiye Odalar, Borsalar ve Birlik \nPersoneli Sigorta ve Emekli Sandığı Vakfına ayrılacak payı yüzde altı oranına kadar \nartırmaya Birlik Genel Kurulu yetkilidir. \nBu şekilde ayrılacak payların kullanma esasları ve uygulaması yönetmelikle düzenlenir. \nBirlik ile oda ve borsaların bütçelerinde temsil, gezi, konaklama, seyahat, yevmiye ve \nhuzur hakkı gibi harcamaları için ayıracakları pay bütçelerinin yüzde yirmisini, personel \nharcamaları için ayrılan pay ise bütçelerinin yüzde kırkını geçemez. (Ek cümle: 15/8/2017KHK-694/133 md.; Aynen kabul: 1/2/2018-7078/128 md.) Ticaret sicili müdürlüğü kurulan \nodalarda, ticaret sicili müdürlüğü personeli için yapılan harcamaların yarısı personel payının \nhesaplanmasında dikkate alınmaz. \n \nİhale işleri ve hizmet alımı",
+          "normalized_hash": "b66282efdbead377"
+        },
+        {
+          "provision_id": "law:5174:article:79",
+          "label": "Madde 79",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 79- Odalar, borsalar ve Birliğin mal ve hizmet alımları ile yapım işleri ve \nsatımlarının tâbi olduğu usul ve esaslar açıklık, şeffaflık ve serbest rekabet ilkeleri \ngözetilerek, Birlikçe çıkarılacak yönetmelikle düzenlenir. \nOdalar, borsalar ve Birlik, istisna ve vekâlet akdi ile hizmet alımı yapabilir. \n \nKamulaştırma, şirket ve vakıf kurma",
+          "normalized_hash": "c664b0db31115c69"
+        },
+        {
+          "provision_id": "law:5174:article:80",
+          "label": "Madde 80",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 80- Odalar, borsalar ve Birlik amaçlarını gerçekleştirmek ve faaliyet konuları \nile sınırlı olmak şartı ile yetkili organlarının kararı ve Bakanlığın izni ile kamulaştırma \n \n15 25/10/2023 tarihli ve 7464 sayılı Kanunun 19 uncu maddesiyle bu bentte yer alan “Genel Kurul kararıyla,” \nibaresi madde metninden çıkarılmış, bentte yer alan “yüzde bir” ibaresi “yüzde üç” şeklinde değiştirilmiştir. \n\nyapabilirler. Kamu yararı kararı Bakanlıkça verilir. \nOdalar, borsalar ve Birlik, bu Kanunda öngörülen ekonomik nitelikli görevlerini \nyapmak, meslek mensuplarının müşterek ihtiyaçlarını karşılamak, meslekî faaliyetlerini \nkolaylaştırmak ve mesleğin genel menfaatlere uygun olarak gelişmesini sağlamak amaçlarıyla \nsınırlı olarak ve Bakanlığın izni ile kurulmuş veya kurulacak şirketlere iştirak edebilirler. \nOdalar, borsalar ve Birlik, amaçlarına uygun olarak eğitim ve öğretim kurumları kurmak \nüzere vakıf kurabilirler. \n \nÜÇÜNCÜ BÖLÜM \nOda, Borsa ve Birlik Organlarının Seçim Usulü \nSeçimlere ilişkin genel esaslar",
+          "normalized_hash": "1e5b7ffc5c0e55df"
+        },
+        {
+          "provision_id": "law:5174:article:81",
+          "label": "Madde 81",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 81- Oda, borsa ve Birlik organları ile şubelerinin seçimleri, bu Kanunda yazılı \nesas ve usullere göre, elektronik ortamda Bakanlık ve Birlik bünyesinde düzenlenen ortak veri \ntabanında Birliğe bağlı oda ve borsa meslek gruplarına göre seçme ve seçilme niteliklerini \nhaiz olan üyeleri gösteren oda, borsa ve Birlik veri tabanından alınan güncel üye listeleriyle \nyargı gözetiminde yapılır. \nBir yerde birden fazla ilçe seçim kurulu bulunduğu takdirde, görevli hâkim il seçim \nkurulunca belirlenir. Birlik organları seçimlerinde görevli hâkim, merkez ilçe seçim kurulu \nbaşkanıdır. \nİlçe seçim kurulu başkanı, oda ve borsanın üye ve meslek grubu sayısına ve Birlik \norganları seçimlerinin gereklerine göre seçim sandıklarının yer ve sayısını, tarihini ve oy \nkullanma süresini, oy pusulasının şeklini ve seçimle ilgili diğer hususları belirler. Seçimlerde \nkullanılacak araç ve gereçler, ilçe seçim kurulundan sağlanır. \nOy verme işlemleri gizli oy ve açık tasnif esaslarına göre yapılır. Belirlenen seçim \nsüresi sona erdiği halde sandık başında oylarını vermek üzere bekleyen seçmenler de oylarını \nkullanırlar. Seçmen listesinde adı yazılı olmayan üye veya delegeler oy kullanamaz. Oylar, oy \nverenin kimliğinin oda veya borsa veya resmî kuruluşça verilen belge ile ispat edilmesinden \nve listedeki isminin karşısındaki yerin imzalanmasından sonra kullanılır. \n(Değişik beşinci fıkra: 4/7/2012-6353/30 md.) Tüzel kişi temsilcisi gerçek kişilerin, \ntemsil ettikleri tüzel kişinin tescili ana sözleşmeleri gereğince temsil ve bağlayıcı işlem yapma \nyetkisine sahip olduklarına dair düzenlenmiş sicil tasdiknamesi veya ticaret sicil \nmüdürlüğünden doksan gün içerisinde alınmış yetki belgesinin oy kullanma sırasında ibrazı \ngerekir. İbraz edilen sicil tasdiknamesinin bir fotokopisi oy kullanılan sandık kurulu \nbaşkanına teslim edilir. Ticaret sicil müdürlüklerince organ seçimlerinin başladığı tarihten \nönceki doksan gün de dâhil olmak üzere oda ve borsa organ seçimlerinin yapıldığı aylarda \nseçim amacıyla tasdik edilen bu belgelerden harç ve hizmet bedeli tahsil edilmez.16 \nOylar, herhangi bir şekilde hazırlanmış oy pusulalarının, üzerinde ilçe seçim kurulu \n \n16 28/1/2021 tarihli ve 7263 sayılı Kanunun 17 nci maddesiyle, bu fıkranın birinci cümlesinde yer alan \n“imza sirkülerinin aslı veya noter tasdikli sureti” ibaresi “sicil tasdiknamesi” şeklinde, ikinci \ncümlesinde yer alan “imza sirkülerinin” ibaresi “sicil tasdiknamesinin” şeklinde değiştirilmiştir. \n\nmührü bulunan ve oy verme sırasında seçim sandık kurulu başkanı tarafından verilecek özel \nzarflara konulması suretiyle kullanılır. Üzerinde ilçe seçim kurulu mührü bulunmayan zarflara \nkonulan oylar geçersizdir. \nSeçim süresinin sonunda, seçim sonuçları tutanakla tespit edilir, seçim sandık kurulu \nbaşkan ve üyeleri tarafından imzalanır. Tutanakların birer örneği seçim yerinde asılmak \nsuretiyle, geçici seçim sonuçları bir tam iş günü ilân edilir. \nKullanılan oylar ve diğer belgeler, tutanağın bir örneği ile birlikte üç ay süre ile \nsaklanmak üzere ilçe seçim kurulu başkanlığına tevdi edilir. \nSeçimin devamı sırasında yapılan işlemler ile ilân süresi içinde seçim sonuçlarına \nyapılacak itirazlar, görevli hâkim tarafından aynı gün incelenir ve karara bağlanır. İlçe seçim \nkurulunun itiraz üzerine vereceği kararlar, seçim yerinde asılmak suretiyle bir tam iş günü ilân \nedilir. Bu kararlara karşı, ilân süresi içinde il seçim kurulu nezdinde itiraz edilebilir. İl seçim \nkurulunun bir gün içinde vereceği karar kesindir. İtiraz süresinin geçmesi ve itirazların karara \nbağlanmasından hemen sonra, hâkim yukarıdaki hükümlere göre kesin sonuçları ilân eder ve \nilgili oda veya borsa ile Birlik ve Bakanlığa bildirir. \nHâkim, herhangi bir sebeple seçimi durdurduğu veya seçim sonuçlarını etkileyecek \nölçüde bir usulsüzlük veya Kanuna aykırı uygulama sebebiyle seçimlerin iptaline karar \nverdiği takdirde, süresi bir aydan az ve iki aydan fazla olmamak üzere seçimin yenileneceği \ngünü tespit ederek ilgili oda veya borsa ile Birlik ve Bakanlığa bildirir. \nSeçimlerin tamamının iptali halinde, seçimler yenileninceye kadar geçen sürede, oda \nve borsanın meclis ve yönetim kurulu görevini yapmak üzere Birlikçe üç veya beş kişilik bir \nkurul atanır. \nBu Kanunda hüküm bulunmayan hallerde 298 sayılı Seçimlerin Temel Hükümleri ve \nSeçmen Kütükleri Hakkında Kanunun Yedinci Bölümündeki suç ve cezalara ilişkin hükümler \nuygulanır. \n(Değişik onüçüncü fıkra: 23/1/2008-5728/540 md.) Oda, borsa ve Birlik organlarının \nseçimlerinde siyasi partiler, sendikalar ve sendika üst kuruluşları aday gösteremezler ve belirli \nadayların leh ve aleyhlerinde faaliyette bulunamazlar ve propaganda yapamazlar. Bu hükme \naykırı davrananlar altı aya kadar hapis veya adlî para cezası ile cezalandırılır. \nBirlik ile oda ve borsaların organlarının seçim tarihleri, Cumhurbaşkanı tarafından bir \nyılı geçmemek üzere ertelenebilir.17 \n(Değişik son fıkra: 3/2/2005 – 5290/1 md.) Milletvekili veya belediye başkanı olarak \nseçilenlerin oda, borsa ve birlik organlarındaki görevleri kendiliğinden sona erer. \n \nSeçim sandık kurulu",
+          "normalized_hash": "8aed8e5d1275dd6e"
+        },
+        {
+          "provision_id": "law:5174:article:82",
+          "label": "Madde 82",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 82- İlçe seçim kurulu başkanı, elektronik ortamda Bakanlık ve Birlik \nbünyesinde düzenlenen ortak veri tabanından sağlanan seçme ve seçilme niteliklerini haiz \nolan listeleri incelemek ve seçimleri yapmak üzere kamu görevlileri veya aday olmayan \n \n17 2/7/2018 tarihli ve 700 sayılı KHK’nin 152 nci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” \nibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir. \n\nüyeler arasından bir başkan ile iki üyeden oluşan bir seçim sandık kurulu oluşturur ve aynı \nşekilde üç yedek üyeyi de belirler. Birlik organlarının seçiminde, seçim sandık kurulu için bir \nbaşkan ve dört üye ile beş yedek üye, kamu görevlileri veya aday olmayan delegeler arasından \nmerkez ilçe seçim kurulu başkanı tarafından belirlenir. \nSeçim sandık kurulu başkanının yokluğunda kurula en yaşlı üye başkanlık eder. Seçim \nsandık kurulu, seçimlerin Kanunun öngördüğü esaslara göre yürütülmesi, yönetimi ve oyların \ntasnifi ile görevli olup, bu görevleri seçim ve tasnif işleri bitinceye kadar aralıksız olarak \ndevam eder. \nİlçe seçim kurulu başkanı hâkime ve seçim sandık kurulu başkan ve üyelerine 298 \nsayılı Seçimlerin Temel Hükümleri ve Seçmen Kütükleri Hakkında Kanunda belirtilen \nesaslara göre ücret ödenir. Bu ücretlerle, diğer seçim giderleri seçimi yapan oda, borsa veya \nBirlik tarafından karşılanır. \nSeçimler sırasında seçim sandık kurulu başkan ve üyelerine karşı işlenen suçlar, \nDevlet memurlarına karşı işlenmiş gibi cezalandırılır. \n \nOda, borsa ve Birlik organları seçimlerine katılma nitelikleri",
+          "normalized_hash": "e1d235f0697ea742"
+        },
+        {
+          "provision_id": "law:5174:article:83",
+          "label": "Madde 83",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 83- Seçim tarihi itibarıyla en az iki yıldır oda veya borsaya kayıtlı, onsekiz \nyaşını bitirmiş gerçek kişilerle, tüzel kişilerin tescilli ana sözleşmelerinde temsil ve bağlayıcı \nişlemler yapma yetkisi verilen gerçek kişi temsilcileri, bu Kanun hükümlerine göre oda, borsa \nve Birlik organlarının seçimlerinde oy kullanabilirler.18 \nOda, borsa ve Birlik organlarına seçilebilmek için; \na) Yeni kurulan oda ve borsalar hariç en az iki yıldır oda ve borsaya kayıtlı olmak, \nb) Seçim tarihinde yirmibeş yaşını doldurmuş olmak, \nc) İflas etmemiş ya da iflas etmiş olsa bile itibarını yeniden kazanmış olmak, \nd) (Değişik: 23/1/2008 – 5728/541 md.) Türk Ceza Kanununun 53 üncü maddesinde \nbelirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı beş yıl veya daha fazla \nsüreyle ya da devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine \nkarşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye \nkullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan \nkaynaklanan malvarlığı değerlerini aklama, kaçakçılık, vergi kaçakçılığı veya haksız mal \nedinme suçlarından hapis cezasına mahkûm olmamak, \ne) (Mülga: 23/1/2008 – 5728/578 md.) \nf) Ticarî ve sınaî kazanç dolayısıyla gelir veya kurumlar vergisi mükellefi olmak, \ng) Okur-yazar olmak, \nŞartlarını haiz olanlar aday olabilir. \n \n18 15/8/2017 tarihli ve 694 sayılı KHK’nin 134 üncü maddesiyle, bu fıkrada yer alan “Oda veya \nborsaya kayıtlı” ibaresi “Seçim tarihi itibarıyla en az iki yıldır oda veya borsaya kayıtlı” şeklinde \ndeğiştirilmiş, daha sonra bu hüküm 1/2/2018 tarihli ve 7078 sayılı Kanunun 129 uncu maddesiyle \naynen kabul edilerek kanunlaşmıştır. \n\nYerli ve yabancı tüzel kişilerin tescilli ana sözleşmelerinde temsil ve bağlayıcı \nişlemler yapma yetkisi verilen ve yukarıdaki özellikleri taşıyan gerçek kişi temsilcileri, bu \nKanun hükümlerine göre oda, borsa ve Birlik organlarına seçilebilirler. \n(Değişik dördüncü fıkra: 28/3/2013-6455/48 md.) Seçilme yeterliliği bulunmadığı \nsonradan anlaşılanlar ile seçilme yeterliliğini kaybedenlerin oda, borsa ve Birlik organlarındaki \ngörevleri sona erer. \nOrganların seçimlerine katılma niteliklerine ilişkin diğer hususlar Birlikçe hazırlanacak \nyönetmelikle düzenlenir. \n(Değişik altıncı fıkra: 28/3/2013-6455/48 md.) Oda ve borsalarda seçilme hakkının \nkullanılabilmesi için; ticaret şirketlerinde gerçek kişi temsilcinin şirketin ortağı ve/veya \nyöneticisi, gerçek kişiler ve ticaret şirketleri dışındaki tüzel kişilere ait ticari işletmelerde ise \nişletmenin sahibi veya temsilcisi olması ve şirketi ya da işletmeyi temsil ile bağlayıcı işlem \nyapmaya yetkili bulunması, bu durumun seçimden en az altı ay öncesini kapsaması şarttır. Bu \nfıkra kapsamında belirtilen şartlar şubeleri temsile yetkili kılınanlar için de aranır. \n(Değişik yedinci fıkra: 28/3/2013-6455/48 md.) Üye şirketin münfesih olması, \nşirketin veya işletmenin işyerini veya merkez kaydını başka bir oda ya da borsanın çalışma \nalanına taşıması halinde, üyelik ile birlikte seçilmiş olduğu oda, borsa ve Birlik organlarındaki \ngörevi kendiliğinden sona erer. \n \nOda ve borsa organlarının seçimleri",
+          "normalized_hash": "5358a6796415dd44"
+        },
+        {
+          "provision_id": "law:5174:article:84",
+          "label": "Madde 84",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 84- Oda ve borsa organlarının seçimleri, bu Kanun hükümlerine göre aşağıda \nbelirtilen esas ve usullere uygun olarak, ekim ayında başlar kasım ayı içinde bitirilir. \na) Gruplandırma işlemleri ve meslek komitelerinin seçimi: \n1) Meslek komiteleri seçiminden en az yirmi gün önce oda ve borsaların yönetim \nkurulları tarafından, seçilme hakkına sahip olanlarla, seçme hakkına sahip olanları gösteren, \nelektronik ortamda Bakanlık ve Birlik bünyesinde düzenlenen veri tabanında yer alan meslek \ngruplarına göre hazırlanan listeler, üç nüsha olarak kuruluşun bulunduğu yerdeki ilçe seçim \nkurulu başkanına sunulur. \n2) Hâkim, gerektiğinde ilgili kayıt ve belgeleri de getirtip listeleri seçim sandık \nkurullarına incelettirir ve varsa noksanlarını tamamlattırdıktan sonra en geç beş gün içinde \nonaylar. Onaylanan listeler ve seçimin yapılacağı tarih ve yer ile diğer hususlar, oda veya \nborsanın ilân yerlerinde asılmak suretiyle üç tam iş günü ilân edilir. Bu listelerin örnekleri, talep \nedilmesi halinde oda veya borsa üyelerine masrafı ödenmek kaydıyla verilir. İlçe seçim kurulu \nbaşkanınca gerekli görülen hususlar yerel basın yayın organları aracılığı ile ilgililere duyurulur. \n3) İlân süresi içinde oda veya borsa üyeleri tarafından listelere yapılacak itirazlar, ilçe \nseçim kurulu başkanı tarafından incelenir ve en geç iki gün içinde karara bağlanır. Bu karara \ntebliğ tarihinden itibaren üç gün içinde il seçim kurulu nezdinde itiraz edilebilir. İl seçim \nkurulunun üç gün içinde vereceği karar kesindir. \n4) Bu suretle kesinleşen listelerle, seçim tarihi, süresi ve seçime ilişkin diğer hususlar \n\nonaylanarak ilgili oda veya borsaya gönderilir. Kesinleşen listeler ve seçime ilişkin diğer hususlar \nilgili oda veya borsanın ilân yerlerinde seçimden önce üç tam iş günü süresince ilân edilir. \n5) Yeni kurulan oda ve borsalarda meslek gruplarına ait listeler, ilçe seçim kurulu \nbaşkanı veya onun görevlendireceği yetkili memur tarafından seçilecek beş veya yedi üyeden \noluşacak bir gruplandırma kurulunca yönetmeliğe uygun olarak hazırlanarak, meslek komitesi \nseçimleri için görevli hâkime verilir. \n6) İlgili seçmen üyelerce, her meslek grubu için ayrı ayrı verilecek mahsus zarflara \noyların konulması ile meslek komitesi seçimleri yapılır. \nb) Meslek grupları, yargı gözetiminde oda ve borsa meclisleri için asıl ve yedek \nüyeleri meslek komitesi üyeleri ile birlikte seçer. \nc) Meclis, seçimlerin kesinleşmesini takip eden en geç iki gün içinde yargı \ngözetiminde oda ve borsa yönetim kurulu başkanı ve üyelerini aynı listede seçer. \nd) Birlik Genel Kurul delegeleri ile disiplin kurulunun asıl ve yedek üyelerinin seçimi, \nYönetim Kurulu üyelerinin seçimi ile birlikte, meclis tarafından yapılır. \nOda ve borsaların meclis, yönetim kurulu, disiplin kurulu ile Birlik Genel Kurulu \ndelegesi seçimlerinde de gruplandırma işlemleri ve meslek komitelerinin seçimlerine ilişkin \nesas ve usuller uygulanır. \nOda ve borsa şubelerinin seçim usul ve esasları bu maddede belirtilen hükümlere \nuygun olarak, Birlikçe hazırlanacak bir yönetmelikle düzenlenir. \nİtiraz süresi, oda ve borsa organları ile Birlik delegesi seçim sonuçlarının ilânından \nitibaren bir gündür. \n \nBirlik organlarının seçimi",
+          "normalized_hash": "5025240f31843bb5"
+        },
+        {
+          "provision_id": "law:5174:article:85",
+          "label": "Madde 85",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 85- Genel Kurul delegeleri dışındaki Birlik organlarının seçimi, bu Kanunda \ndüzenlenen usul ve esaslara göre ve yargı gözetiminde, 84 üncü maddenin birinci fıkrasında \nbelirtilen kasım ayını takip eden yılda mayıs ayının sonuna kadar yapılır. (Ek \ncümleler:24/6/2026-7587/23 md.) Genel Kurul toplantısının yeri, günü, saati ve gündemi en \naz otuz gün öncesinden Türkiye Ticaret Sicili Gazetesinde ilan edilir ve Genel Kurul \ntoplantısı tarihine kadar yayımda kalacak şekilde Birlik resmî internet sitesinde duyurulur. \nMevcut birlik organlarının görevleri Kanunda belirtilen görev sürelerine bağlı olmaksızın yeni \norganların seçimine kadar devam eder.19 \nBirlik Başkanı, Birlik Genel Kurulunca, delegeler arasından öncelikle seçilir. \nBirlik Genel Kurulunda, Birlik Başkanının seçiminin yapıldığı gün içinde ilgili \ndelegelerce kendi aralarından Birlik Yönetim Kurulu ve oda ve borsa konseylerinin asıl ve \nyedek üyeleri seçilir. Birlik Başkanı seçim sonucu açıklanmadan, Birlik Yönetim Kurulu ve \nkonsey seçimlerine geçilemez. İtiraz üzerine Birlik Başkanı seçimi iptal edilirse, Birlik \nYönetim Kurulu ve konsey seçimleri de kendiliğinden geçersiz sayılır. \n \n19 24/6/2026 tarihli ve 7587 sayılı Kanunun 23 üncü maddesiyle bu fıkrada yer alan “mayıs ayı \niçinde” ibaresi “84 üncü maddenin birinci fıkrasında belirtilen kasım ayını takip eden yılda mayıs \nayının sonuna kadar” şeklinde değiştirilmiştir. \n\nYüksek Disiplin Kurulunun asıl ve yedek üyeleri, Birlik Genel Kurulunca, delegeler \narasından seçilir. \nBirlik Yönetim Kurulu ve oda ve borsa konseyleri seçimi ile Yüksek Disiplin \nKurulunun seçimi birlikte yapılır. \nİtirazlar seçim günü yapılır ve aynı gün karara bağlanır. \n \nDÖRDÜNCÜ BÖLÜM \nDisiplin ve Para Cezaları \nDisiplin cezalarının uygulanacağı haller",
+          "normalized_hash": "dbb45eaef2e6ed4e"
+        },
+        {
+          "provision_id": "law:5174:article:86",
+          "label": "Madde 86",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 86- Oda ve borsa üyelerinden meslek onuruna veya meslek düzen ve \ngeleneklerine uymayan eylem ve davranışlarda bulunanlarla, müşterisine karşı meslekî \ngörevini yapmayan veya görevinin gerektirdiği dürüstlüğe uygun şekilde davranmayanlar \nhakkında bu Kanunda yazılı disiplin cezaları uygulanır. \n \nDisiplin suç ve cezaları",
+          "normalized_hash": "a5619863f3f0fd6d"
+        },
+        {
+          "provision_id": "law:5174:article:87",
+          "label": "Madde 87",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 87- Disiplin cezaları ile her bir disiplin cezasını gerektiren fiil ve haller \nşunlardır: \na) Uyarma; mesleğin icrasında ve davranışlarında daha dikkatli davranması gerektiğinin \nilgili üyeye bir yazıyla bildirilmesidir. Uyarma cezasını gerektiren fiil ve haller şunlardır: \n1) Meslek şeref ve haysiyetine uygun düşmeyen tavır ve hareketlerde bulunmak. \n2) Üyelik görev ve sorumlulukları ile ilgili yönetim kurulunca yapılan davet ve talebin \ngereğini mazeretsiz olarak yerine getirmemek. \n3) Üyesi olduğu odanın, borsanın veya Birliğin itibarını zedeleyici sözler sarf etmek. \n4) Müşteri veya iş sahipleri ile olan ilişkilerinde terbiye ve nezakete aykırı davranışta \nbulunmak. \nb) Kınama; meslekî tutum ve davranışlarında kusurlu sayıldığının ilgili üyeye bir \nyazıyla bildirilmesidir. Kınama cezasını gerektiren fiil ve haller şunlardır: \n1) Üyesi olduğu odanın, borsanın veya Birliğin itibarını zedeleyici asılsız yayında \nbulunmak. \n2) Müşterisine veya iş sahiplerine karşı taahhütlerini yerine getirmemek. \n3) İş ilişkisinde bulunduğu kimseler hakkında haksız ithamda bulunmak. \n4) Satışa arz olunan malların niteliği veya miktarı bakımından gerçeğe aykırı beyanda \nbulunmak. \n5) Nizamî olmayan ölçü ve tartı aletlerini bilerek kullanmak. \n6) İki yıl içinde birden fazla uyarma cezasını gerektirecek bir davranışta bulunmak. \n7) Organ seçimlerinin düzen içinde ve sağlıklı biçimde yürütülmesi amacıyla, hâkimin \nve seçim sandık kurulunun aldığı tedbirlere uymamak. \nc) Üyelikten geçici çıkarma; üyenin iki aydan az ve oniki aydan fazla süreli olmamak \nüzere oda veya borsa üyeliğinden çıkarılmasıdır. Kınama cezası alan üyenin, beş yıl içinde \naynı cezayı gerektirecek yeni bir davranışta bulunması halinde üyelikten geçici çıkarma cezası \n\nverilir. \nd) Üyelikten uzun süreli çıkarma; üyenin kaydının üyesi bulunduğu oda veya borsa ile \nticaret sicilinden beş yıl süre ile silinmesidir. Üyelikten geçici çıkarma cezası alan üyenin, üç \nyıl içinde kınama cezasını gerektirecek yeni bir davranışta bulunması halinde üyelikten uzun \nsüreli çıkarma cezası verilir. \nBu maddede düzenlenen cezalar disiplin kurulunun teklifi üzerine meclis tarafından \nverilir. Disiplin suç ve cezaları hakkındaki esaslar Bakanlıkça çıkarılacak yönetmelikle \ndüzenlenir. \n \nDisiplin soruşturmasının yürütülmesi",
+          "normalized_hash": "da91ff12b2a2c585"
+        },
+        {
+          "provision_id": "law:5174:article:88",
+          "label": "Madde 88",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 88- Oda ve borsa üyeleri hakkında disiplin soruşturması oda veya borsa \ndisiplin kurulları tarafından yürütülür. \nDisiplin kurulları, üyelerinden birini soruşturmacı olarak tayin eder ve soruşturmacının \nsunduğu fezleke üzerine ceza teklifinde bulunur. Ceza teklifinin görüşüldüğü toplantıya \nsoruşturmayı yürüten üye katılamaz. \n \nDisiplin soruşturmasının açılması",
+          "normalized_hash": "a500b6e6286d186c"
+        },
+        {
+          "provision_id": "law:5174:article:89",
+          "label": "Madde 89",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 89- Yönetim kurulları, ihbar veya şikâyet üzerine ya da davranışı doğrudan \nöğrenmesi halinde re’sen, on gün içinde disiplin soruşturması açılması hususunda karar vermek \nzorundadır. \nDisiplin kurulları, yönetim kurulunun soruşturma açılmasına dair kararının kendilerine \niletilmesinden itibaren en çok iki ay içinde suç oluştuğuna kanaat getirerek ceza önermek \nveya suç oluşmadığına ve dolayısıyla ceza gerekmediğine ilişkin karar vermek zorundadır. \nLüzumu halinde bu süre yönetim kurulu kararı ile uzatılabilir. Disiplin soruşturması en geç bir \nyıl içinde sonuçlandırılır. \nDisiplin soruşturması her halde, eylem ve davranışın gerçekleştiği tarihten itibaren bir \nyıl içinde açılmak zorundadır. Ceza davasına konu teşkil eden eylemlerden dolayı ayrıca \ndisiplin soruşturması açılması durumunda soruşturma ceza mahkemesi kararının kesinleşme \ntarihinden itibaren bir yıl içinde de yapılabilir. \n \nSavunma hakkı",
+          "normalized_hash": "fcca02841bf7347a"
+        },
+        {
+          "provision_id": "law:5174:article:90",
+          "label": "Madde 90",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 90- Disiplin soruşturmalarında ve verilecek para cezalarında, isnat olunan \nhususun ilgiliye yazılı olarak bildirilmesi, savunmasının istenmesi ve bu savunma için en az \non günlük bir süre tanınması zorunludur. \n \nCeza soruşturmalarının etkisi",
+          "normalized_hash": "cb8dd9740c3763aa"
+        },
+        {
+          "provision_id": "law:5174:article:91",
+          "label": "Madde 91",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 91- Disiplin işlem ve kararına konu teşkil edecek bir eylemde bulunmuş bir üye \nhakkında, aynı eylemden dolayı ceza mahkemesinde dava açılmış olması, disiplin soruşturması \naçılmasını ve disiplin cezası verilmesini engellemez. \n\nEylemin işlenmemiş veya sanığı tarafından yapılmamış olması nedeniyle beraat hali \nmüstesna, beraatla sonuçlanmış bir ceza davasının konusuna giren eylemlerden dolayı disiplin \nsoruşturması açılması, o eylemin ceza kanunları hükümlerinden ayrı olarak başlı başına \ndisiplin soruşturmasını gerektirir mahiyette olmasına bağlıdır. \n \nKararların tebliği",
+          "normalized_hash": "7330598c383be4d0"
+        },
+        {
+          "provision_id": "law:5174:article:92",
+          "label": "Madde 92",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 92- Disiplin cezaları gerekçeli olarak on gün içinde ilgililere tebliğ edilir. \nİlgililer, uyarma cezası hariç, disiplin cezalarına ve ceza verilmeme kararlarına karşı tebellüğ \ntarihinden itibaren onbeş gün içinde Yüksek Disiplin Kuruluna itiraz edebilirler. \nDisiplin cezalarına ilişkin kararlara karşı doğrudan veya itiraz üzerine verilen kararlar \niçin idarî yargı yoluna başvurulabilir. \n \nPara cezaları",
+          "normalized_hash": "b9f8205fd54df303"
+        },
+        {
+          "provision_id": "law:5174:article:93",
+          "label": "Madde 93",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 93- Oda ve borsa üyelerinden; \na) Mevzuata uygun olarak kayıt ve tescil muamelelerini yaptırmayanlara veya tescil ve \nilânı gereken değişiklikleri bildirmeyenlere yıllık aidatlarının iki katı, \nb) Yetkili organlarca ve Sigorta Acenteleri İcra Komitesi ile Sigorta Eksperleri İcra \nKomitesince alınan kararlara riayet etmeyenlere yıllık aidatlarının beş katı,20 \nc) İmalatta, mal ve hizmet arzında sağlık kurallarına uymayanlara, ölçü ve tartı \naletlerini hileli bir şekilde kullananlara ve hileli, karışık veya standartlara aykırı ve kalitesiz \nmal imal edip, satanlara yıllık aidatlarının on katı, \nTutarında idarî para cezası verilir. \nBu eylem ve davranışlara ilişkin idarî para cezaları, disiplin kurulunun teklifi ve \nmeclisin kararıyla verilir. Bu maddede belirtilen idarî para cezaları aynı fiilin bir yıl içinde her \ntekrarı için iki kat olarak uygulanır. \nBu Kanuna göre verilen idarî para cezaları, oda ve borsalar tarafından gelir kaydedilir. \nBu cezalara karşı tebliğ tarihinden itibaren otuz gün içinde yetkili idare mahkemesine itiraz \nedilebilir. İtiraz, verilen idarî para cezasının yerine getirilmesini durdurmaz. Bu Kanunda \nöngörülen idarî para cezalarına ilişkin zamanaşımı süresi yetkili kuruluşça ihlâlin öğrenildiği \ntarihten itibaren altmış gün ve her halde ihlâlin vuku bulduğu tarihten itibaren iki yıldır. \nPara cezası verilmesi ayrıca disiplin cezası verilmesini engellemez. \n \nBEŞİNCİ BÖLÜM \nFaaliyetlerin Sona Erdirilmesi \nOrganların görevlerine son verilmesi ve faaliyetten men edilmesi",
+          "normalized_hash": "eabafda8570b5f86"
+        },
+        {
+          "provision_id": "law:5174:article:94",
+          "label": "Madde 94",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 94- Kuruluş amaçları veya Kanunda belirtilen asli görevlerini Bakanlığın yazılı \nuyarısına rağmen yerine getirmeyen oda, borsa veya Birlik organlarının görevlerine son \n \n20 3/6/2007 tarihli ve 5684 sayılı Kanunun 38 inci maddesiyle bu bentte yer alan \"Yetkili organlarca\" \nibaresinden sonra gelmek üzere \"ve Sigorta Acenteleri İcra Komitesi ile Sigorta Eksperleri İcra \nKomitesince\" ibaresi eklenmiştir. \n\nverilmesine ve yerlerine yenilerinin seçtirilmesine, Bakanlığın veya bunların bulundukları ildeki \nCumhuriyet savcısının istemi üzerine, o yerdeki asliye hukuk mahkemesince karar verilir. \nYargılama, basit yargılama usulüne göre yapılır ve en geç iki ay içerisinde sonuçlandırılır. \nGörevlerine son verilen organların yerine, bu Kanundaki usul ve esaslara göre, en geç \nbir ay içerisinde yenileri seçilir. Yeni seçilenler, eskilerin görev süresini tamamlar. \nBu organların, görevlerine son verilmesine neden olan ve mahkeme kararında belirtilen \ntasarrufları hükümsüzdür. \nYeni organ seçimleri yapılıncaya kadar rutin iş ve işlemlerin nasıl yürütüleceği, oda ve \nborsalar için Birlik, Birlik için Bakanlıkça belirlenir. \nMillî güvenliğin, kamu düzeninin, suç işlenmesini veya suçun devamını önlemenin \nyahut yakalamanın gerektirdiği hallerde, gecikmede sakınca varsa, oda ve borsalarda vali, \nBirlikte Cumhurbaşkanı, organların faaliyetten men edilmesine karar verebilir ve bu durumu \nBakanlığa bildirir.21 \nFaaliyetten men kararı, yirmidört saat içerisinde yetkili hâkimin onayına sunulur; \nhâkim, kararını kırksekiz saat içinde açıklar. Aksi takdirde, bu idarî karar kendiliğinden \nortadan kalkar. \nFaaliyetten men kararı, organın görevlerine son verilmesi isteminin nihaî olarak karara \nbağlanmasına kadar geçerlidir. \nYukarıda belirtilen veya kanunlarda öngörülen haller dışında, oda, borsa veya Birlik \norganlarının görevlerine son verilemez, bu organlarda yer alanlar görevden alınamaz. \n \nOda ve borsaların lağvı ve tasfiyesi",
+          "normalized_hash": "aee4fd27f814db71"
+        },
+        {
+          "provision_id": "law:5174:article:95",
+          "label": "Madde 95",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 95- Kanunda belirtilen faaliyetlerini ve kuruluş amaçlarını gerçekleştiremeyeceklerine \nmeclislerinin üçte iki çoğunluğu ile karar veren oda ve borsalar, talepleri üzerine Birliğin \nolumlu görüşü ile Bakanlık tarafından lağvedilir. \nBorsalar, faaliyetlerine ihtiyaç kalmaması durumunda, Birliğin teklifi üzerine Bakanlık \ntarafından lağvedilebilir. \nOdalar ve borsaların sahip olması gereken nitelik, alt yapı, bütçe ve üye sayısına \nilişkin kriterler ile bu kriterlere uygunluğunu yitiren oda ve borsaların lağvı ile tasfiyesine \nilişkin esas ve usuller, Birliğin görüşü alınarak Bakanlık tarafından çıkarılacak yönetmelikle \ndüzenlenir. \nŞubeye dönüşen oda ve borsaların varlıkları bağlandığı oda veya borsaya, kapanan oda \nve borsaların varlıkları ise Birliğe intikal eder. \n \nALTINCI BÖLÜM \nÇeşitli Hükümler \nToplantı ve karar yeter sayısı",
+          "normalized_hash": "e7bdce4a55adc6f4"
+        },
+        {
+          "provision_id": "law:5174:article:96",
+          "label": "Madde 96",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 96- Oda, borsa ve Birlik organları üye tamsayılarının çoğunluğu ile toplanır. \n \n21 2/7/2018 tarihli ve 700 sayılı KHK’nin 152 nci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” \nibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir. \n\nKararlar, toplantıya katılanların oy çokluğu ile verilir. Disiplin kurulları ve yüksek disiplin \nkurulu için toplantı ve karar yeter sayısı üye tamsayısının çoğunluğudur. \nOda, borsa ve Birlik organları toplantılarında çekimser oy kullanılamaz. \nOda ve borsa yönetim kurulları haftada bir, meclis ve meslek komiteleri ayda bir, \ndisiplin kurulları, kurul başkanı veya yönetim kurulu başkanının çağrısı üzerine toplanır. Oda \nve borsa yönetim kurulu, meclisi ve meslek komiteleri, gerektiğinde başkanları tarafından \nolağanüstü toplantıya çağrılabilir. \nOda ve borsaların bütün meslek komiteleri altı ayda bir müşterek toplantı yapar. Bu \ntoplantıya yönetim kurulu da katılır. \nÜyeler, organ seçimleri hariç olmak üzere, kendilerini, eşlerini ve üçüncü dereceye \nkadar kan ve ikinci derece dahil ikinci dereceye kadar sıhrî hısımları ile evlatlıklarını \nilgilendiren işlere ilişkin toplantılara katılamaz ve oy kullanamaz. Bu durumda toplantı ve \nkarar yeter sayılarının sağlanamaması halinde, yedek üyeler çağrılır. \nOda, borsa ve Birlik organlarında görevli üyeler, özürlü veya özürsüz olarak altı ay \niçinde yapılan toplantıların yarısından bir fazlasına katılmamaları halinde üyelikten çekilmiş \nsayılırlar. Bu hüküm, kendi organlarınca başka bir yerde görevlendirilen üyeler hakkında \nuygulanmaz. \nToplantı yeter sayısına ulaşılamaması nedeniyle olağan toplantıların üst üste üç kez \ngerçekleşememesi halinde, bu üç toplantıya gelmeyenlerin üyeliği kendiliğinden sona erer ve \nyerlerine yedek üye çağrılır. \nOda veya borsa üyeliği herhangi bir nedenle sona erenlerin, oda, borsa ve Birlik \norganlarındaki görevleri kendiliğinden sona erer ve yerlerine yedek üye çağrılır. \nOda, borsa veya Birlik organlarında yer alanların ölümü, istifası veya mahkeme kararı \nile görevlerine son verilmesi gibi hallerde de yerlerine yedek üye çağrılır. \nYedek üyelerin çağrılmasında, aldıkları oy sayısı göz önünde tutulur. Ayrıca Birlik \niçin, yedek üyelerin göreve çağrılmasında bu Kanundaki temsil esasları dikkate alınır. \nOdalar ve borsalarda yönetim kurulu başkanlığı ve Birlik Başkanlığı görevinin \nherhangi bir nedenle sona ermesi durumunda, oda, borsa veya Birlik yönetim kurulu \ntarafından bir ay içinde, yönetim kurulu üyeleri arasından biri kalan süreyi tamamlamak üzere \nyönetim kurulu başkanı ve Birlik Başkanı seçilir. Seçimlere kadar en yaşlı başkan yardımcısı \ngeçici olarak görev yapar. \n \nVekâlet",
+          "normalized_hash": "2c2fd003e986dd69"
+        },
+        {
+          "provision_id": "law:5174:article:97",
+          "label": "Madde 97",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 97- Odalar ve borsaların meslek komitesi, meclis ve yönetim kurulu başkanları \nile Birlik Genel Kurulu Başkanı, Birlik Başkanı ve konsey başkanlarının yokluğunda, \nyetkilendirdikleri yardımcıları bu görevlere vekâlet ederler. \nOda, borsa ve Birlik genel sekreterlerinin yokluğunda ise yerlerine görevlendirdikleri \nyardımcıları vekâlet eder. \n \nHuzur hakkı",
+          "normalized_hash": "869932a180142dcd"
+        },
+        {
+          "provision_id": "law:5174:article:98",
+          "label": "Madde 98",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 98- Oda ve borsa meslek komiteleri, yönetim kurulu ve meclis üyelerine \niştirak edecekleri toplantılar için huzur hakkı verilebilir. \nOda ve borsaların meslek komiteleri ve yönetim kurulu üyelerine verilecek huzur \nhakkını meclisler, meclis üyelerine verilecek huzur hakkını Birlik Yönetim Kurulunun teklifi \nile Genel Kurul tespit eder. \n \nOdalar ve borsalar arası ilişki",
+          "normalized_hash": "d7a5da45863f1f68"
+        },
+        {
+          "provision_id": "law:5174:article:99",
+          "label": "Madde 99",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 99- Aynı ilde kurulu odaların yönetim kurulları, alacakları meslekî kararlarda \ndiğer odalara danışarak görüş isterler. Görüşü istenen oda, en geç yedi gün içinde görüşünü \nbildirir. \nOda ve borsa yönetim kurulları, aynı ildeki diğer oda ve borsaların verdikleri kararlara \nitiraz edebilirler. İtiraz eden oda veya borsanın başvurusu üzerine en yaşlı meclis başkanının \ndaveti ve başkanlığı altında, yönetim kurulları birlikte toplanarak ihtilafı çözerler. \nAnlaşmazlık halinde Birlik, hakem olur. \nAyrıca, ilde kurulu oda ve borsa yönetim kurulları, meslekî konularda görüş \noluşturmak amacıyla dört ayda bir müştereken toplanır. \nToplanma ve müzakere usulü Birlikçe hazırlanacak yönetmelikle düzenlenir. \n \nDenetim",
+          "normalized_hash": "8e4370ad604da1a5"
+        },
+        {
+          "provision_id": "law:5174:article:100",
+          "label": "Madde 100",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 100- (Değişik: 28/3/2013-6455/49 md.) \nOdalar, borsalar, Birlik ve bunların bağlı ve ilgili kuruluşları Bakanlığın denetimine \ntabidir. \nOdalar, borsalar ve Birliğin ilgili personeli ile organlarında görevli üyeleri, Bakanlık \nmüfettişlerinin talebi üzerine her türlü belge, defter, kayıt ve bilgileri ibraz etmek ve \nörneklerini noksansız ve gerçeğe uygun olarak vermek, para ve para hükmündeki evrakı \ngöstermek, bunların sayılmasına ve incelenmesine yardımcı olmak, yazılı ve sözlü bilgi \ntaleplerini karşılamak, denetimde her türlü yardım ve kolaylığı göstermek ve çalışmalarını \nyapabilecekleri uygun bir yer tahsis etmekle yükümlüdür. \nİkinci fıkrada belirtilen yükümlülüklerini yerine getirmeyen veya 76 ncı maddede \nbelirtilen suçlardan dolayı haklarında kovuşturmaya başlanan ya da görevi başında kalması \nyapılan denetim bakımından sakıncalı görülen oda, borsa ve Birlik personeli Bakanlık \nmüfettişinin teklifi üzerine Bakanlıkça tedbiren geçici olarak görevden uzaklaştırılabilir. \n(İptal ikinci cümle: Anayasa Mahkemesi’nin 29/1/2014 tarihli ve E.: 2013/66, K.: \n2014/19 sayılı Kararı ile.) (…) Dava sonucu, mahkemece Bakanlık, ilgili oda veya borsa ve \nBirliğe bildirilir. Görevden uzaklaştırılan personele, uzaklaştırma süresi boyunca yapılacak \nödemelerin üçte ikisi ödenir. \nBu madde kapsamında görevden uzaklaştırılanlar; denetim sırasında veya denetimin \ntamamlanmasından sonra Bakanlık kararıyla veya haklarında kovuşturmaya yer olmadığına \nkarar verildiği ya da mahkûmiyetlerine karar verilmediği takdirde görevlerine dönerler. \nGörevine iade edilenlerin uzaklaştırma süresi boyunca mahrum kaldığı ödentileri, kanuni \nfaizleri ile birlikte istihdam edilen oda, borsa veya Birlik tarafından ödenir. \n\nBakanlık, bu madde kapsamında açılan davaları katılan sıfatıyla takip edebilir. \nOdalar, borsalar, Birlik ve bunların organları ile bağlı ve ilgili kuruluşları, Bakanlıkça \nyapılan denetim sonucunda verilen talimatlara ve bu Kanunun uygulanmasına ilişkin alınan \ntedbirlere riayet etmek zorundadır. \n \nYönetmelikler",
+          "normalized_hash": "036f82f83dd80273"
+        },
+        {
+          "provision_id": "law:5174:article:101",
+          "label": "Madde 101",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 101- Bu Kanunda Birlikçe hazırlanacağı belirtilen yönetmelikler, Bakanlığın \nonayı üzerine Resmî Gazetede yayımlanarak yürürlüğe girer. \n \nUygulanmayacak hükümler",
+          "normalized_hash": "5da2717147c7f147"
+        },
+        {
+          "provision_id": "law:5174:article:102",
+          "label": "Madde 102",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 102- (Değişik: 14/1/2015-6585/20 md.) Odaya kayıt sırasında, ticaret siciline \nkayıtlı olanlardan 5/6/1986 tarihli ve 3308 sayılı Meslekî Eğitim Kanununda öngörülen \nustalık belgesi veya muadili belgeler istenmez. \n \nYürürlükten kaldırılan hükümler",
+          "normalized_hash": "d4f6c2f37a3cd90b"
+        },
+        {
+          "provision_id": "law:5174:article:103",
+          "label": "Madde 103",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 103- 8.3.1950 tarihli ve 5590 sayılı “Ticaret ve Sanayi Odaları”, “Ticaret \nOdaları”, “Sanayi Odaları”, “Deniz Ticaret Odaları”, “Ticaret Borsaları” ve “Türkiye Ticaret, \nSanayi, Deniz Ticaret Odaları ve Ticaret Borsaları Birliği” Kanunu yürürlükten kaldırılmıştır. \nDiğer mevzuatla 8.3.1950 tarihli ve 5590 sayılı Kanuna yapılan atıflar bu Kanuna \nyapılmış sayılır.",
+          "normalized_hash": "ebfd7d01075dc153"
+        },
+        {
+          "provision_id": "law:5174:ek-madde:1",
+          "label": "Ek Madde 1",
+          "madde_turu": "ek",
+          "mulga": false,
+          "text": "Ek Madde 1- (Ek:21/11/2018-7152/1 md.) \n(İptal birinci fıkra: Anayasa Mahkemesi’nin 11/4/2019 tarihli ve E.: 2019/6, K.: \n2019/25 sayılı Kararı ile.) \n(İptal ikinci fıkra: Anayasa Mahkemesi’nin 11/4/2019 tarihli ve E.: 2019/6, K.: \n2019/25 sayılı Kararı ile.) \n(İptal üçüncü fıkra: Anayasa Mahkemesi’nin 11/4/2019 tarihli ve E.: 2019/6, K.: \n2019/25 sayılı Kararı ile.) \n \nGeçici Maddde 1- Ekli (1) sayılı listede yer alan kadrolar ihdas edilerek 190 sayılı \nGenel Kadro ve Usulü Hakkında Kanun Hükmünde Kararnameye ekli (I) sayılı cetvelin, \nSanayi ve Ticaret Bakanlığı bölümüne eklenmiş ve ekli (2) sayılı listede yer alan kadrolar \niptal edilerek anılan Kanun Hükmünde Kararnamenin Sanayi ve Ticaret Bakanlığı \nbölümünden çıkarılmıştır. Bu Kanunun yürürlüğe girdiği tarihte iptal edilen borsa komiseri \nunvanlı kadrolarda istihdam edilenler, bu Kanunla ihdas edilen uzman unvanlı kadrolara \nbulundukları kadro dereceleri itibarıyla iki ay içerisinde atanırlar. \nBunlar yeni bir kadroya atanıncaya kadar, eski kadrolarına ait aylık, ek gösterge ve her \ntürlü zam ve tazminatları ile diğer malî haklarını almaya devam ederler. Borsa komiserlerinin \natandıkları yeni kadroların aylık, ek gösterge, her türlü zam ve tazminatları ile diğer malî \nhakları toplamının net tutarı, eski kadrolarına bağlı olarak en son ayda almakta oldukları \naylık, ek gösterge, her türlü zam ve tazminatları ile diğer mâli hakları toplamı net tutarından \n\naz olması halinde aradaki fark giderilinceye kadar atandıkları kadroda kaldıkları sürece \nherhangi bir kesintiye tâbi tutulmaksızın tazminat olarak ödenir.",
+          "normalized_hash": "2e12a41f850313ce"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:2",
+          "label": "Geçici Madde 2",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 2- Bu Kanunda elektronik ortamda Bakanlık ve Birlik bünyesinde \noluşturulması öngörülen ortak veri tabanları, oda ve borsaların meslek gruplarına göre seçme \nve seçilme niteliklerini haiz üye listeleri, Bakanlık tarafından belirlenecek esaslar uyarınca altı \nay içerisinde oluşturulur.",
+          "normalized_hash": "d1cdf69ddae6e0c4"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:3",
+          "label": "Geçici Madde 3",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 3- Bu Kanunda öngörülen yönetmelikler, bu Kanunun yürürlüğe \ngirdiği tarihten itibaren altı ay içinde yürürlüğe konulur. Bu yönetmelikler yürürlüğe \nkonuluncaya kadar bu Kanunun yürürlüğe girdiği tarihte yürürlükte bulunan tüzük ve \nyönetmeliklerin, bu Kanuna aykırı olmayan hükümlerinin uygulanmasına devam edilir.",
+          "normalized_hash": "e2c0e9bc2e1f05ae"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:4",
+          "label": "Geçici Madde 4",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 4- Bu Kanunun yürürlüğe girdiği tarihten itibaren bir yıl içinde il \nodasına veya borsasına bağlı olarak şubeye dönüşen oda ve borsalarda, üyelerin bu oda veya \nborsaya, oda ve borsaların da Birliğe olan aidat borçları ve gecikme zamları silinir ve üyeler \nbeş yıl herhangi bir aidat ödemezler.",
+          "normalized_hash": "bc7e2a3db9df18ad"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:5",
+          "label": "Geçici Madde 5",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 5- Üyelerin oda ve borsalara, oda ve borsaların da Birliğe olan \ngecikmiş aidat borçlarının tamamının, bu Kanunun yürürlüğe girmesinden itibaren altı ay \niçinde ödenmesi halinde bu borçlara ait gecikme zamları silinir.",
+          "normalized_hash": "93086bcf8055e571"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:6",
+          "label": "Geçici Madde 6",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 6- Bu Kanunun yürürlüğe girdiği tarihten önce kurulmuş olan \najanlıklar ilgili odaya bağlı şube veya temsilciliğe dönüşür.",
+          "normalized_hash": "d03633a84c74c1b6"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:7",
+          "label": "Geçici Madde 7",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 7- Bu Kanunun 24, 25, 50, 51 ve 71 inci maddelerinde belirtilen aidat \nve ücret miktarları 2004 yılı için taban yirmimilyon lira, tavan ise yüzotuzmilyon lira olarak \nuygulanır.",
+          "normalized_hash": "cd89657ca23ae260"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:8",
+          "label": "Geçici Madde 8",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 8- Bu Kanunun yürürlüğe girdiği tarihten önce genel sekreter ve \nyardımcısı olarak atanmış olanlarda, bu Kanunun 74 ve 75 inci maddelerinde belirtilen \nnitelikler ile ilgili şartlar aranmaz.",
+          "normalized_hash": "b8cef7a4438b7eb2"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:9",
+          "label": "Geçici Madde 9",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 9- 2004 yılında yapılması gereken oda ve borsaların organ seçimleri \n2005 yılı Mart ayı içinde yapılır. \nBu Kanunun yürürlüğe girdiği tarihten önce oda ve borsa organlarına seçilmiş olan \nüyelerin görev süreleri 2005 yılı Mart ayında yapılacak oda ve borsa organ seçimlerine kadar, \nBirlik organlarına seçilen üyelerin görev süreleri ise 2005 yılı Mayıs ayında yapılacak \nseçimlere kadar devam eder. Birlik Yönetim Kurulu Başkanı bu Kanunun yürürlüğe girdiği \ntarihten itibaren Birlik Başkanı unvanıyla seçime kadar görevine devam eder. Disiplin \nkurullarının ilk seçimleri de yukarıda belirtilen tarihlerde yapılır. \n\nBu Kanunun 81 inci maddesinin son fıkrası, halen oda ve borsa organlarında görev \nyapanlar açısından, oda ve borsaların ilk organ seçimlerine kadar uygulanmaz.",
+          "normalized_hash": "ae3c92c4c4f01f08"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:10",
+          "label": "Geçici Madde 10",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 10- Bu Kanunun yürürlüğe girdiği tarihten sonra yapılacak ilk seçimlerden \nitibaren (…)22",
+          "normalized_hash": "489a52865a6ff343"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:11",
+          "label": "Geçici Madde 11",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 11- Bu Kanunun yürürlüğe girdiği tarihten önce kurulmuş olan ilçe oda \nve borsaları, mevcut çalışma alanları dahilinde faaliyetlerini sürdürürler.",
+          "normalized_hash": "5e41927d69c8d0b7"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:12",
+          "label": "Geçici Madde 12",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 12- Bu Kanunun yürürlüğe girdiği tarihte oda, borsa, Birlik ve bunların \nkurduğu teşekküllerde istihdam edilmekte olanların, mevcut statülerine göre istihdam \nedilmelerine devam olunur.",
+          "normalized_hash": "283b4a096f175381"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:13",
+          "label": "Geçici Madde 13",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 13- Bu Kanunun yürürlüğe girmesinden itibaren altı yıl süreyle Birliğin \nyıllık gelirinin yüzde beşi, bu sürenin dolmasını takip eden yirmibeş yıl süreyle de yüzde ikisi \nTürkiye Odalar ve Borsalar Eğitim ve Kültür Vakfı ile TOBB Ekonomi ve Teknoloji \nÜniversitesinin ihtiyaçları için kullanılmak üzere bu kuruluşlara tahsis edilir. Tahsis edilecek \nmeblağın paylaşım esasları Birlik Yönetim Kurulunca belirlenir.23",
+          "normalized_hash": "0365cd36976c6c9a"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:14",
+          "label": "Geçici Madde 14",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 14- (Ek: 3/2/2005 – 5290/3 md.) \nBu Kanunun 83 üncü maddesinin altıncı fıkrası, bu Kanunun geçici 9 uncu \nmaddesinde belirtilen seçimlerde uygulanmaz.",
+          "normalized_hash": "e95bff2eda097ef8"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:15",
+          "label": "Geçici Madde 15",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 15 – (Ek: 3/6/2007-5684/38 md.) \nSigorta Eksperleri İcra Komitesi seçimleri, odaların genel organ seçimlerini takiben altmış \ngün içinde yapılır. Sigorta Eksperleri İcra Komitesi oluşturulana kadar Hazine Müsteşarlığı, \nSigortacılık Kanununun yayımını müteakip bir ay içinde geçici Sigorta Eksperleri İcra Komitesini \ntespit eder. \nSigorta Acenteleri Sektör Meclisinin seçimi odaların genel organ seçimlerini takiben \naltmış gün içinde, Sigorta Acenteleri İcra Komitesi seçimleri ise Sigorta Acenteleri Sektör \nMeclisinin oluşmasından itibaren en geç onbeş gün içinde yapılır. Sigorta Acenteleri Sektör \nMeclisi oluşturulana kadar Türkiye Odalar ve Borsalar Birliği Yönetim Kurulu kararı ve \nHazine Müsteşarlığının uygun görüşü ile Sigortacılık Kanununun yürürlüğe girmesini \nmüteakip bir ay içinde geçici Sigorta Acenteleri İcra Komitesi tespit edilir.",
+          "normalized_hash": "d8ae3e02c9cd8879"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:16",
+          "label": "Geçici Madde 16",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 16 – (Ek: 18/2/2009-5838/31 md.) \n \n22 Anayasa Mahkemesi’nin 10/1/2013 tarihli ve E.: 2012/128, K.: 2013/7 sayılı kararı ile bu maddede yer \nalan “…üst üste iki dönem süresince meclis başkanlığı, yönetim kurulu başkanlığı, konsey başkanlığı ve \nBirlik Başkanlığı görevlerinde bulunanlar aradan iki seçim dönemi geçmedikçe aynı görevlere yeniden \nseçilemezler.” ibaresi iptal edilmiştir. \n23 26/1/2023 tarihli ve 7435 sayılı Kanunun 8 inci maddesiyle bu fıkrada yer alan “onbeş” ibaresi “yirmibeş” \nşeklinde değiştirilmiştir. \n\nÜyelerin oda ve borsalara, oda ve borsaların da Birliğe ödenmiş aidat borçlarına ait \ngecikme zamlarının tamamı ile bu maddenin yürürlüğe girdiği tarihten itibaren altı ay içinde \nüyelerin oda ve borsalara, oda ve borsaların Birliğe olan aidat borçlarının tamamının \nödenmesi halinde, bu borçlara ait gecikme zamları silinir.",
+          "normalized_hash": "b76821dcd5db6b86"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:17",
+          "label": "Geçici Madde 17",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 17 – (Ek: 28/3/2013-6455/50 md.) \nBu Kanunun 84 üncü maddesinin birinci fıkrası gereği 2012 yılının Ekim ayında \nbaşlayıp Kasım ayında tamamlanması gereken, ancak Bakanlar Kurulunun 4/6/2012 tarihli ve \n2012/3237 sayılı Kararı ile 2013 yılının Şubat-Mart aylarına ertelenen oda ve borsaların organ \nseçimlerinde oy kullanmak üzere alınan yetki belgeleri, başvuruya dair usule tabi olmaksızın, \nTicaret Sicil Müdürlüklerince “yetkinin devam ettiği” ibaresi ile onaylanmış olması şartıyla, \nBakanlar Kurulunun 28/1/2013 tarihli ve 2013/4244 sayılı Kararıyla yeniden 2013 yılının \nMayıs-Haziran aylarına ertelenen oda ve borsaların organ seçimlerinde kullanılabilir. \nBu Kanunun 83 üncü maddesinin altıncı fıkrasında öngörülen en az altı aylık süre şartı \n2013 yılının Mayıs-Haziran aylarında yapılacak oda ve borsaların organ seçimlerinde aranmaz.",
+          "normalized_hash": "16674a401b8c10bb"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:18",
+          "label": "Geçici Madde 18",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 18 – (Ek: 10/9/2014-6552/77 md.) \nBu maddenin yürürlüğe girdiği tarihten önce ödenmesi gerektiği hâlde ödenmemiş \nolan, bu Kanun hükümlerine göre üyelerin oda ve borsalara olan aidat, navlun hasılatından \nalınacak oda payları ve borsa tescil ücreti ile oda ve borsaların da Türkiye Odalar ve Borsalar \nBirliğine olan aidat borçları asıllarının ödenmemiş kısmının tamamı ile bunlara bağlı faiz, \ngecikme faizi, gecikme zammı gibi ferî alacaklar yerine bu maddenin yürürlüğe girdiği tarihe \nkadar Yİ-ÜFE aylık değişim oranları esas alınarak hesaplanacak tutarın; birinci taksiti bu \nmaddenin yürürlüğe girdiği tarihi takip eden üçüncü ayın sonuna kadar, kalanı üçer aylık \ndönemler hâlinde sekiz eşit taksitte ödemeleri hâlinde, bu alacaklara uygulanan faiz, gecikme \nfaizi, gecikme zammı gibi ferî alacakların ve borç asıllarının bu maddenin yürürlüğe girdiği \ntarihten önce kısmen veya tamamen ödenmiş olması hâlinde ise ödenmiş borç asıllarına isabet \neden faiz, gecikme faizi, gecikme zammı gibi ferî alacakların tahsilinden vazgeçilir. \nÖdenmesi gereken toplam tutarın birinci taksit ödeme süresi içinde ödenmesi hâlinde, \nödenmesi gereken tutardan %10 oranında indirim yapılır. \nBu madde hükmünden yararlanılabilmesi için bu maddenin yürürlüğe girdiği tarihi \nizleyen ikinci ayın sonuna kadar alacaklı birime başvurulması şarttır. Madde kapsamında \nödenmesi gereken tutarların maddede öngörülen süre ve şekilde kısmen veya tamamen \nödenmemesi hâlinde, ödenmemiş alacak asılları ile bunlara ilişkin faiz, gecikme faizi, \ngecikme zammı gibi ferî alacaklar ilgili mevzuat hükümlerine göre tahsil edilir. \nBu madde hükmünden yararlanmak isteyen borçluların maddede belirtilen şartları \nyerine getirmelerinin yanı sıra dava açmamaları, açılmış davalardan vazgeçmeleri ve kanun \nyollarına başvurmamaları şarttır. Bu kapsamda tamamı ödenen alacaklara ilişkin yargılama \ngiderleri ile icra masrafları ve vekâlet ücretleri karşılıklı olarak talep edilmez. \nBu maddede geçen, Yİ-ÜFE aylık değişim oranları tabiri, Türkiye İstatistik Kurumunun \nher ay için belirlediği 31/12/2004 tarihine kadar toptan eşya fiyatları endeksi (TEFE) aylık \n\ndeğişim oranlarını, 1/1/2005 tarihinden itibaren üretici fiyatları endeksi (ÜFE) aylık değişim \noranlarını, 1/1/2014 tarihinden itibaren yurt içi üretici fiyat endeksi (Yİ-ÜFE) aylık değişim \noranlarını ifade eder. Bu madde hükümlerine göre ödenecek alacaklara bu Kanunun \nyayımlandığı ay için uygulanması gereken Yİ-ÜFE aylık değişim oranı olarak, bu Kanunun \nyayımlandığı tarihten bir önceki ay için belirlenen Yİ-ÜFE aylık değişim oranı esas alınır. \nİşi bırakma veya resen terk nedeniyle vergi mükellefiyeti sona erdiği hâlde oda/borsa \nkayıtları devam eden üyelerin vergi mükellefiyetinin sona erdiği tarihe kadar ödenmeyen borçları \niçin bu madde hükümleri uygulanır. Vergi mükellefiyetinin sona erdiği tarihten sonra tahakkuk \netmiş aidat borçlarının asılları ile birlikte ferî borçlarının tamamının tahsilinden vazgeçilir.",
+          "normalized_hash": "2f7fc7c0272f9ca6"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:19",
+          "label": "Geçici Madde 19",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 19 – (Ek: 16/5/2018-7144/13 md.) \nBu maddeyi ihdas eden Kanunla bu Kanunun 65 inci maddesinde yapılan değişiklikler \nmevcut Birlik Yönetim Kurulu için de uygulanır. Yeni ihdas edilen yönetim kurulu \nüyeliklerinin doldurulması için en fazla oy alan yedek yönetim kurulu üyeleri, Birlik Başkanı \ntarafından bir ay içinde göreve çağrılır.",
+          "normalized_hash": "d29a3edf070487d7"
+        },
+        {
+          "provision_id": "law:5174:gecici-madde:20",
+          "label": "Geçici Madde 20",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "Geçici Madde 20 – (Ek:24/12/2020-7261/36 md.) \n11/11/2020 tarihli ve 7256 sayılı Bazı Alacakların Yeniden Yapılandırılması ile Bazı \nKanunlarda Değişiklik Yapılması Hakkında Kanunun 4 üncü maddesinin altıncı fıkrasının (a) \nbendi kapsamındaki alacaklar bakımından bu maddenin yürürlüğe girdiği tarihten 31/12/2023 \ntarihine kadar;24 \na) Derdest olan icra ve iflas takipleri durur, taraf ve takip işlemleri yapılmaz, \nb) İhtiyati haciz kararları icra ve infaz edilmez, \nc) Yeni icra ve iflas takipleri yapılmaz, \nd) Zamanaşımı süreleri ile takip hukukuna ilişkin süreler durur. Bu süreler durma \nsüresinin sona erdiği günden itibaren işlemeye başlar. \nDurma süresinin başladığı tarih itibarıyla, bitimine on beş gün ve daha az kalmış olan \nsüreler, durma süresinin sona erdiği günü takip eden günden başlamak üzere otuz gün uzamış \nsayılır. \n \nYürürlük",
+          "normalized_hash": "c1097ab38ba0b835"
+        },
+        {
+          "provision_id": "law:5174:article:104",
+          "label": "Madde 104",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 104- Bu Kanun yayımı tarihinde yürürlüğe girer. \n \nYürütme",
+          "normalized_hash": "449e51a426c4bee9"
+        },
+        {
+          "provision_id": "law:5174:article:105",
+          "label": "Madde 105",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 105- Bu Kanun hükümlerini Bakanlar Kurulu yürütür. \n \n \n(1) SAYILI LİSTE \n \n24 6/1/2022 tarihli ve 7350 sayılı Kanunun 2 nci maddesiyle bu fıkrada yer alan “31/12/2021” ibaresi \n“31/12/2023” şeklinde değiştirilmiştir. \n\nKurumu : Sanayi ve Ticaret Bakanlığı \nTeşkilâtı : Taşra \n \nİHDAS EDİLEN KADROLARIN \n \n \n \nSınıfı \n \n \nUnvanı \n \n \nDerecesi \nSerbest \nKadro \nAdedi \nTutulan \nKadro \nAdedi \n \n \nToplamı \nGİH Uzman \n1 \n35 \n \n35 \nGİH Uzman \n2 \n6 \n \n6 \nGİH \nUzman \n3 \n6 \n \n6 \nGİH \nUzman \n5 \n1 \n \n1 \nGİH \nVeri Haz. Kont. İşl. \n5 \n24 \n \n24 \nGİH \nVeri Haz. Kont. İşl. \n8 \n20 \n \n20 \n \n \nToplam \n92 \n \n92 \n\n(2) SAYILI LİSTE \nKurumu : Sanayi ve Ticaret Bakanlığı \nTeşkilâtı : Taşra \n \nİPTAL EDİLEN KADROLARIN \n \n \n \nSınıfı \n \n \nUnvanı \n \n \nDerecesi \nSerbest \nKadro \nAdedi \nTutulan \nKadro \nAdedi \n \n \nToplamı \nGİH \nBorsa Komiseri \n1 \n41 \n \n41 \nGİH \nBorsa Komiseri \n2 \n9 \n \n9 \nGİH \nBorsa Komiseri \n3 \n14 \n \n14 \nGİH \nBorsa Komiseri \n4 \n3 \n \n3 \nGİH \nBorsa Komiseri \n5 \n16 \n \n16 \nGİH \nBorsa Komiseri \n6 \n3 \n \n3 \nGİH \nBorsa Komiseri \n7 \n4 \n \n4 \nGİH \nBorsa Komiseri \n8 \n2 \n \n2 \n \n \nToplam \n92 \n \n92 \n \n \n5174 SAYILI KANUNA",
+          "normalized_hash": "03cc18b1766c19ef"
+        }
+      ]
+    }
+  ]
+}
