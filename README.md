@@ -46,11 +46,13 @@ python -m scripts.collect_resmi_gazete --date 2026-09-21
 python -m unittest discover -s tests -v
 ```
 
-Results are written under `var/collectors/resmi_gazete/YYYY-MM-DD/`, which Git ignores. `index.json` contains the source metadata, individual document URL, raw and text hashes, and relative evidence paths. `filter-page-*.json` and `fihrist-*.html` retain the exact discovery responses. A missing title match is recorded as `link_unresolved` and makes the command exit nonzero; it is never assigned a guessed URL. A PDF without extractable text likewise exits nonzero while retaining the raw file.
+Results are written under `var/collectors/resmi_gazete/YYYY-MM-DD/`, which Git ignores. Each attempt gets a unique `runs/<run-id>/` directory containing its request log, manifest, and captured evidence. Only a complete run updates the day's `index.json`; a failed run keeps its partial evidence without replacing a previous successful index. The index contains source metadata, individual document URL, raw and text hashes, and evidence paths relative to the date directory. `filter-page-*.json` and `fihrist-*.html` retain exact discovery responses in the run directory. Exact titles are matched first; a grouped fihrist PDF can be linked to several filter rows only when section and explicit decision number give a unique match. Other missing/ambiguous matches remain `link_unresolved` and make the command exit nonzero; they are never assigned a guessed URL. A PDF without extractable text likewise exits nonzero while retaining the raw file.
 
 Resmî Gazete currently omits an intermediate TLS certificate on some connections. By default the command loads the official GeoTrust intermediate from DigiCert and checks its pinned SHA-256 fingerprint before using it for certificate validation. Use `--ca-bundle PATH` to supply a local PEM bundle instead. TLS verification stays enabled.
 
-The collector currently handles one explicit date. Cross-day incremental tracking, title mismatches in some fihrists, and the agentic handoff are subsequent work. Its output is source evidence, not a legal change determination.
+The collector currently handles one explicit date. Cross-day incremental tracking, other possible fihrist formats, and the agentic handoff are subsequent work. Its output is source evidence, not a legal change determination.
+
+See [collector limits and reproducibility](docs/collector-limitations.md) for the confirmed 2026-09-18 grouped-PDF behavior, the earlier intermittent timeout, and the next implementation steps.
 
 The Bedesten command retrieves one law number from the official catalog, checks that exactly one `KANUN` record matches, then fetches and decodes the current consolidated text:
 

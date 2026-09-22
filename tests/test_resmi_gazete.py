@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import unittest
 from datetime import date
+from pathlib import Path
 
 from collectors.common import CollectionError
 from collectors.resmi_gazete import build_index_artifact, collect_index, extract_document_text, parse_fihrist_links, resolve_document_urls
@@ -26,7 +27,7 @@ class FakeClient:
         self.pages = pages
         self.requests: list[dict] = []
 
-    def post_json(self, url: str, payload: dict, headers: dict) -> bytes:
+    def post_json(self, url: str, payload: dict, headers: dict, *, stage: str = "request") -> bytes:
         self.requests.append(payload)
         return json.dumps(self.pages.pop(0)).encode("utf-8")
 
@@ -65,7 +66,7 @@ class GazetteIndexTests(unittest.TestCase):
     def test_matches_real_item_link_in_fihrist(self):
         records = [{"title": "İş Kanununda Değişiklik", "issue_url": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-09-19"}]
         class Getter:
-            def get(self, url, headers=None):
+            def get(self, url, headers=None, *, stage="request"):
                 body = '<a href="/eskiler/2026/09/20260919-1.htm">→ İş Kanununda Değişiklik</a>'.encode("utf-8")
                 return body, "text/html", "utf-8"
         raw = resolve_document_urls(records, Getter(), date(2026, 9, 19))
@@ -77,10 +78,45 @@ class GazetteIndexTests(unittest.TestCase):
         links = parse_fihrist_links(html, day=date(2026, 9, 19), issue_url="https://www.resmigazete.gov.tr/fihrist?tarih=2026-09-19", charset="utf-8")
         self.assertNotIn("İş Kanununda Değişiklik", links)
 
+    def test_grouped_decision_and_appointment_links(self):
+        fixture = (Path(__file__).parent / "fixtures" / "rg_2026-09-18_grouped.html").read_bytes()
+        issue_url = "https://www.resmigazete.gov.tr/fihrist?tarih=2026-09-18"
+        records = []
+        for number in (11805, 11806, 11807):
+            records.append({"title": f"Özelleştirme İdaresi Başkanlığı ile İlgili Kararlar (Karar Sayısı: {number})",
+                            "law_or_decision_number": str(number), "document_type": "CUMHURBAŞKANI KARARLARI",
+                            "issue_url": issue_url, "document_url": None, "content_status": "discovered"})
+        for number in range(314, 320):
+            records.append({"title": f"Cumhurbaşkanlığı Tarafından Yapılan Atama Hakkında Karar (Karar: 2026/{number})",
+                            "law_or_decision_number": None, "document_type": "ATAMA KARARLARI",
+                            "issue_url": issue_url, "document_url": None, "content_status": "discovered"})
+        class Getter:
+            def get(self, url, headers=None, *, stage="request"):
+                return fixture, "text/html", "utf-8"
+        resolve_document_urls(records, Getter(), date(2026, 9, 18))
+        self.assertEqual(["https://www.resmigazete.gov.tr/eskiler/2026/09/20260918-7.pdf"] * 3,
+                         [item["document_url"] for item in records[:3]])
+        self.assertEqual(["https://www.resmigazete.gov.tr/eskiler/2026/09/20260918-8.pdf"] * 6,
+                         [item["document_url"] for item in records[3:]])
+        self.assertTrue(all(item["link_match_method"] == "section_and_decision_number" for item in records))
+
+    def test_grouped_match_requires_section_and_unique_number(self):
+        issue_url = "https://www.resmigazete.gov.tr/fihrist?tarih=2026-09-18"
+        html = b'<div class="html-subtitle">ATAMA KARARLARI</div><a href="/eskiler/2026/09/20260918-8.pdf">Kararlar (Karar: 2026/314, 315)</a>'
+        records = [{"title": "Other (Karar: 2026/314)", "law_or_decision_number": None,
+                    "document_type": "CUMHURBAŞKANI KARARLARI", "issue_url": issue_url,
+                    "document_url": None, "content_status": "discovered"}]
+        class Getter:
+            def get(self, url, headers=None, *, stage="request"):
+                return html, "text/html", "utf-8"
+        resolve_document_urls(records, Getter(), date(2026, 9, 18))
+        self.assertIsNone(records[0]["document_url"])
+        self.assertEqual("link_unresolved", records[0]["content_status"])
+
     def test_unmatched_title_is_explicit_and_never_assigned_a_guessed_url(self):
         records = [{"title": "Different title", "issue_url": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-09-19", "document_url": None, "content_status": "discovered"}]
         class Getter:
-            def get(self, url, headers=None):
+            def get(self, url, headers=None, *, stage="request"):
                 return b'<a href="/eskiler/2026/09/20260919-1.htm">Another title</a>', "text/html", "utf-8"
         resolve_document_urls(records, Getter(), date(2026, 9, 19))
         self.assertEqual("link_unresolved", records[0]["content_status"])

@@ -28,32 +28,43 @@ HEADERS = {
 
 
 class JsonPoster(Protocol):
-    def post_json(self, url: str, payload: dict[str, Any], headers: dict[str, str]) -> bytes: ...
+    def post_json(self, url: str, payload: dict[str, Any], headers: dict[str, str], *, stage: str = "request") -> bytes: ...
 
 
 class HtmlGetter(Protocol):
-    def get(self, url: str, headers: dict[str, str] | None = None) -> tuple[bytes, str, str | None]: ...
+    def get(self, url: str, headers: dict[str, str] | None = None, *, stage: str = "request") -> tuple[bytes, str, str | None]: ...
 
 
 class _FihristLinks(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.links: list[tuple[str, str]] = []
+        self.links: list[tuple[str, str, str | None]] = []
         self.href: str | None = None
         self.fragments: list[str] = []
+        self.section: str | None = None
+        self.in_section = False
+        self.section_fragments: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "div" and "html-subtitle" in (dict(attrs).get("class") or "").split():
+            self.in_section = True
+            self.section_fragments = []
         if tag == "a":
             self.href = dict(attrs).get("href")
             self.fragments = []
 
     def handle_data(self, data: str) -> None:
+        if self.in_section:
+            self.section_fragments.append(data)
         if self.href is not None:
             self.fragments.append(data)
 
     def handle_endtag(self, tag: str) -> None:
+        if tag == "div" and self.in_section:
+            self.section = " ".join(" ".join(self.section_fragments).split())
+            self.in_section = False
         if tag == "a" and self.href is not None:
-            self.links.append((self.href, " ".join(" ".join(self.fragments).split())))
+            self.links.append((self.href, " ".join(" ".join(self.fragments).split()), self.section))
             self.href = None
             self.fragments = []
 
@@ -92,7 +103,7 @@ def _title_key(value: str) -> str:
     return "".join(char for char in value if char.isalnum())
 
 
-def parse_fihrist_links(raw: bytes, *, day: date, issue_url: str, charset: str | None) -> dict[str, str]:
+def parse_fihrist_items(raw: bytes, *, day: date, issue_url: str, charset: str | None) -> list[dict[str, str | None]]:
     if charset is None:
         match = re.search(br"charset\s*=\s*['\"]?([\w-]+)", raw[:4096], re.I)
         charset = match.group(1).decode("ascii") if match else "utf-8"
@@ -103,20 +114,52 @@ def parse_fihrist_links(raw: bytes, *, day: date, issue_url: str, charset: str |
     parser = _FihristLinks()
     parser.feed(text)
     pattern = re.compile(rf"/eskiler/{day:%Y}/{day:%m}/{day:%Y%m%d}-\d+\.(?:htm|pdf)$", re.I)
-    links: dict[str, str] = {}
-    for href, title in parser.links:
+    items: list[dict[str, str | None]] = []
+    for href, title, section in parser.links:
         item_url = urljoin(issue_url, href)
         path = urlparse(item_url)
         if path.hostname != "www.resmigazete.gov.tr" or not pattern.search(path.path):
             continue
-        key = _title_key(title)
-        if key and key in links and links[key] != item_url:
-            raise CollectionError(f"{issue_url}: ambiguous duplicate item title: {title}")
-        if key:
-            links[key] = item_url
-    if not links:
+        if _title_key(title):
+            items.append({"url": item_url, "title": title, "section": section})
+    if not items:
         raise CollectionError(f"{issue_url}: no item links found")
+    return items
+
+
+def parse_fihrist_links(raw: bytes, *, day: date, issue_url: str, charset: str | None) -> dict[str, str]:
+    """Retain the exact-title lookup for callers that do not need grouped items."""
+    links: dict[str, str] = {}
+    for item in parse_fihrist_items(raw, day=day, issue_url=issue_url, charset=charset):
+        key = _title_key(item["title"] or "")
+        if key in links and links[key] != item["url"]:
+            raise CollectionError(f"{issue_url}: ambiguous duplicate item title: {item['title']}")
+        links[key] = item["url"] or ""
     return links
+
+
+def _decision_numbers(title: str) -> set[str]:
+    """Read only explicit trailing Karar/Karar Sayısı lists, not arbitrary title numbers."""
+    match = re.search(r"\(Karar(?:\s+Sayısı)?\s*:\s*([0-9/]+(?:\s*,\s*[0-9/]+)*)\)\s*$", title, re.I)
+    if not match:
+        return set()
+    values = [part.strip() for part in match.group(1).split(",")]
+    prefix = values[0].split("/", 1)[0] if "/" in values[0] else None
+    return {value if "/" in value or not prefix else f"{prefix}/{value}" for value in values}
+
+
+def _grouped_item(record: dict[str, Any], items: list[dict[str, str | None]]) -> dict[str, str | None] | None:
+    number = record.get("law_or_decision_number")
+    if not number:
+        numbers = _decision_numbers(record["title"])
+        number = next(iter(numbers)) if len(numbers) == 1 else None
+    section = record.get("document_type")
+    if not number or not section:
+        return None
+    matches = [item for item in items if _title_key(item["section"] or "") == _title_key(section)
+               and len(_decision_numbers(item["title"] or "")) > 1
+               and number in _decision_numbers(item["title"] or "")]
+    return matches[0] if len(matches) == 1 else None
 
 
 def _decode_html(raw: bytes, charset: str | None, url: str) -> str:
@@ -158,7 +201,7 @@ def retrieve_document(record: dict[str, Any], client: HtmlGetter) -> tuple[bytes
     url = record.get("document_url")
     if not url:
         raise CollectionError(f"{record['source_record_id']}: document URL unresolved")
-    raw, media_type, charset = client.get(url, {"User-Agent": HEADERS["User-Agent"]})
+    raw, media_type, charset = client.get(url, {"User-Agent": HEADERS["User-Agent"]}, stage="document")
     text = extract_document_text(raw, media_type, charset, url)
     record["raw_sha256"] = sha256_bytes(raw)
     record["normalized_sha256"] = sha256_bytes(text.encode("utf-8")) if text else None
@@ -166,22 +209,33 @@ def retrieve_document(record: dict[str, Any], client: HtmlGetter) -> tuple[bytes
     return raw, text
 
 
-def resolve_document_urls(records: list[dict[str, Any]], client: HtmlGetter, day: date) -> dict[str, bytes]:
+def resolve_document_urls(records: list[dict[str, Any]], client: HtmlGetter, day: date,
+                          on_fihrist: Any = None) -> dict[str, bytes]:
     """Match JSON index rows to links actually published by each issue fihrist."""
     raw_fihrists: dict[str, bytes] = {}
-    lookup: dict[str, dict[str, str]] = {}
+    lookup: dict[str, list[dict[str, str | None]]] = {}
     for issue_url in dict.fromkeys(record["issue_url"] for record in records):
-        raw, media_type, charset = client.get(issue_url, {"User-Agent": HEADERS["User-Agent"]})
+        raw, media_type, charset = client.get(issue_url, {"User-Agent": HEADERS["User-Agent"]}, stage="fihrist")
+        if on_fihrist:
+            on_fihrist(len(raw_fihrists) + 1, raw)
         if media_type != "text/html":
             raise CollectionError(f"{issue_url}: expected fihrist HTML, received {media_type}")
         raw_fihrists[issue_url] = raw
-        lookup[issue_url] = parse_fihrist_links(raw, day=day, issue_url=issue_url, charset=charset)
+        lookup[issue_url] = parse_fihrist_items(raw, day=day, issue_url=issue_url, charset=charset)
     for record in records:
-        item_url = lookup[record["issue_url"]].get(_title_key(record["title"]))
-        if not item_url:
+        items = lookup[record["issue_url"]]
+        exact = [item for item in items if _title_key(item["title"] or "") == _title_key(record["title"])]
+        if len(exact) > 1:
             record["content_status"] = "link_unresolved"
             continue
-        record["document_url"] = item_url
+        item = exact[0] if exact else _grouped_item(record, items)
+        if not item:
+            record["content_status"] = "link_unresolved"
+            continue
+        record["document_url"] = item["url"]
+        record["fihrist_title"] = item["title"]
+        record["fihrist_section"] = item["section"]
+        record["link_match_method"] = "exact_title" if exact else "section_and_decision_number"
         record["content_status"] = "link_resolved"
     return raw_fihrists
 
@@ -245,14 +299,16 @@ def normalize_row(row: dict[str, Any], requested_day: date) -> dict[str, Any]:
     }
 
 
-def collect_index(day: date, client: JsonPoster) -> tuple[list[dict[str, Any]], list[bytes]]:
+def collect_index(day: date, client: JsonPoster, on_page: Any = None) -> tuple[list[dict[str, Any]], list[bytes]]:
     """Return validated metadata and untouched response pages; never silently truncate."""
     rows: list[dict[str, Any]] = []
     raw_pages: list[bytes] = []
     expected_total: int | None = None
     start = 0
     while True:
-        raw = client.post_json(FILTER_URL, filter_payload(day, start), HEADERS)
+        raw = client.post_json(FILTER_URL, filter_payload(day, start), HEADERS, stage="filter")
+        if on_page:
+            on_page(len(raw_pages) + 1, raw)
         body = parse_json_object(raw, FILTER_URL)
         data = body.get("data")
         total = body.get("recordsFiltered")
