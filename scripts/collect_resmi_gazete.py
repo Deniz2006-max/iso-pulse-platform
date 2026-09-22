@@ -11,7 +11,8 @@ from pathlib import Path
 from typing import Callable
 from uuid import uuid4
 
-from collectors.common import CollectionError, HttpClient, atomic_write, canonical_json, fetch_pinned_intermediate
+from collectors.common import CollectionError, HttpClient, atomic_write, canonical_json, fetch_pinned_intermediate, sha256_bytes
+from collectors.versioning import compare_publications
 from collectors.resmi_gazete import (
     INTERMEDIATE_DER_SHA256,
     INTERMEDIATE_URL,
@@ -32,7 +33,20 @@ def run_collection(day: date, output: Path, client_factory: Callable[[], HttpCli
     client = None
     stage = "bootstrap"
     error = None
+    comparison = None
+    previous_index_sha256 = None
     try:
+        stage = "previous_index"
+        latest_path = day_dir / "index.json"
+        if latest_path.exists():
+            previous_raw = latest_path.read_bytes()
+            previous = json.loads(previous_raw)
+            if not isinstance(previous, dict) or previous.get("source") != "resmi_gazete" or previous.get("requested_date") != day.isoformat():
+                raise CollectionError(f"invalid previous Gazette index: {latest_path}")
+            previous_index_sha256 = sha256_bytes(previous_raw)
+        else:
+            previous = None
+        stage = "bootstrap"
         client = client_factory()
         stage = "filter"
         records, raw_pages = collect_index(
@@ -55,12 +69,19 @@ def run_collection(day: date, output: Path, client_factory: Callable[[], HttpCli
             if text:
                 atomic_write(base.with_suffix(".txt"), text.encode("utf-8") + b"\n")
                 record["text_path"] = str((base.with_suffix(".txt")).relative_to(day_dir)).replace("\\", "/")
-        artifact = build_index_artifact(day, records, raw_pages)
-        atomic_write(run_dir / "index.json", canonical_json(artifact) + b"\n")
         unavailable = sum(record["content_status"] != "text_extracted" for record in records)
         if unavailable:
             error = {"type": "IncompleteCollection", "message": f"{unavailable} records lack extracted text"}
         else:
+            stage = "compare"
+            comparison = compare_publications(previous, records)
+            comparison["previous_index_sha256"] = previous_index_sha256
+            comparison["requested_date"] = day.isoformat()
+            artifact = build_index_artifact(day, records, raw_pages)
+            artifact["comparison_path"] = f"runs/{run_id}/comparison.json"
+            artifact["previous_index_sha256"] = previous_index_sha256
+            atomic_write(run_dir / "comparison.json", canonical_json(comparison) + b"\n")
+            atomic_write(run_dir / "index.json", canonical_json(artifact) + b"\n")
             stage = "publish"
             atomic_write(day_dir / "index.json", canonical_json(artifact) + b"\n")
     except (CollectionError, OSError, ValueError) as exc:
@@ -72,6 +93,7 @@ def run_collection(day: date, output: Path, client_factory: Callable[[], HttpCli
         "status": "complete" if error is None else "failed", "last_stage": stage,
         "record_count": len(records), "error": error,
         "request_log_path": f"runs/{run_id}/request-log.json",
+        "comparison_path": f"runs/{run_id}/comparison.json" if comparison else None,
     }
     atomic_write(run_dir / "request-log.json", canonical_json(getattr(client, "request_log", [])) + b"\n")
     atomic_write(run_dir / "manifest.json", canonical_json(manifest) + b"\n")
@@ -79,6 +101,8 @@ def run_collection(day: date, output: Path, client_factory: Callable[[], HttpCli
         "unresolved_links": sum(record.get("content_status") == "link_unresolved" for record in records),
         "unavailable_texts": sum(record.get("content_status") != "text_extracted" for record in records),
         "status": manifest["status"], "stage": stage, "error": error,
+        "change_counts": comparison["counts"] if comparison else None,
+        "missing_prior_publications": len(comparison["missing_prior_publication_ids"]) if comparison else None,
         "run": str(run_dir), "latest_index": str(day_dir / "index.json") if error is None else None}
 
 

@@ -205,6 +205,7 @@ def retrieve_document(record: dict[str, Any], client: HtmlGetter) -> tuple[bytes
     text = extract_document_text(raw, media_type, charset, url)
     record["raw_sha256"] = sha256_bytes(raw)
     record["normalized_sha256"] = sha256_bytes(text.encode("utf-8")) if text else None
+    record["normalizer_version"] = "rg-text-v1"
     record["content_status"] = "text_extracted" if text else "text_unavailable"
     return raw, text
 

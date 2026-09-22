@@ -52,6 +52,8 @@ Resmî Gazete currently omits an intermediate TLS certificate on some connection
 
 The collector currently handles one explicit date. Cross-day incremental tracking, other possible fihrist formats, and the agentic handoff are subsequent work. Its output is source evidence, not a legal change determination.
 
+On a complete rerun of the same date, the collector compares each publication with the previous successful `index.json`. An official decision number identifies numbered rows; otherwise the verified document URL identifies the item. The run-specific `comparison.json` distinguishes `new`, `unchanged`, `text_changed` (raw and extracted text differ), `raw_changed_only`, and `metadata_changed_only`. If the raw bytes are identical but extracted text differs, it records `extraction_changed`; a changed normalizer version with changed text records `normalizer_changed` for review. Changes include old/new hashes and evidence paths. The daily index receives each row's `publication_id` and `change_status`. Items missing from a later source index are listed for review, **not** silently treated as repealed or deleted. This comparison does not assert that a publication amended another law.
+
 See [collector limits and reproducibility](docs/collector-limitations.md) for the confirmed 2026-09-18 grouped-PDF behavior, the earlier intermittent timeout, and the next implementation steps.
 
 The Bedesten command retrieves one law number from the official catalog, checks that exactly one `KANUN` record matches, then fetches and decodes the current consolidated text:
@@ -61,3 +63,5 @@ python -m scripts.collect_bedesten --law-number 4857
 ```
 
 The output is under `var/collectors/bedesten/4857/`. `latest.json` points to a content-addressed directory containing the exact catalog/content API responses, decoded HTML/PDF, normalized text, and full SHA-256 values. A second fetch of unchanged 4857 reports `changed: false`. The law number is a search parameter; the official `mevzuatId` remains the source identity. Article parsing, publication linkage, and agentic events are upcoming work.
+
+Each Bedesten check now also writes `checks/<timestamp-id>.json` with old/new raw and normalized hashes, source IDs, version paths, and a change status. A changed official source ID is surfaced separately from a text change; it is not silently merged into the former snapshot.
