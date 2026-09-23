@@ -45,12 +45,13 @@ class ArticleTests(unittest.TestCase):
         self.assertIn("Corrected text", changed["new_text"])
         self.assertEqual("baseline_created", compare_articles(None, old)["status"])
 
-    def test_ambiguous_duplicate_or_missing_appendix_requires_review(self):
-        duplicated = law_text().replace("Madde 5 - Fifth text.", "Madde 4 - Duplicate.\nMadde 5 - Fifth text.")
+    def test_duplicate_temporary_article_gets_stable_suffix_and_missing_appendix_requires_review(self):
+        duplicated = law_text().replace("Geçici\nMadde 1 - Temporary text.",
+                                        "Geçici\nMadde 1 - Temporary text.\nGeçici Madde 1 - Another temporary text.")
         old = extract_articles("1234", duplicated)
-        self.assertEqual("review_required", old["status"])
-        self.assertTrue(any(warning.startswith("duplicate_article_id") for warning in old["warnings"]))
-        self.assertEqual("review_required", compare_articles(old, extract_articles("1234", law_text()))["status"])
+        self.assertEqual("trusted", old["status"])
+        self.assertEqual("law:1234:gecici-madde:1#2", old["articles"][-1]["article_id"])
+        self.assertTrue(any(warning.startswith("repeated_article_number") for warning in old["warnings"]))
         self.assertEqual("review_required", extract_articles("1234", law_text().split("1234 SAYILI")[0])["status"])
 
     def test_layout_whitespace_does_not_change_article_hash(self):
@@ -66,6 +67,33 @@ class ArticleTests(unittest.TestCase):
         self.assertEqual("non_article_text_changed", diff["status"])
         self.assertEqual(0, len(diff["changes"]))
         self.assertIn("appendix_changed_outside_article_blocks", diff["warnings"])
+
+    def test_mukerrer_articles_are_distinct_from_normal_articles(self):
+        text = law_text().replace("Madde 3 - Third text.",
+                                  "Madde 3 - Third text.\nMükerrer\nMadde 3 - Repeated text.\nMükerrer Madde 3/A- Lettered text.")
+        snapshot = extract_articles("1234", text)
+        self.assertEqual("trusted", snapshot["status"])
+        ids = {article["article_id"] for article in snapshot["articles"]}
+        self.assertIn("law:1234:article:3", ids)
+        self.assertIn("law:1234:mukerrer-madde:3", ids)
+        self.assertIn("law:1234:mukerrer-madde:3/A", ids)
+
+    def test_lettered_normal_article_and_wrapped_appendix_heading(self):
+        text = law_text().replace("Madde 3 - Third text.",
+                                  "Madde 3 - Third text.\nMadde 3/A- Lettered article.")
+        text = text.replace("KANUNA EK VE DEĞİŞİKLİK", "KANUNA EK\nVE DEĞİŞİKLİK")
+        snapshot = extract_articles("1234", text)
+        self.assertEqual("trusted", snapshot["status"])
+        self.assertEqual(7, snapshot["article_count"])
+        self.assertIn("law:1234:article:3/A", {item["article_id"] for item in snapshot["articles"]})
+
+    def test_unincorporated_provisions_are_labelled_separately(self):
+        text = law_text().replace("Geçici\nMadde 1 - Temporary text.",
+                                  "İŞLENEMEYEN\nGEÇİCİ MADDELER\nGeçici\nMadde 1 - Temporary text.")
+        snapshot = extract_articles("1234", text)
+        self.assertEqual("trusted", snapshot["status"])
+        self.assertEqual("main_law", snapshot["articles"][4]["scope"])
+        self.assertEqual("supplemental_unincorporated", snapshot["articles"][-1]["scope"])
 
 
 if __name__ == "__main__":
