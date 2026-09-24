@@ -20,6 +20,7 @@ class Settings:
     openai_api_key: str
     model_name: str
     temperature: float
+    database_url: str
 
 
 def load_settings() -> Settings:
@@ -28,6 +29,10 @@ def load_settings() -> Settings:
         openai_api_key=os.getenv("OPENAI_API_KEY", ""),
         model_name=os.getenv("ISO_PULSE_MODEL", "gpt-4o-mini"),
         temperature=float(os.getenv("ISO_PULSE_TEMPERATURE", "0")),
+        database_url=os.getenv(
+            "DATABASE_URL",
+            "postgresql+psycopg://iso_pulse:iso_pulse@localhost:5432/iso_pulse",
+        ),
     )
 
 

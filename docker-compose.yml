@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: iso-pulse-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-iso_pulse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-iso_pulse}
+      POSTGRES_DB: ${POSTGRES_DB:-iso_pulse}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-iso_pulse} -d ${POSTGRES_DB:-iso_pulse}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

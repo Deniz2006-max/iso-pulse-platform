@@ -90,6 +90,15 @@ class DeliveryPayload(BaseModel):
         return URGENCY_LABELS[self.urgency]
 
 
+class OrientationReport(BaseModel):
+    """Structured onboarding report written after the last quiz submit."""
+
+    summary: str = Field(description="Short Turkish overview of the orientation result.")
+    strengths: list[str] = Field(default_factory=list)
+    gaps: list[str] = Field(default_factory=list)
+    recommendation: str = Field(description="What the employee should do next.")
+
+
 class AuditEvent(BaseModel):
     """One LangGraph step for later backend audit-log persistence."""
 

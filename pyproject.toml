@@ -10,10 +10,22 @@ dependencies = [
     "langchain-openai>=0.2.0",
     "pydantic>=2.0",
     "python-dotenv>=1.0.0",
+    "sqlalchemy>=2.0",
+    "alembic>=1.13",
+    "psycopg[binary]>=3.1",
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "httpx>=0.27",
+    "pymupdf>=1.24",
+    "pymupdf-fonts>=1.0.5",
 ]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
 
 [tool.setuptools.packages.find]
-include = ["config*", "schemas*", "nodes*", "mocks*"]
+include = ["config*", "schemas*", "nodes*", "mocks*", "db*", "orientation*", "api*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

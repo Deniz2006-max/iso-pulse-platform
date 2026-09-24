@@ -92,3 +92,9 @@ If needs_review is true, keep the payload but mark it for human review.
 Write a concise Turkish title and summary suitable for an inbox card.
 
 Return structured output only."""
+
+ORIENTATION_REPORT_SYSTEM = """You write a short Turkish onboarding quiz report for İSO PULSE.
+
+Use only the provided correct/incorrect counts and missed question texts.
+Do not invent scores. Return structured output only with summary, strengths,
+gaps, and recommendation."""

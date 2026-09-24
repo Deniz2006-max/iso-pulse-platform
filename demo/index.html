@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İSO PULSE — Oryantasyon</title>
+  <style>
+    :root {
+      --navy: #0f2744;
+      --navy-2: #173a5e;
+      --gold: #c4a35a;
+      --paper: #f4efe6;
+      --card: #fffdf8;
+      --ink: #1c2430;
+      --muted: #5c6b7a;
+      --ok: #1f7a4d;
+      --danger: #a33b32;
+      --line: #e2d9c9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+      background: radial-gradient(1200px 500px at 10% -10%, #2a527a 0%, var(--navy) 45%)
+        fixed, var(--paper);
+      color: var(--ink);
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 28px;
+      color: #f7f1e6;
+    }
+    header h1 { margin: 0; font-size: 1.2rem; letter-spacing: 0.04em; }
+    header p { margin: 4px 0 0; color: #d7c9a8; font-size: 0.9rem; }
+    .id-row { display: flex; gap: 8px; align-items: center; }
+    input[type="number"] {
+      width: 72px;
+      padding: 8px 10px;
+      border: 1px solid #c9b58a;
+      border-radius: 8px;
+      background: #fffaf1;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 20px;
+      padding: 0 28px 40px;
+      max-width: 1100px;
+    }
+    @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } }
+    .panel, .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(15, 39, 68, 0.12);
+    }
+    .panel { padding: 16px; }
+    .panel h2, .card h2 { margin: 0 0 12px; font-size: 0.95rem; color: var(--navy); }
+    .step {
+      display: block;
+      width: 100%;
+      text-align: left;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+    .step[disabled] { opacity: 0.55; cursor: not-allowed; }
+    .step.active { border-color: var(--gold); box-shadow: 0 0 0 2px rgba(196, 163, 90, 0.25); }
+    .badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #eee6d6;
+      color: var(--navy);
+      margin-left: 6px;
+    }
+    .badge.ok { background: #d9f0e3; color: var(--ok); }
+    .badge.lock { background: #f3d9d6; color: var(--danger); }
+    .card { padding: 24px; min-height: 420px; }
+    .muted { color: var(--muted); }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    button {
+      border: 0;
+      border-radius: 10px;
+      padding: 10px 16px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.primary { background: var(--navy); color: #fff; }
+    button.gold { background: var(--gold); color: var(--navy); }
+    button.ghost { background: #efe7d8; color: var(--navy); }
+    button:disabled { opacity: 0.45; cursor: not-allowed; }
+    .q { margin: 16px 0; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+    label.choice {
+      display: block;
+      margin: 6px 0;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      cursor: pointer;
+    }
+    .banner {
+      padding: 10px 12px;
+      border-radius: 8px;
+      margin: 12px 0;
+      background: #eef5ff;
+    }
+    .banner.error { background: #fdecea; color: var(--danger); }
+    .banner.ok { background: #e8f6ee; color: var(--ok); }
+    #done-panel { display: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>İSO PULSE Oryantasyon</h1>
+      <p>Mock eğitim adımları ve hazır sorular — video oynatıcı yok.</p>
+    </div>
+    <div class="id-row">
+      <label for="employee-id">Çalışan no</label>
+      <input id="employee-id" type="number" min="1" value="1" />
+      <button class="gold" id="reload" type="button">Yükle</button>
+    </div>
+  </header>
+  <div class="layout">
+    <aside class="panel">
+      <h2>Eğitim sırası</h2>
+      <div id="step-list"></div>
+    </aside>
+    <main class="card">
+      <div id="message"></div>
+      <section id="step-card">
+        <p class="muted">Durum yükleniyor…</p>
+      </section>
+      <form id="quiz-form" hidden></form>
+      <div class="actions">
+        <button class="primary" id="complete-step" type="button" hidden>Eğitimi tamamladım</button>
+        <button class="primary" id="submit-quiz" type="submit" form="quiz-form" hidden>Cevapları gönder</button>
+        <button class="ghost" id="next-step" type="button" disabled>Sonraki adım</button>
+      </div>
+      <section id="done-panel">
+        <h2>Oryantasyon tamamlandı</h2>
+        <p id="report-summary" class="muted"></p>
+        <div class="actions">
+          <button class="gold" id="download-pdf" type="button">PDF indir</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+    const API = "/api/v1/hr/orientation";
+    const els = {
+      employee: document.getElementById("employee-id"),
+      list: document.getElementById("step-list"),
+      card: document.getElementById("step-card"),
+      quiz: document.getElementById("quiz-form"),
+      complete: document.getElementById("complete-step"),
+      submit: document.getElementById("submit-quiz"),
+      next: document.getElementById("next-step"),
+      done: document.getElementById("done-panel"),
+      summary: document.getElementById("report-summary"),
+      pdf: document.getElementById("download-pdf"),
+      message: document.getElementById("message"),
+    };
+
+    let status = null;
+    let videos = [];
+    let currentId = null;
+    let questions = [];
+
+    function employeeId() {
+      return els.employee.value.trim();
+    }
+
+    function headers() {
+      return { "X-Employee-Id": employeeId(), "Content-Type": "application/json" };
+    }
+
+    function showMessage(text, kind) {
+      if (!text) {
+        els.message.innerHTML = "";
+        return;
+      }
+      els.message.innerHTML = `<div class="banner ${kind || ""}">${text}</div>`;
+    }
+
+    async function api(path, options = {}) {
+      const response = await fetch(`${API}${path}`, {
+        ...options,
+        headers: { ...headers(), ...(options.headers || {}) },
+      });
+      const contentType = response.headers.get("content-type") || "";
+      const payload = contentType.includes("application/json")
+        ? await response.json()
+        : await response.arrayBuffer();
+      if (!response.ok) {
+        const detail = payload && payload.detail;
+        const code = detail && detail.code ? detail.code : response.status;
+        const msg = detail && detail.message ? detail.message : "İstek başarısız.";
+        throw new Error(`${code}: ${msg}`);
+      }
+      return payload;
+    }
+
+    function currentVideo() {
+      return videos.find((item) => item.id === currentId) || null;
+    }
+
+    function canGoNext() {
+      const video = currentVideo();
+      return Boolean(video && video.quiz_done && !status.completed);
+    }
+
+    function renderList() {
+      els.list.innerHTML = "";
+      videos.forEach((video) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "step" + (video.id === currentId ? " active" : "");
+        button.disabled = !video.unlocked;
+        const state = video.quiz_done ? "bitti" : video.completed ? "quiz" : video.unlocked ? "açık" : "kilitli";
+        const badgeClass = video.quiz_done ? "ok" : video.unlocked ? "" : "lock";
+        button.innerHTML = `<strong>${video.sort_order}. ${video.title}</strong>
+          <span class="badge ${badgeClass}">${state}</span>`;
+        button.addEventListener("click", () => {
+          if (!video.unlocked) return;
+          currentId = video.id;
+          render();
+          loadQuestionsIfNeeded();
+        });
+        els.list.appendChild(button);
+      });
+    }
+
+    function renderCard() {
+      const video = currentVideo();
+      if (!video) {
+        els.card.innerHTML = `<p class="muted">Gösterilecek adım yok.</p>`;
+        return;
+      }
+      const minutes = Math.max(1, Math.round(video.duration_seconds / 60));
+      els.card.innerHTML = `
+        <p class="muted">Modül ${video.sort_order} · yaklaşık ${minutes} dk (mock süre)</p>
+        <h2>${video.title}</h2>
+        <p>${video.description}</p>
+        <p class="muted">Bu dilimde video oynatıcı yok. Eğitimi tamamladım diyerek sorulara geçin.</p>
+      `;
+    }
+
+    function renderQuiz() {
+      const video = currentVideo();
+      const showQuiz = Boolean(video && video.completed && !video.quiz_done && questions.length);
+      els.quiz.hidden = !showQuiz;
+      els.submit.hidden = !showQuiz;
+      if (!showQuiz) {
+        els.quiz.innerHTML = "";
+        return;
+      }
+      els.quiz.innerHTML = questions
+        .map(
+          (question, index) => `
+        <div class="q">
+          <p><strong>${index + 1}. ${question.prompt}</strong></p>
+          ${question.choices
+            .map(
+              (choice, choiceIndex) => `
+            <label class="choice">
+              <input type="radio" name="q-${question.id}" value="${choiceIndex}" required />
+              ${choice}
+            </label>`
+            )
+            .join("")}
+        </div>`
+        )
+        .join("");
+    }
+
+    function renderActions() {
+      const video = currentVideo();
+      const finished = Boolean(status && status.completed);
+      els.complete.hidden = !(video && video.unlocked && !video.completed && !finished);
+      els.next.disabled = !canGoNext();
+      els.done.style.display = finished ? "block" : "none";
+      if (finished) {
+        els.complete.hidden = true;
+        els.quiz.hidden = true;
+        els.submit.hidden = true;
+        els.next.disabled = true;
+      }
+    }
+
+    function render() {
+      renderList();
+      renderCard();
+      renderQuiz();
+      renderActions();
+    }
+
+    async function loadQuestionsIfNeeded() {
+      const video = currentVideo();
+      questions = [];
+      if (video && video.completed && !video.quiz_done) {
+        const data = await api(`/videos/${video.id}/questions`);
+        questions = data.questions || [];
+      }
+      render();
+    }
+
+    async function refresh() {
+      showMessage("");
+      status = await api("/status");
+      videos = await api("/videos");
+      if (status.completed) {
+        currentId = videos.length ? videos[videos.length - 1].id : null;
+        try {
+          const report = await api("/report");
+          els.summary.textContent = report.summary || "";
+        } catch (err) {
+          els.summary.textContent = "";
+        }
+      } else if (!currentId || !videos.some((item) => item.id === currentId && item.unlocked)) {
+        currentId = status.current_step_id;
+      }
+      render();
+      await loadQuestionsIfNeeded();
+    }
+
+    els.complete.addEventListener("click", async () => {
+      try {
+        const video = currentVideo();
+        await api(`/videos/${video.id}/complete`, { method: "POST" });
+        await refresh();
+      } catch (err) {
+        showMessage(err.message, "error");
+      }
+    });
+
+    els.quiz.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const video = currentVideo();
+      if (!video) return;
+      const answers = questions.map((question) => {
+        const selected = els.quiz.querySelector(`input[name="q-${question.id}"]:checked`);
+        return {
+          question_id: question.id,
+          selected_index: Number(selected.value),
+        };
+      });
+      try {
+        const result = await api(`/videos/${video.id}/answers`, {
+          method: "POST",
+          body: JSON.stringify({ answers }),
+        });
+        await refresh();
+        showMessage(
+          `Skor: ${result.correct}/${result.total} (${result.score_percent}%). Sonraki adım ${
+            result.next_step_unlocked ? "açıldı." : "için tüm sorular gönderildi."
+          }`,
+          "ok"
+        );
+      } catch (err) {
+        showMessage(err.message, "error");
+      }
+    });
+
+    els.next.addEventListener("click", async () => {
+      const video = currentVideo();
+      if (!video || !video.quiz_done) {
+        showMessage("Sonraki adıma geçmek için bu adımın sorularını API üzerinden gönderin.", "error");
+        return;
+      }
+      const index = videos.findIndex((item) => item.id === video.id);
+      const nxt = videos.slice(index + 1).find((item) => item.unlocked);
+      if (!nxt) {
+        await refresh();
+        return;
+      }
+      currentId = nxt.id;
+      questions = [];
+      showMessage("");
+      render();
+      await loadQuestionsIfNeeded();
+    });
+
+    els.pdf.addEventListener("click", async () => {
+      try {
+        const buffer = await api("/report/pdf");
+        const blob = new Blob([buffer], { type: "application/pdf" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "oryantasyon-raporu.pdf";
+        link.click();
+        URL.revokeObjectURL(url);
+      } catch (err) {
+        showMessage(err.message, "error");
+      }
+    });
+
+    document.getElementById("reload").addEventListener("click", () => {
+      currentId = null;
+      refresh().catch((err) => showMessage(err.message, "error"));
+    });
+
+    refresh().catch((err) => showMessage(err.message, "error"));
+  </script>
+</body>
+</html>

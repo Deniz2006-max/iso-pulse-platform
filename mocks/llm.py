@@ -9,6 +9,7 @@ from schemas.outputs import (
     DeliveryPayload,
     Department,
     DepartmentAnalysis,
+    OrientationReport,
     RelevanceResult,
     RouteDecision,
     Urgency,
@@ -96,7 +97,39 @@ def _mock_complete(schema: type[T], context: dict[str, Any]) -> T:
         return _mock_verification(context)  # type: ignore[return-value]
     if schema is DeliveryPayload:
         return _mock_delivery(context)  # type: ignore[return-value]
+    if schema is OrientationReport:
+        return _mock_orientation_report(context)  # type: ignore[return-value]
     raise TypeError(f"No mock response registered for {schema.__name__}")
+
+
+def _mock_orientation_report(context: dict[str, Any]) -> OrientationReport:
+    correct = int(context.get("correct") or 0)
+    total = int(context.get("total_questions") or 0)
+    incorrect = int(context.get("incorrect") or max(total - correct, 0))
+    missed = [str(item) for item in (context.get("missed_prompts") or []) if item]
+    if missed:
+        gaps = [f"Tekrar edilmeli: {prompt}" for prompt in missed[:5]]
+        recommendation = (
+            "Yanlış yanıtlanan başlıkları İK ile gözden geçirin; "
+            "ardından işe fiilen başlayabilirsiniz."
+        )
+    else:
+        gaps = ["Kritik bir bilgi açığı görünmüyor."]
+        recommendation = (
+            "Oryantasyon başarılı; süreçlere güvenle devam edilebilir."
+        )
+    return OrientationReport(
+        summary=(
+            f"Oryantasyon tamamlandı. {total} sorudan {correct} doğru, "
+            f"{incorrect} yanlış yanıtlandı."
+        ),
+        strengths=[
+            "Eğitim adımları sırayla tamamlandı.",
+            "Quiz sorularının tamamı cevaplandı.",
+        ],
+        gaps=gaps,
+        recommendation=recommendation,
+    )
 
 
 def _blob(context: dict[str, Any]) -> str:
