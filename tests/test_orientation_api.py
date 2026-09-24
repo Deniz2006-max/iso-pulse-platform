@@ -244,7 +244,7 @@ def test_report_pdf_returns_200_and_pdf_magic_bytes(
     assert "attachment" in response.headers.get("content-disposition", "")
 
 
-def test_demo_page_serves_quiz_ui_without_video_player():
+def test_demo_page_serves_quiz_ui_with_conditional_player():
     with TestClient(app) as test_client:
         response = test_client.get("/demo")
     assert response.status_code == 200
@@ -253,10 +253,12 @@ def test_demo_page_serves_quiz_ui_without_video_player():
     assert 'id="next-step"' in html
     assert 'id="download-pdf"' in html
     assert 'id="quiz-form"' in html
+    assert 'id="complete-step"' in html
     assert "/status" in html
     assert "/videos" in html
     assert "/questions" in html
-    assert "<video" not in html.lower()
+    assert "source_url" in html
+    assert "ended" in html
+    assert "<video" in html.lower()
     assert "youtube" not in html.lower()
-    assert "video oynatıcı yok" in html
     assert "els.next.disabled = !canGoNext()" in html

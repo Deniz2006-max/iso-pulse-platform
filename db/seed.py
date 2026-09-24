@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 from datetime import date, datetime, timezone
+from pathlib import Path
 
 from sqlalchemy import func, select, text
 
@@ -15,11 +16,20 @@ from db.models import (
 )
 from db.session import session_scope
 
+MEDIA_DIR = Path(__file__).resolve().parent.parent / "demo" / "media"
+
+
+def media_source_url(file_name: str) -> str | None:
+    if (MEDIA_DIR / file_name).is_file():
+        return f"/media/{file_name}"
+    return None
+
+
 MODULES: list[dict] = [
     {
         "title": "Şirket tanıtımı",
         "description": "İSO Vakfı misyonu, organizasyon yapısı ve kurumsal iletişim kanallarına giriş (mock adım).",
-        "source_url": None,
+        "file_name": "sirket-tanitimi.mp4",
         "duration_seconds": 420,
         "sort_order": 1,
         "is_required": True,
@@ -62,7 +72,7 @@ MODULES: list[dict] = [
     {
         "title": "İş güvenliği",
         "description": "İşyeri güvenlik kuralları, acil durum ve kişisel koruyucu donanım (mock adım).",
-        "source_url": None,
+        "file_name": "is-guvenligi.mp4",
         "duration_seconds": 540,
         "sort_order": 2,
         "is_required": True,
@@ -94,7 +104,7 @@ MODULES: list[dict] = [
     {
         "title": "İK süreçleri",
         "description": "İzin, mesai ve performans süreçlerinin temel kuralları (mock adım).",
-        "source_url": None,
+        "file_name": "ik-surecleri.mp4",
         "duration_seconds": 360,
         "sort_order": 3,
         "is_required": True,
@@ -180,7 +190,7 @@ def seed(*, reset: bool = False) -> None:
             video = OrientationVideo(
                 title=module["title"],
                 description=module["description"],
-                source_url=module["source_url"],
+                source_url=media_source_url(module["file_name"]),
                 duration_seconds=module["duration_seconds"],
                 sort_order=module["sort_order"],
                 is_required=module["is_required"],

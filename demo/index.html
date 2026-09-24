@@ -115,6 +115,12 @@
     }
     .banner.error { background: #fdecea; color: var(--danger); }
     .banner.ok { background: #e8f6ee; color: var(--ok); }
+    video.player {
+      width: 100%;
+      margin-top: 12px;
+      border-radius: 12px;
+      background: var(--navy);
+    }
     #done-panel { display: none; }
   </style>
 </head>
@@ -122,7 +128,7 @@
   <header>
     <div>
       <h1>İSO PULSE Oryantasyon</h1>
-      <p>Mock eğitim adımları ve hazır sorular — video oynatıcı yok.</p>
+      <p>Eğitim adımları ve hazır sorular. Video adresi varsa oynatıcı açılır.</p>
     </div>
     <div class="id-row">
       <label for="employee-id">Çalışan no</label>
@@ -175,6 +181,9 @@
     let videos = [];
     let currentId = null;
     let questions = [];
+    let mountedStepId = null;
+    let playerFailed = false;
+    let completing = false;
 
     function employeeId() {
       return els.employee.value.trim();
@@ -240,19 +249,53 @@
       });
     }
 
+    function escapeAttr(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("<", "&lt;");
+    }
+
     function renderCard() {
       const video = currentVideo();
       if (!video) {
+        mountedStepId = null;
+        playerFailed = false;
         els.card.innerHTML = `<p class="muted">Gösterilecek adım yok.</p>`;
         return;
       }
+      if (mountedStepId === video.id && els.card.querySelector("[data-step-id]")) {
+        return;
+      }
+      mountedStepId = video.id;
+      playerFailed = false;
       const minutes = Math.max(1, Math.round(video.duration_seconds / 60));
+      const player = video.source_url
+        ? `<video class="player" controls playsinline preload="metadata" src="${escapeAttr(video.source_url)}"></video>
+           <p class="player-error muted" hidden></p>`
+        : `<p class="muted">Bu adımda video yok. Eğitimi tamamladım diyerek sorulara geçin.</p>`;
       els.card.innerHTML = `
-        <p class="muted">Modül ${video.sort_order} · yaklaşık ${minutes} dk (mock süre)</p>
-        <h2>${video.title}</h2>
-        <p>${video.description}</p>
-        <p class="muted">Bu dilimde video oynatıcı yok. Eğitimi tamamladım diyerek sorulara geçin.</p>
+        <div data-step-id="${video.id}">
+          <p class="muted">Modül ${video.sort_order} · yaklaşık ${minutes} dk</p>
+          <h2>${video.title}</h2>
+          <p>${video.description}</p>
+          ${player}
+        </div>
       `;
+      const playerEl = els.card.querySelector("video");
+      if (!playerEl) return;
+      playerEl.addEventListener("ended", () => {
+        markComplete();
+      });
+      playerEl.addEventListener("error", () => {
+        playerFailed = true;
+        const note = els.card.querySelector(".player-error");
+        if (note) {
+          note.hidden = false;
+          note.textContent = "Video yüklenemedi. Eğitimi tamamladım diyerek sorulara geçebilirsiniz.";
+        }
+        renderActions();
+      });
     }
 
     function renderQuiz() {
@@ -286,7 +329,10 @@
     function renderActions() {
       const video = currentVideo();
       const finished = Boolean(status && status.completed);
-      els.complete.hidden = !(video && video.unlocked && !video.completed && !finished);
+      const waitsForPlayback = Boolean(video && video.source_url && !playerFailed);
+      els.complete.hidden = !(
+        video && video.unlocked && !video.completed && !finished && !waitsForPlayback
+      );
       els.next.disabled = !canGoNext();
       els.done.style.display = finished ? "block" : "none";
       if (finished) {
@@ -333,14 +379,22 @@
       await loadQuestionsIfNeeded();
     }
 
-    els.complete.addEventListener("click", async () => {
+    async function markComplete() {
+      const video = currentVideo();
+      if (!video || video.completed || completing) return;
+      completing = true;
       try {
-        const video = currentVideo();
         await api(`/videos/${video.id}/complete`, { method: "POST" });
         await refresh();
       } catch (err) {
         showMessage(err.message, "error");
+      } finally {
+        completing = false;
       }
+    }
+
+    els.complete.addEventListener("click", () => {
+      markComplete();
     });
 
     els.quiz.addEventListener("submit", async (event) => {
@@ -407,6 +461,7 @@
 
     document.getElementById("reload").addEventListener("click", () => {
       currentId = null;
+      mountedStepId = null;
       refresh().catch((err) => showMessage(err.message, "error"));
     });
 
