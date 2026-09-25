@@ -11,6 +11,7 @@ def run_specialist(state: PulseState, department: Department) -> dict:
     """Retrieve active law chunks, compare old vs new, write one department analysis."""
     query = f"{state['title']}\n{state['new_text']}"
     chunks = retriever.retrieve(query, department)
+    chunk_ids = [chunk["chunk_id"] for chunk in chunks]
     analysis = complete(
         DepartmentAnalysis,
         SPECIALIST_SYSTEMS[department],
@@ -21,18 +22,24 @@ def run_specialist(state: PulseState, department: Department) -> dict:
             "old_text": state.get("old_text"),
             "new_text": state["new_text"],
             "department": department,
-            "rag_chunk_ids": [chunk["chunk_id"] for chunk in chunks],
+            "rag_chunk_ids": chunk_ids,
         },
     )
+    analysis = analysis.model_copy(
+        update={
+            "department": department,
+            "rag_chunk_ids": analysis.rag_chunk_ids or chunk_ids,
+        }
+    )
     node_names = {"ik": "IK_Node", "hukuk": "Hukuk_Node", "mali": "Mali_Node"}
-    chunk_ids = ",".join(chunk["chunk_id"] for chunk in chunks) or "none"
+    chunk_ids_label = ",".join(chunk_ids) or "none"
     return {
         "analyses": {department: analysis},
         "audit_log": [
             AuditEvent(
                 node=node_names[department],
                 action="analyze",
-                detail=f"rag_chunks={chunk_ids}",
+                detail=f"rag_chunks={chunk_ids_label}",
             )
         ],
     }

@@ -30,7 +30,10 @@ class RouteDecision(BaseModel):
 
     departments: list[Department] = Field(
         min_length=1,
-        description="One or more of ik, hukuk, mali.",
+        description=(
+            "Only departments whose core domain is directly amended. "
+            "Do not include mali or hukuk for a pure overtime/payroll (ik) change."
+        ),
     )
     reason: str = Field(description="Short Turkish explanation of the routing choice.")
 

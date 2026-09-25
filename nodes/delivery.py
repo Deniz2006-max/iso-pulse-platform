@@ -8,6 +8,11 @@ from schemas.state import PulseState
 
 def delivery_node(state: PulseState) -> dict:
     """Delivery_Agent_Node: urgency + UI JSON. Still emits when needs_review is true."""
+    analyses = state.get("analyses") or {}
+    analysis_json = {
+        department: item.model_dump(mode="json")
+        for department, item in analyses.items()
+    }
     payload = complete(
         DeliveryPayload,
         DELIVERY_SYSTEM,
@@ -20,6 +25,7 @@ def delivery_node(state: PulseState) -> dict:
             f"hallucination_score: {state.get('hallucination_score', 0.0)}\n"
             f"relevance_reason: {state.get('relevance_reason', '')}\n"
             f"new_text:\n{state['new_text']}\n"
+            f"analyses:\n{analysis_json}\n"
         ),
         context={
             "document_id": state["document_id"],
@@ -31,6 +37,16 @@ def delivery_node(state: PulseState) -> dict:
             "hallucination_score": state.get("hallucination_score", 0.0),
         },
     )
+    updates = {}
+    if not payload.analyses and analyses:
+        updates["analyses"] = analyses
+    if payload.document_id != state["document_id"]:
+        updates["document_id"] = state["document_id"]
+    if payload.source != state["source"]:
+        updates["source"] = state["source"]
+    if updates:
+        payload = payload.model_copy(update=updates)
+
     return {
         "delivery": payload,
         "urgency": payload.urgency,

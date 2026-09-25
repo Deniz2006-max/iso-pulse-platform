@@ -33,4 +33,12 @@ python main.py --doc hukuk-environment
 python main.py --doc multi-wage-tax
 ```
 
-By default `ISO_PULSE_USE_MOCK_LLM=true`. To call a live OpenAI-compatible model, set that flag to `false` and provide `OPENAI_API_KEY`.
+By default `ISO_PULSE_USE_MOCK_LLM=true`. For a live local model, set that flag to `false` and point Ollama at Qwen 2.5:
+
+```
+ISO_PULSE_USE_MOCK_LLM=false
+OLLAMA_BASE_URL=http://localhost:11434
+MODEL_NAME=qwen2.5:7b
+```
+
+`python main.py` then initializes `ChatOllama` instead of the mock LLM.

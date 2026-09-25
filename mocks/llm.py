@@ -4,6 +4,7 @@ from typing import Any, TypeVar
 
 from pydantic import BaseModel
 
+from config.routing import core_departments
 from config.settings import settings
 from schemas.outputs import (
     DeliveryPayload,
@@ -23,32 +24,14 @@ _NOISE_HINTS = (
     "ihale",
     "sözleşmesi imzalanacaktır",
 )
-_IK_HINTS = (
-    "fazla çalışma",
-    "asgari ücret",
-    "sgk",
-    "bordro",
-    "iş kanunu",
-)
-_HUKUK_HINTS = (
-    "çevre",
-    "izin belgesi",
-    "lisans",
-    "faaliyet durdur",
-    "emisyon",
-)
-_MALI_HINTS = (
-    "vergi",
-    "istisna",
-    "fatura",
-    "stopaj",
-    "tevkifat",
-)
 
 _URGENCY_BY_DOC: dict[str, Urgency] = {
     "ik-overtime": "medium",
     "hukuk-environment": "critical",
     "multi-wage-tax": "critical",
+    "demo-4857-maternity": "medium",
+    "demo-5510-manufacturing": "medium",
+    "demo-6698-processing": "critical",
 }
 
 
@@ -65,18 +48,11 @@ def complete(
 
 
 def _live_complete(schema: type[T], system_prompt: str, user_prompt: str) -> T:
-    if not settings.openai_api_key:
-        raise RuntimeError(
-            "OPENAI_API_KEY is required when ISO_PULSE_USE_MOCK_LLM=false."
-        )
     from langchain_core.messages import HumanMessage, SystemMessage
-    from langchain_openai import ChatOpenAI
 
-    llm = ChatOpenAI(
-        model=settings.model_name,
-        temperature=settings.temperature,
-        api_key=settings.openai_api_key,
-    )
+    from config.llm import get_chat_model
+
+    llm = get_chat_model()
     result = llm.with_structured_output(schema).invoke(
         [SystemMessage(content=system_prompt), HumanMessage(content=user_prompt)]
     )
@@ -117,19 +93,10 @@ def _mock_relevance(context: dict[str, Any]) -> RelevanceResult:
 
 
 def _mock_route(context: dict[str, Any]) -> RouteDecision:
-    text = _blob(context)
-    departments: list[Department] = []
-    if any(hint in text for hint in _IK_HINTS):
-        departments.append("ik")
-    if any(hint in text for hint in _HUKUK_HINTS):
-        departments.append("hukuk")
-    if any(hint in text for hint in _MALI_HINTS):
-        departments.append("mali")
-    if not departments:
-        departments = ["hukuk"]
+    departments = core_departments(_blob(context)) or ["hukuk"]
     return RouteDecision(
         departments=departments,
-        reason="Anahtar yükümlülük alanlarına göre yönlendirildi: "
+        reason="Yalnızca doğrudan değişen çekirdek alana yönlendirildi: "
         + ", ".join(departments),
     )
 
@@ -147,6 +114,44 @@ def _mock_analysis(context: dict[str, Any]) -> DepartmentAnalysis:
 
 
 def _ik_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis:
+    if document_id == "demo-4857-maternity":
+        return DepartmentAnalysis(
+            department="ik",
+            summary=(
+                "İş Kanunu m.74 analık izni korunur; doğum sonrası 10 iş günü "
+                "ücretli babalık izni eklenir."
+            ),
+            obligation_change=(
+                "İşveren, aynı işyerindeki baba işçiye on iş günü ücretli babalık "
+                "izni vermek, işe dönüşte eşdeğer pozisyonu korumak ve izinleri "
+                "özlük dosyası ile bordroya işlemek zorundadır."
+            ),
+            operational_impact=(
+                "İK izin politikasını, vardiya planını ve bordro kodlarını güncellemeli; "
+                "üye işletmeler işe dönüş protokolünü 15 gün önceden kurgulamalıdır."
+            ),
+            rag_chunk_ids=chunk_ids,
+            citations=["Law No. 4857, Article 74", "on iş günü ücretli babalık izni"],
+            confidence=0.91,
+        )
+    if document_id == "demo-5510-manufacturing":
+        return DepartmentAnalysis(
+            department="ik",
+            summary=(
+                "İmalat işyerlerinde 5510 geçici 108 prim teşviki iki yıldan altı yıla çıkar."
+            ),
+            obligation_change=(
+                "Teşvik, süresinde verilen aylık prim ve hizmet belgesi ile e-bildirge "
+                "kaydı şartına bağlanır. SGK bildirimi gecikirse teşvik düşer."
+            ),
+            operational_impact=(
+                "İK ve SGK operasyonu e-bildirge takvimini ve teşvik yararlanma "
+                "kontrol listesini imalat işyerleri için güncellemelidir."
+            ),
+            rag_chunk_ids=chunk_ids,
+            citations=["Law No. 5510, Provisional Article 108", "e-bildirge"],
+            confidence=0.9,
+        )
     if document_id == "multi-wage-tax":
         return DepartmentAnalysis(
             department="ik",
@@ -188,7 +193,27 @@ def _ik_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis:
 
 
 def _hukuk_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis:
-    del document_id
+    if document_id == "demo-6698-processing":
+        return DepartmentAnalysis(
+            department="hukuk",
+            summary=(
+                "KVKK m.5'e işverenler için kayıt, aydınlatma ve 12 aylık silme "
+                "yükümlülüğü eklenir."
+            ),
+            obligation_change=(
+                "PDKS, kamera ve erişim kontrolünde dayanak şartı yazılı kayıt altına "
+                "alınmalı; aydınlatma işe girişte tebliğ edilmeli; amaç sona erince "
+                "veri 12 ay içinde silinmeli, yok edilmeli veya anonimleştirilmelidir."
+            ),
+            operational_impact=(
+                "Üye sanayi işletmeleri VERBIS/aydınlatma metinlerini, saklama "
+                "envanterini ve silme prosedürünü güncellemelidir. Aykırılıkta Kurul "
+                "idari para cezası uygulayabilir."
+            ),
+            rag_chunk_ids=chunk_ids,
+            citations=["Law No. 6698, Article 5", "aydınlatma metni", "on iki ay"],
+            confidence=0.92,
+        )
     return DepartmentAnalysis(
         department="hukuk",
         summary=(
@@ -211,7 +236,26 @@ def _hukuk_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysi
 
 
 def _mali_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis:
-    del document_id
+    if document_id == "demo-5510-manufacturing":
+        return DepartmentAnalysis(
+            department="mali",
+            summary=(
+                "İmalat sektöründe işveren hissesi prim teşviki altı yıla uzar; "
+                "teşvik kodunun bordro ve muhasebede gösterilmesi zorunludur."
+            ),
+            obligation_change=(
+                "Maliye birimi teşvik kodunu bordro/muhasebe kayıtlarında ayrı izlemek "
+                "ve 31/12/2027 (uzatılırsa 2028) vadesine kadar yararlanma şartlarını "
+                "denetlemek zorundadır."
+            ),
+            operational_impact=(
+                "Maliyet modeli, prim tahakkuku ve teşvik mutabakatı güncellenmeli; "
+                "İSO üyesi imalatçılar bütçe simülasyonunu yenilemelidir."
+            ),
+            rag_chunk_ids=chunk_ids,
+            citations=["Law No. 5510, Article 81", "işveren hissesi prim teşviki"],
+            confidence=0.89,
+        )
     return DepartmentAnalysis(
         department="mali",
         summary=(
@@ -261,6 +305,9 @@ def _mock_delivery(context: dict[str, Any]) -> DeliveryPayload:
         "ik-overtime": "Fazla çalışma tavanı ve SGK bildirim yükümlülüğü",
         "hukuk-environment": "Çevre izni süresi kısaldı, durdurma yaptırımı eklendi",
         "multi-wage-tax": "Asgari ücret, vergi istisnası ve SGK süresi değişti",
+        "demo-4857-maternity": "Analık izni korunur, ücretli babalık izni eklenir",
+        "demo-5510-manufacturing": "İmalat prim teşviki altı yıla uzatıldı",
+        "demo-6698-processing": "KVKK işveren veri işleme şartları sıkılaştı",
     }
     summaries = {
         "ik-overtime": (
@@ -274,6 +321,18 @@ def _mock_delivery(context: dict[str, Any]) -> DeliveryPayload:
         "multi-wage-tax": (
             "Net asgari ücret 22.104 TL; asgari ücret istisnası geliyor. SGK "
             "bildirimi ayın 26'sına kaydı."
+        ),
+        "demo-4857-maternity": (
+            "4857 m.74: on iş günü ücretli babalık izni ve işe dönüşte pozisyon "
+            "koruma yükümlülüğü eklendi."
+        ),
+        "demo-5510-manufacturing": (
+            "5510 geçici 108: imalat prim teşviki altı yıl; e-bildirge ve teşvik "
+            "kodu şart."
+        ),
+        "demo-6698-processing": (
+            "6698 m.5: işverenler aydınlatma, dayanak kaydı ve 12 aylık silme "
+            "yükümlülüğüne tabi."
         ),
     }
     return DeliveryPayload(

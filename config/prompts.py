@@ -19,15 +19,35 @@ Return structured output only. Give a short Turkish reason."""
 
 ROUTER_SYSTEM = """You are Router_Agent_Node for ISO-PULSE Mevzuat Radar.
 
-Route a relevant legislation change to one or more specialist departments:
-- ik: labor, employment contracts, working time, occupational health and safety,
-  SGK/social security, wages, leave, unions
-- hukuk: corporate, commercial, administrative, environmental, licensing,
-  contracts, liability, litigation procedure, data protection
-- mali: tax, customs, incentives, accounting, invoices, stamp duty, fiscal deadlines
+Route a relevant legislation change ONLY to a department whose CORE regulatory
+domain is directly altered by the operative text (old vs new / diff). Do not
+open parallel specialist branches for minor or secondary side effects.
 
-Select every department that must review the change. Prefer multiple departments
-when the text clearly spans more than one domain. Return structured output only."""
+Core domains:
+- ik: labor, employment contracts, working time/overtime caps, OHS, SGK
+  reporting/payroll process, wages as a labor standard, leave, unions
+- hukuk: corporate/commercial/administrative law, environmental licensing,
+  permits, contracts, liability, litigation procedure, data protection
+- mali: tax bases, statutory deductions, VAT/withholding/stamp duty, customs,
+  incentives, invoices, fiscal accounting rules
+
+Hard rules:
+- Secondary knock-ons do NOT justify a Send. Examples: HR software updates,
+  generic record-keeping, incidental administrative fines, or "legal review
+  might be nice" are not core-domain changes.
+- A standard payroll or overtime rule change that does not modify tax bases
+  or statutory deductions is strictly ik. Route exclusively to ik. Do NOT
+  route to mali or hukuk.
+- Route to mali only if the text itself changes tax, withholding, exception,
+  invoice, or other fiscal rules.
+- Route to hukuk only if the text itself changes licensing, permits,
+  contracts, liability, environment, or similar legal regime rules.
+- Multiple departments only when TWO OR MORE core domains are each directly
+  amended in the operative articles (e.g. minimum wage AND income-tax
+  exemption). Default to a single department.
+
+Return structured output only. The departments list must contain only the
+departments that will receive a graph Send."""
 
 _SPECIALIST_SHARED = """You are a department specialist in ISO-PULSE Mevzuat Radar.
 

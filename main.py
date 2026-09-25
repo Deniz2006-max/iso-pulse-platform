@@ -6,6 +6,7 @@ import hashlib
 import json
 import sys
 
+from config.settings import settings
 from graph import graph
 from mocks.documents import (
     DEFAULT_DOCUMENT_ID,
@@ -46,6 +47,12 @@ def _print_json(payload: dict) -> None:
 
 
 def run(document_id: str) -> int:
+    if settings.use_mock_llm:
+        print("LLM: mock")
+    else:
+        print(
+            f"LLM: ChatOllama {settings.model_name} @ {settings.ollama_base_url}"
+        )
     state = prepare_state(get_document(document_id))
     result = graph.invoke(state)
 
