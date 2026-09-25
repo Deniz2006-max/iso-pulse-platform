@@ -34,9 +34,14 @@ except ImportError:
 # doğrudan parantez ("Madde 87 (Mülga: ...)"). İkisini de yakalıyoruz.
 # Sadece rakamla bitmesine izin VERMİYORUZ, yoksa akan metindeki
 # "...14 üncü maddesi" gibi ifadeler sahte madde üretir.
+#
+# HARFLİ NUMARALAR: Bazı maddeler "Madde 24/A" biçimindedir (6331'de
+# 24/A ve 25/A, 4632'de 20/A). Bunlar ayrı maddedir. Harf kısmı
+# opsiyonel; yakalanmazsa bu başlıklar bir önceki maddenin metnine
+# karışır ve ayrı kayıt olarak görünmez.
 MADDE_RE = re.compile(
     r'^\s*((?:EK\s+MADDE|GEÇİCİ\s+MADDE|Ek\s+Madde|Geçici\s+Madde|MADDE|Madde))'
-    r'\s+(\d+)\s*(?:[–—-]|\()',
+    r'\s+(\d+)\s*(?:/\s*([A-ZÇĞİÖŞÜa-zçğıöşü]))?\s*(?:[–—-]|\()',
     re.MULTILINE
 )
 
@@ -98,7 +103,10 @@ def maddelere_ayir(metin: str) -> list[dict]:
         # "GEÇİCİ" ile karşılaştırma başarısız olur. Onun yerine
         # eşleşen metni olduğu gibi, boşlukları atarak kontrol ediyoruz.
         tur_etiketi = m.group(1).replace(" ", "").replace("\n", "")
-        madde_no = m.group(2)
+        # Harfli madde: "Madde 24/A" -> madde_no "24/A" olur.
+        # Harf yoksa m.group(3) None gelir, sade numara kalır.
+        harf = m.group(3)
+        madde_no = m.group(2) + (f"/{harf.upper()}" if harf else "")
 
         if tur_etiketi in ("EKMADDE", "EkMadde", "Ekmadde"):
             madde_turu = "ek"
