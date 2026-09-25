@@ -42,6 +42,10 @@ class SgkOcrTests(unittest.TestCase):
             self.assertEqual(sha256_bytes(original), metadata["source_index_sha256"])
             self.assertEqual(original, index_path.read_bytes())
             self.assertIn("Gerçek tarama metni", (page_dir / metadata["ocr_text_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(
+                metadata["ocr_text_sha256"],
+                sha256_bytes((page_dir / metadata["ocr_text_path"]).read_bytes()),
+            )
 
             source.write_bytes(b"%PDF-tampered")
             with patch("scripts.ocr_sgk._tool", side_effect=lambda name: name), \

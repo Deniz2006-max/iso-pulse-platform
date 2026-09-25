@@ -98,18 +98,19 @@ def run_ocr(page: int, output: Path, *, tesseract_cmd: str = "tesseract",
         result_dir = page_dir / "ocr-runs" / attachment["raw_sha256"] / run_id
         text_path = result_dir / "text.txt"
         metadata_path = result_dir / "metadata.json"
+        text_bytes = (text + "\n").encode("utf-8")
         metadata = {"schema_version": 1, "source": "sgk", "kind": "ocr_enrichment",
                     "source_record_id": record["source_record_id"],
                     "attachment_url": attachment["url"],
                     "source_index_sha256": sha256_bytes(index_raw),
                     "source_pdf_sha256": attachment["raw_sha256"],
                     "source_pdf_path": attachment["raw_path"], "page_count": pages,
-                    "ocr_text_sha256": sha256_bytes(text.encode("utf-8")),
+                    "ocr_text_sha256": sha256_bytes(text_bytes),
                     "ocr_text_path": str(text_path.relative_to(page_dir)).replace("\\", "/"),
                     "ocr_engine": engine_version, "renderer": renderer_version,
                     "language": "tur", "dpi": 250, "status": "ocr_unverified",
                     "requires_human_review": True, "processed_at": utc_now()}
-        atomic_write(text_path, text.encode("utf-8") + b"\n")
+        atomic_write(text_path, text_bytes)
         atomic_write(metadata_path, canonical_json(metadata) + b"\n")
         results.append({"metadata": str(metadata_path), "pages": pages,
                         "characters": len(text), "status": metadata["status"]})
