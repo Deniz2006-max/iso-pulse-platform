@@ -9,6 +9,18 @@ Department = Literal["ik", "hukuk", "mali"]
 Urgency = Literal["low", "medium", "critical"]
 SourceName = Literal["resmi_gazete", "mevzuat", "sgk", "csgb"]
 
+DEPARTMENT_DISPLAY = {
+    "ik": "İnsan Kaynakları (İK)",
+    "hukuk": "Hukuk & Mevzuat",
+    "mali": "Maliye / Finans",
+    "maliye": "Maliye / Finans",
+}
+
+
+def department_label(code: str | None) -> str:
+    key = str(code or "").strip().lower()
+    return DEPARTMENT_DISPLAY.get(key, str(code or "—"))
+
 URGENCY_LABELS: dict[Urgency, Literal["Düşük", "Orta", "Kritik"]] = {
     "low": "Düşük",
     "medium": "Orta",
@@ -25,6 +37,13 @@ class RelevanceResult(BaseModel):
     reason: str = Field(description="Short Turkish explanation of the keep/drop decision.")
 
 
+class DepartmentScore(BaseModel):
+    """Router confidence for one department. Send only if confidence >= 0.75."""
+
+    department: Department
+    confidence: float = Field(ge=0.0, le=1.0)
+
+
 class RouteDecision(BaseModel):
     """Structured output from Router_Agent_Node."""
 
@@ -32,8 +51,14 @@ class RouteDecision(BaseModel):
         min_length=1,
         description=(
             "Only departments whose core domain is directly amended. "
-            "Do not include mali or hukuk for a pure overtime/payroll (ik) change."
+            "Do not include mali or hukuk for a pure overtime/payroll (ik) change. "
+            "Do not include mali without a monetary/tax threshold. "
+            "Do not include ik for pure corporate governance."
         ),
+    )
+    scores: list[DepartmentScore] = Field(
+        default_factory=list,
+        description="Per-department confidence. Omit a department if confidence < 0.75.",
     )
     reason: str = Field(description="Short Turkish explanation of the routing choice.")
 
@@ -71,6 +96,10 @@ class VerificationResult(BaseModel):
         description="True when verification fails; delivery still emits JSON."
     )
     unsupported_claims: list[str] = Field(default_factory=list)
+    dropped_departments: list[str] = Field(
+        default_factory=list,
+        description="Specialist analyses dropped for missing domain keywords/actions.",
+    )
     notes: str = ""
 
 

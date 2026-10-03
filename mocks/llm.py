@@ -4,12 +4,16 @@ from typing import Any, TypeVar
 
 from pydantic import BaseModel
 
+from config.prompts import SPECIALIST_NO_MATCH
+from config.relevance import mock_is_relevant
 from config.routing import core_departments
 from config.settings import settings
+from schemas.outputs import department_label
 from schemas.outputs import (
     DeliveryPayload,
     Department,
     DepartmentAnalysis,
+    DepartmentScore,
     RelevanceResult,
     RouteDecision,
     Urgency,
@@ -18,12 +22,7 @@ from schemas.outputs import (
 
 T = TypeVar("T", bound=BaseModel)
 
-_NOISE_HINTS = (
-    "atanmıştır",
-    "atama kararı",
-    "ihale",
-    "sözleşmesi imzalanacaktır",
-)
+_NO_MATCH_TEXT = SPECIALIST_NO_MATCH
 
 _URGENCY_BY_DOC: dict[str, Urgency] = {
     "ik-overtime": "medium",
@@ -80,22 +79,29 @@ def _blob(context: dict[str, Any]) -> str:
 
 
 def _mock_relevance(context: dict[str, Any]) -> RelevanceResult:
-    text = _blob(context)
-    if any(hint in text for hint in _NOISE_HINTS):
-        return RelevanceResult(
-            is_relevant=False,
-            reason="Bireysel atama veya ihale ilanı; sanayici yükümlülüğü değişmiyor.",
-        )
-    return RelevanceResult(
-        is_relevant=True,
-        reason="Metin işveren yükümlülüğü, süre, bildirim veya yaptırım değiştiriyor.",
+    relevant, reason = mock_is_relevant(
+        str(context.get("title") or ""),
+        str(context.get("new_text") or ""),
+        str(context.get("document_id") or ""),
     )
+    return RelevanceResult(is_relevant=relevant, reason=reason)
 
 
 def _mock_route(context: dict[str, Any]) -> RouteDecision:
-    departments = core_departments(_blob(context)) or ["hukuk"]
+    departments = core_departments(_blob(context))
+    if not departments:
+        return RouteDecision(
+            departments=[],
+            scores=[],
+            reason="Çekirdek alan sinyali yok; uzman Send açılmadı.",
+        )
+    scores = [
+        DepartmentScore(department=department, confidence=0.92)
+        for department in departments
+    ]
     return RouteDecision(
         departments=departments,
+        scores=scores,
         reason="Yalnızca doğrudan değişen çekirdek alana yönlendirildi: "
         + ", ".join(departments),
     )
@@ -105,12 +111,109 @@ def _mock_analysis(context: dict[str, Any]) -> DepartmentAnalysis:
     department: Department = context.get("department", "hukuk")
     document_id = context.get("document_id", "")
     chunk_ids = list(context.get("rag_chunk_ids") or [])
+    if context.get("rag_match") is False:
+        return _independent_analysis(
+            department,
+            str(context.get("title") or ""),
+            str(context.get("new_text") or ""),
+        )
     builders = {
         "ik": _ik_analysis,
         "hukuk": _hukuk_analysis,
         "mali": _mali_analysis,
     }
     return builders[department](document_id, chunk_ids)
+
+
+def _independent_analysis(
+    department: Department,
+    title: str,
+    new_text: str,
+) -> DepartmentAnalysis:
+    """Analyze a new obligation when Chroma has no valid baseline match."""
+    blob = f"{title}\n{new_text}".casefold()
+    label = department_label(department)
+    notice = _NO_MATCH_TEXT
+    if "ötv" in blob or "özel tüketim" in blob:
+        summary = (
+            f"{notice} Karar Sayısı 11822 / ÖTV tutarları bazı mallar için "
+            "yeniden belirlenmiştir; 4857 veya SGK maddesine zorlanmaz."
+        )
+        obligation = (
+            "Özet & Değişiklik: Cumhurbaşkanı kararı, bazı mallara uygulanan "
+            "özel tüketim vergisi tutarlarını günceller. İmalatçı ve ithalatçı "
+            "işverenler yeni tutarı satış, ithalat ve stok değerlemesinde uygulamak "
+            "zorundadır."
+        )
+        actions = {
+            "mali": (
+                f"Birim Aksiyonu ({label}): ÖTV tutarları güncellenmeli, "
+                "muhasebe/ERP sistemindeki vergi kodları revize edilmelidir. "
+                "İlk ÖTV beyannamesinde yeni tutarın uygulandığını kontrol edin."
+            ),
+            "ik": (
+                f"Birim Aksiyonu ({label}): Ücret veya yan hak kalemleri ÖTV'ye "
+                "bağlıysa bordro kodlarını maliye ile birlikte doğrulayın."
+            ),
+            "hukuk": (
+                f"Birim Aksiyonu ({label}): Satış ve tedarik sözleşmelerindeki "
+                "vergi yansıtma maddelerini yeni ÖTV tutarına göre gözden geçirin."
+            ),
+        }
+    elif "sözleşmeli personel" in blob or "personel çalıştır" in blob:
+        summary = (
+            f"{notice} Sözleşmeli personel çalıştırma esasları değişmiştir; "
+            "taban İş Kanunu maddesine birebir bağlanmaz."
+        )
+        obligation = (
+            "Özet & Değişiklik: Karar, sözleşmeli personel istihdamı ve çalışma "
+            "koşullarına ilişkin esasları değiştirir. İşveren, yeni esaslara göre "
+            "sözleşme ve özlük süreçlerini uyarlamak zorundadır."
+        )
+        actions = {
+            "ik": (
+                f"Birim Aksiyonu ({label}): Sözleşmeli personel şablonlarını, "
+                "özlük dosyalarını ve bordro/izin süreçlerini yeni esasa göre güncelleyin."
+            ),
+            "hukuk": (
+                f"Birim Aksiyonu ({label}): Personel sözleşmesi hükümlerini yeni "
+                "esaslarla karşılaştırıp gerekli tadilleri işleyin."
+            ),
+            "mali": (
+                f"Birim Aksiyonu ({label}): Sözleşmeli personele bağlı ücret ve "
+                "kesinti kodlarının mali etkisini kontrol edin."
+            ),
+        }
+    else:
+        summary = f"{notice} {title or 'Yeni düzenleme'} bağımsız bir yükümlülüktür."
+        obligation = (
+            f"Özet & Değişiklik: {title or 'Yeni düzenleme'} yürürlüğe girer. "
+            "Yükümlülük, taban kanunda eşleşen bir maddeye değil doğrudan yeni "
+            "metne dayanır."
+        )
+        actions = {
+            "mali": (
+                f"Birim Aksiyonu ({label}): İlgili vergi/tarife ve muhasebe "
+                "kayıtlarını yeni metne göre güncelleyin."
+            ),
+            "ik": (
+                f"Birim Aksiyonu ({label}): Personel, bordro ve SGK süreçlerini "
+                "yeni kurala göre gözden geçirin."
+            ),
+            "hukuk": (
+                f"Birim Aksiyonu ({label}): Uyum listesini ve sözleşmeleri yeni "
+                "yükümlülüğe göre güncelleyin."
+            ),
+        }
+    return DepartmentAnalysis(
+        department=department,
+        summary=summary,
+        obligation_change=obligation,
+        operational_impact=actions[department],
+        rag_chunk_ids=[],
+        citations=[],
+        confidence=0.62,
+    )
 
 
 def _ik_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis:
@@ -160,9 +263,9 @@ def _ik_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis:
                 "bordroda ödenir. SGK bildirimi ayın 26'sına kayar."
             ),
             obligation_change=(
-                "İşveren asgari ücret farkını izleyen bordroda ödemek ve SGK "
-                "bildirimini ayın 26'sına kadar vermek zorundadır. Geç bildirimde "
-                "idari para cezası uygulanır."
+                "Eski durum: net asgari ücret 17.002 TL; SGK bildirimi ayın 23'üne kadar. "
+                "Yeni durum: net 22.104 TL; işveren farkı izleyen bordroda ödemek ve "
+                "SGK bildirimini ayın 26'sına kadar vermek zorundadır."
             ),
             operational_impact=(
                 "İK bordro takvimini, sözleşme/ücret skalasını ve SGK e-bildirge "
@@ -178,9 +281,10 @@ def _ik_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis:
             "Yıllık fazla çalışma tavanı 270 saatten 360 saate çıkar. Belgeleme "
             "elektronik bordro ve yazılı onaya bağlanır; SGK bildirimi ayın 10'una kadar."
         ),
-        obligation_change=(
-            "Sanayicinin hukuki tavanı genişler ancak operasyonel yükümlülük artar: "
-            "elektronik belgeleme ve takip eden ayın onuna kadar SGK bildirimi zorunludur."
+            obligation_change=(
+            "Eski durum: yıllık fazla çalışma tavanı 270 saat; belgeleme yazılı talep ile. "
+            "Yeni durum: tavan 360 saat; elektronik bordro + yazılı onay ve takip eden "
+            "ayın 10'una kadar SGK bildirimi zorunludur."
         ),
         operational_impact=(
             "PDKS/bordro yazılımı, fazla mesai onay akışı ve SGK dosyalama tarihi "
@@ -222,8 +326,9 @@ def _hukuk_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysi
             "durdurma yaptırımı eklenir."
         ),
         obligation_change=(
-            "Sanayici daha sık yenileme, daha erken başvuru ve emisyon ölçüm raporu "
-            "sunmak zorundadır. Aksi halde faaliyet durdurulabilir."
+            "Eski durum: çevre izin belgesi 5 yıl, yenileme 90 gün önce, yaptırım idari "
+            "para cezası. Yeni durum: belge 3 yıl, yenileme 120 gün önce; sanayici emisyon "
+            "ölçüm raporunu sunmak zorundadır. Belgesiz faaliyette durdurma yaptırımı eklenir."
         ),
         operational_impact=(
             "İzin takvimi, çevre danışmanı sözleşmeleri ve emisyon ölçüm planı "
@@ -263,8 +368,9 @@ def _mali_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis
             "asgari ücret 22.104 TL olur."
         ),
         obligation_change=(
-            "Maliye birimi stopaj/istisna hesaplarını yeni tutara göre kurmak ve "
-            "asgari ücret farkını bordroya yansıtmak zorundadır."
+            "Eski durum: asgari ücrete kadar ücretler gelir vergisinden istisna değil. "
+            "Yeni durum: istisna uygulanır; maliye stopaj hesaplarını 22.104 TL'ye göre "
+            "kurmak ve farkı bordroya yansıtmak zorundadır."
         ),
         operational_impact=(
             "Ücret motoru, muhtasar ve istisna kodları güncellenmeli; ilk bordroda "
@@ -277,6 +383,7 @@ def _mali_analysis(document_id: str, chunk_ids: list[str]) -> DepartmentAnalysis
 
 
 def _mock_verification(context: dict[str, Any]) -> VerificationResult:
+    dropped = list(context.get("dropped_departments") or [])
     analyses = context.get("analyses") or {}
     if not analyses:
         return VerificationResult(
@@ -284,6 +391,7 @@ def _mock_verification(context: dict[str, Any]) -> VerificationResult:
             hallucination_score=0.6,
             needs_review=True,
             unsupported_claims=["Analiz boş; kaynak metinle karşılaştırılamadı."],
+            dropped_departments=dropped,
             notes="Uzman düğümü çıktısı yok.",
         )
     return VerificationResult(
@@ -291,6 +399,7 @@ def _mock_verification(context: dict[str, Any]) -> VerificationResult:
         hallucination_score=0.08,
         needs_review=False,
         unsupported_claims=[],
+        dropped_departments=dropped,
         notes="Özetler MADDE metinleri ve diff ile örtüşüyor.",
     )
 

@@ -82,11 +82,102 @@ MULTI_WAGE_TAX: MockDocument = {
     ),
 }
 
+UN_ASSET_FREEZE: MockDocument = {
+    "document_id": "un-asset-freeze",
+    "source": "resmi_gazete",
+    "title": "Malvarlığının Dondurulması Hakkında Cumhurbaşkanı Kararı",
+    "old_text": None,
+    "new_text": (
+        "Birleşmiş Milletler Güvenlik Konseyi'nin 1267 sayılı kararı uyarınca "
+        "ekli listedeki kişi ve kuruluşların malvarlığının dondurulması "
+        "hakkında karar yürürlüğe girer.\n"
+    ),
+}
+
+TEKNOKENT_BOUNDARY: MockDocument = {
+    "document_id": "teknokent-boundary",
+    "source": "resmi_gazete",
+    "title": "Teknoloji Geliştirme Bölgesi Sınır ve Koordinat Değişikliği",
+    "old_text": None,
+    "new_text": (
+        "Ekli krokiye göre teknokent / teknoloji geliştirme bölgesi sınır ve "
+        "koordinatları yeniden belirlenmiştir. İmar planı ve belediye sınır "
+        "düzenlemesi bu kararla birlikte uygulanır.\n"
+    ),
+}
+
+KDV_RATE: MockDocument = {
+    "document_id": "kdv-rate",
+    "source": "resmi_gazete",
+    "title": "Katma Değer Vergisi (KDV) tebliğ değişikliği",
+    "old_text": None,
+    "new_text": (
+        "MADDE 1 – İmalatta uygulanan KDV oranı yüzde 20'den yüzde 18'e indirilir. "
+        "Mükellefler e-fatura ve muhasebe kayıtlarını yeni orana göre tutar. "
+        "Kamu ihale bedelleri yeni KDV dahil hesaplanır.\n"
+    ),
+}
+
+ENERGY_TARIFF: MockDocument = {
+    "document_id": "energy-tariff",
+    "source": "resmi_gazete",
+    "title": "Sanayi elektrik tarifesinin güncellenmesi",
+    "old_text": None,
+    "new_text": (
+        "MADDE 1 – Sanayi abone grubu elektrik tarifesi kilovatsaat başına "
+        "yüzde 12 artırılır. OSB ve imalatçı işverenler enerji maliyetini "
+        "yeni tarifeye göre faturalandırmak zorundadır.\n"
+    ),
+}
+
+WORK_PERMIT: MockDocument = {
+    "document_id": "work-permit",
+    "source": "resmi_gazete",
+    "title": "Yabancı uyruklu çalışanlara çalışma izni usul değişikliği",
+    "old_text": None,
+    "new_text": (
+        "MADDE 1 – İmalat işyerlerinde yabancı uyruklu işçi için çalışma izni "
+        "başvurusu e-Devlet üzerinden verilir. İşveren izin belgesini özlük "
+        "dosyasında saklamak zorundadır.\n"
+    ),
+}
+
+TEKNOKENT_INCENTIVE: MockDocument = {
+    "document_id": "teknokent-incentive",
+    "source": "resmi_gazete",
+    "title": "Teknoloji Geliştirme Bölgesi kurumlar vergisi istisnası",
+    "old_text": None,
+    "new_text": (
+        "MADDE 1 – Teknokent / teknoloji geliştirme bölgesinde elde edilen "
+        "kazançlar kurumlar vergisinden istisna edilir. İstisna oranı yüzde "
+        "100 olarak uygulanır.\n"
+    ),
+}
+
+OTV_RATE: MockDocument = {
+    "document_id": "otv-rate",
+    "source": "resmi_gazete",
+    "title": "Özel Tüketim Vergisi (ÖTV) oranının güncellenmesi",
+    "old_text": None,
+    "new_text": (
+        "MADDE 1 – Motorin özel tüketim vergisi (ÖTV) oranı yüzde 2,5 olarak "
+        "uygulanır. İthalatçı ve imalatçı işverenler gümrük ve muhasebe "
+        "kayıtlarını yeni tarife üzerinden tutmak zorundadır.\n"
+    ),
+}
+
 MOCK_DOCUMENTS: dict[str, MockDocument] = {
     NOISE_APPOINTMENT["document_id"]: NOISE_APPOINTMENT,
     IK_OVERTIME["document_id"]: IK_OVERTIME,
     HUKUK_ENVIRONMENT["document_id"]: HUKUK_ENVIRONMENT,
     MULTI_WAGE_TAX["document_id"]: MULTI_WAGE_TAX,
+    UN_ASSET_FREEZE["document_id"]: UN_ASSET_FREEZE,
+    TEKNOKENT_BOUNDARY["document_id"]: TEKNOKENT_BOUNDARY,
+    OTV_RATE["document_id"]: OTV_RATE,
+    KDV_RATE["document_id"]: KDV_RATE,
+    ENERGY_TARIFF["document_id"]: ENERGY_TARIFF,
+    WORK_PERMIT["document_id"]: WORK_PERMIT,
+    TEKNOKENT_INCENTIVE["document_id"]: TEKNOKENT_INCENTIVE,
 }
 
 DEFAULT_DOCUMENT_ID = "ik-overtime"

@@ -50,3 +50,8 @@ class PulseState(TypedDict):
     hallucination_score: NotRequired[float]
     needs_review: NotRequired[bool]
     urgency: NotRequired[Urgency]
+    department_scores: NotRequired[dict[str, float]]
+    dropped_departments: NotRequired[list[str]]
+    retrieved_chunks: NotRequired[list[dict]]
+    retrieved_provision_id: NotRequired[str]
+    baseline_document_ids: NotRequired[list[str]]

@@ -1,10 +1,26 @@
+# Python
 .venv/
 venv/
+env/
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.env
+*$py.class
 *.egg-info/
+.pytest_cache/
 dist/
 build/
+
+# Secrets and local machine
+.env
 .DS_Store
+
+# Local vector database (regenerate with scripts/index_mevzuat.py)
+data/chroma_db/
+
+# Generated scraper dumps (keep folder via .gitkeep)
+data/daily_updates/**
+!data/daily_updates/.gitkeep
+
+# Generated pipeline reports (keep folder via .gitkeep)
+data/reports/**
+!data/reports/.gitkeep
