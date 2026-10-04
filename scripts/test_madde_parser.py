@@ -116,6 +116,24 @@ kontrol("gecici madde id dogru",
         == "law:5510:gecici-madde:79")
 
 print()
+print("6. Sonraki maddenin basligi onceki maddeye karismamali")
+
+BASLIKLI = (
+    "MADDE 1 – Birinci hukmun metni.\n \nKapsam\n"
+    "MADDE 2 – Ikinci hukmun metni.\n"
+    "Dayanak\nMADDE 3 – Ucuncu hukmun metni.\n \n"
+    "IKINCI BOLUM\nYeni Esaslar\nUygulama usulu\nMADDE 4 – Dorduncu metin."
+)
+baslikli = maddelere_ayir(BASLIKLI)
+kontrol("basliklar sonraki maddeye baglandi",
+        [m["heading"] for m in baslikli] ==
+        [None, "Kapsam", "Dayanak", "IKINCI BOLUM\nYeni Esaslar\nUygulama usulu"])
+kontrol("onceki madde govdesi yalniz kendi metni",
+        baslikli[0]["govde"] == "MADDE 1 – Birinci hukmun metni.")
+kontrol("belirsiz hukuki satir silinmez",
+        maddelere_ayir("MADDE 1 – Liste:\n(a) zorunlu kosul\nMADDE 2 – Sonraki.")[0]["govde"].endswith("(a) zorunlu kosul"))
+
+print()
 if basarisiz:
     print(f"SONUC: {basarisiz} test BASARISIZ")
     sys.exit(1)
