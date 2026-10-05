@@ -23,6 +23,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src.ingestion.client import FetchClient
+from src.ingestion.change_tracking import track_changes, write_json_atomic
 from src.ingestion.mevzuat_scraper import DEFAULT_KANUN_NOS, fetch_updates as fetch_mevzuat
 from src.ingestion.models import DailyUpdate
 from src.ingestion.resmi_gazete import fetch_edition
@@ -143,6 +144,7 @@ async def run(args: argparse.Namespace) -> int:
     kanun_nos = tuple(args.kanun_nos) if args.kanun_nos else DEFAULT_KANUN_NOS
 
     collected: dict[str, list[DailyUpdate]] = {}
+    collection_failures: dict[str, str] = {}
     async with FetchClient() as client:
         collected = await fetch_core_sources(
             day,
@@ -150,23 +152,54 @@ async def run(args: argparse.Namespace) -> int:
             wanted=wanted,
             max_items=args.max_items,
             sgk_limit=sgk_limit,
+            failures=collection_failures,
         )
         for source, items in collected.items():
             dump_items(out_dir / f"{source}.json", items)
 
         if "mevzuat" in wanted:
             LOGGER.info("Tracking mevzuat changes via Resmî Gazete + local baseline")
-            mevzuat_items = await fetch_mevzuat(
-                day,
-                kanun_nos=kanun_nos,
-                rg_items=collected.get("resmi_gazete") or [],
-                client=client,
-            )
-            collected["mevzuat"] = mevzuat_items
-            dump_items(out_dir / "mevzuat.json", mevzuat_items)
+            try:
+                mevzuat_items = await fetch_mevzuat(
+                    day,
+                    kanun_nos=kanun_nos,
+                    rg_items=collected.get("resmi_gazete") or [],
+                    client=client,
+                )
+                collected["mevzuat"] = mevzuat_items
+                dump_items(out_dir / "mevzuat.json", mevzuat_items)
+            except Exception as exc:  # noqa: BLE001 — keep the other source captures
+                collection_failures["mevzuat"] = type(exc).__name__
+                LOGGER.error("mevzuat failed: %s", exc)
+                collected["mevzuat"] = []
 
     daily_payload = combine_daily_payload(collected)
     dump_items(out_dir / "all.json", daily_payload)
+
+    tracked_items = combine_tracked_payload(collected)
+    change_report = track_changes(
+        tracked_items,
+        state_path=out_root / ".change_tracking" / "state.json",
+        run_date=day.isoformat(),
+    )
+    change_report["collection"] = {
+        "requested_sources": sorted(wanted),
+        "observed_records": {
+            source: len(collected.get(source, [])) for source in sorted(wanted)
+        },
+        "failed_sources": collection_failures,
+        "partial": bool(collection_failures),
+    }
+    change_report_path = out_dir / "change_report.json"
+    write_json_atomic(change_report_path, change_report)
+    LOGGER.info(
+        "Change tracking: %s new, %s changed, %s unchanged, %s unverified → %s",
+        change_report["counts"]["new"],
+        change_report["counts"]["changed"],
+        change_report["counts"]["unchanged"],
+        change_report["counts"]["unverified"],
+        change_report_path,
+    )
 
     LOGGER.info("── ingestion summary %s ──", day.isoformat())
     for source, items in collected.items():
@@ -193,13 +226,34 @@ def combine_daily_payload(collected: dict[str, list[DailyUpdate]]) -> list[Daily
     return combined
 
 
-async def _safe_fetch(label: str, coro) -> list[DailyUpdate]:
+def combine_tracked_payload(collected: dict[str, list[DailyUpdate]]) -> list[DailyUpdate]:
+    """Collect observed records from every requested source for comparison."""
+    combined: list[DailyUpdate] = []
+    seen: set[str] = set()
+    for source, items in collected.items():
+        for item in items:
+            key = f"{source}:{item.url or item.title}"
+            if key in seen:
+                continue
+            seen.add(key)
+            combined.append(item)
+    return combined
+
+
+async def _safe_fetch(
+    label: str,
+    coro,
+    *,
+    failures: dict[str, str] | None = None,
+) -> list[DailyUpdate]:
     try:
         items = await coro
         LOGGER.info("%s: %s records", label, len(items))
         return items
     except Exception as exc:  # noqa: BLE001 — one source must not abort the other
         LOGGER.error("%s failed: %s", label, exc)
+        if failures is not None:
+            failures[label] = type(exc).__name__
         return []
 
 
@@ -210,6 +264,7 @@ async def fetch_core_sources(
     wanted: set[str],
     max_items: int | None,
     sgk_limit: int,
+    failures: dict[str, str] | None = None,
 ) -> dict[str, list[DailyUpdate]]:
     """Run Resmî Gazete and SGK crawlers in parallel when both are requested."""
     tasks: dict[str, asyncio.Task[list[DailyUpdate]]] = {}
@@ -219,6 +274,7 @@ async def fetch_core_sources(
             _safe_fetch(
                 "resmi_gazete",
                 fetch_edition(day, client=client, max_items=max_items),
+                failures=failures,
             )
         )
     if "sgk" in wanted:
@@ -227,6 +283,7 @@ async def fetch_core_sources(
             _safe_fetch(
                 "sgk",
                 fetch_announcements(limit=sgk_limit, client=client),
+                failures=failures,
             )
         )
     collected: dict[str, list[DailyUpdate]] = {}
