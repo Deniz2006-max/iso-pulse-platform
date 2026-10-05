@@ -160,6 +160,8 @@ async def run(args: argparse.Namespace) -> int:
         if "mevzuat" in wanted:
             LOGGER.info("Tracking mevzuat changes via Resmî Gazete + local baseline")
             try:
+                if "resmi_gazete" in collection_failures:
+                    raise RuntimeError("Mevzuat tracking requires a successful RG collection")
                 mevzuat_items = await fetch_mevzuat(
                     day,
                     kanun_nos=kanun_nos,
@@ -172,6 +174,7 @@ async def run(args: argparse.Namespace) -> int:
                 collection_failures["mevzuat"] = type(exc).__name__
                 LOGGER.error("mevzuat failed: %s", exc)
                 collected["mevzuat"] = []
+                dump_items(out_dir / "mevzuat.json", [])
 
     daily_payload = combine_daily_payload(collected)
     dump_items(out_dir / "all.json", daily_payload)
@@ -182,18 +185,26 @@ async def run(args: argparse.Namespace) -> int:
         state_path=out_root / ".change_tracking" / "state.json",
         run_date=day.isoformat(),
     )
+    unconfirmed_sources = sorted(
+        source for source in wanted
+        if source not in collection_failures and not collected.get(source)
+        and (source in CORE_SOURCES or args.source == "mevzuat")
+    )
     change_report["collection"] = {
         "requested_sources": sorted(wanted),
         "observed_records": {
             source: len(collected.get(source, [])) for source in sorted(wanted)
         },
         "failed_sources": collection_failures,
-        "partial": bool(collection_failures),
+        "unconfirmed_sources": unconfirmed_sources,
+        "partial": bool(collection_failures or unconfirmed_sources
+                        or change_report["counts"]["unverified"]),
+        "coverage": "Only the requested edition and sampled listing records were examined",
     }
     change_report_path = out_dir / "change_report.json"
     write_json_atomic(change_report_path, change_report)
     LOGGER.info(
-        "Change tracking: %s new, %s changed, %s unchanged, %s unverified → %s",
+        "Change tracking: %s new, %s changed, %s unchanged, %s unverified -> %s",
         change_report["counts"]["new"],
         change_report["counts"]["changed"],
         change_report["counts"]["unchanged"],
@@ -201,15 +212,15 @@ async def run(args: argparse.Namespace) -> int:
         change_report_path,
     )
 
-    LOGGER.info("── ingestion summary %s ──", day.isoformat())
+    LOGGER.info("Ingestion summary %s", day.isoformat())
     for source, items in collected.items():
         LOGGER.info("  %s: %s records", source, len(items))
     LOGGER.info(
-        "  daily payload (resmi_gazete + sgk): %s → %s",
+        "  daily payload (resmi_gazete + sgk): %s -> %s",
         len(daily_payload),
         out_dir / "all.json",
     )
-    return 0
+    return 1 if collection_failures else 0
 
 
 def combine_daily_payload(collected: dict[str, list[DailyUpdate]]) -> list[DailyUpdate]:

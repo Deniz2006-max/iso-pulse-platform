@@ -115,10 +115,11 @@ def track_changes(
     run_date: str,
     generated_at: str | None = None,
 ) -> dict[str, Any]:
-    """Compare current records with the last verified snapshot and persist it.
+    """Compare current records with the last nonempty extraction and persist it.
 
     Blank extracted text is reported as ``unverified`` and does not replace a
-    previously verified snapshot. Re-running the same date with identical
+    previously nonempty snapshot. No extraction-completeness or legal verification
+    is implied by a nonempty text or a matching hash. Re-running the same date with identical
     content preserves that date's original status, making daily output
     idempotent for the normal scheduled rerun case.
     """

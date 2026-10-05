@@ -286,10 +286,10 @@ async def _fetch_full_pdf_fallback(client: FetchClient, day: date) -> list[Daily
         body, content_type, status = await client.get_bytes(url)
     except httpx.HTTPError as exc:
         LOGGER.error("Neither HTML nor PDF edition available for %s: %s", day, exc)
-        return []
+        raise
     if status >= 400 or not looks_like_pdf(content_type, url, body):
         LOGGER.error("PDF edition unavailable for %s (%s)", day, status)
-        return []
+        raise RuntimeError(f"PDF edition unavailable for {day} (HTTP {status})")
     text = await pdf_bytes_to_text_async(body)
     return [
         DailyUpdate(

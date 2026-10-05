@@ -119,6 +119,10 @@ python3 -m src.ingestion.fetch_daily_updates --source all --date YYYY-MM-DD
 
 SGK rows carry `baseline_document_ids: ["law:5510", "law:4447"]` so the retriever prefers Sosyal Sigortalar and İşsizlik Sigortası vectors.
 
+See [daily change tracking](docs/daily-change-tracking.md) for status meanings,
+failure reporting, validation commands, and coverage limits. A source exception
+now produces exit code 1 while preserving records collected from other sources.
+
 ---
 
 ## Relevance filter — İSO industrial gate
