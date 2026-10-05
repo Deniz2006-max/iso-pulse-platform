@@ -36,10 +36,29 @@ python -m src.ingestion.fetch_daily_updates --source all --date 2026-10-05 --max
 Birim ve entegrasyon testleri kontrollü, açıkça sentetik kayıtlarla karşılaştırma,
 yeniden çalıştırma, kaynak hatası, boş sonuç ve mevcut JSON biçimini sınar.
 
-2026-10-05 canlı denemesinde bu ortamdan RG ve SGK bağlantıları kurulamadı.
-Gerçek belge alınmadı. Bu deneme hata yolunu doğrulamak için kullanıldı; başarılı
-canlı veri toplama testi olarak değerlendirilmemelidir. Birleştirmeden önce kaynaklara
-erişebilen ortamda yukarıdaki küçük örnekle gerçek metin ve rapor kontrol edilmelidir.
+2026-10-05 tarihinde ilk bağlantı denemesi başarısız oldu; sonraki canlı doğrulamada
+iki RG yayını ve iki SGK duyurusu iki kez toplandı. Her iki çalıştırma da 0 çıkış
+koduyla tamamlandı. Kayıt kimlikleri ve içerik özetleri aynı kaldı. Aynı gün tekrar
+çalıştırma tasarımı nedeniyle her iki raporda da 3 `new`, 1 `unverified` vardı.
+Gerçek bir içerik değişikliği gözlenmedi; `changed` yolu kontrollü testlerle sınandı.
+
+| Örnek | Kontrol sonucu |
+| --- | --- |
+| [Ankara Medipol Üniversitesi yönetmeliği](https://www.resmigazete.gov.tr/eskiler/2026/10/20261005-1.htm) | 82.718 karakter; taze resmi HTML yanıtının metin çıkarımıyla aynı. |
+| [Beykoz Üniversitesi yönetmelik değişikliği](https://www.resmigazete.gov.tr/eskiler/2026/10/20261005-2.htm) | 10.772 karakter; taze resmi HTML yanıtının metin çıkarımıyla aynı. |
+| [SGK Gayrimenkul Satış İlanı](https://www.sgk.gov.tr/duyuru/detay/Gayrimenkul-Satis-Ilani-2026-10-05-11-35-26) | 98 sayfalık PDF erişilebilir. SGK için 40 sayfalık kesme kaldırıldı; tüm sayfalardan elde edilen metin kayıtta mevcut (başlıklarla 61.666 karakter). Görsel içeriğe OCR uygulanmadı. |
+| [Güncel 2013 SUT duyurusu](https://www.sgk.gov.tr/duyuru/detay/02102026-SUT-Degisiklik-Tebligi-Islenmis-Guncel-2013-SUT-2026-10-02-02-50-06) | Ek ZIP biçiminde. Başlık ve ek adı yanlışlıkla belge metni sayılıyordu. Düzeltmeden sonra boş metin ve `unverified`; `partial=true`. |
+
+SGK'da herhangi bir ekten metin alınamıyorsa kaydın metni boş bırakılır; diğer
+eklerden gelen kısmi metin karşılaştırma başlangıcı olarak kabul edilmez.
+ZIP açma ve OCR desteği bu değişikliğe dahil değildir. Karşılaştırma raporu uygulama
+tarafından henüz filtre olarak tüketilmez; `all.json` kayıtları mevcut biçimde kalır.
+
+16 birim ve entegrasyon testi başarılı. Yerel ham yanıtlar ve ilk kontrol manifesti
+`data/daily_updates/_live_validation/evidence/` altında; son iki canlı rapor ve
+`validation_summary.json`, `data/daily_updates/_live_validation_final/` altında saklandı.
+Bu üretilmiş dosyalar Git tarafından dışlanır. Örnekler teknik doğrulama içindir;
+İSO üyelerine konu uygunluğu bu denemede değerlendirilmedi.
 
 Bu sürüm tek kolektör süreci için tasarlanmıştır. Aynı çıktı köküne eşzamanlı
 yazılmamalıdır. Durum dosyası özetleri saklar; tam sürüm arşivi veya madde bazında
