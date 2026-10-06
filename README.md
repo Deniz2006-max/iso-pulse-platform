@@ -105,7 +105,7 @@ flowchart TD
 
 ## Ingestion and multi-source support
 
-[`src/ingestion/fetch_daily_updates.py`](src/ingestion/fetch_daily_updates.py) runs **Resmî Gazete and SGK in parallel** when `--source all` (the default). Each row is tagged `source: resmi_gazete` or `source: sgk`. The daily payload is `all.json` (RG ∪ SGK).
+[`src/ingestion/fetch_daily_updates.py`](src/ingestion/fetch_daily_updates.py) runs **Resmî Gazete and SGK in parallel** when `--source all` (the default). Each row is tagged `source: resmi_gazete` or `source: sgk`. The daily payload is `all.json` (RG ∪ SGK). It also writes a separate `change_report.json` with per-item `new`, `changed`, `unchanged`, or `unverified` status, using SHA-256 over normalized title, category, and extracted text. Comparison state is kept under `data/daily_updates/.change_tracking/`; missing items are not treated as deletions because collection coverage may be partial. The report includes requested sources, observed counts, and failed-source names. The existing `all.json` format and app/pipeline behavior are unchanged.
 
 ```bash
 python3 -m src.ingestion.fetch_daily_updates --source all --date YYYY-MM-DD
@@ -118,6 +118,10 @@ python3 -m src.ingestion.fetch_daily_updates --source all --date YYYY-MM-DD
 | `mevzuat_scraper.py` | Local `data/mevzuat` + that day’s RG | Tracks cited kanun numbers; **never HTTP-gets mevzuat.gov.tr** |
 
 SGK rows carry `baseline_document_ids: ["law:5510", "law:4447"]` so the retriever prefers Sosyal Sigortalar and İşsizlik Sigortası vectors.
+
+See [daily change tracking](docs/daily-change-tracking.md) for status meanings,
+failure reporting, validation commands, and coverage limits. A source exception
+now produces exit code 1 while preserving records collected from other sources.
 
 ---
 

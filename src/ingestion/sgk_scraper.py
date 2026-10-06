@@ -156,7 +156,7 @@ async def _pdf_text(client: FetchClient, url: str) -> str:
     if status >= 400:
         return ""
     if looks_like_pdf(content_type, url, body):
-        return await pdf_bytes_to_text_async(body)
+        return await pdf_bytes_to_text_async(body, max_pages=None)
     return ""
 
 
@@ -175,7 +175,9 @@ async def _detail_text(client: FetchClient, url: str) -> str:
         if name:
             chunks.append(f"[Ek: {name}]")
 
-    for link in soup.select('a[href*="/Download/DownloadFile"]'):
+    attachment_links = soup.select('a[href*="/Download/DownloadFile"]')
+    incomplete_attachment = False
+    for link in attachment_links:
         href = urljoin(SGK_ORIGIN, link.get("href") or "")
         try:
             pdf_text = await _pdf_text(client, href)
@@ -184,8 +186,16 @@ async def _detail_text(client: FetchClient, url: str) -> str:
             pdf_text = ""
         if pdf_text:
             chunks.append(pdf_text)
+        else:
+            incomplete_attachment = True
 
-    if len(chunks) <= 1:
+    # Labels alone are not the attached publication. Keep the metadata row, but
+    # leave its text empty so change tracking cannot accept a partial baseline.
+    if incomplete_attachment:
+        LOGGER.warning("SGK attachment content incomplete for %s", url)
+        return ""
+
+    if not attachment_links and len(chunks) <= 1:
         # Fall back to stripped detail HTML if there was no usable PDF.
         for junk in soup.select("nav, header, footer, script, style"):
             junk.decompose()
