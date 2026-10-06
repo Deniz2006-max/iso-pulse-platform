@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head><meta charset="UTF-8"><title>İzin Onaylandı</title></head>
+<body style="font-family:Arial,sans-serif;background:#f4f6f9;padding:24px;">
+  <div style="max-width:560px;margin:auto;background:#fff;border-radius:8px;padding:32px;">
+    <h2 style="color:#057a55;margin-top:0;">✓ İzin Talebiniz Onaylandı</h2>
+    <p>Sayın <strong>{{ calisan }}</strong>,</p>
+    <p><strong>{{ izin_turu }}</strong> talebiniz onaylanmıştır.</p>
+    <table style="border-collapse:collapse;width:100%;margin-top:16px;">
+      <tr style="background:#f0fdf4;">
+        <td style="padding:8px 12px;font-weight:600;">Çıkış Tarihi</td>
+        <td style="padding:8px 12px;">{{ cikis }}</td>
+      </tr>
+      <tr>
+        <td style="padding:8px 12px;font-weight:600;">Süre</td>
+        <td style="padding:8px 12px;">{{ sure }} iş günü</td>
+      </tr>
+    </table>
+    <p style="color:#6b7280;font-size:12px;margin-top:24px;">İSO Pulse — Inpulse İzin Sistemi</p>
+  </div>
+</body>
+</html>

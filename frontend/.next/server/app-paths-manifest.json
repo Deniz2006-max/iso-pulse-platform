@@ -1,0 +1,10 @@
+{
+  "/inpulse/page": "app/inpulse/page.js",
+  "/hub/page": "app/hub/page.js",
+  "/login/page": "app/login/page.js",
+  "/inpulse/orientation/quiz/page": "app/inpulse/orientation/quiz/page.js",
+  "/inpulse/orientation/register/page": "app/inpulse/orientation/register/page.js",
+  "/inpulse/orientation/video/page": "app/inpulse/orientation/video/page.js",
+  "/inpulse/orientation/result/page": "app/inpulse/orientation/result/page.js",
+  "/inpulse/tasks/page": "app/inpulse/tasks/page.js"
+}
