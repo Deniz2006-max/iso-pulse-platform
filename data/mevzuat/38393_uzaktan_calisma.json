@@ -1,0 +1,140 @@
+{
+  "documents": [
+    {
+      "document_id": "law:38393",
+      "title": "Uzaktan Çalışma Yönetmeliği",
+      "canonical_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=38393&MevzuatTur=7&MevzuatTertip=5",
+      "current_version_id": "law:38393:sha256:5a54e9930f4d748d",
+      "included_provisions": [
+        {
+          "provision_id": "law:38393:article:1",
+          "label": "Madde 1",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 1 – (1) Bu Yönetmeliğin amacı, uzaktan çalışmanın yapılamayacağı işleri, verilerin \nkorunması ve paylaşılmasına ilişkin işletme kurallarının uygulanmasını ve uzaktan çalışmanın usul ve \nesaslarını belirlemektir. \nKapsam",
+          "normalized_hash": "1849d5806dedd6ed"
+        },
+        {
+          "provision_id": "law:38393:article:2",
+          "label": "Madde 2",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 2 – (1) Bu Yönetmelik, 22/5/2003 tarihli ve 4857 sayılı İş Kanununun 14 üncü maddesi \nuyarınca uzaktan çalışanları ve bunların işverenlerini kapsar. \nDayanak",
+          "normalized_hash": "6672a37c56dc1baa"
+        },
+        {
+          "provision_id": "law:38393:article:3",
+          "label": "Madde 3",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 3 – (1) Bu Yönetmelik, 4857 sayılı Kanunun 14 üncü maddesine dayanılarak \nhazırlanmıştır. \nTanımlar",
+          "normalized_hash": "f2a4d571d7d71b85"
+        },
+        {
+          "provision_id": "law:38393:article:4",
+          "label": "Madde 4",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 4 – (1) Bu Yönetmelikte geçen; \na) Bakanlık: Aile, Çalışma ve Sosyal Hizmetler Bakanlığını, \nb) Uzaktan çalışan: İş görme ediminin tamamını veya bir kısmını uzaktan çalışarak yerine \ngetiren işçiyi, \nc) Uzaktan çalışma: İşçinin, işveren tarafından oluşturulan iş organizasyonu kapsamında iş \ngörme edimini evinde ya da teknolojik iletişim araçları ile işyeri dışında yerine getirmesi esasına dayalı \nve yazılı olarak kurulan iş ilişkisini, \nifade eder. \nİKİNCİ BÖLÜM \nUzaktan Çalışma Usul ve Esasları \nSözleşmenin şekil ve içeriği",
+          "normalized_hash": "135c8a3b42e8abee"
+        },
+        {
+          "provision_id": "law:38393:article:5",
+          "label": "Madde 5",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 5 – (1) Uzaktan çalışmaya ilişkin iş sözleşmeleri yazılı şekilde yapılır. \n(2) Sözleşmede; işin tanımı, yapılma şekli, işin süresi ve yeri, ücret ve ücretin ödenmesine ilişkin \nhususlar, işveren tarafından sağlanan iş araçları, ekipman ve bunların korunmasına ilişkin \nyükümlülükler, işverenin işçiyle iletişim kurması ile genel ve özel çalışma şartlarına ilişkin hükümler \nyer alır. \nÇalışma mekânının düzenlenmesi",
+          "normalized_hash": "26db1983ad2972cb"
+        },
+        {
+          "provision_id": "law:38393:article:6",
+          "label": "Madde 6",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 6 – (1) Gerekli olması halinde, uzaktan çalışmanın yapılacağı mekân ile ilgili \ndüzenlemeler iş yapılmaya başlamadan önce tamamlanır. Bu düzenlemelerden kaynaklanan \nmaliyetlerin karşılanma usulü, uzaktan çalışan ile işveren tarafından birlikte belirlenir. \nMalzeme ve iş araçlarının temini ve kullanımı",
+          "normalized_hash": "10c33fb1926e90e0"
+        },
+        {
+          "provision_id": "law:38393:article:7",
+          "label": "Madde 7",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 7 – (1) Uzaktan çalışanın mal ve hizmet üretimi için gerekli malzeme ve iş araçlarının iş \nsözleşmesinde aksi kararlaştırılmamışsa işveren tarafından sağlanması esastır. Bu malzeme ve iş \naraçlarının kullanım esasları ile bakım ve onarım koşulları açık ve anlaşılır bir şekilde uzaktan çalışana \nbildirilir. \n(2) İş araçlarının işveren tarafından sağlanması halinde, bunların işçiye teslim edildiği tarihteki \nbedellerini belirten iş araçları listesi, işveren tarafından yazılı olarak işçiye teslim edilir. İşçiye teslim \nedilen belgenin işçi tarafından imzalı bir nüshası ise işveren tarafından işçi özlük dosyasında saklanır. \nİş araçlarının listesi, iş sözleşmesi içerisinde veya sözleşme tarihinde iş sözleşmesine ek olarak \ndüzenlenirse ayrıca yazılı belge düzenlenmesi şartı aranmaz. \nÜretim maliyetlerinin karşılanması",
+          "normalized_hash": "d216e6864b5a3caf"
+        },
+        {
+          "provision_id": "law:38393:article:8",
+          "label": "Madde 8",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 8 – (1) İşin yerine getirilmesinden kaynaklanan mal veya hizmet üretimiyle doğrudan \nilgili zorunlu giderlerin tespit edilmesine ve karşılanmasına ilişkin hususlar iş sözleşmesinde belirtilir. \nÇalışma süresinin belirlenmesi",
+          "normalized_hash": "0e1f800a915bac4b"
+        },
+        {
+          "provision_id": "law:38393:article:9",
+          "label": "Madde 9",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 9 – (1) Uzaktan çalışmanın yapılacağı zaman aralığı ve süresi iş sözleşmesinde belirtilir. \nMevzuatta öngörülen sınırlamalara bağlı kalmak koşuluyla taraflarca çalışma saatlerinde değişiklik \n\nyapılabilir. Fazla çalışma işverenin yazılı talebi üzerine, işçinin kabulü ile mevzuat hükümlerine uygun \nolarak yapılır. \n(2) (Ek:RG-25/9/2026-33381) İş görme ediminin bir kısmının işyerinde, bir kısmının uzaktan \nçalışma usulüyle yerine getirilmesi kararlaştırılabilir. Bu durumda işçinin işyerinde ve uzaktan \nçalışacağı günler ile çalışma saatleri iş sözleşmesinde belirlenir. \nİletişim",
+          "normalized_hash": "a9e6cc0e60354e2f"
+        },
+        {
+          "provision_id": "law:38393:article:10",
+          "label": "Madde 10",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 10 – (1) Uzaktan çalışmada iletişimin yöntemi ve zaman aralığı uzaktan çalışan ile \nişveren tarafından belirlenir. \nVerilerin korunması",
+          "normalized_hash": "17a554a0166a0003"
+        },
+        {
+          "provision_id": "law:38393:article:11",
+          "label": "Madde 11",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 11 – (1) İşveren; uzaktan çalışanı, işyerine ve yaptığı işe dair verilerin korunması ve \npaylaşımına ilişkin işletme kuralları ve ilgili mevzuat hakkında bilgilendirir ve bu verilerin korunmasına \nyönelik gerekli tedbirleri alır. \n(2) İşveren, korunması gereken verinin tanım ve kapsamını sözleşmede belirler. \n(3) Verilerin korunması amacıyla işveren tarafından belirlenen işletme kurallarına uzaktan \nçalışanın uyması zorunludur. \nİş sağlığı ve güvenliğine ilişkin tedbirlerin alınması",
+          "normalized_hash": "17937efd501af50c"
+        },
+        {
+          "provision_id": "law:38393:article:12",
+          "label": "Madde 12",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 12 – (1) İşveren, uzaktan çalışanın yaptığı işin niteliğini dikkate alarak iş sağlığı ve \ngüvenliği önlemleri hususunda çalışanı bilgilendirmekle, gerekli eğitimi vermekle, sağlık gözetimini \nsağlamakla ve sağladığı ekipmanla ilgili gerekli iş güvenliği tedbirlerini almakla yükümlüdür. \nUzaktan çalışmanın yapılamayacağı işler",
+          "normalized_hash": "7066bfae00f1641c"
+        },
+        {
+          "provision_id": "law:38393:article:13",
+          "label": "Madde 13",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 13 – (1) Tehlikeli kimyasal madde ve radyoaktif maddelerle çalışma, bu maddelerin \nişlenmesi veya söz konusu maddelerin atıkları ile çalışma, biyolojik etkenlere maruz kalma riski \nbulunan çalışma işlemlerini içeren işlerde uzaktan çalışma yapılamaz. \n(2) Kamu kurum ve kuruluşlarınca ilgili mevzuatına göre hizmet alımı suretiyle gördürülen işler \nile millî güvenlik açısından stratejik önemi haiz birim, proje, tesis veya hizmetlerden hangilerinde \nuzaktan çalışma yapılamayacağı birim, proje, tesis veya hizmetten sorumlu olan veya hizmeti alan \nkamu kurum ve kuruluşunca belirlenir. \nUzaktan çalışmaya geçiş",
+          "normalized_hash": "b0f3b02e7348b8b8"
+        },
+        {
+          "provision_id": "law:38393:article:14",
+          "label": "Madde 14",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 14 – (1) İş ilişkisi doğrudan uzaktan çalışma sözleşmesi ile kurulabilir veya hâlihazırda \nişyerinde çalışan işçinin iş sözleşmesi, işçinin ve işverenin anlaşması halinde, uzaktan çalışma \nsözleşmesine dönüştürülebilir. \n(2) İşçinin, uzaktan çalışma yapma talebi ile ilgili hususlar aşağıdadır: \na) Talep yazılı olarak yapılır. \nb) Talep işyerinde belirlenen usul doğrultusunda işverence değerlendirilir. \nc) Talep değerlendirilirken, işin ve işçinin niteliği gereği uzaktan çalışmaya uygunluğu ile \nişverence belirlenecek diğer kıstaslar kullanılır. \n(3) Talebe ilişkin değerlendirme sonucunun otuz gün içinde işçiye talebin yapıldığı usulle \nbildirilmesi esastır. \n(4) Talebin kabul edilmesi halinde 5 inci maddede belirtilen hususlara uygun şekilde sözleşme \nyapılır. \n(5) Uzaktan çalışmaya geçen işçi, ikinci fıkrada belirtilen usulle tekrar işyerinde çalışma \ntalebinde bulunabilir. İşveren, söz konusu talebi öncelikli olarak değerlendirir. \n(6) Uzaktan çalışmanın mevzuatta belirtilen zorlayıcı nedenlerle işyerinin tamamında veya bir \nbölümünde uygulanacak olması halinde uzaktan çalışmaya geçiş için işçinin talebi veya onayı \naranmaz. \nÜÇÜNCÜ BÖLÜM \nSon Hükümler \nYürürlük",
+          "normalized_hash": "3cdd97bdb5910ca1"
+        },
+        {
+          "provision_id": "law:38393:article:15",
+          "label": "Madde 15",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 15 – (1) Bu Yönetmelik yayımı tarihinde yürürlüğe girer. \nYürütme",
+          "normalized_hash": "a74224fda87be78a"
+        },
+        {
+          "provision_id": "law:38393:article:16",
+          "label": "Madde 16",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 16 – (1) Bu Yönetmelik hükümlerini Aile, Çalışma ve Sosyal Hizmetler Bakanı yürütür. \n \n\n \nYönetmeliğin Yayımlandığı Resmî Gazete’nin \nTarihi \nSayısı \n10/3/2021 \n31419 \nYönetmelikte Değişiklik Yapan Yönetmeliklerin Yayımlandığı Resmî \nGazetelerin \nTarihi \nSayısı \n1. \n25/9/2026 \n33381 \n2.",
+          "normalized_hash": "8aae2d89a0396310"
+        }
+      ]
+    }
+  ]
+}

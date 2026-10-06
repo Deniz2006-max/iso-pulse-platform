@@ -1,0 +1,252 @@
+{
+  "documents": [
+    {
+      "document_id": "law:45087",
+      "title": "Çalışanların İş Sağlığı ve Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmelik",
+      "canonical_url": "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.45087.pdf",
+      "current_version_id": "law:45087:sha256:a528ccb02d91d4f5",
+      "included_provisions": [
+        {
+          "provision_id": "law:45087:article:1",
+          "label": "Madde 1",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 1- (1) Bu Yönetmeliğin amacı, çalışanlara verilecek iş sağlığı ve güvenliği eğitimlerinin \nusul ve esaslarını belirlemektir. \nKapsam",
+          "normalized_hash": "8bbe5f059746e3a6"
+        },
+        {
+          "provision_id": "law:45087:article:2",
+          "label": "Madde 2",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 2- (1) Bu Yönetmelik, 20/6/2012 tarihli ve 6331 sayılı İş Sağlığı ve Güvenliği Kanunu \nkapsamında bulunan işyerlerini, bu işyerlerinde çalışanlara eğitim verecek kişi, kurum ve kuruluşları \nkapsar. \nDayanak",
+          "normalized_hash": "8857f620d6141044"
+        },
+        {
+          "provision_id": "law:45087:article:3",
+          "label": "Madde 3",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 3- (1) Bu Yönetmelik, 20/6/2012 tarihli ve 6331 sayılı İş Sağlığı ve Güvenliği Kanununun \n16 ncı, 17 nci, 18 inci ve 30 uncu maddeleri ile 1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında \nCumhurbaşkanlığı Kararnamesinin 86 ncı, 90 ıncı ve 508 inci maddelerine dayanılarak hazırlanmıştır. \nTanımlar",
+          "normalized_hash": "1c8f6c4762ab876c"
+        },
+        {
+          "provision_id": "law:45087:article:4",
+          "label": "Madde 4",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 4- (1) Bu Yönetmelikte geçen; \na) Bakanlık: Çalışma ve Sosyal Güvenlik Bakanlığını, \nb) Ders saati: En az kırk beş dakikalık ders ve on beş dakikalık ara dinlenmeden oluşan zaman \ndilimini, \nc) İşe başlama eğitimi: Çalışan fiilen çalışmaya başlamadan önce, çalışanın yapacağı işi, varsa \nkullanacağı iş ekipmanını, çalışma ortamından kaynaklanan riskler ve işyerine özgü iş sağlığı ve \ngüvenliği tedbirlerini içeren konularda uygulamalı ve yüz yüze olarak verilen eğitimi, \nç) Kanun: 20/6/2012 tarihli ve 6331 sayılı İş Sağlığı ve Güvenliği Kanununu, \nd) Temel eğitim: Asgari olarak Ek-1’de belirtilen konuları içeren ve düzenli aralıklarla \ntekrarlanan eğitimi, \ne) Uzaktan eğitim: İletişim teknolojileri aracılığıyla elektronik ortamda gerçekleştirilen eğitim \nfaaliyetlerini, \nifade eder. \nİKİNCİ BÖLÜM \nİşverenin ve Çalışanın Yükümlülükleri \nİşverenin yükümlülükleri",
+          "normalized_hash": "76c5e01bda45c743"
+        },
+        {
+          "provision_id": "law:45087:article:5",
+          "label": "Madde 5",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 5- (1) İşveren, çalışanların işe başlama eğitimlerini, temel eğitimleri ve gerekli hâllerde \nbu Yönetmelikte yer alan diğer eğitimleri almasını sağlar. \n(2) İşveren, çalışanların iş sağlığı ve güvenliği eğitimlerine ilişkin aşağıdaki hususları sağlamakla \nyükümlüdür: \na) Eğitim programlarını hazırlamak ve uygulamak. \nb) Eğitimler için uygun yer, araç ve gereçleri temin etmek. \nc) Çalışanların bu programlara katılmasını sağlamak ve katılımları eğitim katılım tutanağı ile \nkayıt altına almak. \nç) Eğitimleri tamamlayanlar için gerekli belgeleri düzenlemek. \nd) Eğitimleri, değişen ve ortaya çıkan yeni risklere uygun olarak yenilemek, gerektiğinde ve \ndüzenli aralıklarla eğitimlerin tekrarlanmasını sağlamak. \n(3) İşveren, çalışanlarda iş sağlığı ve güvenliğine yönelik bilgi, tutum ve davranış değişikliği \noluşturabilecek nitelikte eğitimlerin verilmesini sağlamakla yükümlüdür. \n(4) İşveren, tehlikeli ve çok tehlikeli sınıfta yer alan işyerlerinde yapılacak işlerde karşılaşılacak \nsağlık ve güvenlik riskleri ile ilgili yeterli bilgi ve talimatları içeren eğitimin alındığına dair belge \nolmaksızın, başka işyerlerinden çalışmak üzere gelen çalışanları işe başlatamaz. \n(5) İşveren, iş sağlığı ve güvenliği eğitimlerinin maliyetini çalışanlara yansıtamaz. \n\n(6) İş sağlığı ve güvenliği eğitimlerinde geçen süre çalışma süresinden sayılır. Eğitim sürelerinin \nhaftalık çalışma süresinin üzerinde olması hâlinde, bu süreler fazla sürelerle çalışma veya fazla \nçalışma olarak değerlendirilir. \nÇalışanların yükümlülükleri",
+          "normalized_hash": "95b276bb646302a6"
+        },
+        {
+          "provision_id": "law:45087:article:6",
+          "label": "Madde 6",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 6- (1) Çalışanların, iş sağlığı ve güvenliği eğitimleri ile ilgili yükümlülükleri şunlardır: \na) Uygulamaya konulan eğitim programları çerçevesinde iş sağlığı ve güvenliği eğitimlerine \nkatılmak. \nb) Eğitimleri düzenli takip etmek. \nc) Eğitimlerin verimli olması için gereken dikkat ve özeni göstermek. \nç) İşveren tarafından uygulanan ölçme ve değerlendirmelere katılmak. \nd) Eğitimlerde edindiği bilgileri yaptığı iş ve işlemlerde uygulamak ve bu konudaki talimatlara \nuymak. \nÜÇÜNCÜ BÖLÜM \nİşe Başlama Eğitimleri \nİşe başlama eğitimleri",
+          "normalized_hash": "2a86c44c812c4019"
+        },
+        {
+          "provision_id": "law:45087:article:7",
+          "label": "Madde 7",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 7- (1) İşveren, çırak ve stajyerler de dâhil olmak üzere tüm çalışanların fiilen çalışmaya \nbaşlamadan önce işe başlama eğitimi almasını sağlar. \n(2) İşe başlama eğitimi; çalışanın yapacağı iş, varsa kullanacağı iş ekipmanı, çalışma ortamından \nkaynaklanan riskler ve işyerine özgü iş sağlığı ve güvenliği tedbirlerine ilişkin konuları içerir. \n(3) İşe başlama eğitimi, çalışanın tehlike ve risklere karşı korunmasını sağlayacak nitelikte, \nuygulamalı ve yüz yüze olarak verilir. \n(4) İşe başlama eğitimleri; işveren, işyerinde sağlık ve güvenlik hizmetini yürüten iş güvenliği \nuzmanları ile işyeri hekimleri veya işveren tarafından görevlendirilen bilgi sahibi ve deneyimli \nçalışanlar tarafından verilir. \n(5) İşe başlama eğitimi her çalışan için en az iki saat olarak düzenlenir. Bu eğitimlerde geçen \nsüre temel eğitim süresinden sayılmaz. \n(6) Tamamlanan işe başlama eğitimi; eğitim veren kişi, çalışan ve işverenin veya vekilinin imzası \nile tutanak altına alınır, çalışanın özlük dosyasında saklanır. \nDÖRDÜNCÜ BÖLÜM \nTemel Eğitimler ve Diğer Eğitimler \nTemel eğitimler",
+          "normalized_hash": "db77d1ad5a643530"
+        },
+        {
+          "provision_id": "law:45087:article:8",
+          "label": "Madde 8",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 8- (1) İşveren, temel eğitimlerin çalışan işe başladıktan sonra en kısa sürede tamamının \nverilmesini sağlar. Bu süre işyerindeki sağlık ve güvenlik riskleri göz önünde bulundurularak işveren \ntarafından belirlenir. Ancak bu süre çalışanın işe başlamasından itibaren her hâlükârda üç aydan fazla \nolamaz. \nTemel eğitimin konuları",
+          "normalized_hash": "7e1f9fe9aebfc794"
+        },
+        {
+          "provision_id": "law:45087:article:9",
+          "label": "Madde 9",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 9- (1) Temel eğitim, Ek-1’de yer alan konuları asgari olarak içerir. \n(2) Eğitim konularının içeriği; katılımcıların eğitim seviyelerine uygun, çalışanların görev \nyaptıkları alandaki iş ve çalışma ortamı ögeleri kullanılarak hazırlanır. \n(3) Ek-1’deki konuların anlatımında eğitime katılacakların ihtiyacı olan, işyerinin faaliyet \nalanında yer alan ve sektöre özgü hususlar göz önünde bulundurulur. \n(4) Ek-1’de yer alan dördüncü konu başlığının içeriği tehlikeli ve çok tehlikeli sınıfta yer alan \nişyerleri için; işyerinin risk değerlendirmesi dokümanı, acil durum planı, bulunması hâlinde \npatlamadan korunma dokümanı ve iş sağlığı ve güvenliği mevzuatı kapsamında hazırlanan diğer \ndokümanlar dikkate alınarak işe ve işyerine özgü hazırlanır. \n(5) Az tehlikeli sınıftaki işyerleri için Ek-1’de yer alan dördüncü konu başlığının içeriği faaliyetin \ngenel tehlike ve risklerini (yüksekte çalışma, yüksekten düşme, kapalı ortamda çalışma, yangın, özel \nrisk taşıyan ekipmanla çalışma gibi) içerecek şekilde hazırlanır. Bu durumda işverenin işyerinde \nkarşılaşılabilecek sağlık ve güvenlik riskleri, koruyucu ve önleyici tedbirlere ilişkin bilgilendirme yapma \nyükümlülüğü saklıdır. \n\n(6) Ek-1’de yer alan konu başlıkları ve içeriklere ilave olması hâlinde 13 üncü maddenin birinci \nfıkrasında belirtilen eğitim süresi, ilave edilen konuların kapsamı ve niteliği doğrultusunda işveren \ntarafından makul ölçüde artırılır. \nTemel eğitimi verebilecek kişi, kurum ve kuruluşlar",
+          "normalized_hash": "55dfab54925f1a6b"
+        },
+        {
+          "provision_id": "law:45087:article:10",
+          "label": "Madde 10",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 10- (1) Temel eğitimler aşağıda belirtilen kişi, kurum ve kuruluşlar tarafından verilir: \na) İşyerinde sağlık ve güvenlik hizmetini yürüten iş güvenliği uzmanları ile işyeri hekimleri. \nb) Çalışma ve Sosyal Güvenlik Eğitim ve Araştırma Merkezi. \nc) Üniversiteler ile kamu kurum ve kuruluşlarının eğitim birimleri. \nç) Kamu kurumu niteliğindeki meslek kuruluşları. \nd) İşçi, işveren ve kamu görevlileri kuruluşları veya bu kuruluşlarca kurulan eğitim vakıfları ve \nbunların ortaklaşa oluşturdukları eğitim merkezleri. \ne) Çalışanlara ücretsiz eğitim hizmeti veren ve kamu yararına kuruluş statüsüne haiz, eğitim \namaçlı kurulmuş vakıflar. \n(2) Eğiticilerin uzmanlık alanının Ek-1’de yer alan konulara uygun olması şartı aranır. Birinci \nfıkranın (ç), (d) ve (e) bentlerinde sayılanlar bu eğitimleri bünyelerinde görevli; işyeri hekimliği ve iş \ngüvenliği uzmanlığı eğitici belgesine, iş güvenliği uzmanlığı belgesine veya işyeri hekimliği belgesine \nsahip kişiler aracılığı ile gerçekleştirir. \n(3) Uzaktan eğitim yöntemi kullanılarak verilebilecek temel eğitim konularının içeriği birinci \nfıkrada yer alan kişi, kurum ve kuruluşlarca hazırlanır. \nTemel eğitim programının hazırlanması",
+          "normalized_hash": "274537736908932b"
+        },
+        {
+          "provision_id": "law:45087:article:11",
+          "label": "Madde 11",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 11- (1) İşveren, verilecek eğitimlerin konusunun, tarihinin, yerinin, süresinin, \nkatılımcılarının ve hedef ile amaçlarının yer aldığı yıllık eğitim programlarının hazırlanmasını sağlar ve \nonaylar. \n(2) Eğitim programlarının hazırlanmasında çalışanların veya temsilcilerinin görüşleri alınır. \n(3) İlgili mevzuatın değişmesi, değişen şartlara göre yeni risklerin ortaya çıkması veya işe yeni \nalım durumlarında yıllık eğitim programları güncellenir. \nTemel eğitimin düzenlenmesi",
+          "normalized_hash": "b3b77a19fb6a8673"
+        },
+        {
+          "provision_id": "law:45087:article:12",
+          "label": "Madde 12",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 12- (1) Temel eğitimler, çalışanların kolayca anlayabileceği şekilde bireysel ya da \ngruplar halinde düzenlenir. \n(2) Ek-1’de yer alan birinci, ikinci ve üçüncü konu başlıkları tüm işyerleri için uzaktan, yüz yüze \nveya iki yöntemin bir arada kullanılmasıyla verilebilir. İşveren, teknik olanaklar ve çalışanların ihtiyacı \ndoğrultusunda yöntemi belirler. \n(3) Ek-1’de yer alan dördüncü konu başlığı; \na) Az tehlikeli sınıfta yer alan işyerlerinde uzaktan, yüz yüze veya iki yöntemin bir arada \nkullanılmasıyla, \nb) Tehlikeli ve çok tehlikeli sınıfta yer alan işyerlerinde yüz yüze, \nverilir. \n(4) Eğitimlerin uzaktan eğitim yöntemi kullanılarak verilmesi halinde çalışanların uzaktan eğitim \nsistemine giriş ve çıkışları, eğitim tamamlama oranları, ölçüm ve değerlendirme sonuçları ve benzeri \nveriler kayıt altına alınır, izlenir ve raporlanır. \n(5) İşveren, uzaktan eğitim sisteminin; \na) Kullanıcıların ulaşmakta güçlük çekmeyeceği, kullanıcı talebini karşılayabilir, yönetilebilir ve \nizlenebilir, \nb) İleri sarma, sekme veya pencere kapatma gibi eğitimin verimliliğini olumsuz etkileyecek \nhususları önleyecek, \nc) Belirli periyotlarda kısa soru veya önemli bilgi ve benzeri açılır pencereler aracılığıyla \nçalışanın eğitime aktif olarak katılımını destekleyecek, \nnitelikte olmasını sağlar. \nTemel eğitimin süresi",
+          "normalized_hash": "9ed5043066fd55c8"
+        },
+        {
+          "provision_id": "law:45087:article:13",
+          "label": "Madde 13",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 13- (1) Temel eğitimler, işyeri tehlike sınıfına göre her çalışana asgari olarak aşağıda \nbelirtilen sürelerde verilir: \na) Az tehlikeli sınıfta yer alan işyerleri için en az sekiz ders saati. \n\nb) Tehlikeli sınıfta yer alan işyerleri için en az on iki ders saati. \nc) Çok tehlikeli sınıfta yer alan işyerleri için en az on altı ders saati. \n(2) Birinci fıkrada belirtilen eğitim sürelerinin Ek-1’de yer alan konulara göre dağılımında \nişyerinde yürütülen faaliyetler ile çalışanların ihtiyaçları esas alınır. \n(3) Ek-1’de yer alan dördüncü konu başlığına ayrılan süre, toplam temel eğitim süresi içerisinde \naz tehlikeli sınıfta yer alan işyerleri için iki ders saatinden, tehlikeli sınıfta yer alan işyerleri için üç ders \nsaatinden ve çok tehlikeli sınıfta yer alan işyerleri için dört ders saatinden az olamaz. \n(4) İşveren tarafından temel eğitimin gerçekleştirilmesinde eğitim süresinin bütün olarak \ndeğerlendirilmesi esas olmakla birlikte, bu eğitim işyerindeki vardiya ve benzeri iş programları da \ndikkate alınarak bir ders saatinden az olmamak kaydıyla farklı zaman dilimlerinde de \ngerçekleştirilebilir. \nTemel eğitimin tekrarlanma periyodu",
+          "normalized_hash": "cc0660fed179c58c"
+        },
+        {
+          "provision_id": "law:45087:article:14",
+          "label": "Madde 14",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 14- (1) Temel eğitimler, değişen ve ortaya çıkan yeni riskler de dikkate alınarak aşağıda \nbelirtilen düzenli aralıklarla tekrarlanır: \na) Çok tehlikeli sınıfta yer alan işyerlerinde yılda en az bir defa. \nb) Tehlikeli sınıfta yer alan işyerlerinde iki yılda en az bir defa. \nc) Az tehlikeli sınıfta yer alan işyerlerinde üç yılda en az bir defa. \n(2) Temel eğitimlerin tekrarı; az tehlikeli, tehlikeli ve çok tehlikeli sınıfta yer alan tüm işyerleri \niçin asgari sekiz ders saati olarak düzenlenir. Bu eğitimlerde Ek-1’de yer alan dördüncü konu \nbaşlığının; 12 nci maddenin üçüncü fıkrasına uygun eğitim yöntemi kullanılarak 13 üncü maddenin \nüçüncü fıkrasında belirtilen sürelerde verilmesi sağlanır. \n(3) Çalışma yeri veya iş değişikliği, iş ekipmanının değişmesi, yeni teknoloji uygulanması gibi \ndurumlar nedeniyle ortaya çıkacak risklerle ilgili eğitimler birinci fıkrada belirtilen aralıklar \nbeklenmeksizin verilir. \nYüz yüze verilecek temel eğitim mekânının nitelikleri",
+          "normalized_hash": "3504f53d5d74df13"
+        },
+        {
+          "provision_id": "law:45087:article:15",
+          "label": "Madde 15",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 15- (1) İşveren, yüz yüze verilecek temel eğitimlerde aşağıdaki şartları sağlar: \na) Uygulamaların da yapılmasına imkân verecek uygun ve yeterli bir mekân. \nb) Eğitim mekânlarında, uygun termal konfor şartları ve yeterli aydınlatma. \nc) Eğitimde kullanılmak üzere günün teknolojisine uygun araç ve gereçler. \nTemel eğitimin ölçme ve değerlendirme usulleri",
+          "normalized_hash": "0c7a7b076804f598"
+        },
+        {
+          "provision_id": "law:45087:article:16",
+          "label": "Madde 16",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 16- (1) İşveren tarafından belirlenecek bir yöntem ile çalışanların bireysel seviye tespiti \nyapılarak temel eğitim öncesi seviyeleri belirlenir. \n(2) Temel eğitimin sonunda ölçme ve değerlendirme yapılır. Ölçme ve değerlendirme \nkapsamındaki değerlendirme sınavları; uzaktan, yüz yüze veya iki yöntem bir arada kullanılarak \nyapılabilir. \n(3) Sınavlarda yüz puan üzerinden en az altmış puan alan katılımcılar başarılı sayılır. İlk sınavda \nbaşarısız olan katılımcılar en fazla iki defa daha ilgili sınavlara katılabilir. Bu sınavlarda başarısız olan \nkatılımcılar temel eğitime yeniden katılmak zorundadır. \n(4) İşveren eğitimlerin etkinliğine dair değerlendirme yapar. Değerlendirme sonuçlarına göre \nihtiyaç duyulması halinde, eğitim programında veya eğiticilerde değişiklik yapılır veya eğitim \ntekrarlanır. \nTemel eğitimin belgelendirilmesi",
+          "normalized_hash": "e79551c13da3f18b"
+        },
+        {
+          "provision_id": "law:45087:article:17",
+          "label": "Madde 17",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 17- (1) İşveren yüz yüze verilen temel eğitimlerde çalışanların katılımlarını; eğitimin \ndüzenlendiği yer ve tarih, katılımcıların adı, soyadı ve imzası, eğiticinin adı, soyadı ve imzası ile \neğitimin süresi, eğitimde yer alan konu başlıklarını içerecek şekilde eğitim katılım tutanakları ile kayıt \naltına alır. \n(2) İşveren, temel eğitimlerin uzaktan eğitim yöntemi kullanılarak verilmesi halinde çalışanların \nkatılımlarını 12 nci maddenin dördüncü fıkrasında belirtilen verilerle kayıt altına alır. \n(3) İşveren, düzenlenen temel eğitimleri başarıyla tamamlayan çalışanlara, Ek-2’de yer alan \nörneğine uygun temel eğitim belgesi düzenler ve bu belgeleri çalışanın özlük dosyasında muhafaza \neder. \n\n(4) Çalışanın işten ayrılırken talep etmesi halinde temel eğitim belgesinin bir örneği işveren \ntarafından imzalanarak çalışana teslim edilir. Belgenin mümkün olan en kısa sürede verilmesinden ve \nbelgede yer alan bilgilerin doğruluğundan işveren sorumludur. \n(5) Eğitimlerin 10 uncu maddenin birinci fıkrasında sayılanlar tarafından verilmesi durumunda \neğitimi verenlerin ünvanı da temel eğitim belgesinde yer alır. \nBilgi yenileme eğitimi",
+          "normalized_hash": "cf057029a6cf3e7a"
+        },
+        {
+          "provision_id": "law:45087:article:18",
+          "label": "Madde 18",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 18- (1) Herhangi bir sebeple altı aydan fazla süreyle işten uzak kalanlara, tekrar işe \nbaşlatılmadan önce Ek-1’in dördüncü konu başlığı kapsamında bilgi yenileme eğitimi verilir. \nİş kazası geçiren veya meslek hastalığına yakalanan çalışana verilecek ilave eğitim",
+          "normalized_hash": "6ec0549a7abe828e"
+        },
+        {
+          "provision_id": "law:45087:article:19",
+          "label": "Madde 19",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 19- (1) İş kazası geçiren veya meslek hastalığına yakalanan çalışana işe dönüşünde \nçalışmaya başlamadan önce, kazanın veya meslek hastalığının sebepleri, korunma yolları ve güvenli \nçalışma yöntemleri ile ilgili ilave eğitim verilir. \nÖzel politika gerektiren grupların ve özel görevi bulunan çalışanların eğitimi",
+          "normalized_hash": "56e868e8535609a5"
+        },
+        {
+          "provision_id": "law:45087:article:20",
+          "label": "Madde 20",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 20- (1) İşyerinde on beş yaşını bitirmiş ancak on sekiz yaşını doldurmamış genç \nçalışanlar, yaşlı, engelli, gebe veya emziren çalışanlar gibi özel politika gerektiren grupların özellikleri \ndikkate alınarak gerekli eğitimler verilir. Engelli çalışanlar için eğitim, erişilebilirlik standartlarına \nuygun ve bu çalışanların ihtiyaçlarını karşılayacak şekilde alternatif formatları içerir. \n(2) Destek elemanlarına ve çalışan temsilcilerine, görevlendirilecekleri konularla ilgili eğitim \nverilir. \nÇırak ve stajyerlerin eğitimi",
+          "normalized_hash": "c07e24bd5ab237c9"
+        },
+        {
+          "provision_id": "law:45087:article:21",
+          "label": "Madde 21",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 21- (1) Çırak ve stajyerlerin eğitim ve bilgilendirilmelerinden uygulamalı eğitim alınan \nişyerinin işvereni sorumludur. Ancak işverenin kabul etmesi halinde çırak ve stajyerlerin eğitimini \ndevam ettirdiği eğitim ve öğretim kurumunda tamamladığı iş sağlığı ve güvenliği dersleri veya kursları \ntemel eğitim yerine geçer. \nAsıl işveren ve alt işveren ilişkisinin bulunduğu işyerlerinde çalışanların iş sağlığı ve güvenliği \neğitimleri",
+          "normalized_hash": "faf3f016d5350ebe"
+        },
+        {
+          "provision_id": "law:45087:article:22",
+          "label": "Madde 22",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 22- (1) 22/5/2003 tarihli ve 4857 sayılı İş Kanununun 2 nci maddesinin yedinci \nfıkrasında belirtilen asıl işveren alt işveren ilişkisi kurulan işyerlerinde, her işveren kendi çalışanlarının \niş sağlığı ve güvenliği eğitimlerinin verilmesinden sorumludur. Bu işyerlerinde alt işverenin \nçalışanlarının eğitimleri ile ilgili asıl işveren alt işverence bilgilendirilir. Asıl işveren, alt işverenin \nçalışanlarının iş sağlığı ve güvenliği eğitimlerine dair belgeleri kontrol etmekle yükümlüdür. Ayrıca asıl \nişveren, alt işverenin çalışanlarına işe başlamadan önce işyerine özgü risklere ilişkin bilgi verir. \nGeçici iş ilişkisi bulunan işyerlerinde çalışanların iş sağlığı ve güvenliği eğitimleri",
+          "normalized_hash": "5e2b8994470db091"
+        },
+        {
+          "provision_id": "law:45087:article:23",
+          "label": "Madde 23",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 23- (1) 4857 sayılı Kanunun 7 nci maddesinde yer alan geçici iş ilişkisi kapsamında \ngeçici iş ilişkisi kurulan işveren, iş sağlığı ve güvenliği risklerine karşı çalışana gerekli eğitimin \nverilmesini sağlar. \nEğitimlerin belgelendirilmesi",
+          "normalized_hash": "cce3e4eaa8311f1d"
+        },
+        {
+          "provision_id": "law:45087:article:24",
+          "label": "Madde 24",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 24- (1) İşveren, bu Yönetmelik kapsamında gerçekleştirilen diğer eğitimlerin tamamını \nbelgelendirerek çalışanın özlük dosyasında saklanmasını sağlar. \n(2) Kanun kapsamında yürürlüğe konulan diğer ilgili mevzuatla çalışanlara ayrıca verilmesi \ngereken eğitimler çalışan ve işverenin imzası ile eğitim içeriği belirtilerek belgelendirilir. Çalışanın \nözlük dosyasında saklanır. \nÇalışanın işyerinin değişmesi",
+          "normalized_hash": "86ed25166ee0cc9f"
+        },
+        {
+          "provision_id": "law:45087:article:25",
+          "label": "Madde 25",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 25- (1) Bir işyerinde temel eğitimini tamamladıktan sonra yaptığı iş değişmeden yeni \nbir işyerinde çalışmaya başlayan çalışan, Ek-1’de yer alan eğitim programının tamamı \ntekrarlanmaksızın dördüncü konu başlığında yer alan konularda eğitilir. Çalışanın daha önceki \nişyerinde temel eğitimi tamamladığına dair belgelerinin kontrolünden işveren sorumludur. Bu \nçalışanların temel eğitimleri, çalışanın eğitimi tamamladığı tarihten itibaren yeni başladığı işyerinin \ntehlike sınıfına göre 14 üncü maddenin birinci fıkrasında belirtilen düzenli aralıklar süresince \ngeçerlidir. İşveren ayrıca bu çalışanların işe başlama eğitimi almasını sağlar. \nBEŞİNCİ BÖLÜM \nÇeşitli ve Son Hükümler \n\nElektronik imza ve arşiv",
+          "normalized_hash": "273e87c1993bf0b2"
+        },
+        {
+          "provision_id": "law:45087:article:26",
+          "label": "Madde 26",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 26- (1) Bu Yönetmelik kapsamında hazırlanan belgeler; 15/1/2004 tarihli ve 5070 sayılı \nElektronik İmza Kanununa uygun olarak imzalanabilir, eğitimlere ilişkin belgeler elektronik ve benzeri \nortamlarda hazırlanıp arşivlenebilir. \nYürürlükten kaldırılan yönetmelik",
+          "normalized_hash": "b0b5d9c683ecd5b9"
+        },
+        {
+          "provision_id": "law:45087:article:27",
+          "label": "Madde 27",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 27- (1) 15/5/2013 tarihli ve 28648 sayılı Resmî Gazete'de yayımlanan Çalışanların İş \nSağlığı ve Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmelik yürürlükten kaldırılmıştır. \nGeçerli eğitimler",
+          "normalized_hash": "d5507ccacef6f3b9"
+        },
+        {
+          "provision_id": "law:45087:gecici-madde:1",
+          "label": "Geçici Madde 1",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 1- (1) Bu Yönetmeliğin yayımı tarihinden önce 27 nci madde ile yürürlükten \nkaldırılan Çalışanların İş Sağlığı ve Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmelik \nkapsamında verilen tüm eğitim ve bilgilendirmeler geçerli sayılır. \n(2) Bu Yönetmeliğin yayımı tarihinden önce temel eğitimler için hazırlanan eğitim belgeleri 14 \nüncü maddenin birinci fıkrasında belirtilen düzenli aralıklar süresince geçerlidir. \n(3) Bu Yönetmeliğin yayımı tarihinden önce verilen ancak belgelendirilemeyen eğitim ve \nbilgilendirmeler bu Yönetmeliğin yayımı tarihinden itibaren bir ay içerisinde belgelendirilir. \nYürürlük",
+          "normalized_hash": "7183949fc701fc38"
+        },
+        {
+          "provision_id": "law:45087:article:28",
+          "label": "Madde 28",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 28- (1) Bu Yönetmelik yayımı tarihinde yürürlüğe girer. \nYürütme",
+          "normalized_hash": "be728209d4c80ac8"
+        },
+        {
+          "provision_id": "law:45087:article:29",
+          "label": "Madde 29",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 29- (1) Bu Yönetmelik hükümlerini Çalışma ve Sosyal Güvenlik Bakanı yürütür. \n \nEkleri için tıklayınız.",
+          "normalized_hash": "025b23f4f3224583"
+        }
+      ]
+    }
+  ]
+}

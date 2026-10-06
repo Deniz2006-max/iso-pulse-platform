@@ -1,0 +1,420 @@
+{
+  "documents": [
+    {
+      "document_id": "law:16923",
+      "title": "İş Güvenliği Uzmanlarının Görev, Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik",
+      "canonical_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=16923&MevzuatTur=7&MevzuatTertip=5",
+      "current_version_id": "law:16923:sha256:ae86d7236b8e8d99",
+      "included_provisions": [
+        {
+          "provision_id": "law:16923:article:1",
+          "label": "Madde 1",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 1 – (1) Bu Yönetmeliğin amacı; iş sağlığı ve güvenliği hizmetlerinde görevli iş güvenliği \nuzmanlarının nitelikleri, eğitimleri ve belgelendirilmeleri, görev, yetki ve sorumlulukları ile çalışma \nusul ve esaslarını düzenlemektir. \nKapsam",
+          "normalized_hash": "01d289a3aa8f55ac"
+        },
+        {
+          "provision_id": "law:16923:article:2",
+          "label": "Madde 2",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 2 – (1) Bu Yönetmelik, 20/6/2012 tarihli ve 6331 sayılı İş Sağlığı ve Güvenliği Kanunu \nkapsamında yer alan işyerleri ile eğitim kurumlarını kapsar. \nDayanak",
+          "normalized_hash": "7943eabd23970576"
+        },
+        {
+          "provision_id": "law:16923:article:3",
+          "label": "Madde 3",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 3 – (1) Bu Yönetmelik; 6331 sayılı İş Sağlığı ve Güvenliği Kanununun (Değişik ibare:RG11/10/2013-28792) 3 üncü (Değişik ibare:RG-30/4/2015-29342) ,24 üncü, 27 nci, 30 uncu ve 31 inci \nmaddeleri ile 9/1/1985 tarihli ve 3146 sayılı Çalışma ve Sosyal Güvenlik Bakanlığının Teşkilat ve \nGörevleri Hakkında Kanunun 2 ve 12 nci maddelerine dayanılarak hazırlanmıştır. \nTanımlar",
+          "normalized_hash": "8052a8812540af2b"
+        },
+        {
+          "provision_id": "law:16923:article:4",
+          "label": "Madde 4",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 4(2) – (1) Bu Yönetmelikte geçen: \na) Bakanlık: Çalışma ve Sosyal Güvenlik Bakanlığını, \nb) Eğiticilerin eğitimi belgesi: En az kırk saatlik eğitim sonunda kamu kurum ve kuruluşları, \nüniversiteler veya 8/2/2007 tarihli ve 5580 sayılı Özel Öğretim Kurumları Kanununa göre \nyetkilendirilen kurumlar tarafından tek bir program sonucunda verilen eğiticilerin eğitimi belgesini, \nc) Eğitim kurumu: (Değişik ibare:RG-30/4/2015-29342) İş güvenliği uzmanı, işyeri hekimi ve \ndiğer sağlık personelinin eğitimlerini vermek üzere Bakanlıkça yetkilendirilen kamu kurum ve \nkuruluşları, üniversiteler ve 13/1/2011 tarihli ve 6102 sayılı Türk Ticaret Kanununa göre faaliyet \ngösteren şirketler tarafından kurulan müesseseleri, \nç) (Değişik:RG-30/4/2015-29342) Eğitim programı: Uzaktan, yüz yüze ve uygulamalı eğitimlerin \ntarih ve saatleri, eğiticileri, katılımcıları ile eğitim verilen adres gibi unsurlardan ve bu unsurlara ilişkin \nher türlü bilgi ve belgeden oluşan programı, \nd) Genel Müdürlük: İş Sağlığı ve Güvenliği Genel Müdürlüğünü, \ne) İSG-KATİP: İş sağlığı ve güvenliği hizmetleri ile ilgili iş ve işlemlerin Genel Müdürlükçe kayıt, \ntakip ve izlenmesi amacıyla kullanılan İş Sağlığı ve Güvenliği Kayıt, Takip ve İzleme Programını, \nf) (Değişik:RG-11/10/2013-28792) İş güvenliği uzmanı: İş sağlığı ve güvenliği alanında görev \nyapmak üzere Bakanlıkça yetkilendirilmiş, iş güvenliği uzmanlığı belgesine sahip, Bakanlık ve ilgili \nkuruluşlarında çalışma hayatını denetleyen müfettişler ile mühendislik veya mimarlık eğitimi veren \nfakültelerin mezunları ile teknik elemanı, \ng) (Ek:RG-11/10/2013-28792)(2) Kanun: 20/6/2012 tarihli ve 6331 sayılı İş Sağlığı ve Güvenliği \nKanununu, \nğ) (Ek:RG-11/10/2013-28792)(2) (Değişik:RG-30/4/2015-29342) Komisyon: İş Sağlığı ve \nGüvenliği Genel Müdürü veya Yardımcısının başkanlığında Genel Müdürlükten üç üye ve İş Teftiş \nKurulu Başkanlığından seçilecek bir üye ile gerek görüldüğünde üniversitelerin tıp, hukuk, eğitim, \nmühendislik ve iletişim fakültelerinden seçilecek öğretim üyelerinden oluşan Komisyonu, \nh)(2) Sorumlu müdür: İşyeri hekimliği ve iş güvenliği uzmanlığı eğitici belgesine sahip olan, tam \nsüreli istihdam edilen ve eğitim kurumlarının iş ve işlemlerinden Bakanlığa karşı sorumlu olan kişiyi, \nı)(2) Teknik eleman: Teknik öğretmenler, (Değişik ibare:RG-11/10/2013-28792) fizikçi, kimyager \nveya biyolog unvanına sahip olanlar ile üniversitelerin (Değişik ibare:RG-30/4/2015-29342) iş sağlığı \nve güvenliği lisans veya ön lisans programı mezunlarını, ifade eder. \ni) (Ek:RG-30/4/2015-29342) (Değişik:RG-28/2/2020-31053) İtiraz komisyonu: Bu Yönetmelik \nkapsamında hizmet veren kişi veya kurumların belgelerinin askıya alınma veya iptali ile ilgili itirazlarını \ndeğerlendirmek ve sonuçlandırmak üzere; İş Sağlığı ve Güvenliği Genel Müdürü başkanlığında, ilgili \n\nGenel Müdür Yardımcısı, ilgili Daire Başkanı ile Genel Müdürlükte görevli ve değerlendirmeye konu \ndenetim sürecinde yer almamış dört personel olmak üzere toplam yedi üyeden oluşan komisyonu, \n \nİKİNCİ BÖLÜM \nİşverenin Yükümlülükleri \nİş güvenliği uzmanı görevlendirme yükümlülüğü",
+          "normalized_hash": "b46bd8da26704fcc"
+        },
+        {
+          "provision_id": "law:16923:article:5",
+          "label": "Madde 5",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "MADDE 5 – (Mülga:RG-30/4/2015-29342) \nİşyeri sağlık ve güvenlik birimi kurma yükümlüğü",
+          "normalized_hash": "efcf5dea94428d5c"
+        },
+        {
+          "provision_id": "law:16923:article:6",
+          "label": "Madde 6",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "MADDE 6 – (Mülga:RG-30/4/2015-29342) \nÜÇÜNCÜ BÖLÜM \nİş Güvenliği Uzmanlarının Nitelikleri, Görev, Yetki ve Yükümlülükleri ile \nÇalışma Usûl ve Esasları \nİş güvenliği uzmanlarının nitelikleri ve görevlendirilmeleri",
+          "normalized_hash": "4fd2107eaa73cc75"
+        },
+        {
+          "provision_id": "law:16923:article:7",
+          "label": "Madde 7",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 7 – (1) İşverence iş güvenliği uzmanı olarak görevlendirilecekler, bu Yönetmeliğe göre \ngeçerli iş güvenliği uzmanlığı belgesine sahip olmak zorundadır. \n(2) İş güvenliği uzmanlarından; (C) sınıfı belgeye sahip olanlar az tehlikeli sınıfta, (B) sınıfı \nbelgeye sahip olanlar az tehlikeli ve tehlikeli sınıflarda, (A) sınıfı belgeye sahip olanlar ise bütün \ntehlike sınıflarında yer alan işyerlerinde çalışabilirler. \n(3) Birden fazla iş güvenliği uzmanının görevlendirilmesinin gerektiği işyerlerinde, (Danıştay \nOnuncu Dairesinin 28/3/2019 tarihli ve E.: 2016/1110; K. :2019/2521 sayılı kararı ile iptal ibare; \nDanıştay İDDK’nın 17/12/2020 tarihli E.:2019/2291; K.:2020/3203 sayılı Onama kararı ile mezkûr \nkarar kesinleşmiştir.), işyerinin tehlike sınıfına uygun belgeye sahip olması yeterlidir. \n(4) İş güvenliği uzmanlarının görevlendirilmesinde, bu Yönetmeliğe göre hesaplanan çalışma \nsüreleri bölünerek birden fazla iş güvenliği uzmanına verilemez. Ancak vardiyalı çalışma yapılan \nişyerlerinde işveren tarafından vardiyalara uygun şekilde görevlendirme yapılır. \n(5) (Ek:RG-30/4/2015-29342) İşveren, bu Yönetmelikte belirtilen zorunlu çalışma sürelerine \nbağlı kalmak şartıyla işyerinin tehlike sınıfına uygun olarak görevlendirilmesi zorunlu olan en az bir iş \ngüvenliği uzmanının yanında, Kanunda ve Yönetmelikte belirtilen esas sorumluluklar saklı kalmak \nkaydıyla iş güvenliği uzmanına yardımcı olmak üzere, iş güvenliği uzmanlığı belgesine sahip ve \nişyerinin tam süreli sigortalı çalışanları arasından iş güvenliği uzmanı görevlendirmesi yapabilir. \nİş güvenliği uzmanlığı belgesi",
+          "normalized_hash": "5d4b0e658c46e645"
+        },
+        {
+          "provision_id": "law:16923:article:8",
+          "label": "Madde 8",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 8 – (1) (Değişik:RG-11/10/2013-28792) İş güvenliği uzmanlığı belgesinin sınıfları \naşağıda belirtilmiştir: \na) (A) sınıfı iş güvenliği uzmanlığı belgesi; \n1) (B) sınıfı iş güvenliği uzmanlığı belgesiyle en az dört yıl fiilen görev yaptığını iş güvenliği \nuzmanlığı sözleşmesi ile belgeleyen ve (A) sınıfı iş güvenliği uzmanlığı eğitimine katılarak yapılacak (A) \nsınıfı iş güvenliği uzmanlığı sınavında başarılı olanlara, \n2) Mühendislik veya mimarlık eğitimi veren fakülte mezunları ile teknik elemanlardan; iş sağlığı \nve güvenliği veya iş güvenliği programında doktora yapmış olanlara, \n3) Genel Müdürlük veya bağlı birimlerinde en az on yıl görev yapmış mühendislik veya mimarlık \neğitimi veren fakülte mezunları ile teknik elemanlara, \n4) İş sağlığı ve güvenliği alanında müfettiş yardımcılığı süresi dâhil en az on yıl görev yapmış \nmühendis, mimar veya teknik eleman olan iş müfettişlerine, \n5) Genel Müdürlük ve bağlı birimlerinde uzman yardımcılığı süresi dâhil en az on yıl fiilen görev \nyapmış mühendislik veya mimarlık eğitimi veren fakülte mezunları ile teknik elemanı olan iş sağlığı ve \ngüvenliği uzmanlarına, \nEK-1’deki örneğine uygun olarak Genel Müdürlükçe verilir. \nb) (B) sınıfı iş güvenliği uzmanlığı belgesi; \n1) (C) sınıfı iş güvenliği uzmanlığı belgesiyle en az üç yıl fiilen görev yaptığını iş güvenliği \nuzmanlığı sözleşmesi ile belgeleyen ve (B) sınıfı iş güvenliği uzmanlığı eğitimine katılarak yapılacak (B) \nsınıfı iş güvenliği uzmanlığı sınavında başarılı olan mühendislik veya mimarlık eğitimi veren \nfakültelerin mezunları ile teknik elemanlara, \n\n2) İş sağlığı ve güvenliği veya iş güvenliği programında yüksek lisans yapmış mühendislik veya \nmimarlık eğitimi veren fakültelerin mezunları ile teknik elemanlardan (B) sınıfı iş güvenliği uzmanlığı \niçin yapılacak sınavda başarılı olanlara, \n3) İş sağlığı ve güvenliği alanında teftiş yapan mühendis, mimar veya teknik eleman olan iş \nmüfettişleri hariç, Bakanlık ve ilgili kuruluşlarında müfettiş yardımcılığı süresi dahil en az on yıl görev \nyapan müfettişlerden (B) sınıfı iş güvenliği uzmanlığı eğitimine katılarak yapılacak (B) sınıfı iş güvenliği \nuzmanlığı sınavında başarılı olanlara, \nEK-1’deki örneğine uygun olarak Genel Müdürlükçe verilir. \nc) (C) sınıfı iş güvenliği uzmanlığı belgesi; \n1) (C) sınıfı iş güvenliği uzmanlığı eğitimine katılarak yapılacak (C) sınıfı iş güvenliği uzmanlığı \nsınavında başarılı olan mühendislik veya mimarlık eğitimi veren fakültelerin mezunları ile teknik \nelemanlara, \n2) İş sağlığı ve güvenliği alanında teftiş yapan mühendis, mimar veya teknik eleman olan iş \nmüfettişleri hariç Bakanlık ve ilgili kuruluşlarında müfettiş yardımcılığı süresi dâhil en az on yıl görev \nyapan müfettişlerden (C) sınıfı iş güvenliği uzmanlığı eğitimine katılanlara, \n3)(Ek:RG-30/4/2015-29342) Üniversitelerin iş sağlığı ve güvenliği lisans programını \ntamamlayanlardan yapılacak (C) sınıfı iş güvenliği uzmanlığı sınavında başarılı olanlara, \nEK-1’deki örneğine uygun olarak Genel Müdürlükçe verilir. \n(2) Birinci fıkranın (a) bendinin (Değişik ibare:RG-11/10/2013-28792) (3) ve (4) numaralı alt \nbentlerinde sayılanlar, (C) sınıfı iş güvenliği uzmanlığı sınavına doğrudan katılabilirler. Bakanlıkta \ngeçen çalışma süreleri fiilen iş güvenliği uzmanlığı sözleşmesi süresinden sayılır ve bu durumda \nolanlar Bakanlıktaki görevlerinden ayrıldıkları takdirde hak ettiği belgenin sınavına doğrudan \nkatılabilir. \n(3) (Ek:RG-30/4/2015-29342) Sektörel düzenleme çerçevesinde maden ve yapı ile diğer \nsektörlerde öncelikli olarak hangi mesleki unvana sahip iş güvenliği uzmanlarının ve bunların yanında \ngörev yapacak diğer mesleklere sahip iş güvenliği uzmanlarının belirlenmesine dair usul ve esaslar \nBakanlıkça belirlenir. \nİş güvenliği uzmanlarının görevleri",
+          "normalized_hash": "60fd88647f9904fd"
+        },
+        {
+          "provision_id": "law:16923:article:9",
+          "label": "Madde 9",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 9 – (1) İş güvenliği uzmanları, aşağıda belirtilen görevleri yerine getirmekle \nyükümlüdür: \na) Rehberlik; \n1) İşyerinde yapılan çalışmalar ve yapılacak değişikliklerle ilgili olarak tasarım, makine ve diğer \nteçhizatın durumu, bakımı, seçimi ve kullanılan maddeler de dâhil olmak üzere işin planlanması, \norganizasyonu ve uygulanması, kişisel koruyucu donanımların seçimi, temini, kullanımı, bakımı, \nmuhafazası ve test edilmesi konularının, iş sağlığı ve güvenliği mevzuatına ve genel iş güvenliği \nkurallarına uygun olarak sürdürülmesini sağlamak için işverene önerilerde bulunmak. \n2) İş sağlığı ve güvenliğiyle ilgili alınması gereken tedbirleri işverene yazılı olarak bildirmek. \n3) İşyerinde meydana gelen iş kazası ve meslek hastalıklarının nedenlerinin araştırılması ve \ntekrarlanmaması için alınacak önlemler konusunda çalışmalar yaparak işverene önerilerde bulunmak. \n4) İşyerinde meydana gelen ancak ölüm ya da yaralanmaya neden olmayan, ancak çalışana, \nekipmana veya işyerine zarar verme potansiyeli olan olayların nedenlerinin araştırılması konusunda \nçalışma yapmak ve işverene önerilerde bulunmak. \nb) Risk değerlendirmesi; \n1) İş sağlığı ve güvenliği yönünden risk değerlendirmesi yapılmasıyla ilgili çalışmalara ve \nuygulanmasına katılmak, risk değerlendirmesi sonucunda alınması gereken sağlık ve güvenlik \nönlemleri konusunda işverene önerilerde bulunmak ve takibini yapmak. \nc) Çalışma ortamı gözetimi; \n1) Çalışma ortamının gözetiminin yapılması, işyerinde iş sağlığı ve güvenliği mevzuatı gereği \nyapılması gereken periyodik bakım, kontrol ve ölçümleri planlamak ve uygulamalarını kontrol etmek. \n2) İşyerinde kaza, yangın veya patlamaların önlenmesi için yapılan çalışmalara katılmak, bu \nkonuda işverene önerilerde bulunmak, uygulamaları takip etmek; doğal afet, kaza, yangın veya \npatlama gibi durumlar için acil durum planlarının hazırlanması çalışmalarına katılmak, bu konuyla ilgili \n\nperiyodik eğitimlerin ve tatbikatların yapılmasını ve acil durum planı doğrultusunda hareket \nedilmesini izlemek ve kontrol etmek. \nç) Eğitim, bilgilendirme ve kayıt; \n1) Çalışanların iş sağlığı ve güvenliği eğitimlerinin ilgili mevzuata uygun olarak planlanması \nkonusunda çalışma yaparak işverenin onayına sunmak ve uygulamalarını yapmak veya kontrol etmek. \n2) Çalışma ortamıyla ilgili iş sağlığı ve güvenliği çalışmaları ve çalışma ortamı gözetim \nsonuçlarının kaydedildiği yıllık değerlendirme raporunu işyeri hekimi ile işbirliği halinde EK-2’deki \nörneğine uygun olarak hazırlamak. \n3) Çalışanlara yönelik bilgilendirme faaliyetlerini düzenleyerek işverenin onayına sunmak ve \nuygulamasını kontrol etmek. \n4) Gerekli yerlerde kullanılmak amacıyla iş sağlığı ve güvenliği talimatları ile çalışma izin \nprosedürlerini hazırlayarak işverenin onayına sunmak ve uygulamasını kontrol etmek. \n5) (Ek:RG-11/10/2013-28792) Bakanlıkça belirlenecek iş sağlığı ve güvenliğini ilgilendiren \nkonularla ilgili bilgileri, İSG KATİP’e bildirmek. \nd) İlgili birimlerle işbirliği; \n1) İşyeri hekimiyle birlikte iş kazaları ve meslek hastalıklarıyla ilgili değerlendirme yapmak, \ntehlikeli olayın tekrarlanmaması için inceleme ve araştırma yaparak gerekli önleyici faaliyet planlarını \nhazırlamak ve uygulamaların takibini yapmak. \n2) Bir sonraki yılda gerçekleştirilecek iş sağlığı ve güvenliğiyle ilgili faaliyetlerin yer aldığı yıllık \nçalışma planını işyeri hekimiyle birlikte hazırlamak. \n3) Bulunması halinde üyesi olduğu iş sağlığı ve güvenliği kuruluyla işbirliği içinde çalışmak, \n4) Çalışan temsilcisi ve destek elemanlarının çalışmalarına destek sağlamak ve bu kişilerle \nişbirliği yapmak. \nİş güvenliği uzmanlarının yetkileri",
+          "normalized_hash": "faf6be73dc31cb72"
+        },
+        {
+          "provision_id": "law:16923:article:10",
+          "label": "Madde 10",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "MADDE 10 – (1) İş güvenliği uzmanının yetkileri aşağıda belirtilmiştir: \na) (Mülga:RG-30/4/2015-29342) \nb) İşyerinde belirlediği hayati tehlikenin ciddi ve önlenemez olması ve bu hususun acil \nmüdahale gerektirmesi halinde işin durdurulması için işverene başvurmak. \nc) Görevi gereği işyerinin bütün bölümlerinde iş sağlığı ve güvenliği konusunda inceleme ve \naraştırma yapmak, gerekli bilgi ve belgelere ulaşmak ve çalışanlarla görüşmek. \nç) Görevinin gerektirdiği konularda işverenin bilgisi dâhilinde ilgili kurum ve kuruluşlarla \nişyerinin iç düzenlemelerine uygun olarak işbirliği yapmak. \n(2) Tam süreli iş sözleşmesi ile görevlendirilen iş güvenliği uzmanları, çalıştıkları işyeri ile ilgili \nmesleki gelişmelerini sağlamaya yönelik eğitim, seminer ve panel gibi organizasyonlara katılma \nhakkına sahiptir. Bu gibi organizasyonlarda geçen sürelerden bir yıl içerisinde toplam beş iş günü \nkadarı çalışma süresinden sayılır ve bu süreler sebebiyle iş güvenliği uzmanının ücretinden herhangi \nbir kesinti yapılamaz. \nİş güvenliği uzmanlarının yükümlülükleri",
+          "normalized_hash": "a8071ebd5226063e"
+        },
+        {
+          "provision_id": "law:16923:article:11",
+          "label": "Madde 11",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 11 – (1) İş güvenliği uzmanları, bu Yönetmelikte belirtilen görevlerini yaparken, işin \nnormal akışını mümkün olduğu kadar aksatmamak ve verimli bir çalışma ortamının sağlanmasına \nkatkıda bulunmak, işverenin ve işyerinin meslek sırları, ekonomik ve ticari durumları ile ilgili bilgileri \ngizli tutmakla yükümlüdürler. \n(2) İş güvenliği uzmanları, iş sağlığı ve güvenliği hizmetlerinin yürütülmesindeki ihmallerinden \ndolayı, hizmet sundukları işverene karşı sorumludur. \n(3) (Değişik:RG-30/4/2015-29342) İş güvenliği uzmanı, işverene yazılı olarak bildirilen iş sağlığı \nve güvenliğiyle ilgili alınması gereken tedbirlerden acil durdurma gerektiren haller ile yangın, \npatlama, göçme, kimyasal sızıntı gibi hayati tehlike arz edenleri, belirlenecek makul bir süre içinde \nişveren tarafından yerine getirilmemesi hâlinde, işyerinin bağlı bulunduğu çalışma ve iş kurumu il \nmüdürlüğüne yazılı olarak bildirmekle yükümlüdürler. \n(4) İş güvenliği uzmanı, görevlendirildiği işyerinde yapılan çalışmalara ilişkin tespit ve tavsiyeleri \nile 9 uncu maddede belirtilen hususlara ait faaliyetlerini, işyeri hekimi ile birlikte yapılan çalışmaları \nve gerekli gördüğü diğer hususları onaylı deftere yazar. \n\nİş güvenliği uzmanlarının çalışma süreleri",
+          "normalized_hash": "3e717cdc82f1ed33"
+        },
+        {
+          "provision_id": "law:16923:article:12",
+          "label": "Madde 12",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 12 – (1) (Değişik:RG-30/4/2015-29342) İş güvenliği uzmanları, bu Yönetmelikte \nbelirtilen görevlerini yerine getirmek için aşağıda belirtilen sürelerde görev yaparlar: \na) Az tehlikeli sınıfta yer alanlarda, çalışan başına ayda en az 10 dakika. \nb) Tehlikeli sınıfta yer alanlarda, çalışan başına ayda en az 20 dakika. \nc) Çok tehlikeli sınıfta yer alanlarda, çalışan başına ayda en az 40 dakika. \n (2) Az tehlikeli sınıfta yer alan (Değişik ibare:RG-30/4/2015-29342) 1000 ve daha fazla çalışanı \nolan işyerlerinde her (Değişik ibare:RG-30/4/2015-29342) 1000 çalışan için tam gün çalışacak en az \nbir iş güvenliği uzmanı görevlendirilir. Çalışan sayısının (Değişik ibare:RG-30/4/2015-29342) 1000 \nsayısının tam katlarından fazla olması durumunda geriye kalan çalışan sayısı göz önünde \nbulundurularak birinci fıkrada belirtilen kriterlere uygun yeteri kadar iş güvenliği uzmanı ek olarak \ngörevlendirilir. \n(3) Tehlikeli sınıfta yer alan (Değişik ibare:RG-30/4/2015-29342) 500 ve daha fazla çalışanı olan \nişyerlerinde her (Değişik ibare:RG-30/4/2015-29342) 500 çalışan için tam gün çalışacak en az bir iş \ngüvenliği uzmanı görevlendirilir. Çalışan sayısının (Değişik ibare:RG-30/4/2015-29342) 500 sayısının \ntam katlarından fazla olması durumunda geriye kalan çalışan sayısı göz önünde bulundurularak birinci \nfıkrada belirtilen kriterlere uygun yeteri kadar iş güvenliği uzmanı ek olarak görevlendirilir. \n(4) Çok tehlikeli sınıfta yer alan (Değişik ibare:RG-30/4/2015-29342) 250 ve daha fazla çalışanı \nolan işyerlerinde her (Değişik ibare:RG-30/4/2015-29342) 250 çalışan için tam gün çalışacak en az \nbir iş güvenliği uzmanı görevlendirilir. Çalışan sayısının (Değişik ibare:RG-30/4/2015-29342) 250 \nsayısının tam katlarından fazla olması durumunda geriye kalan çalışan sayısı göz önünde \nbulundurularak birinci fıkrada belirtilen kriterlere uygun yeteri kadar iş güvenliği uzmanı ek olarak \ngörevlendirilir. \n(5) İş güvenliği uzmanları sözleşmede belirtilen süre kadar işyerinde hizmet sunar. (Değişik \nikinci cümle: RG-11/10/2013-28792) Birden fazla işyeri ile kısmi süreli iş sözleşmesi yapıldığı takdirde \nbu işyerleri arasında yolda geçen süreler haftalık kanuni çalışma süresinden sayılmaz. \n(6) (Ek:RG-30/4/2015-29342) İş güvenliği uzmanları tam gün çalıştığı işyeri dışında fazla çalışma \nyapamaz. \nİş güvenliği uzmanlarının belgelendirilmesi",
+          "normalized_hash": "d724fd9fd2677c6d"
+        },
+        {
+          "provision_id": "law:16923:article:13",
+          "label": "Madde 13",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "MADDE 13 – (Mülga:RG-30/4/2015-29342) \nDÖRDÜNCÜ BÖLÜM \nEğitim Kurumlarına İlişkin Hükümler \nEğitim kurumu başvuru işlemleri",
+          "normalized_hash": "a163cfa3c32b100e"
+        },
+        {
+          "provision_id": "law:16923:article:14",
+          "label": "Madde 14",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 14 – (1) (Değişik cümle:RG-30/4/2015-29342) Eğitim Kurumu yetki belgesi almak \namacıyla, e-devlet sistemi üzerinden başvuru yapar. e-devlet sisteminin iki günden fazla çalışmadığı \ndurumlarda doğrudan veya posta yoluyla başvuru yapılabilir. Başvuru dosyasında aşağıda belirtilen \nekler bulunur: \na) Ticari şirketler için tescil edildiğini gösteren Ticaret Sicil Gazetesi. \nb) (Mülga:RG-6/7/2021-31533) \nc) Eğitim kurumunun sorumlu müdürünün eğitici belgesi ile; \n1) Ticari şirketler için tam süreli iş sözleşmesi ve kabul şerhli görevlendirme yazısı, \n2) Kamu kurum ve kuruluşları ve üniversiteler için tam süreli görevlendirme yazısı, \n3) Şirket ortağı olanlar, sorumlu müdür olarak da görev yapacaklar ise bu görevi yapacaklarına \ndair taahhütname. \nç) Tam süreli olarak görevlendirilen eğiticilerin iş sözleşmeleri ve eğitici belgeleri. \nd) Faaliyet gösterilecek yere ait yapı kullanma izni belgesi. \ne) (Değişik:RG-30/4/2015-29342) Faaliyet gösterilecek yere ait tapu senedi ile birlikte kira \nsözleşmesi veya intifa hakkı belgesi. \nf) (Değişik:RG-30/4/2015-29342) Faaliyet gösterilecek yere ait olan ve yetkili makamlarca \nverilen ada, pafta, parsel bilgilerinin yer aldığı numarataj veya adres tespit belgesi. \n\ng) (Değişik:RG-30/4/2015-29342) Faaliyet gösterilecek yere ait olan ve bu Yönetmelikte \nbelirtilen bütün bölümlerin yer aldığı inşaat teknikeri, mimar veya inşaat mühendisi tarafından \nonaylanmış 1/100 ölçekli plan. \nğ) Tapu kütüğünde mesken olarak kayıtlı bir gayrimenkulde eğitim kurumunun faaliyet \ngösterebileceğine dair kat malikleri kurulunun oybirliğiyle aldığı karar örneği. \nh) (Değişik:RG-30/4/2015-29342) Faaliyet gösterilecek yerde yangına karşı gerekli tedbirlerin \nalındığına ve bu yerde eğitim kurumu açılmasında sakınca olmadığına dair yetkili merciler tarafından \nverilen belge. \n (2) Kamu kurum ve kuruluşları için, yalnızca birinci fıkranın (c) bendinin (2) numaralı alt \nbendiyle (Değişik ibare: RG-11/10/2013-28792) (ç), (g) ve (h) bentlerinde belirtilen belgeler istenir. \nAncak eğitim verilecek mekân kamu kurumuna ait değilse (a) ve (b) bentleri hariç diğer bentlerde \nbelirtilen belgeler istenir. \n(3) Üniversitelerin eğitim kurumu olarak yetkilendirilme taleplerinde başvuru rektörlükçe \nyapılır. \n(4) (Mülga:RG-30/4/2015-29342) \nEğitim kurumu yeri ve yerleşim planında aranacak şartlar",
+          "normalized_hash": "a4e34c993cde2c45"
+        },
+        {
+          "provision_id": "law:16923:article:15",
+          "label": "Madde 15",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 15 – (1) Eğitim kurumunun yer alacağı binada; meyhane, kahvehane, kıraathane, bar, \nelektronik oyun merkezleri gibi umuma açık yerler ile açık alkollü içki satılan yerler bulunamaz. \n(2) (Değişik:RG-30/4/2015-29342) Eğitim kurumlarının; \na) Faaliyet gösterecekleri mekânda bulunan derslik ve diğer tüm bölümlerinin arasındaki \ngeçişlerin kurum içerisinden olması ve eğitim kurumunun bir bütünlük arz edecek şekilde \ndüzenlenmesi, \nb) Eğitici veya sorumlu müdür odalarının diğer bölümlere geçiş için kullanılmaması, tuvalet ve \nlavabonun derslik içinde bulunmaması, \ngerekir. Kamu kurumları ve üniversitelerce kurulan eğitim kurumları için kurumun yerleşkesi \niçinde olmak koşuluyla bu Yönetmelikte belirtilen zorunlu mekânlar, birbirine uzaklığı en fazla 100 \nmetre olan ayrı bölümlerden oluşabilir. \n (3) Genel Müdürlükten izin alınmadan, onaylanmış yerleşim planlarında herhangi bir değişiklik \nyapılamaz ve yerleşim planında belirtilen bölümler, amaçları dışında kullanılamaz. \n(4) Eğitim kurumlarınca, EK-3’teki örneğine uygun, kurum unvanına göre hazırlanan ve (Değişik \nibare:RG-30/4/2015-29342) boy/en oranı 2/3 olan tabela asılır. Aynı binada, Genel Müdürlükçe \nyetkilendirilen birden fazla kurum bulunması durumunda, kullanılacak tabela için Genel Müdürlük \nonayı alınması şartıyla, tüm unvanları gösteren tek bir tabela kullanılabilir. \nDerslik ve diğer bölümlerde aranan şartlar",
+          "normalized_hash": "c2b20b5689203bc0"
+        },
+        {
+          "provision_id": "law:16923:article:16",
+          "label": "Madde 16",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 16 – (1) Dersliklerde bulunması gereken şartlar aşağıda belirtilmiştir: \na) Dersliklerde 25’ten fazla kursiyer bulunamaz. \nb) Dersliklerde kursiyer başına en az 10 metreküp hava hacmi bulunur ve derslikler ile diğer \nbölümlerin tavan yükseklikleri 2,40 metreden az olamaz. 4 metre üzerinde olan yükseklikler hacim \nhesabında dikkate alınmaz. \nc) (Değişik birinci cümle: RG-11/10/2013-28792) Derslik pencerelerinin; doğal havalandırmaya \nmüsaade edecek şekilde binanın dış cephesinde olması, pencere alanının bulunduğu bölümün taban \nalanının %10’undan az olmaması ve yerden yüksekliğinin 90 santimetreden fazla olmaması gerekir. ve \n(Mülga cümle:RG-30/4/2015-29342) (…) \nç) Derslik kapılarının genişliği 80 santimetreden az olamaz ve kapı kasasının içten içe \nölçülmesiyle belirlenir. (Ek cümle:RG-30/4/2015-29342) Derslik kapıları, sadece koridor veya \ndinlenme yerine açılacak şekilde düzenlenir ve derslikler diğer bölümlere geçiş için kullanılamaz. \nDerslik kapıları dışa doğru açılmalı ve çift taraflı derslik bulunan koridorlarda karşılıklı açılmamalıdır. \n(2) Diğer bölümlerde bulunması gereken şartlar aşağıda belirtilmiştir: \na) Sorumlu müdür odası, en az 10 metrekare. \nb) Eğitici odası tek derslik için en az 15 metrekare, birden fazla dersliğin olması durumunda ise \nen az 25 metrekare. \n\nc) Büro hizmetleri, arşiv ve dosya odası, en az 15 metrekare; ayrı ayrı olmaları hâlinde toplamı \nen az 20 metrekare. \nç) Her derslik için erkek ve kadın ayrı olmak üzere en az birer tuvalet ve lavabo. \n(3) Dinlenme yeri, kurum içinde bağımsız bir bölüm hâlinde veya ayrı ayrı bölümlerden \nmeydana gelebilir ve tek derslik için en az 20 metrekare, birden fazla dersliğin olması durumunda ise \nen az 35 metrekare olur. Alan hesabında yönetim ve eğitime ayrılan diğer bölümler ile balkon ve \nkoridorlar dikkate alınmaz. \n(4) Eğitimlerde günün teknolojisine uygun araç ve gereçler kullanılır. \n(5) Bölümlerin, alan (metrekare) veya hacim (metreküp) ölçümü sonucu çıkan küsuratlı \nrakamlar ile kontenjanlar belirlenirken 0,5 ve daha büyük çıkan küsuratlı rakamlar bir üst tam sayıya \nyükseltilir. \nAydınlatma, gürültü ve termal konfor şartları",
+          "normalized_hash": "c28771df9fb8da5f"
+        },
+        {
+          "provision_id": "law:16923:article:17",
+          "label": "Madde 17",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 17 – (1) Eğitim kurumlarının bölümlerinde yeterli aydınlatma ve termal konfor şartları \nsağlanır, gürültüye karşı gerekli önlemler alınır. Genel Müdürlükçe gerekli görülmesi halinde, \ndurumun tespitine yönelik ölçümlerin yaptırılması istenebilir. \nEğitim kurumlarının eğitici kadrosu",
+          "normalized_hash": "50199060bd169fa2"
+        },
+        {
+          "provision_id": "law:16923:article:18",
+          "label": "Madde 18",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 18 – (Değişik:RG-11/10/2013-28792) \n(1) Eğitim kurumları, \na) (Değişik:RG-30/4/2015-29342) İş güvenliği uzmanlığı eğitimi için; bu Yönetmelikte belirtilen \neğitici belgesine sahip en az biri mühendis, diğeri farklı meslek dalından olmak üzere en az iki \neğiticiyle 60 günden az olmamak üzere tam süreli iş sözleşmesi yapar. Sözleşmenin 60 günden önce \neğitici tarafından feshedilmesi halinde; eğiticinin başka bir eğitim programında görevlendirilmesi 60 \ngün tamamlanmadan önce onaylanmaz. Sözleşmenin eğitim kurumu tarafından feshedilmesi halinde \nise tam süreli yeni eğiticinin görevlendirilmesi 60 gün tamamlanıncaya kadar onaylanmaz ve \nyürümekte olan eğitim programları askıya alınır. Bütün eğitim programlarında tam süreli eğiticilerin \nyer alması zorunludur. \nb)(Değişik:RG-30/4/2015-29342) İşyeri hekimliği, iş güvenliği uzmanlığı ve diğer sağlık \npersoneli eğitimi için bu Yönetmelikte belirtilen eğitici belgesine sahip olan biri işyeri hekimi olmak \nüzere ikisi hekim, biri mühendis diğeri farklı meslek dalından olmak üzere en az dört eğiticiyle 60 \ngünden az olmamak üzere tam süreli iş sözleşmesi yapar. Sözleşmenin 60 günden önce eğitici \ntarafından feshedilmesi halinde; eğiticinin başka bir eğitim programında görevlendirilmesi 60 gün \ntamamlanmadan önce onaylanmaz. Sözleşmenin eğitim kurumu tarafından feshedilmesi halinde ise \ntam süreli yeni eğiticinin görevlendirilmesi 60 gün tamamlanıncaya kadar onaylanmaz ve eğitim \nprogramı askıya alınır. Tam süreli eğiticiler eğitim programında yer almak zorundadır. \n(2) (Mülga:RG-30/4/2015-29342) \nEğitim kurumlarının yetkilendirilmesi",
+          "normalized_hash": "f6d7e62f41a7a53a"
+        },
+        {
+          "provision_id": "law:16923:article:19",
+          "label": "Madde 19",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 19 – (Değişik:RG-30/4/2015-29342) \n(1) Eğitim kurumları tarafından yetki belgesi almak amacıyla yapılan başvuru Genel Müdürlükçe \n10 iş günü içinde incelenir. 19/1/2013 tarihli ve 28533 sayılı Resmî Gazete’de yayımlanan Elektronik \nTebligat Yönetmeliği çerçevesinde kayıtlı elektronik posta sistemi üzerinden veya yazılı olarak \nbildirilen eksiklikler 45 gün içinde tamamlanır. Herhangi bir eksikliği bulunmayan başvurular için 20 iş \ngünü içinde yerinde inceleme yapılır. Yerinde inceleme işlemlerinde tespit edilen eksikliklerin \ngiderilmesi için 45 gün süre verilir. Belirlenen sürelerde eksiklikler giderilmez ise dosya iade edilir ve \niade tarihinden itibaren bir yıl boyunca yapılan başvurular, bir yılın tamamlanmasına kadar askıya \nalınır. Dosya üzerinde ve yerinde incelemeleri tamamlanan başvuruların, bu Yönetmelikte belirtilen \nşartları taşımaları halinde, dosyasında belirtilen adres ve unvana münhasıran, 10 iş günü içinde Genel \nMüdürlükçe EK-4’teki örneğine uygun yetki belgesi düzenlenir. Başka bir adreste şube açılmak \nistendiği takdirde, aynı usul ve esaslar dâhilinde, bu bölümde belirtilen şartların yerine getirilmesi \nkaydıyla şube için ayrıca yetki belgesi düzenlenir. \n(2) Kanuna göre, işyeri hekimliği veya iş güvenliği uzmanlığı eğitimi için yetki alan eğitim \nkurumu, her iki eğitim için de yetki almak istediğinde başvurusu tek belge olarak değerlendirilir ve \nİşyeri Hekimliği ve İş Güvenliği Uzmanlığı Eğitim Kurumu belgesi düzenlenir. \n\n(3) Bu Yönetmelikteki şartları yerine getirmeyen eğitim kurumlarına yetki belgesi \ndüzenlenemez. \n(4) Eğitim kurumları, Genel Müdürlükçe düzenlenen yetki belgesini almadıkça eğitim için \nkatılımcı kaydı yapamaz ve eğitime başlayamazlar. \n(5) Eğitim kurumları, aşağıda belirtilen hususlara uymak zorundadırlar: \na) Tabela ve basılı evrak, broşür, afiş ve internet ile diğer dijital ortamlarda herhangi bir amaçla \nkullanılan her türlü yazılı ve görsel dokümanda sadece yetki belgesinde belirtilen isim ve unvanlar \nkullanılır. \nb) Özel kuruluşlar tarafından, kamu kurum ve kuruluşlarına ait olan isimler ticari isim olarak \nkullanılamaz. \n(6) Eğitim kurumlarında, eğitici olarak, sadece bu Yönetmelikte belirtilen eğitici belgesine sahip \nolanlar görev alabilirler. \nVize işlemleri ve belgelendirme (Değişik başlık:RG-19/11/2015-29537)",
+          "normalized_hash": "b557d13e8c60877b"
+        },
+        {
+          "provision_id": "law:16923:article:20",
+          "label": "Madde 20",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 20 – (1)(Değişik:RG-30/4/2015-29342) (Değişik cümle:RG-19/11/2015-29537) Bu \nYönetmelik kapsamında yetkilendirilen kişi ve kurumlara ait yetki belgelerinin beş yılda bir vize \nettirilmesi zorunludur. Belge almak veya vize işlemlerini yaptırmak isteyen (Ek ibare:RG-19/11/201529537) kişi ve kurumların; \na) Bu Yönetmeliğin ilgili hükümlerine uygunluk sağlamaları, \nb) Bakanlıkça belirlenen belge veya vize bedelini ödemeleri, \ngereklidir. \n(2) (Değişik:RG-30/4/2015-29342) Yetkilendirilen kurumlar beş yılın tamamlanmasına en fazla \n60 gün kala vize işlemleri için Genel Müdürlüğe müracaat eder. Yukarıda belirtilen süre içinde \nmüracaat etmeyen kurumların eğitim programları, vize işlemleri tamamlanıncaya kadar onaylanmaz. \nVize süresinin bitiminden itibaren üç ay içinde vize işleminin tamamlanmaması durumunda yetki \nbelgesi Genel Müdürlükçe doğrudan iptal edilir. \n(3) Eğitim kurumları, herhangi bir sebeple faaliyetlerini bırakmaları halinde otuz gün içinde \nyetki belgelerinin asıllarını Genel Müdürlüğe iade ederler. \n(4) Belgelendirme ve vize aşamasında gerçeğe aykırı belge ibraz ettiği veya beyanda bulunduğu \nsonradan tespit edilenlere ait belgeler Genel Müdürlükçe iptal edilir ve yetkili yargı mercilerine suç \nduyurusunda bulunulur. \n(5) (Ek:RG-30/4/2015-29342) Eğitim kurumlarında adres değişikliği yapmadan önce e-devlet \nsistemi kullanılarak Genel Müdürlüğe başvurulur. Yeni adresin Genel Müdürlükçe onaylanmasına \nmüteakip işlemler ilk başvuru hükümlerine tabi olarak yürütülür. Adres değişikliği işlemi \ntamamlanıncaya kadar hizmet vermek isteyen eğitim kurumları yetki aldığı adreste faaliyetine devam \neder. \n(6) (Ek:RG-30/4/2015-29342) Eğitim kurumlarında unvan değişikliği yapılması halinde 30 gün \niçinde yetki belgesinin yenilenmesi talebiyle e-devlet sistemi kullanılarak başvurulur. Unvan değişikliği \nyapılması halinde yetki belgesinin yenilenmesi için Bakanlıkça belirlenen belge bedelinin ödenmesi \ngereklidir. \n(7) (Ek:RG:15/2/2016-29625) Bu Yönetmelik kapsamında yapılan sınavlarda başarılı olarak \nbelgelendirilen kişilerden, vize tarihinden önce Bakanlığa başvuru yapmayanların yetki belgeleri vize \nişlemleri tamamlanıncaya kadar askıya alınır. Vize işlemleri için Bakanlığa başvuruda bulunan kişilerin, \nvize tarihinden itibaren 60 gün içerisinde vize işlemlerini tamamlaması gerekir. \n(8) (Ek:RG-28/2/2020-31053) Eğitim kurumları yetkilendirildikleri adrese ilişkin resmi \nmakamlarca tahliye veya yıkım kararı alınması ya da yıkık veya hasarlı raporu verilmesi durumlarında, \nyeni adrese taşındıktan sonra otuz gün içerisinde İSG-KÂTİP üzerinden Genel Müdürlüğe başvuru \nyapılır. Yapılan başvuru doksan gün içinde tamamlanır. Başvuru sürecine ilişkin diğer hususlar mevcut \nadres değişikliği hükümlerine tabi olarak yürütülür. \n(9) (Ek:RG-28/2/2020-31053) Sekizinci fıkraya tabi olarak yapılan adres değişikliğinde adres \ndeğişikliği bedeli ödenmez. \nEğitim kurumlarının görev, yetki ve sorumlulukları",
+          "normalized_hash": "b866f76ef18d2f89"
+        },
+        {
+          "provision_id": "law:16923:article:21",
+          "label": "Madde 21",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 21 – (1) Eğitim kurumları, \n\na) Eğitim hizmetlerinin bir kısmını veya tamamını başka bir kişi veya kuruma devredemezler. \nb) (Değişik:RG-30/4/2015-29342) Çalışanların iş sağlığı ve güvenliği eğitimleri ile katılımcılar \niçin verilen tekrar ve hazırlık eğitimleri hariç yetki belgesini veriliş amacı dışında kullanamazlar. \n (2) Eğitim kurumlarında tam veya kısmi süreli iş sözleşmesi ile görevlendirilen eğiticilerle ilgili \nsosyal güvenlik mevzuatından doğan bildirim ve prim ödeme gibi yükümlülüklerin yerine getirilmesi \neğitim kurumlarınca sağlanır. \n(3) (Değişik:RG-30/4/2015-29342) Şirket ortaklarında değişiklik olması halinde, durum 30 gün \niçerisinde Genel Müdürlüğe bildirilir. Yeni şirket ortaklarının ilgili mevzuat hükümlerinde belirtilen \nşartlara uygun olmaması halinde durumun düzeltilmesi amacıyla Genel Müdürlükçe şirkete 30 gün \nsüre verilir. \n(4)(Değişik:RG-30/4/2015-29342) Eğitim kurumları, iş güvenliği uzmanı olma şartlarını \ntaşımayan kişileri eğitim programlarına kayıt edemezler. \n(5) Eğitim kurumları, başvuru esnasında adaylardan katılacakları programın gerektirdiği şartları \nkarşıladığını gösteren belgeleri istemek ve bu belgelerin sorumlu müdür tarafından onaylanmış bir \nörneğini beş yıl süreyle her bir aday için açılan dosyada saklamak zorundadır. \n(6) Tam süreli iş sözleşmesiyle görevlendirilen eğiticilerden biri, sorumlu müdür olarak atanır. \n(7) Eğitim programı süresince sorumlu müdür kurumda hazır bulunur. Sorumlu müdürün bu \nsüre boyunca kurumda bulunmadığı durumlarda, tam süreli iş sözleşmesiyle görevlendirilen \neğiticilerden birisinin sorumlu müdüre vekâlet amacıyla kurumda bulunması sağlanır. Vekâlet eden \neğitici, sorumlu müdür tarafından yapılması gereken her türlü iş ve işlemin yapılmasını sağlar ve \ngörevi süresince Genel Müdürlükçe sorumlu müdür olarak kabul edilir. Sorumlu müdür veya vekilinin \nmevzuat hükümlerine aykırı davranışlarından ve görev ve sorumluluklarını yerine getirmesinden \neğitim kurumu tüzel kişiliği sorumludur. \n(8) (Değişik:RG-11/10/2013-28792) Eğitim kurumunda sorumlu müdür olarak görevlendirilen \nkişinin değişmesi veya bu kişinin görevinden ayrılması halinde durum en geç üç gün içinde Genel \nMüdürlüğe yazıyla (Değişik ibare:RG-30/4/2015-29342) veya e-devlet sistemi üzerinden bildirilir. \nGörevden ayrılan sorumlu müdürün yerine en geç 30 gün içerisinde yeni sorumlu müdür atanır ve \ndurum Genel Müdürlüğe yazıyla bildirilir. \n(9) Eğitim kurumlarında görev yapan eğiticilerin işten ayrılması halinde üç işgünü içinde durum \nİSG-KATİP üzerinden eğitim kurumu tarafından bildirilir. 30 gün içerisinde tam süreli görevlendirilme \nzorunluluğu bulunan eğiticilerin yerine aranan niteliklere sahip personel görevlendirilmesi ve İSGKATİP üzerinden Genel Müdürlüğe bildirilmesi zorunludur. \n(10) Genel Müdürlüğe bildirilen eğitici sözleşmeleri, sözleşme hükümlerine aykırı olmayacak \nşekilde eğitim kurumlarınca veya eğiticilerce tek taraflı feshedilene kadar, sözleşme süresince \ngeçerlidir. Süresi dolan sözleşmelerin İSG-KATİP üzerinden yenilenmesi durumu yazılı bildirim olarak \nkabul edilir. \n(11) Eğiticiler, görev aldıkları kurumların eğitim programlarında, söz konusu kurumla \ndüzenleyerek Genel Müdürlüğe bildirilmiş olan sözleşmede belirtilen toplam görev süresinden fazla \ngörevlendirilemez. Bu hükmün uygulanması eğiticiler tarafından, takibi ise kurumun sorumlu müdürü \ntarafından yürütülür. \n(12) Eğitim kurumlarınca, adayların yüz yüze derslere devam durumunu gösteren çizelge EK5’teki örneğine uygun şekilde günlük olarak düzenlenir ve ders başlangıcında derslikte hazır \nbulundurulur. (Mülga ikinci ve üçüncü cümle:RG-30/4/2015-29342) (…) Devam çizelgeleri eğitim \nkurumlarınca beş yıl süreyle saklanır ve istenmesi halinde kontrol ve denetime yetkili memurlara \nibraz edilir. \n(13) Eğitimi tamamlayan adaylara eğitim kurumları tarafından, EK-6’ daki örneğine uygun \neğitim katılım belgesi düzenlenir. \n(14) Bu Yönetmelikte eğitim kurumlarınca düzenlenmesi gerektiği belirtilen her türlü belge ve \nbildirimin doğruluğundan eğitim kurumları sorumludur. \n(15) Bu Yönetmelikte belirtilen tabela hariç olmak üzere, eğitim kurumunun hiçbir evrak ve \ndokümanında Bakanlık logosu veya unvanı kullanılamaz. \n\n(16) (Ek:RG:15/2/2016-29625) Onaylanmış programın yüz yüze eğitimleri devam ederken \neğitim saatleri içerisinde eğitim kurumunun kapalı olması durumunda; denetimin yapıldığı gün eğitim \nverilmediği, eğitim programına kayıtlı olan katılımcıların tam gün devamsızlık yaptığı kabul edilir ve \nayrıca ilgili eğitim kurumuna ihtar puanı uygulanır. \nSorumlu müdürün görev ve sorumlulukları",
+          "normalized_hash": "1d1d8b23a2604b28"
+        },
+        {
+          "provision_id": "law:16923:article:22",
+          "label": "Madde 22",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 22 – (1) Eğitim kurumu sorumlu müdürünün görev ve sorumlulukları aşağıda \nbelirtilmiştir: \na) Bakanlığa elektronik ortam, e-posta, yazı veya faks gibi araçlar vasıtasıyla gönderilmesi \ngereken her türlü bilgi ve belgeyi hazırlamak ve göndermek. \nb) Eğitim programlarının onaylanmış şekliyle uygulanmasını (Değişik ibare: RG-11/10/201328792) takip etmek. \nc) (Değişik:RG-30/4/2015-29342) Günlük olarak, programa ait derslerin tamamının bitiminde \nkatılımcı devam çizelgelerinin kontrolünü sağlamak ve bunları imza altına almak. \nç) (Ek :RG-11/10/2013-28792) Bu Yönetmelikte belirtilen diğer görevleri yapmak. \n(2)(Değişik:RG-11/10/2013-28792) \nEğitim \nkurumlarından \ntalep \nedilen \nveya \neğitim \nkurumlarınca bildirilen her türlü belgeye ilişkin iş ve işlemler sorumlu müdür tarafından imzalanarak \nGenel Müdürlüğe gönderilir. \nEğitim programları",
+          "normalized_hash": "b1c2c44c7448a48b"
+        },
+        {
+          "provision_id": "law:16923:article:23",
+          "label": "Madde 23",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 23 – (1) (Değişik:RG-30/4/2015-29342) Eğitim kurumları eğitime başlayabilmek için; \nKomisyonca belirlenen müfredat esas alınarak hazırlanan teorik eğitim programını, eğitim verilecek \nkonulara uygun eğiticiler ile eğitime katılacakların listesini eğitimin başlangıç tarihinden en az üç günü \nönce Genel Müdürlüğe elektronik ortamda bildirirler. Bildirimden sonra katılımcı bilgilerine müdahale \nedilemez ve düzeltmeye ilişkin talepte bulunulamaz. \n(2) Genel Müdürlükçe onaylanmamış programlarla eğitime başlanamaz. Onaylanmamış \nprogramla eğitime başlanması halinde doğacak (Değişik ibare: RG-11/10/2013-28792) hukuki ve \ncezai sonuçlardan eğitim kurumları sorumludur. \n(3)(Değişik:RG-30/4/2015-29342) Yetkilendirilmiş eğitim kurumlarının 18 inci maddede \nbelirtilen zorunlu eğitici kadrosuna ilişkin hükümleri yerine getirmemeleri durumunda, ilgili \nkurumlara eksikliklerini gidermeleri için 30 gün süre verilir. Verilen süre içerisinde zorunlu eğitici \nkadrosunu tamamlamayan kurumların eğitim programları Genel Müdürlükçe onaylanmaz. \n(4)(Değişik:RG-30/4/2015-29342) Eğitim Kurumları, eğitim programının unsurlarından olan \nuygulamalı eğitimlerin yapılacağı işyerlerinin listesini ve eğitim tarihlerini, teorik eğitimin bitişinden \nitibaren yapılacak ilk sınavdan önce Genel Müdürlükçe ilan edilecek tarihe kadar İSG-KATİP üzerinden \nbildirmekle yükümlüdür. \n(5) (Değişik:RG-30/4/2015-29342) Adaylar, teorik eğitimde mazeretli veya mazeretsiz en fazla \naltı ders saati devamsızlık hakkına sahiptir. Ancak uygulamalı eğitimin tamamına katılım zorunludur. \nKatılım zorunluluğuna aykırılığın tespiti halinde kişi hakkında belge düzenlenmiş olsa dahi 32 nci \nmaddenin ikinci fıkrası hükümleri gereğince belgeleri iptal edilir. \n(6)(Değişik:RG-30/4/2015-29342) Genel Müdürlükçe onaylanmış olan eğitim programının \nhiçbir unsurunda değişiklik yapılamaz. Ancak, sebebinin Genel Müdürlüğe e-devlet sistemi üzerinden \naynı gün bildirilmesi ve yeni eğiticinin müfredatta belirlenen niteliklere uygun olması şartıyla sadece \nprogramda görevli eğiticilerde değişiklik yapılabilir. e-devlet sisteminin çalışmadığı durumlarda \nbildirimler faks yoluyla veya yazılı olarak yapılır. \n(7) Uzaktan eğitim tamamlanmadan yüz yüze eğitim, yüz yüze eğitim tamamlanmadan \nuygulamalı eğitim başlatılamaz. Uygulamalı eğitim tamamlanmadan adaylar sınava katılamazlar. \nEğitim programlarına başvuru",
+          "normalized_hash": "ec1654224aac80c1"
+        },
+        {
+          "provision_id": "law:16923:article:24",
+          "label": "Madde 24",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 24 – (1) Eğitim programlarına katılmak isteyen adaylar eğitim kurumlarına aşağıdaki \nbelgeler ile başvururlar: \na) Başvuru yapılan eğitim kurumuna hitaben yazılan, adayın hangi eğitim programına \nkatılacağını belirten ve T.C. kimlik numarası ile iletişim bilgilerini içeren ıslak imzalı başvuru yazısı. \nb) Adayın katılacağı eğitim programına uygun alanda lisans eğitimi aldığını gösteren diploma \nveya geçici mezuniyet belgesi. \n\nc) (A) sınıfı iş güvenliği uzmanlığı eğitim programına katılacaklar için (B) sınıfı iş güvenliği \nuzmanlığı belgesi ve bu belgeyle en az dört yıl fiilen görev yaptığını gösteren belgeler. \nç) (B) sınıfı iş güvenliği uzmanlığı eğitim programına katılacaklar için (C) sınıfı iş güvenliği \nuzmanlığı belgesi ve bu belgeyle en az üç yıl fiilen görev yaptığını gösteren belgeler. \nd) (Mülga:RG-30/4/2015-29342) \ne) (Mülga:RG-30/4/2015-29342) \n(2) Adayların eğitim programlarına katılabilmesi için, ilgili eğitim programının başlangıç \ntarihinden önce lisans eğitimini tamamlamış ve bu eğitime ilişkin mezuniyet diploması alabilecek \nyeterliliğe sahip olmaları gerekmektedir. Bu duruma ilişkin gerekli inceleme, başvuru yapılan eğitim \nkurumu tarafından yapılır. \n(3) Birinci fıkrada belirtilen belgelerin aslı ile birlikte örneğinin getirilmesi halinde eğitim \nkurumları tarafından tasdiki yapılır. Başvuru sırasında gerçeğe aykırı belge ve beyanda bulunduğu \ntespit edilenlerin başvuruları reddedilir. Bu durumun sonradan tespiti halinde eğitim, sınav ve \nbelgeleri geçersiz sayılır. \n(4) Bu Yönetmelikte belirtilen çalışma sürelerinin tespitinde Sosyal Güvenlik Kurumu kayıtları, \ndiploma veya mezuniyet belgelerinin doğruluğunun tespitinde Yükseköğretim Kurulu kayıtları esas \nalınır. \n \nBEŞİNCİ BÖLÜM \n(Değişik bölüm başlığı:RG-30/4/2015-29342) \nİş Güvenliği Uzmanlarının Eğitimleri, Sınavları ve Belgelendirilmeleri \nİş güvenliği uzmanlarının eğitimleri",
+          "normalized_hash": "a8120399a7183a7c"
+        },
+        {
+          "provision_id": "law:16923:article:25",
+          "label": "Madde 25",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 25 – (1) İş güvenliği uzmanlarının eğitim programları teorik ve uygulamalı olmak üzere \niki bölümden oluşur ve programın içeriği ile programda görevli eğiticilerin nitelikleri (Değişik ibare: \nRG-11/10/2013-28792) Komisyon tarafından belirlenir. Eğitim programının süresi, teorik kısmı 180 \nsaatten, uygulama kısmı 40 saatten ve toplamda 220 saatten az olamaz ve bu kısımlar ancak tek bir \nprogram dâhilinde uygulanabilir. Teorik eğitimin en fazla yarısı uzaktan eğitim ile verilebilir. \nUygulamalı eğitimler, iş güvenliği uzmanları için en az bir iş güvenliği uzmanının görevlendirilmiş \nolduğu işyerlerinde yapılır. \n(2) (Ek:RG-16/4/2020-31101) Salgın hastalık ve doğal afet gibi mücbir sebepler nedeniyle iş \ngüvenliği uzmanlığı eğitim programının teorik kısmının tamamının uzaktan eğitim ile verilmesine \nkarar vermeye Bakanlık yetkilidir. Bu karar İSG-KATİP üzerinden ilân edilir. \nDiğer sağlık personelinin eğitimleri",
+          "normalized_hash": "06381e0bf72f2f36"
+        },
+        {
+          "provision_id": "law:16923:article:26",
+          "label": "Madde 26",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "MADDE 26 – (Mülga:RG-30/4/2015-29342) \nYenileme eğitimleri",
+          "normalized_hash": "82dd88de459ea7bd"
+        },
+        {
+          "provision_id": "law:16923:article:27",
+          "label": "Madde 27",
+          "madde_turu": "normal",
+          "mulga": true,
+          "text": "MADDE 27 – (Mülga:RG-30/4/2015-29342) \nSınavlar",
+          "normalized_hash": "e79176b8526ca400"
+        },
+        {
+          "provision_id": "law:16923:article:28",
+          "label": "Madde 28",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 28 – (1) Eğitim programlarını tamamlayan adayların sınavları (Değişik ibare: RG11/10/2013-28792) Bakanlıkça yapılır veya yaptırılır. \n(2) (Değişik:RG-30/4/2015-29342) Adaylardan 8 inci madde gereğince eğitim ve sınav şartı \narananlar ancak eğitim programını tamamladıktan sonra düzenlenecek sınavlara katılabilirler. \n(3) (Değişik:RG-30/4/2015-29342) Doğrudan sınava girme hakkı tanınan adayların, sınavlara \nkatılabilmeleri için Genel Müdürlüğe yapılacak son başvuru tarihinden önce mezun olmaları \ngereklidir. \n(4) Sınavlarda 100 puan üzerinden en az 70 puan alan adaylar başarılı sayılır, sınav sonuçlarına \nitirazlar sınavı düzenleyen kurum tarafından sonuçlandırılır. \nİş güvenliği uzmanlarının belgelendirilmesi",
+          "normalized_hash": "b0970d5992f58146"
+        },
+        {
+          "provision_id": "law:16923:article:28/A",
+          "label": "Madde 28/A",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 28/A –(Ek:RG-30/4/2015-29342) \n(1) İş güvenliği uzmanlığı belgesi almaya hak kazanan adayların belgeleri e-devlet sistemine \ngeçildikten sonra Genel Müdürlükçe elektronik olarak düzenlenir. \n(2) Adaylar, belgelerinin düzenlenebilmesi için bu Yönetmelikteki şartları yerine getirdiklerine \ndair belge ve bilgileri elektronik ortamda Genel Müdürlüğe bildirmekle yükümlüdür. \n\n(3) Genel Müdürlüğe bildirilen belge ve bilgilerin doğruluğundan adaylar sorumludur. \n \nALTINCI BÖLÜM \nEğiticiler ve Belgelendirme \nİşyeri hekimliği ve iş güvenliği uzmanlığı eğitici belgesi",
+          "normalized_hash": "1f7a018a40d25a79"
+        },
+        {
+          "provision_id": "law:16923:article:29",
+          "label": "Madde 29",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 29 – (1) (Değişik:RG-11/10/2013-28792) İşyeri hekimliği ve iş güvenliği uzmanlığı \neğitici belgesi: \na) Pedagojik formasyona veya eğiticilerin eğitimi belgesine sahip olan; \n1) En az beş yıl (A) sınıfı iş güvenliği uzmanlığı yaptığını belgeleyen (A) sınıfı iş güvenliği \nuzmanlarına, \n2) En az on yıllık mesleki tecrübeye sahip olup iş sağlığı ve güvenliği veya iş güvenliği \nprogramında doktora yapmış mühendis, mimar veya teknik elemanlara, \n3) Genel Müdürlük ve bağlı birimlerinde uzman yardımcılığı süresi dâhil en az on yıl görev \nyapmış iş sağlığı ve güvenliği uzmanları, en az on yıl görev yapmış mühendislik, mimarlık eğitimi veren \nfakülte mezunları ile teknik elemanlara, \n4) Bakanlık ve ilgili kuruluşlarında müfettiş yardımcılığı süresi dâhil en az on yıl görev yapmış \nmüfettişlere, \n5) Uzman yardımcılığı süresi dâhil en az on yıl görev yapmış çalışma ve sosyal güvenlik eğitim \nuzmanlarına, \nb)(Değişik:RG-30/4/2015-29342) \nKomisyonca \nbelirlenen \neğitim \nmüfredatına \ngöre \nüniversitelerde en az dört yarıyıl ders verdiğini belgeleyen ve bu belgeleri Genel Müdürlükçe uygun \ngörülen öğretim üyelerinden; hukuk fakültesi mezunları ile hekim, mühendis, mimar, fizikçi, \nkimyager, biyolog, teknik öğretmenlere, \nEK-7’deki örneğine uygun olarak düzenlenir. \n(2) (Değişik:RG-30/4/2015-29342) Bu Yönetmelik kapsamında işyeri hekimliği ve iş güvenliği \nuzmanlığı eğitici belgesi sahiplerinden, müfredatta belirtilen niteliklere uygun olanlar işyeri hekimliği, \niş güvenliği uzmanlığı eğitim programlarında görev alabilir. \nEğiticilerin görev ve sorumlulukları",
+          "normalized_hash": "64a1d673ac817f13"
+        },
+        {
+          "provision_id": "law:16923:article:30",
+          "label": "Madde 30",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 30 – (1) (Değişik:RG-11/10/2013-28792) İşyeri hekimliği ve iş güvenliği uzmanlığı \neğiticisi, müfredatta belirtilen konu içeriklerinin tamamının derslerde ele alınmasını ve öğrenim \nhedeflerine ulaşılmasını sağlar. Müfredatta ve Yönetmelikte belirtilen diğer görevleri yapar. \n(2) Eğitim kurumlarında görevli olan işyeri hekimliği ve iş güvenliği uzmanlığı eğiticileri, \nBakanlığa bildirilen sözleşmelerde belirtilen sürelerden fazla görev alamaz. \n(3) Eğitim kurumunda tam süreli olarak görevlendirilen eğiticiler, işyerlerinde iş güvenliği \nuzmanı veya işyeri hekimi unvanıyla veya başka bir eğitim kurumunda eğitici unvanıyla görev alamaz. \n(4)(Ek:RG-30/4/2015-29342) Her dersin tamamlanmasının ardından, imza çizelgelerinin \ndevamsızlık nedeniyle boş kalan kısımları dersin eğiticisi tarafından anlaşılır şekilde doldurulur ve \nimza altına alınır. \nEğiticilerin belgelendirilmesi",
+          "normalized_hash": "1a37dd304c685120"
+        },
+        {
+          "provision_id": "law:16923:article:31",
+          "label": "Madde 31",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 31 – (1) İşyeri hekimliği ve iş güvenliği uzmanlığı eğitici belgesi alma niteliklerine haiz \nolup; bu belgeyi almak isteyenlerin başvurularının değerlendirilebilmesi amacıyla; \na) Geçerli (A) sınıfı iş güvenliği uzmanlığı belgesine sahip olanlar için; bu belge ile pedagojik \nformasyon veya eğiticilerin eğitimi belgesini ve (A) sınıfı iş güvenliği uzmanı olarak en az beş yıl \nçalıştığını gösteren belgeyi, \nb) (Değişik ibare: RG-11/10/2013-28792) Bakanlıkça ilan edilen eğitim programlarına uygun \nalanlarda üniversitelerde ders vermiş olanlar için; 29 uncu maddede belirtilen unvanları haiz \nolduklarını gösteren lisans diplomaları ve (Değişik ibare: RG-11/10/2013-28792) Bakanlıkça ilan \nedilen eğitim programlarına uygun alanlarda en az dört yarıyıl ders verdiklerini gösteren rektör \nonayını içeren resmi yazıların asıllarını, \nc) Birinci fıkranın (a) ve (b) bentlerinde belirtilenler dışında kalanlar için ise 29 uncu maddede \nbelirtilen nitelikleri haiz olduklarını gösteren belgeleri ve Bakanlıkça belirlenen belge bedelinin \n\nödendiğini gösteren belgeyi, Genel Müdürlüğe hitaben yazılmış dilekçe ekinde şahsen veya posta \nyoluyla Genel Müdürlüğe teslim etmesi gerekmektedir. \n(2) Bu madde uyarınca ibraz edilmesi gereken belgelerin aslı ile birlikte bir örneğinin getirilmesi \nhalinde Genel Müdürlükçe tasdiki yapılır ve şahsen ibraz edilmesi gereken belgelerin doğruluğundan \nbelge sahipleri sorumludur. \n \nYEDİNCİ BÖLÜM \nÇeşitli ve Son Hükümler \nGenel Müdürlüğün görev, yetki ve sorumlulukları ile denetim (Değişik madde başlığı: RG11/10/2013-28792)",
+          "normalized_hash": "faa14c87b2274af0"
+        },
+        {
+          "provision_id": "law:16923:article:32",
+          "label": "Madde 32",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 32 – (1) (Değişik:RG-4/2/2024-32450) Genel Müdürlük eğitimlerin etkin ve verimli bir \nşekilde verilip verilmediğinin izlenmesi amacıyla kendi görev ve yetki alanına giren konularda eğitim \nkurumlarını, eğiticileri ve sorumlu müdürleri, yetki alınan mekânı, yerinde veya dijital altyapı \nvasıtasıyla uzaktan erişim yoluyla kontrol eder ve denetler. Bu kontrol ve denetimler, Genel \nMüdürlükte görevli çalışma uzmanı ve çalışma uzman yardımcıları, mühendis, fizikçi, kimyager, \nbiyolog ve tabipler tarafından yerine getirilir. Denetimlerde tespit edilen ihlallere göre bu \nYönetmelikte yer alan idari yaptırımların uygulanması hususunda denetim personeli tutanak tutar ve \nrapor hazırlar. Tutanak ve raporlar, denetim personelince Genel Müdürlüğe teslim edilir. \n(2) Yetkilendirme ve belgelendirme aşamalarında gerçeğe aykırı belge ibraz edildiği veya \nbeyanda bulunulduğunun bu aşamalarda veya daha sonradan tespiti halinde düzenlenen belgeler \nGenel Müdürlükçe doğrudan iptal edilir. \n(3) Eğitim kurumlarınca yürütülen her türlü iş ve işleme ilişkin takip, kontrol, izleme, onay \nverme, başvuru alma gibi faaliyetler, yazılı olarak gerçekleştirilebileceği gibi, elektronik sistemler \nvasıtasıyla da yürütülebilir. Bu konuda düzenleme yapmaya Genel Müdürlük yetkilidir. \n(4) Belgesinin geçerliliği askıya alınanlar ve doğrudan iptal edilenlere Genel Müdürlükçe yazılı \nbildirim yapılır ve Genel Müdürlük internet sayfasında ilan edilir. Belgesinin geçerliliği askıya alınan \nkişi ve kurumların belgelerini tekrar kullanabilmeleri için Genel Müdürlük onayının alınması \nzorunludur. \n(5) (Mülga:RG-30/4/2015-29342) \n(6) (Mülga:RG-30/4/2015-29342) \n(7) (Ek:RG-11/10/2013-28792) (Mülga:RG-30/4/2015-29342) \nİhlaller ve ihtar puanı uygulanması",
+          "normalized_hash": "9534b452a12959f9"
+        },
+        {
+          "provision_id": "law:16923:article:33",
+          "label": "Madde 33",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 33 – (1) (Değişik ibare:RG-30/4/2015-29342) 34 üncü maddede yer alan yetki \nbelgesinin geçerliliğinin doğrudan iptalini gerektiren durumların dışındaki ihlallerde, EK-8 ve EK-9’da \nbelirtilen ihtar puanları uygulanır. \n(2) Bir takvim yılı içinde hafif ihlallerin ihtar puanlarının toplamının 30’a, orta ihlallerin ihtar \npuanlarının toplamının 60’a ulaşması durumunda kişi ve kurumların o yıl içinde işleyecekleri diğer \nhafif ve orta ihlaller bir üst derecenin tavan puanı esas alınarak uygulanır. \n(3) Beş yıllık sürenin sonunda vize işlemini tamamlayan kişi ve kurumların; uygulanmasının \nüzerinden en az bir yıl geçmiş olan tüm ihtar puanları silinir. \n(4)(Ek:RG-30/4/2015-29342) Bu Yönetmelik uyarınca kişi ve kurumlara uygulanan ihtar \npuanlarına ilişkin itirazlar, işlemin tebliğ tarihinden itibaren en geç 10 iş günü içinde Genel Müdürlüğe \nyapılır. Bu süreden sonra yapılacak itirazlar dikkate alınmaz. \nYetkilerin askıya alınması, iptali ve itiraz",
+          "normalized_hash": "7f30196eed42ae70"
+        },
+        {
+          "provision_id": "law:16923:article:34",
+          "label": "Madde 34",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 34 – (Başlığı ile birlikte değişik:RG-30/4/2015-29342) \n(1) Bu Yönetmelik uyarınca yetkilendirilen veya belgelendirilen kişi ve kurumların belgelerinin \ngeçerliliği ihtar puanları toplamının, kişiler için 100, kurumlar için 200 puana ulaşması durumunda altı \nay süreyle askıya alınır. Sorumlu müdür ve eğiticilere verilen ihtar puanları kişinin sadece eğitici \nbelgesine uygulanır. \n(2) Çalışanın ölümü veya maluliyetiyle sonuçlanacak şekilde vücut bütünlüğünün bozulmasına \nneden olan iş kazası veya meslek hastalığının meydana gelmesinde ihmali yargı kararı ile kesinleşen iş \ngüvenliği uzmanının belgesi altı ay süreyle askıya alınır. Belgesi askıya alınan iş güvenliği uzmanının \n\nİSG-KATİP sistemi üzerindeki mevcut tüm sözleşmeleri, askıya alınma sürecinin başlangıcından \nitibaren herhangi bir işleme gerek kalmaksızın iptal edilir. \n(3) Yetki belgelerinin geçerliliği askıya alınan kişi ve kurumlar askıya alınma süresince bu \nYönetmelik kapsamındaki yetkilerini kullanamazlar. Ancak, yetki belgesinin geçerliliği askıya alınan \nveya belgesi doğrudan iptal edilen eğitim kurumunun faaliyeti onaylı eğitim programları bitinceye \nkadar devam eder. Askıya alınma süresi, programın bitiminde başlar. Yetki belgesi doğrudan iptal \nedilen kurumlar taahhüt ettikleri hizmetleri herhangi bir ek ücret talep etmeden bir başka eğitim \nkurumundan temin etmek zorundadırlar. \n(4) Yetki belgesinin geçerliliğinin askıya alınması veya doğrudan iptali durumunda önceden \nyapılan aday kayıt işlemlerinden doğan hukuki sonuçlardan iptal edilen veya geçerliliği askıya alınan \nyetki belgesi sahipleri sorumludur. \n(5) Bu Yönetmelik uyarınca yetkilendirilen kişi veya eğitim kurumlarında aşağıdaki durumlardan \nbirinin varlığının tespiti halinde ilgili kişi, eğitim kurumu merkezi veya şubesine verilen yetki \nbelgesinin geçerliliği; \na) Bu Yönetmelik gereği düzenlenen evrakın gerçeğe aykırılığının tespiti halinde üç ay, \nb) Şirket ortaklarının uygunsuzluğunun ilgili kuruma bildirilmesine rağmen durumun 30 gün \niçerisinde düzeltilmemesi halinde üç ay, \nc) Yetki aldığı adres dışında hizmet vermeleri veya irtibat bürosu açmaları halinde altı ay, \nç) Sunmakla yükümlü oldukları hizmetlerin tamamını veya bir kısmını devretmeleri halinde altı \nay, \nd) Genel Müdürlükten onay alınmadan adres değişikliği yapılması veya unvan değişikliği ile ilgili \nbildirim yükümlülüğünü 30 gün içinde yerine getirmemesi halinde bir yıl, \nsüreyle askıya alınır. \n(6) Bu Yönetmelik uyarınca yetkilendirilen kişi veya eğitim kurumlarında aşağıdaki durumlardan \nbirinin varlığının tespiti halinde ilgili kişi, eğitim kurumu merkezi veya şubesine verilen yetki \nbelgesinin geçerliliği; \na) Bir vize döneminde eğitim kurumunun yetki belgesinin üç defa askıya alınması, \nb) Belgesi askıda olan kişi ve kurumların bu süre içinde faaliyetleri ile ilgili sözleşme \nyaptıklarının veya hizmet vermelerinin tespiti, \nc) Bu Yönetmeliğin 14 üncü maddesinde istenilen başvuru evraklarından herhangi birinin \ngerçeğe aykırılığının tespiti, \nhalinde doğrudan iptal edilir. \n(7) Yetki belgesi iptal edilen kişiler ve eğitim kurumları ile bu kurumlarda kurucu veya ortak \nolanların başvuruları, iptal tarihinden itibaren iki yılın tamamlanmasına kadar askıya alınır. \n(8) Bu Yönetmelik uyarınca kişi ve kurumlara uygulanan yetki belgesinin askıya alınması veya \niptaline ilişkin itirazlar, işlemin tebliğ tarihinden itibaren en geç 10 iş günü içinde Genel Müdürlüğe \nyapılır. Bu süreden sonra yapılacak itirazlar dikkate alınmaz. Kesinleşen yargı kararı ile belgesi askıya \nalınan iş güvenliği uzmanı, bu maddede belirtilen itiraz hakkından yararlanamaz. \nİtiraz komisyonunun çalışma şekli",
+          "normalized_hash": "55524ecc807f140c"
+        },
+        {
+          "provision_id": "law:16923:article:34/A",
+          "label": "Madde 34/A",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 34/A – (Ek:RG-30/4/2015-29342) \n(1) İtiraz Komisyonu, bu Yönetmelik uyarınca yetkilendirilen veya belgelendirilen kişi veya \nkurumların belgelerinin askıya alınması veya iptali ile ilgili itirazları değerlendirerek karara bağlar. \nKomisyonun kararı, oy çokluğuyla alınır. Oyların eşitliği halinde Başkanın oyu belirleyicidir. Komisyon \nkararı, Genel Müdürlükçe uygulanır. \n(2) (Ek:RG-28/2/2020-31053) İtiraz Komisyonunu oluşturan unvan adlarının iptal olması veya \ndeğişmesi halinde yerine atanacak üyeler Bakanlık oluru ile belirlenir. \nMesleki bağımsızlık ve etik ilkeler",
+          "normalized_hash": "2e18fbfe1b6be865"
+        },
+        {
+          "provision_id": "law:16923:article:35",
+          "label": "Madde 35",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 35 – (1) İş sağlığı ve güvenliği hizmetleri ve bu Yönetmelik kapsamındaki eğitimlerde \ngörevlendirilenler; \na) Sağlık ve güvenlik riskleri konusunda, işveren ve çalışanlara önerilerde bulunurken hiçbir etki \naltında kalmazlar. \n\nb) Hizmet sundukları kişilerle güven, gizlilik ve eşitliğe dayanan bir ilişki kurar ve ayrım \ngözetmeksizin tümünü eşit olarak değerlendirirler. \nc) Çalışma ortamı ve koşullarının düzenlenmesinde, kendi aralarında, yönetici ve çalışanlarla \niletişime açık ve işbirliği içerisinde hareket ederler. \n(2) Mesleki bağımsızlığın sonuçları hiçbir şekilde iş sağlığı ve güvenliği hizmetlerinde \ngörevlendirilenlerin aleyhine kullanılamaz ve yapılan sözleşmelere mesleki anlamda bağımsız \nçalışmayı kısıtlayabilecek şartlar konulamaz. \n(3) İş sağlığı ve güvenliği hizmetleri ile bu Yönetmelik kapsamındaki eğitimlerde \ngörevlendirilenlerin hak ve yetkileri, görevlerini yerine getirmeleri nedeniyle kısıtlanamaz. Bu kişiler, \ngörevlerini ve uzmanlık bilgilerini mesleğin gerektirdiği etik ilkeler ve mesleki bağımsızlık içerisinde \nsürdürür. \nTebligatların bildirimi ve elektronik tebligat",
+          "normalized_hash": "fd7094db86c740d0"
+        },
+        {
+          "provision_id": "law:16923:article:35/A",
+          "label": "Madde 35/A",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 35/A –(Ek:RG-30/4/2015-29342)(4) \n(1) Genel Müdürlükçe kişi, kurum veya kuruluşlara yazılacak yazı ve yapılacak bildirimlerin \ntebliğinde, İSG-KATİP sisteminde veya Sosyal Güvenlik Kurumunda işyeri sicil sistemine beyan edilen \nadres ve/veya elektronik posta dikkate alınır. Adres ve/veya elektronik posta değişikliği olması \nhalinde bu değişikliğin bir ay içinde İSG-KATİP sistemi üzerinden beyan edilmesi zorunludur. \nDeğişikliği zamanında beyan etmeyenlerin daha önce beyan ettiği adrese ve elektronik postaya \nyapılan yazışma ve bildirimler geçerlidir. \n(2) Elektronik Tebligat Yönetmeliği kapsamında şirket veya kurumlar, bu Yönetmeliğin 19 uncu \nmaddesine göre yapılacak tebligatlara esas olmak üzere elektronik tebligat adresinin İSG-KATİP \nsistemine kayıt edilmesi zorunludur. (4) \n(3) Elektronik posta adresi zorunluluğu bulunmayan kişi ve kurumlar ise 28/A, 31, 32, 33 ve 34 \nüncü maddeleri çerçevesinde kendilerine elektronik tebligat yapılmasını istemeleri halinde elektronik \ntebligat adreslerinin İSG-KATİP sistemine kayıt edilmesi zorunludur. (4) \nYürürlükten kaldırılan yönetmelik",
+          "normalized_hash": "67d302bb73aa14bc"
+        },
+        {
+          "provision_id": "law:16923:article:36",
+          "label": "Madde 36",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 36 – (1) 27/11/2010 tarihli ve 27768 sayılı Resmî Gazete’de yayımlanan İş Güvenliği \nUzmanlarının Görev, Yetki, Sorumluluk ve Eğitimleri Hakkındaki Yönetmelik yürürlükten kaldırılmıştır. \nDoğal afet veya olağanüstü haller",
+          "normalized_hash": "29d37486fba2a7ac"
+        },
+        {
+          "provision_id": "law:16923:ek-madde:1",
+          "label": "Ek Madde 1",
+          "madde_turu": "ek",
+          "mulga": false,
+          "text": "EK MADDE 1- (Ek:RG-4/2/2024-32450) \n(1) 15/5/1959 tarihli ve 7269 sayılı Umumi Hayata Müessir Afetler Dolayısiyle Alınacak \nTedbirlerle Yapılacak Yardımlara Dair Kanuna göre genel hayata etkili afet bölgesi veya 25/10/1983 \ntarihli ve 2935 sayılı Olağanüstü Hal Kanununa göre olağanüstü hal ilan edilen yerlerde bu Yönetmelik \nkapsamında yetkilendirilen kurum ve kuruluşların aşağıda belirtilen yükümlülükleri, Bakanın onayı ile \ndeğiştirilebilir veya ertelenebilir: \na) Eğitim kurumlarının kurulabilmesi ve hizmet sunabilmesi için gerekli şartlar. \nb) Başvuru ve bildirim süreleri. \nc) Kurum ve kuruluşlarda personel istihdamı zorunluluğu. \nç) Kurum ve kuruluşların vize bedeli ödemeleri. \n(2) Birinci fıkra kapsamında alınan onay, olağanüstü hal süresi veya genel hayata etkili afet \nbölgesi olduğunu gösteren kararın süresi boyunca geçerlidir. Olağanüstü hal süresi veya genel hayata \netkili afet bölgesi olduğunu gösteren kararın süresi bir yılı aşsa bile birinci fıkra kapsamında alınan \nonayın süresi bir yılı aşamaz. Sürenin uzatılması gerekirse yeniden Bakan onayı alınır. \n(3) Genel hayata etkili afet bölgesi veya olağanüstü hal ilan edilen yerlerde, bu Yönetmelik \nkapsamında yetkilendirilen kurum veya kuruluşların, yetkilendirildikleri adrese ilişkin resmî \nmakamlarca düzenlenen yıkık veya hasar raporunu beyan etmesi halinde kurum veya kuruluşun \narşivinde bulunması gereken evraktan zayi olanlar ya da erişilemeyenler denetimlerde aranmaz. \nMevcut eğitim kurumlarının durumu",
+          "normalized_hash": "1328e48455840d2e"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:1",
+          "label": "Geçici Madde 1",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 1 – (1) Mevcut eğitim kurumlarının onaylanmış yerleşim planında değişiklik \nolması halinde, fiziki şartların bu Yönetmelik hükümlerine uygun olması şartı aranır. \n(2) (Mülga:RG-30/4/2015-29342) \nSınıflar arası yükselme(3)(6)",
+          "normalized_hash": "af9d418553f7fe6b"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:2",
+          "label": "Geçici Madde 2",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 2 – (Ek: RG-31/1/2013-28545)(1) (Başlığıyla birlikte değişik: RG-11/10/201328792)(5) \n(1) (C) sınıfı iş güvenliği uzmanlığı belgesine sahip olanlardan; \na) Başvurdukları tarihte adlarına 1500 gün prim ödenenler, (B) sınıfı iş güvenliği uzmanlığı \nbelge sınavına, \nb) Başvurdukları tarihte adlarına 3000 gün prim ödenenler, (A) sınıfı iş güvenliği uzmanlığı \nbelge sınavına, \ngirmeye hak kazanırlar. \n(2) (B) sınıfı iş güvenliği uzmanlığı belgesine sahip olanlardan; \na) Başvurdukları tarihte adlarına 1800 gün prim ödenenler, (A) sınıfı iş güvenliği uzmanlığı \nbelge sınavına, \ngirmeye hak kazanırlar. \n(3) Birinci ve ikinci fıkrada sayılanlar Kanunun Geçici 4 üncü maddesinin ikinci fıkrasının \nyürürlüğe girdiği tarihten itibaren bir yıl içinde düzenlenecek sınavlara iki defaya mahsus girme hakkı \nkazanırlar. Başvuruda istenecek belgeler Bakanlıkça ilan edilir. \n(4) Birinci ve ikinci fıkrada sayılanlar, yapılacak sınavda başarılı olamadıkları takdirde sahip \noldukları belge ile çalışmaya devam ederler. \nSınav hakkı",
+          "normalized_hash": "84b98bb7cb0eff0f"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:3",
+          "label": "Geçici Madde 3",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 3 – (Ek: RG-11/10/2013-28792) \n(1) 15/8/2009 tarihinden sonra Bakanlıkça yetkilendirilmiş eğitim kurumlarından eğitim alıp \nsınav hakkını kaybedenler, bu maddenin yayım tarihi itibariyle 1 yıl içinde ilgili sınavlara katılabilirler. \nEğitim kurumlarını uyumlaştırma",
+          "normalized_hash": "9587b5eac3daba50"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:4",
+          "label": "Geçici Madde 4",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 4 – (Ek: RG-11/10/2013-28792) \n(1) Bu maddenin yürürlüğe girdiği tarihten önce kurulan eğitim kurumları üç ay içinde 18 inci \nmaddede belirtilen eksikliklerini tamamlarlar. \nElektronik ortamlarda başvuru işlemleri ve geçiş hükümleri",
+          "normalized_hash": "e36006cafd651ddb"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:5",
+          "label": "Geçici Madde 5",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 5 –(Ek:RG-30/4/2015-29342) \n(1) 14 üncü maddeye göre eğitim kurumları yetki belgesi başvuru sistemi, e-devlet sistemi alt \nyapısı tamamlandığında Genel Müdürlük internet sayfasında duyurulur. İlgili duyuruya kadar \nyapılacak başvurular ve sonuçlandırılmasına ait iş ve işlemlerde mevcut hükümlerin uygulanmasına \ndevam edilir. \n(2) Bu Yönetmeliğin yürürlüğe girdiği tarihten önce 14 üncü maddeye göre yapılmış ve \nsonuçlandırılmamış eğitim kurumu başvurularında bu Yönetmelikte belirtilen şartlar aranır. \n(3) 20 nci maddenin beşinci fıkrasına göre yapılacak başvurular ile 23 üncü maddenin altıncı \nfıkrasına göre eğitici değişikliği ile ilgili bildirimler, e-devlet sistemi alt yapısı ile ilgili ilân yapılıncaya \nkadar, 21 inci maddenin sekizinci fıkrasına göre sorumlu müdür değişikliği ile ilgili bildirimler ise İSGKATİP sistemindeki gerekli düzenlemeler tamamlanıp ilan edilinceye kadar Genel Müdürlüğe yazılı \nolarak yapılmaya devam edilir. \nYetki belgelerinin birleştirilmesi",
+          "normalized_hash": "d5af7755e572d251"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:6",
+          "label": "Geçici Madde 6",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 6 –(Ek:RG-30/4/2015-29342) \n(1) İşyeri hekimi ve iş güvenliği uzmanı eğitimi için ayrı ayrı yetki alan eğitim kurumları, bu \nYönetmeliğin yayımından itibaren bir ay içinde yetki belgelerini iade ederek birleştirilmiş belgelerini \nalırlar. Yetki belgesini yenilemeyen eğitim kurumlarının programları, yetki belgesi yenileninceye kadar \nonaylanmaz. \nÇalışma sürelerinde geçiş hükümleri",
+          "normalized_hash": "7d82dd3c3cdae9c6"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:7",
+          "label": "Geçici Madde 7",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 7 –(Ek:RG-30/4/2015-29342) \n(1) 12 nci maddede belirlenen iş güvenliği uzmanlarının çalışma süreleri ile tam gün \nçalıştırılmasına dair hükümler, 1/1/2016 tarihinde yürürlüğe girer. Bu tarihe kadar mevcut \nhükümlerin uygulanmasına devam edilir. \nVize işlemi yaptırmayan kişilerin belgelerinin durumu",
+          "normalized_hash": "750c1197a6830d2d"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:8",
+          "label": "Geçici Madde 8",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 8 – (Ek:RG:15/2/2016-29625) \n\n(1) Vize süresi dolan veya süresi 60 günden az kalan iş güvenliği uzmanlığı belgesine sahip \nolanlar bu maddenin yayımı tarihi itibarıyla 60 gün içerisinde vize işlemlerini tamamlatmak \nzorundadır. Aksi takdirde vize süresi dolan belgelerin geçerliliği vize işlemleri tamamlanıncaya kadar \naskıya alınır.",
+          "normalized_hash": "3ac9e85bfc17230f"
+        },
+        {
+          "provision_id": "law:16923:gecici-madde:9",
+          "label": "Geçici Madde 9",
+          "madde_turu": "gecici",
+          "mulga": false,
+          "text": "GEÇİCİ MADDE 9- (Ek:RG-27/12/2024-32765) \n(Danıştay Dördüncü Dairesinin 17/12/2025 tarihli ve E.:2025/161; K.:2025/6763 sayılı kararı \nile iptal madde;(1) (B) sınıfı iş güvenliği uzmanlığı belgesiyle, çok tehlikeli sınıftaki \nişyerlerinde 31/12/2024 tarihi itibarıyla en az üç yıl fiilen görev yaptığını iş güvenliği uzmanlığı \nsözleşmesi ile belgeleyenlerden son vize döneminde ihtar puanı veya askıya alma işlemi \nuygulanmamış olanlara, 31/3/2025 tarihine kadar başvurmaları halinde (A) sınıfı iş güvenliği \nuzmanlığı belgesi EK-1’deki örneğine uygun olarak Genel Müdürlükçe verilir. \n(2) (C) sınıfı iş güvenliği uzmanlığı belgesiyle, tehlikeli ve/veya çok tehlikeli sınıftaki \nişyerlerinde 31/12/2024 tarihi itibarıyla en az üç yıl fiilen görev yaptığını iş güvenliği uzmanlığı \nsözleşmesi ile belgeleyenlerden son vize döneminde ihtar puanı veya askıya alma işlemi \nuygulanmamış olanlara, 31/3/2025 tarihine kadar başvurmaları halinde (B) sınıfı iş güvenliği \nuzmanlığı belgesi EK-1’deki örneğine uygun olarak Genel Müdürlükçe verilir. \n(3) Birinci ve ikinci fıkrada belirtilen fiili çalışma süresinin hesabında sadece İSG-KATİP’te kayıtlı \niş güvenliği uzmanlığı sözleşmeleri esas alınır.) \nYürürlük",
+          "normalized_hash": "bf21d74b90098700"
+        },
+        {
+          "provision_id": "law:16923:article:37",
+          "label": "Madde 37",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 37 – (1) Bu Yönetmelik 30/12/2012 tarihinde yürürlüğe girer. \nYürütme",
+          "normalized_hash": "b532cd631aa44aa9"
+        },
+        {
+          "provision_id": "law:16923:article:38",
+          "label": "Madde 38",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 38 – (1) Bu Yönetmelik hükümlerini Çalışma ve Sosyal Güvenlik Bakanı yürütür. \n \n___________ \n(1) Bu değişiklik yayımı tarihinden iki ay sonra yürürlüğe girer. \n(2) 11/10/2013 tarihli ve 28792 sayılı Resmî Gazete’de yayımlanan İş Güvenliği Uzmanlarının Görev, Yetki, \nSorumluluk ve Eğitimleri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmeliğin 2 nci maddesi ile bu \nmaddenin birinci fıkrasının (f) bendinden sonra gelmek üzere (g) ve (ğ) bentleri eklenmiş, müteakip bentler \nbuna göre teselsül ettirilmiştir. \n (3) Danıştay Onuncu Dairesinin 10/4/2014 tarihli ve Esas No.: 2013/7786 sayılı Kararı ile bu maddenin \nyürütmesi durdurulmuştur. \n(4)Bu maddenin ikinci ve üçüncü fıkraları yayımlandığı tarihten üç ay sonra yürürlüğe girer. \n (5) Danıştay Onuncu Dairesinin Esas No:2013/7980 , Karar No:2016/1767 sayılı kararı ile 11/10/2013 \ntarihli ve 28792 sayılı Resmi Gazete’de yayımlanan İş Güvenliği Uzmanlarının Görev, Yetki, Sorumluluk Ve \nEğitimleri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmeliğin Çerçeve 22 nci maddesinin iptaline \nkarar verilmiştir. \n(6) Danıştay Onuncu Dairesinin 23/5/2019 tarihli ve Esas No:2013/7726 , Karar No:2019/4351 sayılı kararı \nile Yönetmeliğin Geçici 2 nci maddesinin iptaline karar verilmiştir. \n \n \nYönetmeliğin Yayımlandığı Resmî Gazete’nin \nTarihi \nSayısı \n29/12/2012 \n28512 \nYönetmelikte Değişiklik Yapan Yönetmeliklerin Yayımlandığı Resmî \nGazetelerin \nTarihi \nSayısı \n1. \n31/1/2013 \n28545 \n2. \n11/10/2013 \n28792 \n3. \n30/4/2015 \n29342 \n4. \n19/11/2015 \n29537 \n5. \n15/2/2016 \n29625 \n6. \n28/2/2020 \n31053 \n7. \n16/4/2020 \n31101 \n\n8. \n6/7/2021 \n31533 \n9. \n4/2/2024 \n32450 \n10. \n27/12/2024 \n32765 \n \nYönetmeliğin eklerini görmek için tıklayınız",
+          "normalized_hash": "2db536d3bea075b8"
+        }
+      ]
+    }
+  ]
+}

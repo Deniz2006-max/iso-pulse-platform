@@ -1,0 +1,196 @@
+{
+  "documents": [
+    {
+      "document_id": "law:5451",
+      "title": "Yıllık Ücretli İzin Yönetmeliği",
+      "canonical_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5451&MevzuatTur=7&MevzuatTertip=5",
+      "current_version_id": "law:5451:sha256:aa70f55e85f2a4c1",
+      "included_provisions": [
+        {
+          "provision_id": "law:5451:article:1",
+          "label": "Madde 1",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 1 — Bu Yönetmeliğin amacı, 4857 sayılı İş Kanununun 53 üncü maddesi uyarınca, işverenlerce işçilere verilecek yıllık ücretli izinlerin usul ve esaslarını belirlemektir.\nKapsam",
+          "normalized_hash": "027f827592b2d63c"
+        },
+        {
+          "provision_id": "law:5451:article:2",
+          "label": "Madde 2",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 2 — 4857 sayılı İş Kanununa dayanılarak işverenler tarafından işçilere kullandırılacak yıllık ücretli izinler, aynı Kanunun 1 inci maddesi kapsamına giren işyerlerinde bu Yönetmelikte belirtilen usul ve esaslara göre\nyürütülür.\nDayanak",
+          "normalized_hash": "57ffda1daaca6e47"
+        },
+        {
+          "provision_id": "law:5451:article:3",
+          "label": "Madde 3",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 3 — Bu Yönetmelik, 22/5/2003 tarihli ve 4857 sayılı İş Kanununun 60 ıncı maddesine dayanılarak hazırlanmıştır.\n \nİKİNCİ BÖLÜM\nİzin Hakkının Belirlenmesi ve Kullanımı\n \nYıllık Ücretli İzine Hak Kazanma",
+          "normalized_hash": "a0ef7c3aa2aff729"
+        },
+        {
+          "provision_id": "law:5451:article:4",
+          "label": "Madde 4",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 4 — İş Kanununun 53 üncü maddesinin birinci fıkrası ile 54 üncü maddesindeki esaslar ve 55 inci maddesindeki durumlar göz önünde tutularak her işçinin yıllık ücretli izne hak kazandığı tarih bu Yönetmeliğin 20 nci\nmaddesinde sözü geçen yıllık ücretli izin kayıt belgesine yazılır.\nYıllık izin süresinin ve izne hak kazanmak için gerekli sürenin hesabında işçinin aynı işverene ait işyerlerinde çalıştığı süreler birleştirilir. Şu kadar ki, bir işverenin bu Kanun kapsamına giren işyerinde çalışmakta olan işçilerin aynı\nişverenin işyerlerinde bu Kanun kapsamına girmeksizin geçirmiş bulundukları süreler de hesaba katılır.\nAynı bakanlığa bağlı işyerleri ile aynı bakanlığa bağlı tüzel kişilerin işyerlerinde geçen süreler ve kamu iktisadi teşebbüsleri yahut özel kanun veya özel kanunla verilmiş yetkiye dayanılarak kurulan banka ve kuruluşlar veya\nbunlara bağlı işyerlerinde geçen süreler de, işçinin yıllık ücretli izin hakkının hesaplanmasında birleştirilerek göz önünde bulundurulur.\nİzin Kullanma Dönemleri",
+          "normalized_hash": "ceb68be2d323f0bd"
+        },
+        {
+          "provision_id": "law:5451:article:5",
+          "label": "Madde 5",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 5 — İşveren veya işveren vekilleri, bu Yönetmeliğin 15 inci maddesinde belirtilen izin kurulu veya 18 inci maddeye dayanılarak bunun yerine geçenlere danışmak suretiyle işyerinde yürütülen işlerin nitelik ve özelliklerine\ngöre, yıllık ücretli izinlerin, her yılın belli bir döneminde veya dönemlerinde verileceğini tayin edebilir. Bunu işyerinde ilan eder.\nYıllık Ücretli İznin Uygulanması",
+          "normalized_hash": "e4e53f4f1134396a"
+        },
+        {
+          "provision_id": "law:5451:article:6",
+          "label": "Madde 6",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 6 — Yıllık ücretli izin işveren tarafından bölünemez.\nBu iznin 53 üncü maddede gösterilen süreler içinde işveren tarafından sürekli bir şekilde verilmesi zorunludur.\nAncak, 53 üncü maddede öngörülen izin süreleri, tarafların anlaşması ile bir bölümü on günden aşağı olmamak üzere (Değişik ibare:RG-18/8/2017- 30158) bölümler halinde kullanılabilir.\nİşveren tarafından yıl içinde verilmiş bulunan diğer ücretli ve ücretsiz izinler veya dinlenme ve hastalık izinleri yıllık izne mahsup edilemez.\nYıllık ücretli izin günlerinin hesabında izin süresine rastlayan ulusal bayram, hafta tatili ve genel tatil günleri izin süresinden sayılmaz.\nYıllık ücretli izinleri işyerinin kurulu bulunduğu yerden başka bir yerde geçirecek olanlara istemde bulunmaları ve bu hususu belgelemeleri koşulu ile gidiş ve dönüşlerinde yolda geçecek süreleri karşılamak üzere işveren toplam\ndört güne kadar ücretsiz yol izni vermek zorundadır.\nİşveren tarafından iş sözleşmesinin feshedilmesi halinde İş Kanununun 17 nci maddesinde belirtilen bildirim süresi ile 27 nci maddesi gereğince işçiye verilmesi zorunlu yeni iş arama izinleri, yıllık ücretli izin süreleri ile iç içe\ngiremez.\nİşveren, işyerinde çalışan işçilerin yıllık ücretli izinlerini gösterir izin kayıt belgesi tutmak zorundadır.\n(Ek fıkra:RG-18/8/2017- 30158) Alt işveren işçilerinden, alt işvereni değiştiği hâlde aynı işyerinde çalışmaya devam edenlerin yıllık ücretli izin süresi, aynı işyerinde çalıştıkları süreler dikkate alınarak hesaplanır. Asıl işveren,\nalt işveren tarafından çalıştırılan işçilerin hak kazandıkları yıllık ücretli izin sürelerinin kullanılıp kullanılmadığını kontrol etmek ve ilgili yıl içinde kullanılmasını sağlamakla, alt işveren ise tutmak zorunda olduğu izin kayıt belgesinin bir\nörneğini asıl işverene vermekle yükümlüdür.\nİzin İsteğinin Zamanı",
+          "normalized_hash": "e1ceaf1c7c687e8c"
+        },
+        {
+          "provision_id": "law:5451:article:7",
+          "label": "Madde 7",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 7 — İşçi yukarıdaki maddelere göre hak ettiği yıllık ücretli iznini, kullanmak istediği zamandan en az bir ay önce işverene yazılı olarak bildirir.\nİşveren veya işveren vekilleri, bu istekleri Yönetmeliğin 15 inci maddesinde sözü geçen izin kuruluna veya 18 inci maddesinde belirtilen kişilere bildirir.\nİzin İsteği ve Verilmesi",
+          "normalized_hash": "48aec7945b30fcb8"
+        },
+        {
+          "provision_id": "law:5451:article:8",
+          "label": "Madde 8",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 8 — İşçi yıllık izin isteminde, adını soyadını, varsa sicil numarasını, iznini hangi tarihler arasında kullanmak istediğini ve ücretsiz yol izni isteyip istemediğini yazar.\nİzin kurulu veya işveren, işçinin istediği izin kullanma tarihi ile bağlı değildir. Ancak, izin sıra ve nöbetleşmesini göstermek üzere söz konusu kurulca düzenlenecek çizelgeler işçinin talebi ve iş durumu dikkate alınarak hazırlanır.\nAynı tarihe rastlayan izin isteklerinde; işyerindeki kıdem ve bir önceki yıl iznini kullandığı tarih dikkate alınarak öncelikler belirlenir.\nYol izni alanlar bu süreyi kullanmadan işe dönerlerse, işveren bunları anılan sürenin bitiminden önce işe başlatmayabilir.\nİzin Süresinin Tespiti",
+          "normalized_hash": "529198b4fd9eb0c5"
+        },
+        {
+          "provision_id": "law:5451:article:9",
+          "label": "Madde 9",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 9 — İşçinin izin süresi, iznini hak ettiği tarihteki hizmet süresine ve 4857 sayılı Kanunun 55 inci maddesine göre belirlenir.\nİşyerinde işe başladığı günden itibaren deneme süresi de içinde olmak üzere en az bir yıl çalışmış olan işçilere yıllık ücretli izin verilir. Yıllık ücretli izin hakkından vazgeçilemez.\nİşçilere verilecek yıllık ücretli izin süresi, hizmet süresi;\na) Bir yıldan beş yıla kadar (beş yıl dahil) olanlara ondört günden,\nb) Beş yıldan fazla onbeş yıldan az olanlara yirmi günden,\nc) Onbeş yıl (dahil) ve daha fazla olanlara yirmialtı günden,\naz olamaz. (Ek cümle:RG-18/8/2017- 30158) Yer altı işlerinde çalışan işçilerin yıllık ücretli izin süreleri dörder gün arttırılarak uygulanır.\nAncak, onsekiz ve daha küçük yaştaki işçilerle elli ve daha yukarı yaştaki işçilere verilecek yıllık ücretli izin süresi yirmi günden az olamaz.\nToplu İzin",
+          "normalized_hash": "b1465400a2f12487"
+        },
+        {
+          "provision_id": "law:5451:article:10",
+          "label": "Madde 10",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 10 — İşveren veya işveren vekili Nisan ayı başı ile Ekim ayı sonu arasındaki süre içinde, işçilerin tümünü veya bir kısmını kapsayan toplu izin uygulayabilir.\nBu uygulamaya gidildiğinde, izin kurulu izin çizelgelerini, toplu izne çıkacak işçiler aynı zamanda izne başlayacak ve Kanunun 53 üncü maddesindeki izin sürelerine ve yol izni isteklerine göre her işçinin izin süresinin bitimini\ngösterecek biçimde düzenler ve ilan eder.\nToplu izin dönemleri, bu dönemlerde henüz yıllık ücretli izin hakkını kazanmayan işçileri de kapsayacak şekilde belirlenebilir. Şu kadar ki, ertesi yıl veya yıllarda bu toplu izin yönteminin uygulanmaması halinde, bu durumda\nolanların gelecek yıllık ücretli izne hak kazanacakları tarih, genel esaslara göre belirlenir.\nToplu İzin Uygulaması Dışında Tutulacak İşçiler",
+          "normalized_hash": "5e54f4192fac7326"
+        },
+        {
+          "provision_id": "law:5451:article:11",
+          "label": "Madde 11",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 11 — Toplu izin uygulanması halinde işveren veya işveren vekili, işyerinin korunması, işyerindeki araç, gereç, donatım veya makinelerin bakımı, hazırlanması, temizlenmesi veya güvenliğinin sağlanması gibi zorunlu\ndurumlar için yeter sayıda işçiyi toplu izin dışında tutabilir.\nBu durumda olanların yıllık izinleri toplu izin döneminden önce veya sonra diledikleri tarihte verilir.\nMevsimlik veya Kampanya İşlerinde Yıllık Ücretli İzin",
+          "normalized_hash": "902b71d904cad7cd"
+        },
+        {
+          "provision_id": "law:5451:article:12",
+          "label": "Madde 12",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 12 — İş Kanununun 53 üncü maddesinin üçüncü fıkrasında sözü geçen ve nitelikleri yönünden bir yıldan az süren mevsim veya kampanya işlerinin yürütüldüğü işyerlerinde devamlı olarak çalışan işçilerin yıllık ücretli\nizinleri hakkında bu Yönetmelik hükümleri uygulanır.\nKısmi Süreli ve Çağrı Üzerine Çalışmalarda Yıllık Ücretli İzin",
+          "normalized_hash": "e3caecf5acb08c83"
+        },
+        {
+          "provision_id": "law:5451:article:13",
+          "label": "Madde 13",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 13 — Kısmi süreli ya da çağrı üzerine iş sözleşmesi ile çalışanlar yıllık ücretli izin hakkından tam süreli çalışanlar gibi yararlanır ve farklı işleme tabi tutulamaz.\nKısmi süreli ya da çağrı üzerine iş sözleşmesi ile çalışanlar iş sözleşmeleri devam ettiği sürece her yıl için hak ettikleri izinleri, bir sonraki yıl izin süresi içine isabet eden kısmi süreli iş günlerinde çalışmayarak kullanır.\nYukarıdaki esaslara göre izine hak kazanan kısmi süreli ya da çağrı üzerine çalışan işçilerle tam süreli çalışan işçiler arasında yıllık izin süreleri ve izin ücretleri konularında bir ayrım yapılamaz.\nGeçici İş İlişkisiyle Çalışan İşçilerin Yıllık Ücretli İzinleri",
+          "normalized_hash": "6bdff6d79a7f1883"
+        },
+        {
+          "provision_id": "law:5451:article:14",
+          "label": "Madde 14",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 14 — Geçici iş ilişkisi ile çalışan işçilerin yıllık ücretli izinleri hakkında, geçici iş sözleşmesinde aksi belirtilmediği takdirde, bu Yönetmelik hükümleri uygulanır.\n \nÜÇÜNCÜ BÖLÜM\nİzin Kurullarının Oluşumu, Toplantı Usulü, Görev ve Yetkileri\n \nİzin Kurulunun Oluşumu",
+          "normalized_hash": "a2aa79d77d61279b"
+        },
+        {
+          "provision_id": "law:5451:article:15",
+          "label": "Madde 15",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 15 — İşçi sayısı yüzden fazla olan işyerlerinde işveren veya işveren vekilini temsilen bir, işçileri temsilen iki kişi olmak üzere toplam üç kişiden oluşan izin kurulu kurulur.\nKurula işveren temsilcisi başkanlık eder. Kurulun başkanı dışında kalan işçi üyeleri ve yedekleri işyerinde varsa, işyeri sendika temsilcileri tarafından seçilir.\nSendika temsilcileri seçilmemiş işyerinde izin kurulunun işçi üyeleri ve yedekleri, o işyerindeki işçilerin yarıdan bir fazlasının katılacağı bir toplantıda açık oyla seçilir. İzin kurulu başkanı ile üye ve yedekleri işyerinde işveren\ntarafından ilan edilir. Asil üyelerin yokluğunda yedeklerin biri başkanın çağrısı üzerine toplantıya katılır.\nHerhangi bir nedenle eksilen üye ve yedekler aynı şekilde tamamlanır. İzin kurulu üyelerinin seçimi iki yılda bir yapılır. Yeni izin kurulu üyeleri seçilinceye kadar eski kurul üyeleri görevine devam eder.\nBu Yönetmeliğin yürürlüğe girmesinden sonra yeni açılacak işyerlerinde seçim, işyerlerinin faaliyete geçtiği tarihi takip eden bir yıl içerisinde yapılır.\nİzin Kurulunun Görev ve Yetkileri",
+          "normalized_hash": "5c5fc985abcbb294"
+        },
+        {
+          "provision_id": "law:5451:article:16",
+          "label": "Madde 16",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 16 — İzin kurulunun görev ve yetkileri şunlardır:\na) İşçiler tarafından verilip işveren veya işveren vekili tarafından izin kuruluna iletilen izin isteklerine göre hazırlayacağı izin çizelgelerini işverenin onayına sunmak,\nb) İzin çizelgelerini; işçilerin kıdemlerini, izni belirli bir dönemde kullanmak bakımından içinde bulundukları zorunluluk veya engellerini, işin aksamadan yürütülmesini ve işçi sayısını göz önünde bulundurarak hazırlamak,\nc) İşçilerin yıllık izin hakları ile ilgili dilek ve şikayetlerini inceleyerek sonucunu işverene ve ilgili işçiye bildirmek,\nd) Her yıl ücretli izinlerin daha yararlı geçirilebilmesi için kamplar ve geziler düzenlemek, bu konuda alınması mümkün olan tedbirleri araştırmak ve işverene tekliflerde bulunmak.\nİzin kurulunun çalışmaları için gerekli yer, eleman, araç ve gereçler işveren tarafından sağlanır.\nİzin Kurulunun Toplantıları",
+          "normalized_hash": "4fc89b3e63a0ac15"
+        },
+        {
+          "provision_id": "law:5451:article:17",
+          "label": "Madde 17",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 17 — İzin kurulu kendisine yüklenen görevleri yerine getirmek üzere yıllık izin çizelgelerinin hazırlanması sırasında ve gerektikçe başkanın çağrısı ile iş saatleri içerisinde toplanır. Toplantılarda alınan kararlar ve yapılan\nişler izin kurulu karar defterine yazılarak imzalanır.\nİzin Kurulu Bulunması Zorunlu Olmayan İşyerleri",
+          "normalized_hash": "138aadfe7773bc1b"
+        },
+        {
+          "provision_id": "law:5451:article:18",
+          "label": "Madde 18",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 18 — İşçi sayısı yüzden az olan işyerlerinde; izin kurulunun görevleri, işveren veya işveren vekili veya bunların görevlendireceği bir kişi ile işçilerin kendi aralarında seçecekleri bir temsilci tarafından yerine getirilir.\nYıllık İzin Çizelgelerinin Hazırlanması ve İlanı",
+          "normalized_hash": "ea0b18cb546f0ead"
+        },
+        {
+          "provision_id": "law:5451:article:19",
+          "label": "Madde 19",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 19 — İzin kurulunca hazırlanıp ilan edilecek çizelgede işçinin;\na) Adı soyadı,\nb) Sicil numarası,\nc) İşe giriş tarihi,\nd) Yıllık izne hak kazandığı tarih,\ne) İşyerindeki çalışma süresi,\nf) İzin günleri sayısı,\ng) Yol izni günleri sayısı,\nh) İznin başlama tarihi,\nı) İznin sona ereceği tarih,\n\nbelirtilir.\nDÖRDÜNCÜ BÖLÜM\nYıllık Ücretli İzinlere İlişkin İşverenin Yükümlülükleri\n \nYıllık İzin Kaydı",
+          "normalized_hash": "a28165c485227a61"
+        },
+        {
+          "provision_id": "law:5451:article:20",
+          "label": "Madde 20",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 20 — İşveren; çalıştırdığı işçilerin izin durumlarını gösteren, örneği bu Yönetmeliğe ekli yıllık izin kayıt belgesini tutmak zorundadır.\nİşveren, her işçinin yıllık izin durumunu aynı esaslara göre düzenleyeceği izin defteri veya kartoteks sistemiyle de takip edebilir.\nÜcretin Ödenmesi",
+          "normalized_hash": "3ebdb844f3db44b1"
+        },
+        {
+          "provision_id": "law:5451:article:21",
+          "label": "Madde 21",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 21 — İzin ücretinin belirlenmesinde; fazla çalışma karşılığı alınacak ücretler, primler, sosyal yardımlar ve işyerinin devamlı işçisi olup, normal saatler dışında hazırlama, tamamlama, temizleme işlerinde çalışan işçilerin bu\nişler için aldıkları ücretler hesaba katılmaz.\nİşveren veya işveren vekili, yıllık ücretli iznini kullanan her işçiye izin dönemine ilişkin ücreti ile ödenmesi bu döneme rastlayan diğer ücret ve ücret niteliğindeki haklarını izine başlamadan önce peşin olarak vermek veya avans\nolarak ödemek zorundadır.\nYüzde usulünün uygulandığı yerlerde izin ücreti yüzdelerden toplanan para dışında işveren tarafından ödenir.\nYıllık ücretli izin süresine rastlayan hafta tatili, ulusal bayram ve genel tatil ücretleri ayrıca ödenir.\nKısmi süreli ve çağrı üzerine çalışanlara; izin dönemine rastlayan çalışması gereken sürelere ilişkin ücretleri, yıllık izin ücreti olarak ödenir.\n \nBEŞİNCİ BÖLÜM\nSon Hükümler",
+          "normalized_hash": "5aa3964f3bbd352a"
+        },
+        {
+          "provision_id": "law:5451:article:22",
+          "label": "Madde 22",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 22 — Bu Yönetmelik yayımı tarihinde yürürlüğe girer.",
+          "normalized_hash": "79b5efb10cbcd1a6"
+        },
+        {
+          "provision_id": "law:5451:article:23",
+          "label": "Madde 23",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "Madde 23 — Bu Yönetmelik hükümlerini Çalışma ve Sosyal Güvenlik Bakanı yürütür.\n \nEK-I\n \nYILLIK ÜCRETLİ İZİN KAYDI\nİşçinin Soyadı:\nİşe Giriş Tarihi:\nAdı:\nSicil No:\n \n \nBir Yıllık Çalışma Süresi İçinde\nÇalışılmayan Gün Sayısı\nve Nedenleri\n \nYılı\nBir\nYıl\nÖnceki\nİzin\nHakkını\nKazandığı\nTarih\nHastalık\nAskerlik\nZorunluluk\nHali\nDevamsızlık\nHizmete\nAra Verme\nDiğer\nNedenler\nİzne\nHak\nKazandığı\nTarih\nİşyerindeki\nKıdemi\nİzin\nSüresi\nYol\nİzni\nİzne\nBaşlangıç\nTarihi\nİzinden\nDönüş Tarihi\nİşçinin\nİmzası\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nNOT: İlk defa yıllık ücretli izin hakkından faydalandırılanlar için (Bir yıl önceki izin hakkını kazandığı tarih) sütunu boş bırakılacaktır.",
+          "normalized_hash": "0fe4ea9870658f51"
+        }
+      ]
+    }
+  ]
+}

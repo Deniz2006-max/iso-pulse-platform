@@ -1,0 +1,108 @@
+{
+  "documents": [
+    {
+      "document_id": "law:17288",
+      "title": "Ekranlı Araçlarla Çalışmalarda Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik",
+      "canonical_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=17288&MevzuatTur=7&MevzuatTertip=5",
+      "current_version_id": "law:17288:sha256:b9ba8aced9f55ec7",
+      "included_provisions": [
+        {
+          "provision_id": "law:17288:article:1",
+          "label": "Madde 1",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 1 – (1) Bu Yönetmeliğin amacı, ekranlı araçlarla çalışmalarda alınacak asgari sağlık ve güvenlik önlemlerine ilişkin usul ve esasları belirlemektir.\nKapsam",
+          "normalized_hash": "cf53258559ca5afe"
+        },
+        {
+          "provision_id": "law:17288:article:2",
+          "label": "Madde 2",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 2 – (1) Bu Yönetmelik, 20/6/2012 tarihli ve 6331 sayılı İş Sağlığı ve Güvenliği Kanunu kapsamına giren ve ekranlı araçlarla çalışmaların yapıldığı tüm\nişyerlerini kapsar.\n(2) Bu Yönetmelik hükümleri;\na) Hareketli makine ve araçların kumanda kabinlerinde ve sürücü mahallinde,\nb) Taşıma araçlarında aracın kumandasındaki bilgisayar sistemlerinde,\nc) Toplumun kullanımına açık bilgisayar sistemlerinde,\nç) İşyerinde kullanımı sürekli olmayan taşınabilir sistemlerde,\nd) Hesap makineleri, yazar kasa ve benzeri veri veya ölçüm sonuçlarını gösteren küçük ekranlı cihazlarda,\ne) Ekranlı daktilolarda,\nuygulanmaz.\nDayanak",
+          "normalized_hash": "766c00bc6d89d61b"
+        },
+        {
+          "provision_id": "law:17288:article:3",
+          "label": "Madde 3",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 3 – (1) Bu Yönetmelik;\na) 6331 sayılı Kanunun 30 uncu maddesine dayanılarak,\nb) 9/1/1985 tarihli ve 3146 sayılı Çalışma ve Sosyal Güvenlik Bakanlığının Teşkilat ve Görevleri Hakkında Kanunun 12 nci maddesine dayanılarak,\nc) Avrupa Birliğinin 29/5/1990 tarihli ve 90/270/EEC sayılı Konsey Direktifine paralel olarak,\nhazırlanmıştır.\nTanımlar",
+          "normalized_hash": "8a004a581a7acf94"
+        },
+        {
+          "provision_id": "law:17288:article:4",
+          "label": "Madde 4",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 4 – (1) Bu Yönetmelikte geçen;\na) Ekranlı araç: Uygulanan işlemin içeriğine bakılmaksızın ekranında harf, rakam, şekil, grafik ve resim gösteren her türlü aracı,\nb) Operatör: Esas işi ekranlı araçlarla çalışmak olan ve normal çalışmasının önemli bir bölümünde ekranlı araç kullanan kişiyi,\nc) Çalışma merkezi: Operatörün/çalışanın oturduğu sandalye, ekranlı aracın konulduğu masa ya da yüzey, operatör/çalışan-makine ara yüz yazılımı, monitör,\nklavye, yazıcı, telefon, faks, modem ve benzeri aksesuar ve ekranlı araçla ilgili tüm donanımların tamamının veya bir kısmının bulunduğu çalışma alanını,\nifade eder.\nİKİNCİ BÖLÜM\nGenel Hususlar\nİşverenin yükümlülükleri",
+          "normalized_hash": "06a50e3e188b999c"
+        },
+        {
+          "provision_id": "law:17288:article:5",
+          "label": "Madde 5",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 5 – (1) İşveren, işyerinde gerçekleştireceği risk değerlendirmesinde; çalışma merkezlerinde ekranlı araçların kullanımından kaynaklanan riskleri, özellikle\ngörme, fiziksel sorunlar ve mental stresle ilgili riskleri de dikkate alarak, bu risklerin etkileri, yol açabileceği ilave etkiler ile risklerin bir arada olmasından\nkaynaklanabilecek olumsuz etkilerin ortadan kaldırılması veya en aza indirilmesi için her türlü sağlık ve güvenlik önlemlerini alır.\n(2) Bu Yönetmelik kapsamında alınacak önlemlerin maliyeti çalışanlara yansıtılamaz.\n(3) Ekranlı araçlarla çalışmalarda aranacak asgari gerekler ek-1’de yer almaktadır.\nÇalışanların bilgilendirilmesi ve eğitimi",
+          "normalized_hash": "76b01ef28a996486"
+        },
+        {
+          "provision_id": "law:17288:article:6",
+          "label": "Madde 6",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 6 – (1) Ekranlı araçlarla çalışmalarda, çalışanların bilgilendirilmesi ve eğitimi ile ilgili olarak aşağıdaki hususlara uyulur.\na) İşveren, çalışanlara ve temsilcilerine çalışma yerlerinde sağlık ve güvenlik ile ilgili bütün konularda ve özellikle 5 inci, 7 nci ve 9 uncu maddelerde belirtilen\nhususlarda bilgi verir.\nb) İşveren; çalışanların iş sağlığı ve güvenliği eğitimlerine ilişkin mevzuat hükümlerini de dikkate alarak ekranlı araçlarla çalışanlara, işe başlamadan önce ve\nçalışma koşullarında önemli bir değişiklik olduğunda gerekli eğitimi verir. Çalışanların iş sağlığı ve güvenliği eğitimleri; ilgili mevzuatta belirtilen periyotlarda ve\n\nişyerinde gerçekleştirilen risk değerlendirmesi sonuçlarının gerektirdiği durumlarda tekrarlanır.\n(2) Eğitim, özellikle aşağıdaki konuları içerir:\na) Ekranlı araçlarla çalışmalarda riskler ve korunma yolları,\nb) Doğru oturuş,\nc) Gözlerin korunması,\nç) Gözleri en az yoran yazı karakterleri ve renkler,\nd) Çalışma sırasında gözleri kısa sürelerle dinlendirme alışkanlığı,\ne) Gözlerin, kas ve iskelet sisteminin dinlendirilmesi,\nf) Ara dinlenmeleri ve egzersizler.\nGünlük çalışma düzeni",
+          "normalized_hash": "e8ab79b9085ae26c"
+        },
+        {
+          "provision_id": "law:17288:article:7",
+          "label": "Madde 7",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 7 – (1) İşveren, ekranlı araçlarla yapılan çalışmalardan kaynaklanan iş yükünü ve etkilenmeyi azaltmak amacıyla, uygun çalışma planı yaparak\noperatörlerin periyodik olarak ara vermesini veya dönüşümlü olarak başka işlerde çalışmalarını sağlar.\nÇalışanların görüşlerinin alınması ve katılımlarının sağlanması",
+          "normalized_hash": "f236ef51c16d47f0"
+        },
+        {
+          "provision_id": "law:17288:article:8",
+          "label": "Madde 8",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 8 – (1) İşveren, çalışanların ve temsilcilerinin bu Yönetmelikte belirtilen konularda 6331 sayılı Kanunda belirtildiği şekilde görüş ve önerilerini alır ve\nkatılımlarını sağlar.\nGözlerin korunması",
+          "normalized_hash": "f68207eae21eded5"
+        },
+        {
+          "provision_id": "law:17288:article:9",
+          "label": "Madde 9",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 9 – (1) İşyerinde, ekranlı araçlarla çalışmaya başlamadan önce ve ekranlı araçlarla çalışmadan kaynaklanabilecek görme zorlukları yaşandığında\nçalışanların göz muayeneleri yapılır.\n(2) Ekranlı araçlarla çalışmalarda operatörlerin gözlerinin korunması için;\na) Ekranlı araçlarla çalışmaya başlamadan önce,\nb) Yapılan risk değerlendirmesi sonuçlarına göre işyeri hekimince belirlenecek düzenli aralıklarla,\nc) Ekranlı araçlarla çalışmadan kaynaklanabilecek görme zorlukları yaşandığında,\ngöz muayeneleri yapılır.\n(3) Birinci ve ikinci fıkrada belirtilen muayene sonuçlarına göre gerekiyorsa operatörlere/çalışanlara yaptıkları işe uygun araç ve gereç verilir.\nÜÇÜNCÜ BÖLÜM\nÇeşitli ve Son Hükümler\nYürürlükten kaldırılan yönetmelik",
+          "normalized_hash": "cac6094f628663a0"
+        },
+        {
+          "provision_id": "law:17288:article:10",
+          "label": "Madde 10",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 10 – (1) 23/12/2003 tarihli ve 25325 sayılı Resmî Gazete’de yayımlanan Ekranlı Araçlarla Çalışmalarda Sağlık ve Güvenlik Önlemleri Hakkında\nYönetmelik yürürlükten kaldırılmıştır.\nYürürlük",
+          "normalized_hash": "c945b3fc01a3258a"
+        },
+        {
+          "provision_id": "law:17288:article:11",
+          "label": "Madde 11",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 11 – (1) Bu Yönetmelik yayımı tarihinde yürürlüğe girer.\nYürütme",
+          "normalized_hash": "e84163771f887517"
+        },
+        {
+          "provision_id": "law:17288:article:12",
+          "label": "Madde 12",
+          "madde_turu": "normal",
+          "mulga": false,
+          "text": "MADDE 12 – (1) Bu Yönetmelik hükümlerini Çalışma ve Sosyal Güvenlik Bakanı yürütür.\n \n \nEk– 1\nEKRANLI ARAÇLARLA ÇALIŞMALARDA ARANACAK ASGARİ GEREKLER\n1. Ekipman\na) Genel hususlar\nBu tür ekipmanların kullanımı çalışanlar için risk kaynağı olmamalıdır.\nb) Monitör\nEkran, operatörün/çalışanın çalışma pozisyonuna uygun mesafede ve göz hizasında olmalıdır.\nEkranda görünen karakterler, kolayca seçilir şekil ve formda, uygun büyüklükte olmalı, satır ve karakterler arasında yeterli boşluk bulunmalıdır.\n\nEkran görüntüsü stabil olmalı, görüntü titrememeli ve benzeri olumsuzluklar bulunmamalıdır.\nParlaklık ve karakterler ile arka plan arasındaki kontrast, operatör/çalışan tarafından kolaylıkla ayarlanabilmelidir.\nEkran, operatörün/çalışanın ihtiyacına göre kolaylıkla her yöne döndürülerek ayarlanabilir olmalıdır.\nEkran, ayrı bir kaide veya ayarlanabilir bir masa üzerinde kullanılabilir olmalıdır.\nEkranda kullanıcıyı rahatsız edebilecek yansıma ve parlamalar olmamalıdır.\nc) Klavye\nKlavye, operatörün/çalışanın el ve kollarının yorulmaması ve rahatça çalışabilmesi için ekrandan ayrı ve hareketli olmalıdır.\nKlavyenin ön tarafına, operatörün/çalışanın bileklerini dayayabileceği özel destek konulmalıdır.\nOperatörün/çalışanın elleri ve kolları için klavyenin önünde yeterli boşluk olmalıdır.\nKlavye yüzeyi ışığı yansıtmayacak şekilde mat olmalıdır.\nKlavye tuşlarının özellikleri ve yerleri klavye kullanımını kolaylaştıracak şekilde olmalıdır.\nKlavye tuşları üzerindeki semboller, çalışma pozisyonuna göre kolaylıkla okunabilir ve seçilebilir nitelikte olmalıdır.\nç) Çalışma masası veya çalışma yüzeyi\nÇalışma masası veya çalışma yüzeyi; ekran, klavye, dokümanlar ve diğer ilgili malzemelerin rahat bir şekilde düzenlenebilmesine olanak sağlayacak şekilde,\nyeterli büyüklükte ve ışığı yansıtmayacak nitelikte olmalıdır.\nOperatörün/çalışanın rahatsız edici göz ve baş hareketleri ihtiyacını en aza indirecek şekilde yerleştirilmiş ve ayarlanabilir özellikte doküman tutucu\nkullanılmalıdır.\nÇalışanın rahat bir pozisyonda olması için yeterli alan olmalıdır.\nd) Çalışma sandalyesi\nSandalye dengeli ve operatörün/çalışanın rahat bir pozisyonda oturabileceği ve kolaylıkla hareket edebileceği şekilde olmalıdır.\nOturma yerinin yüksekliği ayarlanabilir olmalıdır.\nSırt dayama yeri öne-arkaya ve yukarı-aşağı ayarlanabilir, sırt desteği bele uygun ve esnek olmalıdır.\nİstendiğinde operatöre/çalışana uygun bir ayak desteği sağlanmalıdır.\n2. Çalışma ortamı\na) Gerekli alan\nOperatörün/çalışanın oturma şeklini değiştirebilmesi ve rahatça hareket edebilmesi için çalışma merkezi yeterli genişlikte olmalı ve uygun şekilde\ndüzenlenmelidir.\nb) Aydınlatma\nOperatörün/çalışanın gereksinimleri ve yapılan işin türü dikkate alınarak uygun aydınlatma şartları sağlanmalı, arka planla ekran arasında uygun kontrast\nbulunmalıdır.\nYapay aydınlatma kaynaklarının yeri ve teknik özellikleri ekrandaki ve diğer ekipman üzerindeki parlama ve yansımalar önlenecek şekilde olmalıdır.\nc) Yansıma ve parlama\nÇalışma merkezlerinde yansımalara ve parlamalara neden olabilecek ışık gelmesini önlemek amacıyla tedbirler alınmalıdır.\nEkrana gelen gün ışığının kontrol edilebilmesi için yatay ve dikey ayarlanabilir perdeler kullanılmalıdır.\nç) Gürültü\nÇalışma merkezlerinde kullanılan ekipmanın gürültüsü çalışanların dikkatini dağıtmayacak ve karşılıklı konuşmayı engellemeyecek düzeyde olmalıdır.\nd) Isı\nÇalışma merkezindeki ekipman çalışanları rahatsız edecek düzeyde ortama ısı vermemelidir.\ne) Radyasyon\nÇalışma merkezindeki görünür ışık dışındaki tüm radyasyonların sağlığa zarar vermeyecek düzeylerde olması için gerekli önlemler alınmalıdır.\nf) Nem\nÇalışma ortamında nem, uygun düzeyde tutulmalı ve bu düzey korunmalıdır.\n3. Operatör-Bilgisayar arayüzü\n\nİşveren, ekranlı araçlarla yapılacak işin düzenlenmesinde ve kullanılacak programların seçiminde aşağıdaki hususlara uyar:\na) Programların işe uygun olması sağlanır.\nb) Programların kolay kullanılabilir ve eğer uygunsa operatörün bilgi düzeyine ve deneyimine göre ayarlanabilir olması sağlanır. Operatörün bilgisi dışında\nprogramlara müdahale edilemez.\nc) Sistemler çalışanların verimini artıracak ve kolaylık sağlayacak şekilde geri beslemeli olmalıdır.\nç) Sistemler operatöre uygun hız ve formatta bilgi verecek şekilde olmalıdır.\nd) Programların, özellikle verilerin algılanması ve kullanılması konusunda yazılım ergonomisi prensiplerine uygun olmalıdır.",
+          "normalized_hash": "edaf4baa78556da5"
+        }
+      ]
+    }
+  ]
+}
