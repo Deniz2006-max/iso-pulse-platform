@@ -20,12 +20,6 @@ import json
 import re
 import sys
 
-try:
-    import fitz  # PyMuPDF
-except ImportError:
-    print("Kurulum gerekli: pip install pymupdf --break-system-packages")
-    sys.exit(1)
-
 
 # "MADDE 14 –", "Madde 4 —", "EK MADDE 2 –", "GEÇİCİ MADDE 12 –" yakalar.
 # Türkçe büyük/küçük İ-I sorununu önlemek için hem büyük hem küçük yazımı
@@ -50,6 +44,10 @@ MULGA_ANAHTAR = ("mülga", "yürürlükten kaldırılmıştır")
 
 def pdf_den_metin_cikar(pdf_yolu: str) -> str:
     """PDF'in tüm sayfalarından düz metni çıkarır ve temizler."""
+    try:
+        import fitz  # PyMuPDF is needed for PDF input, not text/parser tests.
+    except ImportError as exc:
+        raise SystemExit("Kurulum gerekli: pip install pymupdf") from exc
     doc = fitz.open(pdf_yolu)
     parcalar = [sayfa.get_text("text") for sayfa in doc]
     doc.close()
@@ -86,6 +84,42 @@ def kuyrugu_kes(metin: str) -> tuple[str, bool]:
     return metin, False
 
 
+def _baslik_satiri_mi(satir: str) -> bool:
+    """Accept only a short standalone heading, not a numbered legal clause."""
+    satir = satir.strip()
+    if not satir or len(satir) > 120 or not satir[0].isupper():
+        return False
+    if satir.endswith((".", ";", ":", "?", "!")):
+        return False
+    if re.match(r"^(?:\(?\d+\)?[.)]?|[a-zçğıöşü]\))\s", satir):
+        return False
+    return any(harf.isalpha() for harf in satir)
+
+
+def sonraki_madde_basligini_ayir(govde: str) -> tuple[str, str | None]:
+    """Move a high-confidence trailing heading to the *following* article.
+
+    The source text is retained: ambiguous tails remain in the body for review.
+    A blank paragraph before the heading is the strongest signal. Some PDFs
+    omit it; there we require the preceding line to end in a sentence stop.
+    """
+    govde = govde.strip()
+    bolumler = list(re.finditer(r"\n[ \t]*\n", govde))
+    if bolumler:
+        bolum = bolumler[-1]
+        onceki, aday = govde[:bolum.start()].strip(), govde[bolum.end():].strip()
+    else:
+        onceki, ayrac, aday = govde.rpartition("\n")
+        onceki, aday = onceki.strip(), aday.strip()
+        if not ayrac or not onceki.endswith((".", ")")):
+            return govde, None
+    satirlar = [satir.strip() for satir in aday.splitlines() if satir.strip()]
+    if (not onceki or not 1 <= len(satirlar) <= 4
+            or len(aday) > 240 or not all(_baslik_satiri_mi(satir) for satir in satirlar)):
+        return govde, None
+    return onceki, "\n".join(satirlar)
+
+
 def maddelere_ayir(metin: str) -> list[dict]:
     """Metni madde/ek madde/geçici madde sınırlarında böler."""
     eslesmeler = list(MADDE_RE.finditer(metin))
@@ -93,10 +127,15 @@ def maddelere_ayir(metin: str) -> list[dict]:
         return []
 
     maddeler = []
+    gelecek_baslik = None
     for i, m in enumerate(eslesmeler):
         bas = m.start()
         son = eslesmeler[i + 1].start() if i + 1 < len(eslesmeler) else len(metin)
         govde = metin[bas:son].strip()
+        baslik = gelecek_baslik
+        gelecek_baslik = None
+        if i + 1 < len(eslesmeler):
+            govde, gelecek_baslik = sonraki_madde_basligini_ayir(govde)
 
         # DİKKAT: Türkçe İ/I sorunu nedeniyle .upper() KULLANMIYORUZ.
         # Python'da "Geçici".upper() -> "GEÇICI" (noktasız I) verir ve
@@ -123,6 +162,7 @@ def maddelere_ayir(metin: str) -> list[dict]:
             "madde_turu": madde_turu,
             "mulga": mulga,
             "govde": govde,
+            "heading": baslik,
         })
     return maddeler
 
@@ -194,6 +234,7 @@ def main():
             "madde_turu": m["madde_turu"],
             "mulga": m["mulga"],
             "text": m["govde"],
+            **({"heading": m["heading"]} if m["heading"] else {}),
             "normalized_hash": sha256_kisa(m["govde"]),
         })
 

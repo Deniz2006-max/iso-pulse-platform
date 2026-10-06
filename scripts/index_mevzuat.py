@@ -136,16 +136,19 @@ def load_provisions(mevzuat_dir: Path) -> tuple[list[ProvisionRecord], int, int]
                     continue
                 seen_ids.add(provision_id)
                 label = _as_meta_str(provision.get("label"))
+                heading = _as_meta_str(provision.get("heading")).strip()
                 records.append(
                     ProvisionRecord(
                         chroma_id=provision_id,
-                        document=f"[{title}] [{label}]\n{text}",
+                        document=f"[{title}] [{label}]"
+                                 + (f" [{heading}]" if heading else "") + f"\n{text}",
                         metadata={
                             "document_id": document_id,
                             "title": title,
                             "canonical_url": canonical_url,
                             "provision_id": provision_id,
                             "label": label,
+                            "heading": heading,
                             "madde_turu": _as_meta_str(provision.get("madde_turu")),
                             "normalized_hash": _as_meta_str(provision.get("normalized_hash")),
                         },
