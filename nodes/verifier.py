@@ -31,11 +31,16 @@ def verifier_node(state: PulseState) -> dict:
         VERIFIER_SYSTEM,
         (
             f"document_id: {state['document_id']}\n"
+            f"rag_mode: {state.get('rag_mode') or ''}\n"
+            f"rag_confidence: {float(state.get('rag_confidence') or 0.0):.3f}\n"
             f"old_text:\n{state.get('old_text') or '(none)'}\n\n"
             f"new_text:\n{state['new_text']}\n\n"
             f"diff:\n{state['diff']}\n\n"
             f"kept_analyses:\n{analysis_block}\n"
             f"already_dropped_for_domain_mismatch: {dropped}\n"
+            "If rag_mode is fallback, specialists used internal knowledge of "
+            "new_text (no Chroma context). Do not treat missing RAG citations "
+            "as hallucinations when claims are grounded in the new regulation.\n"
         ),
         context={
             "document_id": state["document_id"],

@@ -2,7 +2,7 @@
 
 On-premise, **data-sovereign** regulatory intelligence platform for the **Istanbul Chamber of Industry (İSO)**.
 
-The radar watches daily Turkish legal publications, drops administrative noise, matches surviving items against a local statute baseline, and writes department-level impact reports for industrial employers. Statute text and gazette payloads stay on the machine: generation runs on **Qwen 2.5 (7B)** via local **Ollama**. A deterministic Fast Mock path (`ISO_PULSE_USE_MOCK_LLM=true`) is available for UI and pipeline tests.
+The radar watches daily Turkish legal publications, drops administrative noise, matches surviving items against a local statute baseline, and writes department-level impact reports for industrial employers. Gazette payloads and the statute corpus stay on disk; **LLM synthesis uses OpenAI ChatOpenAI (`gpt-4o-mini` by default)**. A deterministic Fast Mock path (`ISO_PULSE_USE_MOCK_LLM=true`) is available for UI and pipeline tests.
 
 ---
 
@@ -80,9 +80,9 @@ flowchart TD
 | Node | Role |
 | --- | --- |
 | `relevance_filter` | İSO industrial gate — keep labor/tax/environment/trade; drop true noise |
-| `retriever` | Cosine search on `iso_mevzuat_baseline`; inject `old_text` only on a valid hit |
+| `retriever` | Cosine search; RAG if similarity ≥ 0.45, else fallback (no Chroma injection) |
 | `router` | `ik` / `mali` / `hukuk` with a 0.75 floor and negative constraints |
-| `ik` · `mali` · `hukuk` | Department analysis: Eski/Yeni when matched; Özet + Birim Aksiyonu always |
+| `ik` · `mali` · `hukuk` | RAG: Eski/Yeni diff. Fallback: Özet & Değişiklik + Birim Aksiyonu |
 | `verifier` | Hallucination / domain-signal audit |
 | `delivery` | Urgency (Düşük / Orta / Kritik) and UI JSON |
 
@@ -94,7 +94,7 @@ flowchart TD
 | --- | --- | --- |
 | Runtime | Python **3.11+** | [`pyproject.toml`](pyproject.toml) |
 | Orchestration | **LangGraph** | `PulseState` in [`graph.py`](graph.py) |
-| LLM | **Qwen 2.5 (7B)** via **Ollama** | `http://localhost:11434` — data stays local |
+| LLM | **OpenAI ChatOpenAI** | Default **`gpt-4o-mini`** via `OPENAI_API_KEY` |
 | Fast Mock | Structured Pydantic mocks | `ISO_PULSE_USE_MOCK_LLM=true` |
 | Embeddings | **BAAI/bge-m3** | Local SentenceTransformer |
 | Vector DB | **ChromaDB** | `./data/chroma_db`, collection `iso_mevzuat_baseline`, HNSW **cosine** |
@@ -114,10 +114,25 @@ python3 -m src.ingestion.fetch_daily_updates --source all --date YYYY-MM-DD
 | Scraper | Target | Behaviour |
 | --- | --- | --- |
 | `resmi_gazete.py` | `resmigazete.gov.tr/eskiler/YYYY/MM/YYYYMMDD.htm` | YÜRÜTME VE İDARE: Kanun, Cumhurbaşkanı Kararı, Yönetmelik, Tebliğ |
-| `sgk_scraper.py` | `sgk.gov.tr/duyuru/` | Latest duyuru / genelge cards + attached PDFs |
+| `sgk_scraper.py` | `sgk.gov.tr/duyuru/` | Cards published **today from 00:00** + attached PDFs |
 | `mevzuat_scraper.py` | Local `data/mevzuat` + that day’s RG | Tracks cited kanun numbers; **never HTTP-gets mevzuat.gov.tr** |
 
 SGK rows carry `baseline_document_ids: ["law:5510", "law:4447"]` so the retriever prefers Sosyal Sigortalar and İşsizlik Sigortası vectors.
+
+### Daily ingest, relevance pre-filter, and cache
+
+[`src/ingestion/daily_pipeline.py`](src/ingestion/daily_pipeline.py) is the presentation path:
+
+1. **Midnight window** — only publications on the selected calendar day, from local **00:00**. Resmî Gazete uses that day’s edition; SGK listing cards with an earlier date are skipped.
+2. **Relevance pre-filter** — job postings, tenders, and individual appointments are dropped before LangGraph (no specialist, no query embedding). Labor / tax / İSG / environment / trade items continue.
+3. **SQLite cache** — analysed rows are stored in `data/daily_revisions_cache.sqlite` (table `daily_revisions_cache`). Streamlit and CLI check this first. A warm cache returns instantly — no re-scrape, no re-embed.
+
+```bash
+python3 -m src.ingestion.daily_pipeline              # today; cache if already run
+python3 -m src.ingestion.daily_pipeline --refresh    # force scrape + analyse
+```
+
+The Streamlit sidebar shows a green cache badge when today’s run is warm. Check **Önbelleği yok say** only if you need a fresh pull.
 
 See [daily change tracking](docs/daily-change-tracking.md) for status meanings,
 failure reporting, validation commands, and coverage limits. A source exception
@@ -143,6 +158,7 @@ Implemented in [`config/relevance.py`](config/relevance.py) and [`nodes/relevanc
 - Localized public-land expropriation (acele kamulaştırma of a named parcel)
 - University rector, diplomatic, or person-specific appointment titles
 - Institutional noise — university exam yönetmelikleri, jandarma social-facility rules
+- Job postings, tender award notices, and “sözleşme imzalanacaktır” announcements
 
 A Teknokent **tax incentive** is kept. A Teknokent **kroki** is dropped.
 
@@ -186,25 +202,25 @@ python3 scripts/pdf_to_madde_json.py 4760_indirilen.pdf \
 
 ## Retriever, specialists, and UI
 
-**Matching.** Cosine similarity must be ≥ **0.45**, and the hit needs a legal connection (shared statute id or non-generic tokens). Weak or unrelated Chroma rows are not written into `old_text`. SGK items are scoped to `law:5510` and `law:4447`.
+**Matching.** Cosine similarity must be ≥ **0.45** (`config/rag_routing.py`), and the hit needs a legal connection (shared statute id or non-generic tokens). Weak or unrelated Chroma rows are not written into `old_text`. SGK items are scoped to `law:5510` and `law:4447`.
 
-**Valid match.** Specialists write a Turkish side-by-side in `obligation_change`:
+**High confidence (RAG).** Similarity ≥ 0.45 → specialists receive the Chroma baseline and write a Turkish side-by-side in `obligation_change`:
 
 - `Eski durum: …`
 - `Yeni durum: …`
 
-plus a concrete **Birim Aksiyonu**.
+plus provision-level impact and a concrete **Birim Aksiyonu**. Streamlit shows **🟢 Baseline Context Matched (RAG Enabled)**.
 
-**No valid match.** They include:
+**Low confidence (fallback).** Similarity below the floor, or no hits → RAG context is **not** injected. Specialists ask the LLM for a general executive summary and impact analysis from internal knowledge, prefixed with:
 
 > Mevcut taban kanunlarda doğrudan eşleşen madde bulunamamıştır. Bağımsız yeni yükümlülüktür.
 
-and still analyze the **new** text:
+and still fill:
 
-- **Özet & Değişiklik** — two sentences on what the karar/rate actually imposes
-- **Birim Aksiyonu (Maliye / Finans | İnsan Kaynakları (İK) | Hukuk & Mevzuat)** — operational steps (e.g. “ÖTV tutarları güncellenmeli, muhasebe/ERP vergi kodları revize edilmelidir.”)
+- **Özet & Değişiklik** — what the karar/rate actually imposes
+- **Birim Aksiyonu (Maliye / Finans | İnsan Kaynakları (İK) | Hukuk & Mevzuat)** — operational steps
 
-They never force İş Kanunu m.41 or an SGK madde onto an unrelated gazette item (UN lists, maps, ÖTV when no 4760 hit, and so on).
+Streamlit shows **🟡 General Legal Analysis (Fallback Mode - Low Similarity)**. They never force İş Kanunu m.41 or an SGK madde onto an unrelated gazette item.
 
 **Streamlit** ([`app.py`](app.py)) maps internal codes to badges:
 
@@ -214,7 +230,7 @@ They never force İş Kanunu m.41 or an SGK madde onto an unrelated gazette item
 | `ik` | **İnsan Kaynakları (İK)** |
 | `hukuk` | **Hukuk & Mevzuat** |
 
-The items tab shows Eski (Chroma baseline) vs Yeni (gazette/SGK) columns, then the specialist özet and aksiyon.
+The items tab shows a RAG/fallback status badge, Eski (Chroma baseline) vs Yeni (gazette/SGK) columns, then the specialist özet and aksiyon.
 
 **Router examples**
 
@@ -235,12 +251,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
-```
-
-Pull Qwen for the live, data-sovereign path:
-
-```bash
-ollama pull qwen2.5:7b
+# Set OPENAI_API_KEY=sk-... in .env
 ```
 
 Then:
@@ -281,14 +292,15 @@ Copy [`.env.example`](.env.example) to `.env`. If `ISO_PULSE_USE_MOCK_LLM` is un
 
 | Variable | Meaning |
 | --- | --- |
-| `ISO_PULSE_USE_MOCK_LLM` | `true` = Fast Mock; `false` = ChatOllama / Qwen 2.5 |
-| `OLLAMA_BASE_URL` | Default `http://localhost:11434` |
-| `MODEL_NAME` | Ollama tag, e.g. `qwen2.5:7b` |
+| `ISO_PULSE_USE_MOCK_LLM` | `true` = Fast Mock; `false` = ChatOpenAI |
+| `OPENAI_API_KEY` | Required for live LLM synthesis |
+| `OPENAI_MODEL` / `ISO_PULSE_MODEL` | Default `gpt-4o-mini` |
 | `ISO_PULSE_TEMPERATURE` | Default `0` |
 | `CHROMA_PERSIST_DIR` | Default `data/chroma_db` |
 | `CHROMA_COLLECTION` | Default `iso_mevzuat_baseline` |
 | `EMBEDDING_MODEL` | Default `BAAI/bge-m3` |
 | `DAILY_UPDATES_DIR` | Default `data/daily_updates` |
+| `DAILY_CACHE_PATH` | Default `data/daily_revisions_cache.sqlite` |
 | `REPORTS_DIR` | Default `data/reports` |
 
 ---

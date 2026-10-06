@@ -2,7 +2,9 @@
 """Index baseline mevzuat JSON into a persistent local ChromaDB collection.
 
 Reads every `data/mevzuat/*.json` file, skips repealed (`mulga`) provisions,
-embeds active articles with BAAI/bge-m3, and upserts them in batches of 100.
+embeds **new** active articles with BAAI/bge-m3, and upserts them in batches.
+IDs already present in `iso_mevzuat_baseline` are skipped so re-runs do not
+re-embed the full corpus.
 
 Usage (from repository root):
 
@@ -168,11 +170,52 @@ def batched(items: Sequence[ProvisionRecord], size: int) -> Iterable[Sequence[Pr
         yield items[start : start + size]
 
 
-def get_collection(persist_dir: Path, collection_name: str, model_name: str):
+def _bare_chroma_client(persist_dir: Path):
+    """Open persistent Chroma without loading the embedding model."""
     import chromadb
 
     persist_dir.mkdir(parents=True, exist_ok=True)
-    client = chromadb.PersistentClient(path=str(persist_dir))
+    return chromadb.PersistentClient(path=str(persist_dir))
+
+
+def fetch_existing_ids(persist_dir: Path, collection_name: str) -> set[str]:
+    """Return chroma_ids already stored in the collection (no embeddings)."""
+    sqlite = persist_dir / "chroma.sqlite3"
+    if not sqlite.is_file():
+        LOGGER.info("No Chroma SQLite at %s; treating collection as empty.", sqlite)
+        return set()
+    try:
+        client = _bare_chroma_client(persist_dir)
+        collection = client.get_collection(name=collection_name)
+    except Exception as exc:  # noqa: BLE001
+        LOGGER.info("Collection '%s' not ready (%s); all items are new.", collection_name, exc)
+        return set()
+
+    ids: list[str] = []
+    offset = 0
+    page_size = 5_000
+    while True:
+        try:
+            batch = collection.get(include=[], limit=page_size, offset=offset)
+        except Exception:
+            batch = collection.get(limit=page_size, offset=offset)
+        chunk = list(batch.get("ids") or [])
+        ids.extend(chunk)
+        if len(chunk) < page_size:
+            break
+        offset += page_size
+    return set(ids)
+
+
+def filter_new_records(
+    records: Sequence[ProvisionRecord],
+    existing_ids: set[str],
+) -> list[ProvisionRecord]:
+    return [row for row in records if row.chroma_id not in existing_ids]
+
+
+def get_collection(persist_dir: Path, collection_name: str, model_name: str):
+    client = _bare_chroma_client(persist_dir)
     embedding_fn = build_embedding_function(model_name)
     collection = client.get_or_create_collection(
         name=collection_name,
@@ -316,8 +359,23 @@ def main(argv: list[str] | None = None) -> int:
         LOGGER.error("No active provisions found.")
         return 1
 
+    existing_ids = fetch_existing_ids(persist_dir, args.collection)
+    new_records = filter_new_records(records, existing_ids)
+    LOGGER.info(
+        "Found %s existing items in ChromaDB. Skipping them and processing %s new items...",
+        len(existing_ids),
+        len(new_records),
+    )
+    if not new_records:
+        LOGGER.info(
+            "All %s active provisions already exist in '%s'. Nothing to embed.",
+            len(records),
+            args.collection,
+        )
+        return 0
+
     _client, collection = get_collection(persist_dir, args.collection, args.model)
-    upsert_records(collection, records, args.batch_size)
+    upsert_records(collection, new_records, args.batch_size)
 
     count = collection.count()
     LOGGER.info("ChromaDB record count in '%s': %s", args.collection, count)

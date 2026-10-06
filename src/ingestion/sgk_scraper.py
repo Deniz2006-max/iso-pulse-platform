@@ -88,14 +88,24 @@ def _category_from_title(title: str, unit: str) -> str:
     return "Duyuru"
 
 
-def parse_listing(html: str, listing_url: str, limit: int = 10) -> list[dict[str, str]]:
+def parse_listing(
+    html: str,
+    listing_url: str,
+    limit: int = 10,
+    published_on: date | None = None,
+    scan_cap: int = 50,
+) -> list[dict[str, str]]:
     soup = soup_from_html(html)
     cards = soup.select("a.announcement-card")
     if not cards:
         cards = soup.select('a[href*="/duyuru/detay/"]')
     rows: list[dict[str, str]] = []
     seen: set[str] = set()
+    scanned = 0
     for card in cards:
+        scanned += 1
+        if scanned > scan_cap:
+            break
         href = (card.get("href") or "").strip()
         if not href:
             continue
@@ -117,8 +127,14 @@ def parse_listing(html: str, listing_url: str, limit: int = 10) -> list[dict[str
                 month_el.get_text(strip=True),
                 year_el.get_text(strip=True),
             )
-        published = published or _date_from_slug(href) or datetime.now().date().isoformat()
-        if not title:
+        published = published or _date_from_slug(href)
+        if published_on:
+            # Strict daily window: do not guess "today" for undated cards.
+            if published != published_on.isoformat():
+                continue
+        else:
+            published = published or datetime.now().date().isoformat()
+        if not title or not published:
             continue
         rows.append(
             {
@@ -131,7 +147,13 @@ def parse_listing(html: str, listing_url: str, limit: int = 10) -> list[dict[str
         )
         if len(rows) >= limit:
             break
-    LOGGER.info("SGK listing: %s announcements from %s", len(rows), listing_url)
+    LOGGER.info(
+        "SGK listing: %s announcements from %s (scan=%s, day=%s)",
+        len(rows),
+        listing_url,
+        scanned,
+        published_on.isoformat() if published_on else "any",
+    )
     return rows
 
 
@@ -208,6 +230,7 @@ async def fetch_announcements(
     *,
     limit: int = 10,
     client: FetchClient | None = None,
+    published_on: date | None = None,
 ) -> list[DailyUpdate]:
     owns_client = client is None
     if owns_client:
@@ -216,7 +239,12 @@ async def fetch_announcements(
     assert client is not None
     try:
         html, listing_url = await _load_listing(client)
-        rows = parse_listing(html, listing_url, limit=limit)
+        rows = parse_listing(
+            html,
+            listing_url,
+            limit=limit,
+            published_on=published_on,
+        )
         fetched_at = utc_now_iso()
 
         async def one(row: dict[str, str]) -> DailyUpdate:
@@ -236,7 +264,12 @@ async def fetch_announcements(
                 baseline_document_ids=list(SGK_BASELINE_DOCUMENT_IDS),
             )
 
-        return list(await asyncio.gather(*(one(row) for row in rows)))
+        items = list(await asyncio.gather(*(one(row) for row in rows)))
+        if published_on is not None:
+            from src.ingestion.day_window import filter_published_today
+
+            items = filter_published_today(items, published_on)
+        return items
     finally:
         if owns_client:
             await client.__aexit__(None, None, None)

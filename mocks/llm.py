@@ -49,10 +49,11 @@ def complete(
 def _live_complete(schema: type[T], system_prompt: str, user_prompt: str) -> T:
     from langchain_core.messages import HumanMessage, SystemMessage
 
-    from config.llm import get_chat_model
+    from config.llm import get_chat_model, require_openai_api_key
 
+    require_openai_api_key()
     llm = get_chat_model()
-    result = llm.with_structured_output(schema).invoke(
+    result = llm.with_structured_output(schema, method="function_calling").invoke(
         [SystemMessage(content=system_prompt), HumanMessage(content=user_prompt)]
     )
     if not isinstance(result, schema):
@@ -213,6 +214,7 @@ def _independent_analysis(
         rag_chunk_ids=[],
         citations=[],
         confidence=0.62,
+        analysis_mode="fallback",
     )
 
 
@@ -457,4 +459,7 @@ def _mock_delivery(context: dict[str, Any]) -> DeliveryPayload:
         needs_review=needs_review,
         hallucination_score=hallucination_score,
         analyses=analyses,
+        rag_mode=context.get("rag_mode"),
+        rag_confidence=float(context.get("rag_confidence") or 0.0),
+        rag_status=str(context.get("rag_status") or ""),
     )

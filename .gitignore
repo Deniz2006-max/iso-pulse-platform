@@ -24,3 +24,7 @@ data/daily_updates/**
 # Generated pipeline reports (keep folder via .gitkeep)
 data/reports/**
 !data/reports/.gitkeep
+
+# Daily analysed-revision cache (regenerate via daily_pipeline)
+data/daily_revisions_cache.sqlite
+data/daily_revisions_cache.sqlite-*

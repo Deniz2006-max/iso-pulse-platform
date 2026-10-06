@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Run Resmî Gazete, SGK, and mevzuat trackers and persist daily JSON.
 
+Only publications on the requested calendar day (from local 00:00) are kept.
+
 Usage (from repository root):
 
     python3 -m src.ingestion.fetch_daily_updates
     python3 -m src.ingestion.fetch_daily_updates --date 2026-10-01 --source sgk
     python3 src/ingestion/fetch_daily_updates.py --source all --max-items 5
+    python3 -m src.ingestion.daily_pipeline   # scrape + filter + cache
 """
 
 from __future__ import annotations
@@ -24,6 +27,7 @@ if str(ROOT) not in sys.path:
 
 from src.ingestion.client import FetchClient
 from src.ingestion.change_tracking import track_changes, write_json_atomic
+from src.ingestion.day_window import filter_published_today
 from src.ingestion.mevzuat_scraper import DEFAULT_KANUN_NOS, fetch_updates as fetch_mevzuat
 from src.ingestion.models import DailyUpdate
 from src.ingestion.resmi_gazete import fetch_edition
@@ -289,11 +293,15 @@ async def fetch_core_sources(
             )
         )
     if "sgk" in wanted:
-        LOGGER.info("Scraping SGK duyuru/genelge (latest %s)", sgk_limit)
+        LOGGER.info("Scraping SGK duyuru/genelge published on %s (from 00:00)", day.isoformat())
         tasks["sgk"] = asyncio.create_task(
             _safe_fetch(
                 "sgk",
-                fetch_announcements(limit=sgk_limit, client=client),
+                fetch_announcements(
+                    limit=sgk_limit,
+                    client=client,
+                    published_on=day,
+                ),
                 failures=failures,
             )
         )
@@ -310,6 +318,7 @@ async def fetch_core_sources(
 
                 updates["baseline_document_ids"] = list(SGK_BASELINE_DOCUMENT_IDS)
             tagged.append(item.model_copy(update=updates) if updates else item)
+        tagged = filter_published_today(tagged, day)
         collected[source] = tagged
     return collected
 

@@ -19,6 +19,8 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from config.settings import settings
+from config.llm import OPENAI_KEY_HINT, llm_runtime_label, openai_key_configured
+from config.rag_routing import RAG_STATUS_RAG, status_from_record
 from graph import graph
 from main import prepare_state
 from schemas.outputs import URGENCY_LABELS
@@ -276,6 +278,26 @@ def inject_css() -> None:
             font-size: 0.86rem;
             white-space: nowrap;
         }}
+        .iso-rag-on {{
+            display: inline-block;
+            background: #14532D;
+            color: #ECFDF5;
+            border-radius: 999px;
+            padding: 0.32rem 0.9rem;
+            font-size: 0.84rem;
+            font-weight: 700;
+            border: 1px solid #86EFAC;
+        }}
+        .iso-rag-off {{
+            display: inline-block;
+            background: #78350F;
+            color: #FFFBEB;
+            border-radius: 999px;
+            padding: 0.32rem 0.9rem;
+            font-size: 0.84rem;
+            font-weight: 700;
+            border: 1px solid #FCD34D;
+        }}
         .iso-card {{
             background: #FFFFFF;
             border: 1px solid {CARD_BORDER};
@@ -377,10 +399,20 @@ def render_router_card(result: dict[str, Any], spec: dict[str, Any]) -> None:
     relevant = result.get("is_relevant", False)
     reason = result.get("relevance_reason") or "—"
     verdict = "Relevant — dispatched to core-domain specialists" if relevant else "Filtered as industrial noise"
+    rag = status_from_record(result)
+    if rag:
+        rag_label, rag_score = rag
+        css = "iso-rag-on" if rag_label == RAG_STATUS_RAG else "iso-rag-off"
+        score_bit = f" · {rag_score:.2f}" if rag_score else ""
+        rag_html = f'<p><span class="{css}">{rag_label}{score_bit}</span></p>'
+    else:
+        rag_html = ""
     st.markdown(
         f"""
         <div class="iso-card">
           <h3>Card 1 · Router Agent Verdict</h3>
+          <div class="iso-label">Retrieval confidence</div>
+          {rag_html}
           <div class="iso-label">Regulatory categorization</div>
           <p><strong>{spec['category']}</strong> · {spec['reference']}</p>
           <div class="iso-label">Targeted departments</div>
@@ -531,15 +563,19 @@ def main() -> None:
         trigger = st.button("🚀 Trigger Legislation Radar & Agent Workflow")
 
         st.markdown("---")
-        llm_mode = "Mock LLM" if settings.use_mock_llm else f"ChatOllama · {settings.model_name}"
+        llm_mode = llm_runtime_label()
         st.caption(f"Runtime: {llm_mode}")
+        if not settings.use_mock_llm and not openai_key_configured():
+            st.error(OPENAI_KEY_HINT)
         st.caption("Local corpus")
         for row in inventory:
             st.caption(f"• {row['title']} ({row['provisions']} provisions)")
 
     spec = catalog[st.session_state.scenario_name]
     if trigger:
-        if not (st.session_state.gazette_text or "").strip():
+        if not settings.use_mock_llm and not openai_key_configured():
+            st.error(OPENAI_KEY_HINT)
+        elif not (st.session_state.gazette_text or "").strip():
             st.warning("Please provide Official Gazette text before triggering the workflow.")
         else:
             with st.spinner("Agents analyzing regulatory updates and cross-referencing ChromaDB..."):

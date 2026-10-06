@@ -10,9 +10,10 @@ Decision path:
   ihale still passes). A Teknokent *incentive* is kept; a Teknokent *kroki*
   is dropped.
 - Relevant items always fan out to at least one specialist (`ik` / `mali` /
-  `hukuk`). Retriever injects `old_text` only when cosine ≥ 0.45 and a
-  legal connection exists. If none exists, specialists still analyze the new
-  text (Özet & Değişiklik + Birim Aksiyonu) and include the no-match notice.
+  `hukuk`). Retriever scores Chroma cosine similarity against a 0.45 floor
+  (`config/rag_routing.py`). High confidence injects baseline context for
+  provision-level RAG; low confidence or empty hits set `rag_mode=fallback`
+  so specialists bypass Chroma and ask the LLM for a general analysis.
 """
 
 from __future__ import annotations
@@ -66,6 +67,7 @@ def fanout_specialists(state: PulseState) -> list[Send] | str:
     implied = implied_departments(
         str(state.get("title") or ""),
         str(state.get("new_text") or ""),
+        str(state.get("document_id") or ""),
     )
     for department in implied:
         node_name = _SPECIALIST_NODES.get(department)  # type: ignore[arg-type]

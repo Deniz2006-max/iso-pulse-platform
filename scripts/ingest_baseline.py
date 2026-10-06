@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Alias for `scripts/index_mevzuat.py` — embed data/mevzuat into Chroma."""
+"""Alias for `scripts/index_mevzuat.py` — incremental embed into Chroma.
+
+Already-ingested chroma_ids are skipped. BGE-M3 loads only when there are
+new provisions to upsert.
+"""
 
 from __future__ import annotations
 

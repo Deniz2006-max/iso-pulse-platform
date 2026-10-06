@@ -6,6 +6,7 @@ import hashlib
 import json
 import sys
 
+from config.llm import llm_runtime_label, require_openai_api_key, MissingOpenAIKeyError
 from config.settings import settings
 from graph import graph
 from mocks.documents import (
@@ -47,12 +48,13 @@ def _print_json(payload: dict) -> None:
 
 
 def run(document_id: str) -> int:
-    if settings.use_mock_llm:
-        print("LLM: mock")
-    else:
-        print(
-            f"LLM: ChatOllama {settings.model_name} @ {settings.ollama_base_url}"
-        )
+    print(f"LLM: {llm_runtime_label()}")
+    if not settings.use_mock_llm:
+        try:
+            require_openai_api_key()
+        except MissingOpenAIKeyError as exc:
+            print(exc, file=sys.stderr)
+            return 1
     state = prepare_state(get_document(document_id))
     result = graph.invoke(state)
 

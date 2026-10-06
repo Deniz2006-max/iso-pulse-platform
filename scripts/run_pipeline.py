@@ -26,9 +26,25 @@ ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from config.llm import llm_runtime_label, require_openai_api_key, MissingOpenAIKeyError
+from config.executive_copy import (
+    coerce_executive_summary,
+    grounded_action,
+    grounded_executive_summary,
+    grounded_obligation,
+    is_generic_executive_copy,
+)
+from config.relevance import (
+    audience_scope,
+    classify_relevance,
+    implied_departments,
+    is_administrative_out_of_scope,
+)
 from config.settings import settings
 from graph import graph
 from schemas.outputs import department_label
+from src.ingestion.daily_cache import DailyRevisionsCache
+from src.ingestion.day_window import filter_published_today
 from src.ingestion.models import SGK_BASELINE_DOCUMENT_IDS, DailyUpdate
 
 LOGGER = logging.getLogger("iso_pulse.pipeline")
@@ -113,6 +129,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         type=Path,
         default=None,
         help="Override data/reports root",
+    )
+    parser.add_argument(
+        "--refresh",
+        action="store_true",
+        help="Ignore daily_revisions_cache and re-analyse from scraped JSON.",
     )
     parser.add_argument("-v", "--verbose", action="store_true")
     return parser.parse_args(argv)
@@ -225,10 +246,133 @@ def _dump(model: Any) -> Any:
     return model
 
 
+def stub_relevant_record(
+    item: DailyUpdate,
+    state: dict[str, Any],
+    reason: str,
+) -> dict[str, Any]:
+    """Keep a passed item visible even if the LLM graph fails."""
+    departments = implied_departments(item.title, item.raw_text, state["document_id"]) or [
+        "hukuk"
+    ]
+    scope = audience_scope(item.title, item.raw_text)
+    urgency = "low" if scope in {"kamu", "specialized"} else "medium"
+    analyses: dict[str, Any] = {}
+    for dept in departments:
+        analyses[dept] = {
+            "department": dept,
+            "summary": grounded_executive_summary(item.title, item.raw_text, dept),
+            "obligation_change": grounded_obligation(item.title, item.raw_text),
+            "operational_impact": grounded_action(dept, item.title, item.raw_text),
+            "citations": [],
+            "analysis_mode": "fallback",
+        }
+    return {
+        "source": item.source,
+        "publication_date": item.publication_date,
+        "title": item.title,
+        "category": item.category,
+        "url": item.url,
+        "document_id": state["document_id"],
+        "is_relevant": True,
+        "relevance_reason": reason,
+        "retrieved_provision_id": "",
+        "retrieved_chunks": [],
+        "old_text": "",
+        "departments": departments,
+        "needs_review": True,
+        "urgency": urgency,
+        "sector_scope": scope,
+        "analyses": analyses,
+        "delivery": {
+            "title": item.title,
+            "summary": analyses[departments[0]]["summary"],
+            "departments": departments,
+            "urgency": urgency,
+        },
+        "error": True,
+        "audit_log": [
+            {
+                "node": "ISO_Relevance_Filter_Node",
+                "action": "filter",
+                "detail": f"is_relevant=True; passthrough; {reason}",
+            }
+        ],
+    }
+
+
+def noise_record(item: DailyUpdate, state: dict[str, Any], reason: str) -> dict[str, Any]:
+    """Persist a filtered-out row without invoking specialists or embeddings."""
+    administrative = is_administrative_out_of_scope(item.title, item.raw_text)
+    return {
+        "source": item.source,
+        "publication_date": item.publication_date,
+        "title": item.title,
+        "category": "İdari Duyuru / Kapsam Dışı" if administrative else item.category,
+        "url": item.url,
+        "document_id": state["document_id"],
+        "is_relevant": False,
+        "relevance_reason": reason,
+        "sector_scope": "general",
+        "retrieved_provision_id": "",
+        "retrieved_chunks": [],
+        "old_text": "",
+        "departments": [],
+        "needs_review": False,
+        "analyses": {},
+        "audit_log": [
+            {
+                "node": "ISO_Relevance_Filter_Node",
+                "action": "filter",
+                "detail": f"is_relevant=False; daily-prefilter; {reason}",
+            }
+        ],
+    }
+
+
 def record_from_result(item: DailyUpdate, state: dict[str, Any], result: dict[str, Any]) -> dict[str, Any]:
+    stub = stub_relevant_record(item, state, result.get("relevance_reason") or "")
     delivery = result.get("delivery")
     verification = result.get("verification")
     analyses = result.get("analyses") or {}
+    if not analyses:
+        analyses = stub["analyses"]
+    departments = result.get("departments") or stub["departments"]
+    dumped_delivery = _dump(delivery) or stub["delivery"]
+    dumped_delivery = dict(dumped_delivery) if isinstance(dumped_delivery, dict) else {}
+    summary = coerce_executive_summary(
+        str(dumped_delivery.get("summary") or ""),
+        item.title,
+        item.raw_text,
+        departments[0] if departments else "hukuk",
+    )
+    dumped_delivery["summary"] = summary or stub["delivery"]["summary"]
+    if not dumped_delivery.get("departments"):
+        dumped_delivery["departments"] = departments
+    analyses_out = {key: _dump(value) for key, value in analyses.items()}
+    for key, value in list(analyses_out.items()):
+        if not isinstance(value, dict):
+            continue
+        if is_generic_executive_copy(str(value.get("summary") or "")):
+            value["summary"] = grounded_executive_summary(
+                item.title, item.raw_text, str(key)
+            )
+            value["obligation_change"] = grounded_obligation(item.title, item.raw_text)
+            value["operational_impact"] = grounded_action(
+                str(key), item.title, item.raw_text
+            )
+            continue
+        value["summary"] = coerce_executive_summary(
+            str(value.get("summary") or ""),
+            item.title,
+            item.raw_text,
+            str(key),
+        )
+    scope = str(result.get("sector_scope") or "") or audience_scope(
+        item.title, item.raw_text
+    )
+    if scope in {"kamu", "specialized"}:
+        dumped_delivery["urgency"] = "low"
     return {
         "source": item.source,
         "publication_date": item.publication_date,
@@ -236,18 +380,24 @@ def record_from_result(item: DailyUpdate, state: dict[str, Any], result: dict[st
         "category": item.category,
         "url": item.url,
         "document_id": result.get("document_id") or state["document_id"],
-        "is_relevant": bool(result.get("is_relevant")),
-        "relevance_reason": result.get("relevance_reason") or "",
+        "is_relevant": True,
+        "relevance_reason": result.get("relevance_reason") or stub["relevance_reason"],
+        "sector_scope": scope if scope in {"kamu", "specialized"} else "general",
         "retrieved_provision_id": result.get("retrieved_provision_id") or "",
         "retrieved_chunks": result.get("retrieved_chunks") or [],
-        "departments": result.get("departments") or [],
+        "old_text": result.get("old_text") or "",
+        "rag_mode": result.get("rag_mode"),
+        "rag_confidence": result.get("rag_confidence"),
+        "rag_status": result.get("rag_status") or "",
+        "rag_reason": result.get("rag_reason") or "",
+        "departments": departments,
         "dropped_departments": result.get("dropped_departments") or [],
         "needs_review": bool(result.get("needs_review", False)),
         "hallucination_score": result.get("hallucination_score"),
-        "urgency": result.get("urgency"),
-        "delivery": _dump(delivery),
+        "urgency": "low" if scope in {"kamu", "specialized"} else (result.get("urgency") or "medium"),
+        "delivery": dumped_delivery,
         "verification": _dump(verification),
-        "analyses": {key: _dump(value) for key, value in analyses.items()},
+        "analyses": analyses_out,
         "audit_log": _dump(result.get("audit_log") or []),
     }
 
@@ -293,10 +443,14 @@ def build_summary_md(day: date, records: list[dict[str, Any]]) -> str:
         ) or "—"
         summary = delivery.get("summary") or row.get("relevance_reason") or ""
         provision = row.get("retrieved_provision_id") or "—"
+        rag_status = row.get("rag_status") or (
+            "RAG" if row.get("rag_mode") == "rag" else "Fallback" if row.get("rag_mode") == "fallback" else "—"
+        )
         lines.append(f"### {row.get('title')}")
         lines.append("")
         lines.append(f"- Kaynak: `{row.get('source')}` · kategori: {row.get('category')}")
         lines.append(f"- Aciliyet: **{urgency}** · birimler: {depts}")
+        lines.append(f"- Analiz modu: {rag_status}")
         lines.append(f"- Baseline madde (v1.0): `{provision}`")
         if row.get("url"):
             lines.append(f"- URL: {row['url']}")
@@ -342,12 +496,31 @@ def run(args: argparse.Namespace) -> int:
     out_root = _as_path(args.reports_dir) if args.reports_dir else reports_dir()
     out_dir = out_root / day.isoformat()
 
+    if not getattr(args, "refresh", False):
+        cache = DailyRevisionsCache()
+        status = cache.status(day.isoformat(), args.source)
+        records = cache.load_records(day.isoformat(), args.source) if status.warm else []
+        if status.warm:
+            out_dir.mkdir(parents=True, exist_ok=True)
+            write_json(out_dir / "items.json", records)
+            items_dir = out_dir / "items"
+            items_dir.mkdir(parents=True, exist_ok=True)
+            for index, row in enumerate(records, start=1):
+                name = _slug(str(row.get("document_id") or f"item-{index}"), f"item-{index}")
+                write_json(items_dir / f"{name}.json", row)
+            (out_dir / "summary.md").write_text(
+                build_summary_md(day, records), encoding="utf-8"
+            )
+            LOGGER.info(status.message)
+            return 0
+
     if not folder.is_dir():
         LOGGER.error("Daily updates folder not found: %s", folder)
         LOGGER.error("Run: python3 -m src.ingestion.fetch_daily_updates --date %s", day.isoformat())
         return 1
 
     items = load_updates(folder, args.source)
+    items = filter_published_today(items, day)
     if args.limit is not None:
         items = items[: max(0, args.limit)]
     LOGGER.info(
@@ -363,16 +536,18 @@ def run(args: argparse.Namespace) -> int:
         (out_dir / "summary.md").write_text(
             build_summary_md(day, []), encoding="utf-8"
         )
+        DailyRevisionsCache().store_run(day.isoformat(), args.source, [])
         return 0
 
     if settings.use_mock_llm:
         LOGGER.info("LLM: mock")
     else:
-        LOGGER.info(
-            "LLM: ChatOllama %s @ %s",
-            settings.model_name,
-            settings.ollama_base_url,
-        )
+        try:
+            require_openai_api_key()
+        except MissingOpenAIKeyError as exc:
+            LOGGER.error("%s", exc)
+            return 1
+        LOGGER.info("LLM: %s", llm_runtime_label(mock=False))
 
     records: list[dict[str, Any]] = []
     items_dir = out_dir / "items"
@@ -388,19 +563,27 @@ def run(args: argparse.Namespace) -> int:
                 LOGGER.warning("  skip empty item")
                 continue
             state = item_to_state(item)
+            verdict, reason = classify_relevance(
+                item.title,
+                item.raw_text,
+                state["document_id"],
+                source=item.source,
+            )
+            if verdict == "drop":
+                record = noise_record(item, state, reason)
+                records.append(record)
+                write_json(items_dir / f"{_slug(state['document_id'], 'item')}.json", record)
+                LOGGER.info("  dropped (pre-filter): %s", reason)
+                if progress is not None:
+                    progress.update(task_id, advance=1)
+                continue
             try:
                 result = graph.invoke(state)
             except Exception:
                 LOGGER.exception("  graph.invoke failed for %s", state["document_id"])
-                record = {
-                    "source": item.source,
-                    "title": item.title,
-                    "url": item.url,
-                    "document_id": state["document_id"],
-                    "is_relevant": False,
-                    "relevance_reason": "pipeline_error",
-                    "error": True,
-                }
+                record = stub_relevant_record(
+                    item, state, "pipeline_error; passthrough card generated"
+                )
                 records.append(record)
                 write_json(items_dir / f"{_slug(state['document_id'], 'item')}.json", record)
                 if progress is not None:
@@ -413,9 +596,10 @@ def run(args: argparse.Namespace) -> int:
             write_json(items_dir / filename, record)
             if record["is_relevant"]:
                 LOGGER.info(
-                    "  relevant → depts=%s urgency=%s provision=%s",
+                    "  relevant → depts=%s urgency=%s mode=%s provision=%s",
                     ",".join(record.get("departments") or []) or "none",
                     (record.get("delivery") or {}).get("urgency", "—"),
+                    record.get("rag_mode") or "n/a",
                     record.get("retrieved_provision_id") or "—",
                 )
             else:
@@ -431,10 +615,12 @@ def run(args: argparse.Namespace) -> int:
     write_json(out_dir / "items.json", records)
     summary_path = out_dir / "summary.md"
     summary_path.write_text(build_summary_md(day, records), encoding="utf-8")
+    cache_status = DailyRevisionsCache().store_run(day.isoformat(), args.source, records)
     LOGGER.info(
-        "Wrote %s JSON item(s) + %s",
+        "Wrote %s JSON item(s) + %s · %s",
         len(records),
         summary_path,
+        cache_status.message,
     )
     return 0
 

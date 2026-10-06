@@ -3,6 +3,8 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from typing import Literal
 
+from config.rag_routing import RagMode
+
 from pydantic import BaseModel, Field, computed_field
 
 Department = Literal["ik", "hukuk", "mali"]
@@ -67,17 +69,34 @@ class DepartmentAnalysis(BaseModel):
     """Structured output from IK_Node, Hukuk_Node, or Mali_Node."""
 
     department: Department
-    summary: str = Field(description="Turkish summary of the change for this department.")
+    summary: str = Field(
+        description=(
+            "HIGH-DETAIL Turkish executive card with three sections: "
+            "📌 Önemli Düzenlemeler & Maddeler (numbers, madde/code refs, "
+            "percentages, geography); 🏭 Sanayi ve İşverene Etkisi "
+            "(factory/OSB/HR/finance impact); 📋 Sorumlu Departman İçin "
+            "Aksiyon Maddeleri (numbered steps). Never a title-only "
+            "'yürürlüğe konulmuştur' sentence."
+        )
+    )
     obligation_change: str = Field(
         description=(
-            "Answer to: Bu değişiklikle sanayicinin üzerindeki hukuki ve "
-            "operasyonel yükümlülük nasıl değişmiştir?"
+            "RAG: Eski durum vs Yeni durum with specific madde/eşik numbers. "
+            "Fallback: operative maddeler, rates, and scope from new_text. "
+            "Never a title-only yürürlüğe line."
         )
     )
     operational_impact: str = Field(
-        description="Practical operational impact for an industrial employer."
+        description=(
+            "Numbered step-by-step actions for this department (İK, Maliye, "
+            "or Hukuk): verb + artefact (sözleşme, bordro, izin, muhasebe)."
+        )
     )
     rag_chunk_ids: list[str] = Field(default_factory=list)
+    analysis_mode: RagMode | None = Field(
+        default=None,
+        description="rag = provision-level Chroma context; fallback = LLM general analysis.",
+    )
     citations: list[str] = Field(
         default_factory=list,
         description="Article numbers or phrases grounded in source/RAG text.",
@@ -109,12 +128,31 @@ class DeliveryPayload(BaseModel):
     document_id: str
     source: str
     title: str
-    summary: str
+    summary: str = Field(
+        description=(
+            "UI card body in Turkish with ALL three headings: "
+            "📌 **Önemli Düzenlemeler & Maddeler**; "
+            "🏭 **Sanayi ve İşverene Etkisi**; "
+            "📋 **Sorumlu Departman İçin Aksiyon Maddeleri**. "
+            "Multi-bullet, cite numbers/articles from new_text. "
+            "Forbidden: title-only 'yürürlüğe konulmuştur' or "
+            "'ilgili departman metni incelemelidir'."
+        )
+    )
     urgency: Urgency
     departments: list[Department]
     needs_review: bool
     hallucination_score: float = Field(ge=0.0, le=1.0)
     analyses: dict[str, DepartmentAnalysis] = Field(default_factory=dict)
+    rag_mode: RagMode | None = Field(
+        default=None,
+        description="rag when Chroma similarity is above the floor; fallback otherwise.",
+    )
+    rag_confidence: float = Field(default=0.0, ge=0.0, le=1.0)
+    rag_status: str = Field(
+        default="",
+        description="UI badge: RAG Enabled vs Fallback Mode.",
+    )
 
     @computed_field
     @property

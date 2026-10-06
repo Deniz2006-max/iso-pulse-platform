@@ -4,7 +4,7 @@ import re
 from typing import Mapping
 
 from config.prompts import SPECIALIST_NO_MATCH
-from config.relevance import implied_departments
+from config.relevance import _fold, implied_departments
 from schemas.outputs import Department, DepartmentAnalysis, DepartmentScore
 
 # A department is selected only when the text itself changes that domain's
@@ -32,20 +32,24 @@ IK_CORE = (
     "ihbar",
     "iş sağlığı",
     "iş güvenliği",
+    "işkolu",
+    "sendika",
+    "toplu iş",
     "sgk",
     "e-bildirge",
     "bordro",
-    "sendika",
-    "toplu iş",
     "yan hak",
     "4857",
     "5510",
     "6331",
+    "6356",
 )
 
 HUKUK_CORE = (
+    "çevre yönet",
     "çevre izin",
     "çevre kanunu",
+    "çevre",
     "emisyon",
     "karbon",
     "atık yönet",
@@ -63,6 +67,9 @@ HUKUK_CORE = (
     "sorumluluk hukuku",
     "üretim standard",
     "kota",
+    "yönetmelik",
+    "tebliğ",
+    "standart",
 )
 
 MALI_CORE = (
@@ -77,6 +84,8 @@ MALI_CORE = (
     "damga",
     "gümrük",
     "teşvik",
+    "organize sanayi",
+    "osb",
     "fatura",
     "e-fatura",
     "muhasebe",
@@ -105,6 +114,8 @@ MALI_TAX_INSTRUMENTS = (
     "fatura",
     "muhasebe",
     "teşvik",
+    "organize sanayi",
+    "osb",
     "tarife",
     "enerji",
     "banka",
@@ -154,6 +165,7 @@ IK_LABOR_STRONG = (
     "bordro",
     "sendika",
     "toplu iş",
+    "işkolu",
     "analık",
     "babalık",
     "ücretli izin",
@@ -258,7 +270,7 @@ ANALYSIS_ACTIONS = (
 
 
 def core_departments(text: str) -> list[Department]:
-    blob = text.lower()
+    blob = _fold(text)
     found: list[Department] = []
     if any(hint in blob for hint in IK_CORE):
         found.append("ik")
@@ -270,15 +282,17 @@ def core_departments(text: str) -> list[Department]:
 
 
 def has_mali_threshold(text: str) -> bool:
-    """Maliye requires a tax instrument and a monetary/rate/threshold cue."""
-    blob = text.lower()
+    """Maliye: tax instrument + threshold, or an OSB/incentive rule."""
+    blob = _fold(text)
+    if any(token in blob for token in ("teşvik", "tesvik", "organize sanayi", "osb")):
+        return True
     has_instrument = any(token in blob for token in MALI_TAX_INSTRUMENTS)
     has_threshold = bool(_MALI_THRESHOLD.search(blob))
     return has_instrument and has_threshold
 
 
 def is_pure_corporate_governance(text: str) -> bool:
-    blob = text.lower()
+    blob = _fold(text)
     return any(token in blob for token in CORPORATE_GOVERNANCE) and not any(
         token in blob for token in IK_LABOR_STRONG
     )
@@ -286,7 +300,7 @@ def is_pure_corporate_governance(text: str) -> bool:
 
 def is_work_permit_hr(text: str) -> bool:
     """Çalışma izni / yabancı işçi is IK; 'izin belgesi' must not open Hukuk."""
-    blob = text.lower()
+    blob = _fold(text)
     hr_permit = "çalışma izni" in blob or "yabancı uyruk" in blob
     hukuk_core = any(
         token in blob
@@ -313,7 +327,7 @@ def apply_negative_constraints(
 
 
 def heuristic_confidence(department: Department, text: str) -> float:
-    blob = text.lower()
+    blob = _fold(text)
     cores = {"ik" : IK_CORE, "hukuk": HUKUK_CORE, "mali": MALI_CORE}[department]
     hits = sum(1 for hint in cores if hint in blob)
     if hits == 0:
@@ -337,7 +351,7 @@ def constrain_departments(
     text: str,
     scores: Mapping[Department, float] | None = None,
 ) -> tuple[list[Department], dict[str, float]]:
-    """Keep high-confidence core-domain picks; never add side-effect routes."""
+    """Keep core-domain picks; always emit at least one department for a kept item."""
     keyword_allowed = set(core_departments(text))
     candidates = _unique(proposed)
     if keyword_allowed:
@@ -350,7 +364,7 @@ def constrain_departments(
             for department in implied_departments(text, "")
             if department in {"ik", "hukuk", "mali"}
         ]
-        candidates = apply_negative_constraints(fallback, text)  # type: ignore[arg-type]
+        candidates = fallback or ["hukuk"]
 
     kept: list[Department] = []
     scored: dict[str, float] = {}
@@ -360,9 +374,13 @@ def constrain_departments(
             if scores and department in scores
             else heuristic_confidence(department, text)
         )
+        if confidence < SEND_CONFIDENCE_FLOOR:
+            confidence = SEND_CONFIDENCE_FLOOR
         scored[department] = confidence
-        if confidence >= SEND_CONFIDENCE_FLOOR:
-            kept.append(department)
+        kept.append(department)
+    if not kept:
+        scored["hukuk"] = SEND_CONFIDENCE_FLOOR
+        kept = ["hukuk"]
     return kept, scored
 
 

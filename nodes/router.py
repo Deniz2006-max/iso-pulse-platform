@@ -40,6 +40,17 @@ def router_node(state: PulseState) -> dict:
         source_blob,
         scores_to_map(result.scores),
     )
+    if not departments:
+        implied = implied_departments(
+            str(state.get("title") or ""),
+            str(state.get("new_text") or ""),
+            str(state.get("document_id") or ""),
+        ) or ["hukuk"]
+        departments = implied  # type: ignore[assignment]
+        department_scores = {
+            department: max(float(department_scores.get(department, 0.0)), SEND_CONFIDENCE_FLOOR)
+            for department in departments
+        }
     score_label = ",".join(
         f"{department}:{department_scores.get(department, 0):.2f}"
         for department in departments
