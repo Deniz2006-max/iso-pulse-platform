@@ -152,7 +152,8 @@ PUBLIC_PERSONNEL_PHRASES = (
     "yer degistirme yonetmeligi",
 )
 
-# Facility / profession-only regimes — keep as cards, not as general İSO plant HR/finance.
+# Facility / profession-only regimes — keep as low-scope cards, not general plant HR.
+# Aviation, e-money licenses, and SGK drug lists are hard-dropped (see NICHE_DROP).
 SPECIALIZED_SECTOR_PHRASES = (
     "nükleer güç santral",
     "nukleer guc santral",
@@ -170,6 +171,19 @@ SPECIALIZED_SECTOR_PHRASES = (
     "akkuyu",
     "iyonlaştırıcı radyasyon tesisi",
     "iyonlastirici radyasyon tesisi",
+    "noterlik kanunu",
+    "noterlik",
+    "noterler birliği",
+    "noterler birligi",
+    "alkollü içki",
+    "alkollu icki",
+    "distile alkollü",
+    "tütün mamulü",
+    "tutun mamulu",
+)
+
+# Non-manufacturing niches — never generate İSO employer cards.
+AVIATION_DROP_PHRASES = (
     "sivil havacılık",
     "sivil havacilik",
     "shgm",
@@ -181,19 +195,103 @@ SPECIALIZED_SECTOR_PHRASES = (
     "havaalani islet",
     "hava aracı",
     "hava araci",
-    "noterlik kanunu",
-    "noterlik",
-    "noterler birliği",
-    "noterler birligi",
-    "türk gıda kodeksi",
-    "turk gida kodeksi",
+    "uçuş emniyet",
+    "ucus emniyet",
+)
+
+PAYMENT_LICENSE_DROP_PHRASES = (
+    "elektronik para",
+    "ödeme kuruluşu",
+    "odeme kurulusu",
+    "ödeme hizmeti kuruluş",
+    "odeme hizmeti kurulus",
+    "ödeme hizmetleri lisans",
+    "6493 sayılı",
+    "6493 sayili",
+)
+
+DRUG_REIMBURSEMENT_DROP_PHRASES = (
+    "ilaç geri ödeme",
+    "ilac geri odeme",
+    "geri ödeme listesi",
+    "geri odeme listesi",
+    "bedeli ödenecek ilaç",
+    "bedeli odenecek ilac",
+    "eşdeğer ilaç",
+    "esdeger ilac",
+    "sağlık uygulama tebliğ",
+    "saglik uygulama teblig",
+    "sut eki",
+    "sut ek-2",
+)
+
+KOSGEB_INTERNAL_HR_PHRASES = (
+    "kosgeb personel",
+    "kosgeb disiplin",
+    "kosgeb sicil",
+    "kosgeb atama",
+    "kosgeb terfi",
+    "kosgeb insan kaynak",
+)
+
+# Energy / agri / food — always keep for İSO industrialists.
+KEEP_ENERGY = (
+    "rüzgar enerji",
+    "rüzgâr enerji",
+    "ruzgar enerji",
+    "rüzgar kaynağ",
+    "rüzgâr kaynağ",
+    "ruzgar kaynag",
+    "güneş enerji",
+    "güneş kaynağ",
+    "gunes kaynag",
+    "gunes enerji",
+    "güneş enerjisi",
+    "yenilenebilir enerji",
+    "lisanssız elektrik",
+    "lisanssiz elektrik",
+    "elektrik üretim lisans",
+    "elektrik uretim lisans",
+    "enerji verimlili",
+    "yeşil dönüşüm",
+    "yesil donusum",
+    "biyokütle",
+    "biyokutle",
+    "jeotermal",
+    "ges lisans",
+    "res lisans",
+    "res yatırım",
+    "res yatirim",
+    "rüzgar enerjisi santral",
+    "güneş enerjisi santral",
+    "yenilenebilir enerji kaynak",
+    "yeşil hidrojen",
+    "yesil hidrojen",
+)
+
+KEEP_AGRI_FOOD = (
+    "lisanslı depo",
+    "lisansli depo",
+    "lisanslı depoculuk",
+    "lisansli depoculuk",
+    "5300 sayılı",
+    "5300 sayili",
+    "ürün senedi",
+    "urun senedi",
+    "gıda güvenli",
+    "gida guvenli",
     "gıda kodeksi",
     "gida kodeksi",
-    "alkollü içki",
-    "alkollu icki",
-    "distile alkollü",
-    "tütün mamulü",
-    "tutun mamulu",
+    "türk gıda kodeksi",
+    "turk gida kodeksi",
+    "tarımsal hammadde",
+    "tarimsal hammadde",
+    "hububat",
+    "yem depo",
+    "tarım ürünleri lisanslı",
+    "tarim urunleri lisansli",
+    "gıda işletme",
+    "gida isletme",
 )
 
 # Public-servant / public-body HR — not a private factory operational burden.
@@ -256,6 +354,9 @@ KEEP_TAX_FINANCE = (
     "tms ",
     "teşvik",
     "tesvik",
+    "kosgeb destek",
+    "kosgeb teşvik",
+    "kosgeb tesvik",
     "yatırım teşvik",
     "organize sanayi",
     "osb'lerde",
@@ -376,6 +477,12 @@ KEEP_ENV_TRADE = (
     "tse standard",
     "ürün güvenliği",
     "urun guvenligi",
+    "makine emniyet",
+    "makine güvenlik",
+    "makine teçhizat",
+    "makine tecihizat",
+    "sıfır atık",
+    "sifir atik",
 )
 
 KEEP_LEGAL_OPS = (
@@ -446,7 +553,14 @@ ALWAYS_KEEP_FINANCE = (
     "ttk",
 )
 
-KEEP_PHRASES = KEEP_TAX_FINANCE + KEEP_LABOR_HR + KEEP_ENV_TRADE + KEEP_LEGAL_OPS
+KEEP_PHRASES = (
+    KEEP_TAX_FINANCE
+    + KEEP_LABOR_HR
+    + KEEP_ENV_TRADE
+    + KEEP_LEGAL_OPS
+    + KEEP_ENERGY
+    + KEEP_AGRI_FOOD
+)
 
 _FIXTURE_KEEP_IDS = (
     "ik-overtime",
@@ -584,10 +698,12 @@ def is_procurement_or_job_ad(title: str, text: str) -> bool:
 
 
 def is_internal_chamber_regulation(title: str, text: str = "") -> bool:
-    """True for TMMOB / oda ana / birlik içi bylaws — not factory HR."""
-    blob = _blob(title, text)
+    """True for TMMOB / oda ana / birlik içi bylaws — not factory HR.
+
+    Title-first so a same-day gazette HTML body cannot contaminate an OSB/çevre item.
+    """
     title_f = _fold(title)
-    if _has_any(blob, CHAMBER_INTERNAL_PHRASES):
+    if _has_any(title_f, CHAMBER_INTERNAL_PHRASES):
         return True
     if "ana yönetmeli" in title_f and ("oda" in title_f or "birlik" in title_f):
         return True
@@ -598,9 +714,59 @@ def is_internal_chamber_regulation(title: str, text: str = "") -> bool:
     return False
 
 
+def is_public_body_internal_hr(title: str, text: str = "") -> bool:
+    """KOSGEB / ministry / public-institution internal HR, discipline, promotion."""
+    title_f = _fold(title)
+    if _has_any(title_f, KOSGEB_INTERNAL_HR_PHRASES):
+        return True
+    if "disiplin yönetmeli" in title_f or "disiplin yonetmeli" in title_f:
+        if any(
+            token in title_f
+            for token in (
+                "kosgeb",
+                "işletmeleri geliştirme ve destekleme",
+                "isletmeleri gelistirme ve destekleme",
+                "idare başkanlığı",
+                "idare baskanligi",
+            )
+        ):
+            return True
+    public_body = any(
+        token in title_f
+        for token in (
+            "kosgeb",
+            "bakanlık",
+            "bakanligi",
+            "başkanlığı personel",
+            "baskanligi personel",
+            "müsteşarlık",
+            "mustesarlik",
+            "işletmeleri geliştirme ve destekleme",
+            "isletmeleri gelistirme ve destekleme",
+        )
+    )
+    hr_internal = any(
+        token in title_f
+        for token in (
+            "disiplin",
+            "terfi",
+            "sicil amir",
+            "personel yönetmeli",
+            "personel yonetmeli",
+            "iç hizmet",
+            "ic hizmet",
+            "atama ve yer değiştirme",
+            "atama ve yer degistirme",
+        )
+    )
+    return public_body and hr_internal
+
+
 def is_administrative_out_of_scope(title: str, text: str = "") -> bool:
     """TMMOB/oda-birlik içi, kamu personeli alımı, SGK memur kadro — no card."""
     if is_internal_chamber_regulation(title, text):
+        return True
+    if is_public_body_internal_hr(title, text):
         return True
     return is_public_personnel_announcement(title, text)
 
@@ -608,23 +774,49 @@ def is_administrative_out_of_scope(title: str, text: str = "") -> bool:
 def is_public_personnel_announcement(title: str, text: str = "") -> bool:
     """True for SGK/kamu internal kadro, placement, and candidate-document notices."""
     title_f = _fold(title)
-    blob = _blob(title, text)
     if _has_any(title_f, PUBLIC_PERSONNEL_PHRASES):
         return True
-    if _has_any(blob, PUBLIC_PERSONNEL_PHRASES):
-        return True
     if (
-        ("istenen belge" in blob or "istenilen belge" in blob)
-        and ("kadro" in blob or "aday" in blob)
+        ("istenen belge" in title_f or "istenilen belge" in title_f)
+        and ("kadro" in title_f or "aday" in title_f)
         and (
-            "sosyal güvenlik" in blob
-            or "sosyal guvenlik" in blob
-            or "sgk" in blob
+            "sosyal güvenlik" in title_f
+            or "sosyal guvenlik" in title_f
+            or "sgk" in title_f
             or "kamu" in title_f
         )
     ):
         return True
     return False
+
+
+def is_aviation_drop(title: str, text: str = "") -> bool:
+    return _has_any(_fold(title), AVIATION_DROP_PHRASES)
+
+
+def is_payment_license_drop(title: str, text: str = "") -> bool:
+    return _has_any(_fold(title), PAYMENT_LICENSE_DROP_PHRASES)
+
+
+def is_sgk_drug_reimbursement(title: str, text: str = "") -> bool:
+    return _has_any(_fold(title), DRUG_REIMBURSEMENT_DROP_PHRASES)
+
+
+def is_niche_non_manufacturing_drop(title: str, text: str = "") -> bool:
+    """Civil aviation, e-money licenses, SGK drug lists — no employer card."""
+    return (
+        is_aviation_drop(title, text)
+        or is_payment_license_drop(title, text)
+        or is_sgk_drug_reimbursement(title, text)
+    )
+
+
+def is_energy_or_green_keep(title: str, text: str = "") -> bool:
+    return _has_any(_blob(title, text), KEEP_ENERGY)
+
+
+def is_agri_food_keep(title: str, text: str = "") -> bool:
+    return _has_any(_blob(title, text), KEEP_AGRI_FOOD)
 
 
 def is_kamu_scope(title: str, text: str = "") -> bool:
@@ -637,7 +829,11 @@ def is_kamu_scope(title: str, text: str = "") -> bool:
 
 
 def is_specialized_sector_scope(title: str, text: str = "") -> bool:
-    """Nuclear, aviation, food/alcohol codex, notary — not general manufacturing."""
+    """Nuclear, alcohol/tobacco, notary — not general manufacturing.
+
+    Aviation, e-money licenses, and SGK drug lists are dropped entirely.
+    Food safety / gıda kodeksi is a keep (agri-food), not specialized.
+    """
     if is_kamu_scope(title, text):
         return False
     return _has_any(_blob(title, text), SPECIALIZED_SECTOR_PHRASES)
@@ -677,8 +873,6 @@ def specialized_subsector_label(title: str, text: str = "") -> str:
     if _has_any(
         blob,
         (
-            "gıda kodeksi",
-            "gida kodeksi",
             "alkollü içki",
             "alkollu icki",
             "tütün mamul",
@@ -721,6 +915,12 @@ def force_keep_departments(title: str, text: str = "") -> list[str]:
     blob = _blob(title, text)
     if is_aml_or_masak(title, text):
         return ["mali", "hukuk"]
+    if is_energy_or_green_keep(title, text):
+        if "teşvik" in blob or "tesvik" in blob or "yatırım" in blob or "yatirim" in blob:
+            return ["mali"]
+        return ["hukuk"]
+    if is_agri_food_keep(title, text):
+        return ["hukuk"]
     if _has_any(
         blob,
         (
@@ -782,6 +982,7 @@ def is_absolute_drop(title: str, text: str) -> bool:
         or is_care_home_regulation(title, text)
         or is_spatial_drop(title, text)
         or is_appointment_title(title)
+        or is_niche_non_manufacturing_drop(title, text)
     )
 
 
@@ -828,7 +1029,7 @@ def implied_departments(title: str, text: str, document_id: str = "") -> list[st
     found: list[str] = []
     if _has_any(blob, KEEP_LABOR_HR):
         found.append("ik")
-    if _has_any(blob, KEEP_ENV_TRADE + KEEP_LEGAL_OPS):
+    if _has_any(blob, KEEP_ENV_TRADE + KEEP_LEGAL_OPS + KEEP_ENERGY + KEEP_AGRI_FOOD):
         found.append("hukuk")
     if _has_any(blob, KEEP_TAX_FINANCE):
         found.append("mali")
@@ -863,14 +1064,34 @@ def classify_relevance(
         return "drop", (
             "Yerel yol / arazi kamulaştırma veya parsel sınırı; sanayi işvereni bağlanmıyor."
         )
+    if is_niche_non_manufacturing_drop(title, text):
+        return "drop", (
+            "Kapsam Dışı: sivil havacılık, elektronik para lisansı veya SGK ilaç "
+            "geri ödeme listesi; imalat sanayi işverenine kart üretilmez."
+        )
     if is_administrative_out_of_scope(title, text):
         return "drop", (
-            "İdari Duyuru / Kapsam Dışı: TMMOB, oda/birlik içi yönetmelik veya "
-            "kamu personeli alımı; özel sektör sanayi işletmesine yükümlülük doğurmaz."
+            "İdari Duyuru / Kapsam Dışı: TMMOB, oda/birlik içi yönetmelik, "
+            "KOSGEB/bakanlık içi personel-disiplin veya kamu personeli alımı; "
+            "özel sektör sanayi işletmesine yükümlülük doğurmaz."
         )
     if is_appointment_title(title):
         return "drop", (
             "Kamu personeli atama / terfi ilanı; sanayi işletmesine yükümlülük doğurmaz."
+        )
+    if is_procurement_or_job_ad(title, ""):
+        return "drop", (
+            "İhale, personel alım veya gayrimenkul satış ilanı; yükümlülük değişmiyor."
+        )
+    if is_aym_individual_application(title, ""):
+        return "drop", (
+            "Kişiye özel Anayasa Mahkemesi bireysel başvurusu; işveren kuralı değişmiyor."
+        )
+    if is_energy_or_green_keep(title, text) or is_agri_food_keep(title, text):
+        depts = implied_departments(title, text, document_id)
+        return "keep", (
+            "Enerji / tarım-gıda / lisanslı depoculuk düzenlemesi; "
+            f"{', '.join(depts)} birimine iletildi."
         )
     if is_financial_corporate_keep(title, text):
         depts = implied_departments(title, text, document_id)
@@ -883,10 +1104,6 @@ def classify_relevance(
         return "keep", (
             "Sanayi işverenini bağlayan düzenleme; "
             f"{', '.join(forced)} birimine iletildi."
-        )
-    if is_aym_individual_application(title, text):
-        return "drop", (
-            "Kişiye özel Anayasa Mahkemesi bireysel başvurusu; işveren kuralı değişmiyor."
         )
     if is_kamu_scope(title, text):
         return "keep", (
@@ -902,6 +1119,14 @@ def classify_relevance(
     if is_procurement_or_job_ad(title, text):
         return "drop", (
             "İhale, personel alım veya gayrimenkul satış ilanı; yükümlülük değişmiyor."
+        )
+    if is_aym_individual_application(title, text):
+        return "drop", (
+            "Kişiye özel Anayasa Mahkemesi bireysel başvurusu; işveren kuralı değişmiyor."
+        )
+    if is_sgk_drug_reimbursement(title, text):
+        return "drop", (
+            "Kapsam Dışı: SGK ilaç geri ödeme listesi; imalat sanayi kartı üretilmez."
         )
     if has_industrial_signal(title, text, document_id) or str(source).lower() == "sgk":
         depts = implied_departments(title, text, document_id)

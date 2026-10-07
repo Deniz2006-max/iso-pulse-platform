@@ -11,6 +11,7 @@ from __future__ import annotations
 import html
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import date, datetime
@@ -32,6 +33,12 @@ from mocks.documents import MOCK_DOCUMENTS
 from schemas.outputs import URGENCY_LABELS, department_label
 from src.ingestion.daily_cache import DailyRevisionsCache
 from src.ingestion.daily_pipeline import restore_reports
+from src.ingestion.legal_compare import (
+    FALLBACK_OLD_TEXT,
+    PROCEDURAL_NOTICE,
+    build_legal_comparisons,
+    is_valid_article_label,
+)
 from src.ingestion.records import metric_counts, passed_records
 
 NAVY = "#002B49"
@@ -79,14 +86,112 @@ def inject_css() -> None:
             color: {TEXT};
         }}
         .stApp {{ background: {BG}; }}
-        [data-testid="stHeader"] {{ background: transparent; }}
-        #MainMenu, footer, [data-testid="stToolbar"],
-        .stDeployButton, [data-testid="stDecoration"],
+        [data-testid="stHeader"] {{
+            background: transparent !important;
+        }}
+        #MainMenu, footer,
+        .stDeployButton, [data-testid="stAppDeployButton"], .stAppDeployButton,
+        [data-testid="stDecoration"],
         [data-testid="stHeaderActionElements"],
+        [data-testid="stToolbarActions"],
+        [data-testid="stStatusWidget"],
         .stMarkdown a[href^="#"] {{ display: none !important; }}
+        [data-testid="stSidebar"],
+        [data-testid="stSidebar"] > div,
+        [data-testid="stSidebarContent"],
+        [data-testid="stMain"],
+        [data-testid="stAppViewContainer"] {{
+            transition: width 0.3s ease, min-width 0.3s ease, max-width 0.3s ease,
+                margin 0.3s ease, padding 0.3s ease, transform 0.3s ease,
+                left 0.3s ease !important;
+        }}
         [data-testid="stSidebar"] {{
             background: linear-gradient(180deg, {NAVY} 0%, {NAVY_DEEP} 100%);
             border-right: 1px solid rgba(197,165,114,0.25);
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="true"]) [data-testid="stMain"] {{
+            left: 300px !important;
+            width: calc(100% - 300px) !important;
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="false"]) [data-testid="stMain"] {{
+            left: 0 !important;
+            width: 100% !important;
+        }}
+        [data-testid="stSidebarCollapseButton"] button {{
+            background: rgba(197,165,114,0.16) !important;
+            border: 1px solid rgba(197,165,114,0.45) !important;
+            border-radius: 10px !important;
+            width: 36px !important;
+            height: 36px !important;
+        }}
+        [data-testid="stSidebarCollapseButton"] button:hover {{
+            background: rgba(197,165,114,0.32) !important;
+            border-color: {GOLD} !important;
+        }}
+        [data-testid="stSidebarCollapseButton"] [data-testid="stIconMaterial"] {{
+            color: {GOLD} !important;
+        }}
+        [data-testid="stSidebarHeader"] [data-testid="stSidebarCollapseButton"],
+        [data-testid="stSidebarHeader"] [data-testid="stSidebarCollapseButton"] button,
+        [data-testid="stSidebar"][aria-expanded="true"] [data-testid="stSidebarCollapseButton"],
+        [data-testid="stSidebar"][aria-expanded="true"] [data-testid="stSidebarCollapseButton"] button {{
+            visibility: visible !important;
+            opacity: 1 !important;
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="true"]) [data-testid="stToolbar"],
+        body:has([data-testid="stSidebar"][aria-expanded="true"]) [data-testid="stExpandSidebarButton"] {{
+            display: none !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+            visibility: hidden !important;
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="false"]) [data-testid="stToolbar"] {{
+            display: block !important;
+            position: fixed !important;
+            top: 0.9rem !important;
+            left: 0.9rem !important;
+            width: 44px !important;
+            height: 44px !important;
+            min-width: 44px !important;
+            overflow: visible !important;
+            background: transparent !important;
+            box-shadow: none !important;
+            z-index: 1000001 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="false"]) [data-testid="stToolbar"] [data-testid="stAppDeployButton"],
+        body:has([data-testid="stSidebar"][aria-expanded="false"]) [data-testid="stToolbar"] .stAppDeployButton {{
+            display: none !important;
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="false"]) [data-testid="stExpandSidebarButton"] {{
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            position: fixed !important;
+            top: 0.9rem !important;
+            left: 0.9rem !important;
+            width: 44px !important;
+            height: 44px !important;
+            min-width: 44px !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            pointer-events: auto !important;
+            background: {NAVY} !important;
+            color: {GOLD} !important;
+            border: 1px solid rgba(197,165,114,0.55) !important;
+            border-radius: 12px !important;
+            box-shadow: 0 8px 24px rgba(0, 43, 73, 0.28) !important;
+            transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease !important;
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="false"]) [data-testid="stExpandSidebarButton"]:hover {{
+            background: {NAVY_MID} !important;
+            border-color: {GOLD} !important;
+            transform: translateY(-1px);
+        }}
+        body:has([data-testid="stSidebar"][aria-expanded="false"]) [data-testid="stExpandSidebarButton"] [data-testid="stIconMaterial"] {{
+            color: {GOLD} !important;
+            font-size: 1.35rem !important;
         }}
         [data-testid="stSidebar"] [data-testid="stDateInput"] input {{
             background: rgba(255,255,255,0.08);
@@ -350,6 +455,61 @@ def inject_css() -> None:
             overflow-y: auto;
             white-space: pre-wrap;
         }}
+        .iso-compare mark {{
+            background: #d4edda;
+            color: #155724;
+            padding: 0 0.12em;
+            border-radius: 3px;
+        }}
+        .iso-compare del {{
+            background: #f8d7da;
+            color: #721c24;
+            text-decoration: line-through;
+            padding: 0 0.12em;
+            border-radius: 3px;
+        }}
+        .iso-diff-summary {{
+            background: #F8FAFC;
+            border: 1px solid {CARD_BORDER};
+            border-radius: 12px;
+            padding: 0.75rem 1rem;
+            margin: 0.35rem 0 0.85rem 0;
+            font-size: 0.9rem;
+            line-height: 1.55;
+            color: {TEXT};
+        }}
+        .iso-article-tag {{
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: {NAVY};
+            margin: 0.4rem 0 0.35rem 0;
+        }}
+        .iso-proc-notice {{
+            background: #F8FAFC;
+            border: 1px solid {CARD_BORDER};
+            border-radius: 12px;
+            padding: 0.85rem 1rem;
+            font-size: 0.9rem;
+            line-height: 1.55;
+            color: {MUTED};
+        }}
+        .iso-diff-list {{
+            background: #F8FAFC;
+            border: 1px solid {CARD_BORDER};
+            border-radius: 12px;
+            padding: 0.85rem 1rem;
+            margin: 0.35rem 0 0.85rem 0;
+            font-size: 0.9rem;
+            line-height: 1.55;
+        }}
+        .iso-diff-list ul {{
+            margin: 0.25rem 0 0.7rem 1.1rem;
+            padding: 0;
+        }}
+        .iso-diff-add {{ color: #155724; }}
+        .iso-diff-del {{ color: #721c24; }}
         .iso-label {{
             font-size: 0.7rem;
             letter-spacing: 0.08em;
@@ -366,9 +526,75 @@ def inject_css() -> None:
             color: {MUTED};
             text-align: center;
         }}
+        iframe[height="0"] {{
+            position: absolute !important;
+            width: 0 !important;
+            height: 0 !important;
+            border: 0 !important;
+            overflow: hidden !important;
+            left: -9999px !important;
+            pointer-events: none !important;
+        }}
         </style>
         """,
         unsafe_allow_html=True,
+    )
+    _inject_sidebar_toggle_script()
+
+
+def _inject_sidebar_toggle_script() -> None:
+    """Keep Streamlit's native expand control reachable after the << collapse."""
+    import streamlit.components.v1 as components
+
+    components.html(
+        """
+<script>
+(function () {
+  const doc = window.parent.document;
+  function sync() {
+    const sidebar = doc.querySelector('[data-testid="stSidebar"]');
+    const main = doc.querySelector('[data-testid="stMain"]');
+    const expand = doc.querySelector('[data-testid="stExpandSidebarButton"]');
+    const collapse = doc.querySelector('[data-testid="stSidebarCollapseButton"]');
+    const collapseBtn = collapse && collapse.querySelector("button");
+    const open = !sidebar || sidebar.getAttribute("aria-expanded") === "true";
+    if (main && sidebar) {
+      const measured = Math.round(sidebar.getBoundingClientRect().width);
+      const width = open ? (measured > 80 ? measured : 300) : 0;
+      main.style.setProperty("left", width + "px", "important");
+      main.style.setProperty("width", "calc(100% - " + width + "px)", "important");
+    }
+    if (collapse) {
+      collapse.style.setProperty("visibility", "visible", "important");
+      collapse.style.setProperty("opacity", "1", "important");
+    }
+    if (collapseBtn) {
+      collapseBtn.style.setProperty("visibility", "visible", "important");
+      collapseBtn.style.setProperty("opacity", "1", "important");
+      collapseBtn.setAttribute("aria-label", "Kenar çubuğunu kapat");
+      collapseBtn.setAttribute("title", "Kenar çubuğunu kapat");
+    }
+    if (!expand) return;
+    expand.setAttribute("aria-label", "Kenar çubuğunu aç");
+    expand.setAttribute("title", "Kenar çubuğunu aç");
+    expand.setAttribute("aria-hidden", open ? "true" : "false");
+  }
+  if (doc.documentElement.dataset.isoSidebarToggle !== "3") {
+    doc.documentElement.dataset.isoSidebarToggle = "3";
+    new MutationObserver(sync).observe(doc.body, {
+      subtree: true,
+      attributes: true,
+      attributeFilter: ["aria-expanded", "class", "style"],
+    });
+  }
+  sync();
+  requestAnimationFrame(sync);
+  setTimeout(sync, 320);
+})();
+</script>
+        """,
+        height=0,
+        width=0,
     )
 
 
@@ -523,10 +749,27 @@ def old_text_for(item: dict[str, Any]) -> str:
 
 
 def new_text_for(item: dict[str, Any], daily: dict[str, dict[str, Any]]) -> str:
+    candidates = [
+        str(item.get("new_text") or "").strip(),
+        str(item.get("raw_text") or "").strip(),
+    ]
     url = str(item.get("url") or "")
     if url and url in daily:
-        return (daily[url].get("raw_text") or "").strip()
-    return (item.get("new_text") or "").strip()
+        candidates.append(str(daily[url].get("raw_text") or "").strip())
+    return max(candidates, key=len)
+
+
+def legal_comparisons_for(
+    item: dict[str, Any],
+    daily: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    return build_legal_comparisons(
+        title=str(item.get("title") or ""),
+        new_text=new_text_for(item, daily) or str(item.get("new_text") or ""),
+        hits=list(item.get("retrieved_chunks") or []),
+        source=str(item.get("source") or ""),
+        document_id=str(item.get("document_id") or ""),
+    )
 
 
 def _obligation_duplicates_summary(obligation: str, *others: str) -> bool:
@@ -653,6 +896,97 @@ def compare_box(text: str, fallback: str) -> None:
     )
 
 
+def compare_html_box(markup: str, fallback: str) -> None:
+    body = (markup or "").strip() or html.escape(fallback)
+    st.markdown(
+        f'<div class="iso-compare">{body}</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def _render_summary_html(summary: str) -> None:
+    rendered = html.escape(summary)
+    rendered = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", rendered)
+    rendered = rendered.replace("\n", "<br>\n")
+    st.markdown(
+        f'<div class="iso-diff-summary">{rendered}</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def _render_list_items(items: list[Any], css: str, empty: str) -> str:
+    rows = [str(item).strip() for item in items if str(item).strip()]
+    if not rows:
+        return f"<p class='{css}'>{html.escape(empty)}</p>"
+    bullets = "".join(f"<li>{html.escape(item)}</li>" for item in rows)
+    return f"<ul class='{css}'>{bullets}</ul>"
+
+
+def render_legal_comparisons(
+    item: dict[str, Any],
+    daily: dict[str, dict[str, Any]],
+) -> None:
+    rows = legal_comparisons_for(item, daily)
+    if not rows:
+        compare_box("", "Karşılaştırma metni üretilemedi.")
+        return
+    for index, row in enumerate(rows):
+        mode = str(row.get("render_mode") or "side_by_side")
+        if mode == "procedural_notice":
+            st.markdown(
+                f'<div class="iso-proc-notice">{html.escape(PROCEDURAL_NOTICE)}</div>',
+                unsafe_allow_html=True,
+            )
+            continue
+        article = str(row.get("article_no") or "").strip()
+        if is_valid_article_label(article):
+            st.markdown(
+                f'<div class="iso-article-tag">{html.escape(article)}</div>',
+                unsafe_allow_html=True,
+            )
+        summary = str(row.get("change_summary") or "").strip()
+        if mode == "list_summary":
+            added = list(row.get("added_items") or [])
+            removed = list(row.get("removed_items") or [])
+            if summary:
+                _render_summary_html(summary)
+            st.markdown(
+                "<div class='iso-diff-list'>"
+                "<div class='iso-label'>Eklenen / değişen kalemler</div>"
+                f"{_render_list_items(added, 'iso-diff-add', '—')}"
+                "<div class='iso-label'>Kaldırılan / önceki kalemler</div>"
+                f"{_render_list_items(removed, 'iso-diff-del', FALLBACK_OLD_TEXT if not row.get('has_exact_old_match') else '—')}"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+            if index < len(rows) - 1:
+                st.markdown("")
+            continue
+        if summary and (row.get("is_rewrite") or not row.get("has_exact_old_match")):
+            _render_summary_html(summary)
+        left, right = st.columns(2)
+        with left:
+            st.markdown(
+                '<div class="iso-label">Eski Metin</div>',
+                unsafe_allow_html=True,
+            )
+            compare_html_box(
+                str(row.get("old_text_html") or ""),
+                str(row.get("old_text_clean") or FALLBACK_OLD_TEXT),
+            )
+        with right:
+            st.markdown(
+                '<div class="iso-label">Yeni Metin</div>',
+                unsafe_allow_html=True,
+            )
+            compare_html_box(
+                str(row.get("new_text_html") or ""),
+                str(row.get("new_text_clean") or "Yeni metin bu raporda yer almıyor."),
+            )
+        if index < len(rows) - 1:
+            st.markdown("")
+
+
 def metric_card(label: str, value: str, hint: str = "") -> str:
     extra = f'<div class="hint">{html.escape(hint)}</div>' if hint else ""
     return (
@@ -723,25 +1057,7 @@ def render_item_card(
                 st.markdown(dept_summary or "—")
 
         with tab_karsilastir:
-            left, right = st.columns(2)
-            with left:
-                st.markdown(
-                    '<div class="iso-label">Yürürlükteki düzenleme</div>',
-                    unsafe_allow_html=True,
-                )
-                compare_box(
-                    old_text_for(item),
-                    "Taban metinde doğrudan madde eşleşmesi yok. Genel regülasyon bildirimi olarak değerlendirildi.",
-                )
-            with right:
-                st.markdown(
-                    '<div class="iso-label">Yeni yayın metni</div>',
-                    unsafe_allow_html=True,
-                )
-                compare_box(
-                    new_text_for(item, daily) or delivery_summary(item),
-                    "Yeni metin bu raporda yer almıyor.",
-                )
+            render_legal_comparisons(item, daily)
 
         with tab_aksiyon:
             if not analyses:
@@ -902,7 +1218,7 @@ def main() -> None:
         if dropped:
             st.caption(
                 f"{len(relevant)} ilgili değişiklik listeleniyor. "
-                f"{dropped} idari / kişisel duyuru kapsam dışı bırakıldı."
+                f"Kapsam Dışı Bırakılan Yayınlar: {dropped}."
             )
         for index, item in enumerate(relevant, start=1):
             render_item_card(index, item, daily)

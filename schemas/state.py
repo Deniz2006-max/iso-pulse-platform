@@ -54,6 +54,7 @@ class PulseState(TypedDict):
     department_scores: NotRequired[dict[str, float]]
     dropped_departments: NotRequired[list[str]]
     retrieved_chunks: NotRequired[list[dict]]
+    legal_comparisons: NotRequired[list[dict]]
     retrieved_provision_id: NotRequired[str]
     baseline_document_ids: NotRequired[list[str]]
     rag_mode: NotRequired[str]

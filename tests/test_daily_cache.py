@@ -287,15 +287,68 @@ class RelevancePrefilterTests(unittest.TestCase):
         self.assertIn("Özel Sektör Kapsamı", reason)
         self.assertIn("nükleer", specialized_subsector_label(title, text))
 
-    def test_noterlik_and_aviation_are_specialized_not_general_industry(self):
+    def test_noterlik_is_specialized_aviation_is_dropped(self):
         from config.relevance import audience_scope, specialized_subsector_label
 
         noter = "Noterlik Kanunu Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik"
         self.assertEqual(audience_scope(noter, "Teminat Ziraat Bankası."), "specialized")
         self.assertEqual(specialized_subsector_label(noter, ""), "noterlik")
         air = "Uydu ve Yer Tabanlı Radyo Seyrüsefer Sistemleri Uçuş Kontrol Yönetmeliği"
-        self.assertEqual(audience_scope(air, ""), "specialized")
-        self.assertEqual(specialized_subsector_label(air, ""), "sivil havacılık")
+        verdict, reason = classify_relevance(air, "")
+        self.assertEqual(verdict, "drop")
+        self.assertIn("Kapsam Dışı", reason)
+
+    def test_res_and_licensed_warehousing_are_kept(self):
+        from config.relevance import implied_departments
+
+        res, res_reason = classify_relevance(
+            "Rüzgar Enerjisi Santrali (RES) Lisansı Hakkında Yönetmelik",
+            "Yenilenebilir enerji üretim lisansı ve şebeke bağlantı esasları.",
+        )
+        self.assertEqual(res, "keep")
+        self.assertIn("Enerji", res_reason)
+        self.assertTrue(implied_departments("Rüzgar Enerjisi Santrali Lisansı", ""))
+        depo, depo_reason = classify_relevance(
+            "Tarım Ürünleri Lisanslı Depoculuk Yönetmeliğinde Değişiklik",
+            "5300 sayılı Kanun kapsamında hububat ve yem depolama esasları.",
+        )
+        self.assertEqual(depo, "keep")
+        self.assertIn("depoculuk", depo_reason.casefold())
+        ges, _ = classify_relevance(
+            "Güneş Enerjisi Santrali (GES) Bağlantı Esasları Tebliği",
+            "Lisanssız elektrik üretimi ve enerji verimliliği.",
+        )
+        self.assertEqual(ges, "keep")
+
+    def test_kosgeb_hr_emoney_and_drug_lists_are_dropped(self):
+        kosgeb, kosgeb_reason = classify_relevance(
+            "KOSGEB Personel Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+            "Kurum içi disiplin ve terfi esasları.",
+        )
+        self.assertEqual(kosgeb, "drop")
+        self.assertIn("Kapsam Dışı", kosgeb_reason)
+        money, _ = classify_relevance(
+            "Elektronik Para Kuruluşları Faaliyet Lisansı Tebliği",
+            "6493 sayılı Kanun kapsamında ödeme kuruluşu lisansı.",
+        )
+        self.assertEqual(money, "drop")
+        drugs, _ = classify_relevance(
+            "Sosyal Güvenlik Kurumu Sağlık Uygulama Tebliğinde Değişiklik",
+            "Bedeli ödenecek ilaçlar listesi ve eşdeğer ilaç.",
+            source="sgk",
+        )
+        self.assertEqual(drugs, "drop")
+        destek, _ = classify_relevance(
+            "KOSGEB Destek Programı Tebliği",
+            "KOSGEB teşvik ve yatırım desteği.",
+        )
+        self.assertEqual(destek, "keep")
+        disiplin, _ = classify_relevance(
+            "Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi "
+            "Başkanlığı Disiplin Yönetmeliğinde Değişiklik",
+            "Kurum içi disiplin cezaları.",
+        )
+        self.assertEqual(disiplin, "drop")
 
     def test_kept_item_always_has_a_department(self):
         from config.relevance import implied_departments

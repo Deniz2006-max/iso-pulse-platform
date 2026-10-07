@@ -6,6 +6,12 @@ from config.rag_routing import RAG_SIMILARITY_THRESHOLD, classify_rag_route
 from mocks.retriever import retriever
 from schemas.outputs import AuditEvent
 from schemas.state import PulseState
+from src.ingestion.legal_compare import (
+    build_legal_comparisons,
+    comparison_query,
+    domains_conflict,
+    legislation_domain,
+)
 from src.ingestion.models import SGK_BASELINE_DOCUMENT_IDS
 
 # Cosine similarity floor: do not treat a weak Chroma hit as "the" old madde.
@@ -81,17 +87,35 @@ def retriever_node(state: PulseState) -> dict:
     hits leave `old_text` empty and set `rag_mode=fallback` so specialists
     skip Chroma context and ask the LLM for a general analysis.
     """
-    query = f"{state.get('title') or ''}\n{state.get('new_text') or ''}".strip()
+    title = str(state.get("title") or "")
+    new_text = str(state.get("new_text") or "")
+    query = comparison_query(title, new_text) or f"{title}\n{new_text}".strip()
     document_ids = list(state.get("baseline_document_ids") or [])
     if state.get("source") == "sgk" and not document_ids:
         document_ids = list(SGK_BASELINE_DOCUMENT_IDS)
     raw_hits = retriever.query_baseline(query, k=5 if document_ids else 3, document_ids=document_ids or None)
-    hits = [
-        hit
-        for hit in raw_hits
-        if float(hit.get("similarity") or 0.0) >= MIN_RETRIEVAL_SIMILARITY
-        and _has_legal_connection(query, hit, document_ids or None)
-    ]
+    query_domain = legislation_domain(
+        title,
+        new_text,
+        document_id=str(state.get("document_id") or ""),
+        source=str(state.get("source") or ""),
+    )
+    hits = []
+    comparison_hits = []
+    for hit in raw_hits:
+        hit_domain = legislation_domain(
+            str(hit.get("title") or hit.get("article") or ""),
+            str(hit.get("text") or ""),
+            document_id=str(hit.get("document_id") or ""),
+        )
+        if domains_conflict(query_domain, hit_domain):
+            continue
+        comparison_hits.append(hit)
+        if float(hit.get("similarity") or 0.0) < MIN_RETRIEVAL_SIMILARITY:
+            continue
+        if not _has_legal_connection(query, hit, document_ids or None):
+            continue
+        hits.append(hit)
     route = classify_rag_route(
         accepted_hits=hits,
         raw_hits=raw_hits,
@@ -113,9 +137,17 @@ def retriever_node(state: PulseState) -> dict:
     if existing_old and existing_diff:
         diff = state["diff"]
     elif route.use_rag and old_text:
-        diff = _unified_diff(old_text, state.get("new_text") or "")
+        diff = _unified_diff(old_text, new_text)
     else:
         diff = existing_diff
+
+    legal_comparisons = build_legal_comparisons(
+        title=title,
+        new_text=new_text,
+        hits=comparison_hits,
+        source=str(state.get("source") or ""),
+        document_id=str(state.get("document_id") or ""),
+    )
 
     labels = [
         f"{hit['chunk_id']}@{float(hit.get('similarity') or 0):.3f}"
@@ -133,6 +165,7 @@ def retriever_node(state: PulseState) -> dict:
     return {
         "old_text": old_text,
         "diff": diff,
+        "legal_comparisons": legal_comparisons,
         "retrieved_chunks": stored_hits,
         "retrieved_provision_id": top["chunk_id"] if top else "",
         "rag_mode": route.mode,
